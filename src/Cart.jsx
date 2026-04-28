@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import { useCart } from './CartContext';  
+import LoadingSpinner, { CartSkeleton, ButtonLoader } from './LoadingSpinner';
+import CheckoutStepper from './CheckoutStepper';
 
 const Cart = () => {
   const navigate = useNavigate();
@@ -66,18 +68,24 @@ const Cart = () => {
   };
 
   if (loading) {
-    return (
-      <>
-        <Navbar />
-        <div className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-orange-500 mx-auto"></div>
-            <p className="mt-4 text-gray-600">Loading your cart...</p>
+  return (
+    <>
+      <Navbar />
+      <div className="bg-gradient-to-b from-gray-50 to-white min-h-screen py-16 px-4 md:px-16">
+        <div className="max-w-7xl mx-auto">
+
+           <CheckoutStepper currentStep={1} />
+           
+          <div className="text-center mb-12">
+            <div className="h-8 bg-gray-200 rounded w-48 mx-auto mb-4 animate-pulse"></div>
+            <div className="h-4 bg-gray-200 rounded w-64 mx-auto animate-pulse"></div>
           </div>
+          <CartSkeleton />
         </div>
-      </>
-    );
-  }
+      </div>
+    </>
+  );
+}
 
   return (
     <>

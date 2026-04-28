@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
-import { useCart } from './CartContext';  // IMPORT THIS
+import { useCart } from './CartContext';  
+import { ButtonLoader } from './LoadingSpinner';
 
 const Products = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -10,9 +11,10 @@ const Products = () => {
   const [isPaused, setIsPaused] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const [isAddingToCart, setIsAddingToCart] = useState(false);
   
   // USE CART CONTEXT INSTEAD of local cartState
-  const { cartItems, addToCart, updateQuantity, getItemCount } = useCart();
+   const { cartItems, addToCart, updateQuantity, removeItem, getItemCount } = useCart();
 
   const products = [
     { 
@@ -175,25 +177,27 @@ const Products = () => {
   };
 
   // Handle add to cart
-  const handleAddToCart = (product, size) => {
-    addToCart(product, 1, size, product.color);
-    
-  };
+  const handleAddToCart = async (product, size) => {
+  setIsAddingToCart(true);
+  // Simulate network delay (looks more realistic)
+  await new Promise(resolve => setTimeout(resolve, 500));
+  addToCart(product, 1, size, product.color);
+  setIsAddingToCart(false);
+};
 
   // Handle update quantity
-  const handleUpdateQuantity = (productId, size, delta) => {
-    const currentQty = getCartQuantity(productId, size);
-    const newQty = currentQty + delta;
-    
-    if (newQty <= 0) {
-      // Remove item logic would need to be added to CartContext
-      // For now, just don't go below 0
-      return;
-    }
-    
-    updateQuantity(productId, newQty, size, selectedProduct?.color);
-  };
 
+const handleUpdateQuantity = (productId, size, delta) => {
+  const currentQty = getCartQuantity(productId, size);
+  const newQty = currentQty + delta;
+  
+  if (newQty <= 0) {
+    // Remove item from cart
+    removeItem(productId, size, selectedProduct?.color);
+  } else {
+    updateQuantity(productId, newQty, size, selectedProduct?.color);
+  }
+};
   return (
     <>
       <Navbar />
@@ -336,13 +340,23 @@ const Products = () => {
                       </button>
                     </div>
                   ) : (
-                    <button 
-                      onClick={() => handleAddToCart(selectedProduct, selectedSize)} 
-                      className="w-full border-2 border-slate-950 text-slate-950 font-bold h-16 text-[11px] uppercase tracking-[0.3em] rounded-full hover:bg-slate-950 hover:text-white transition-all transform active:scale-95"
-                    >
-                      Add to Bag
-                    </button>
-                  )}
+                   <button 
+    onClick={() => handleAddToCart(selectedProduct, selectedSize)} 
+    disabled={isAddingToCart}
+    className={`w-full border-2 border-slate-950 text-slate-950 font-bold h-16 text-[11px] uppercase tracking-[0.3em] rounded-full transition-all transform active:scale-95 ${
+      isAddingToCart 
+        ? 'opacity-50 cursor-not-allowed' 
+        : 'hover:bg-slate-950 hover:text-white'
+    }`}
+  >
+   {isAddingToCart ? (
+  <span className="flex items-center justify-center gap-2">
+    <div className="w-4 h-4 border-2 border-slate-950 border-t-transparent rounded-full animate-spin"></div>
+    Adding...
+  </span>
+) : 'Add to Bag'}
+  </button>
+)}
                   
                   <button 
                     onClick={() => {

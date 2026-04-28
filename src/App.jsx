@@ -4,8 +4,11 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from './Home'
 import { CartProvider } from './CartContext' 
 import Products from './Products'
-import Fashion from './Fashion'
+import Fashion from './Component1/Fashion'  
 import Cart from './Cart'
+import Checkout from './Checkout'
+import OrderConfirmation from './OrderConfirmation'
+import OrderSuccess from './OrderSuccess'
 
 const App = () => {
   return (
@@ -18,6 +21,10 @@ const App = () => {
         <Route path='/fashion' element={<Fashion/>}/>
         <Route path='/products' element={<Products/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/checkout' element={<Checkout/>}/>
+        <Route path='/order-confirmation' element={<OrderConfirmation/>}/>
+        <Route path='/order-success' element={<OrderSuccess/>}/>
+
       </Routes>
       
       </BrowserRouter>
