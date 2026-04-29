@@ -134,66 +134,71 @@ const Home = () => {
     <>
       <Navbar />
 
-      {/* 🔥 SLIDER */}
-      <div className="mt-5 px-6 md:px-16">
-        <div className="relative rounded-xl overflow-hidden">
+   {/* 🔥 SLIDER */}
+<div className="mt-5 px-3 md:px-6 lg:px-16">
+  <div className="relative rounded-xl overflow-hidden">
 
-          <img 
-            src={banners[current].image}
-            alt="banner"
-            className="w-full h-[500px] md:h-[770px] object-cover"
-          />
+    <img 
+      src={banners[current].image}
+      alt="banner"
+      className="w-full h-[300px] sm:h-[450px] md:h-[550px] lg:h-[650px] xl:h-[770px] object-cover object-center"
+    />
 
-          <div className="absolute inset-0 bg-black/10"></div>
+    {/* Dark Overlay for better text visibility */}
+    <div className="absolute inset-0 bg-black/30 md:bg-black/20"></div>
 
-          {/* TEXT */}
-          <div className="absolute top-1/2 -translate-y-1/2 left-10 md:left-20 max-w-[500px]">
-            <h1 className="text-black text-3xl md:text-5xl font-bold drop-shadow-md">
-              {banners[current].title}
-            </h1>
+    {/* TEXT - Responsive */}
+    <div className="absolute inset-0 flex flex-col justify-center px-4 sm:px-8 md:px-12 lg:px-20">
+      <div className="max-w-[90%] sm:max-w-[80%] md:max-w-[500px] lg:max-w-[550px]">
+        
+        <h1 className="text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold drop-shadow-md leading-tight">
+          {banners[current].title}
+        </h1>
 
-            <p className="text-black mt-3 text-sm md:text-xl leading-relaxed drop-shadow-sm">
-              {banners[current].subtitle}
-            </p>
+        <p className="hidden sm:block text-black/90 mt-2 sm:mt-3 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed drop-shadow-sm">
+          {banners[current].subtitle}
+        </p>
 
-            <button className="mt-5 bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition">
-              {banners[current].button}
-            </button>
-          </div>
-
-          {/* ⬅ LEFT */}
-          <button 
-            onClick={prevSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/40 hover:bg-white/70 p-3 rounded-full"
-          >
-            ‹
-          </button>
-
-          {/* ➡ RIGHT */}
-          <button 
-            onClick={nextSlide}
-            className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/40 hover:bg-white/70 p-3 rounded-full"
-          >
-            ›
-          </button>
-
-          {/* DOTS */}
-          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3">
-            {banners.map((_, index) => (
-              <div
-                key={index}
-                onClick={() => setCurrent(index)}
-                className={`cursor-pointer transition-all duration-300 ${
-                  current === index
-                    ? "w-8 h-3 bg-white shadow-md rounded-full"
-                    : "w-3 h-3 bg-white/40 rounded-full hover:bg-white/70"
-                }`}
-              />
-            ))}
-          </div>
-
-        </div>
+        <button className="mt-3 sm:mt-4 md:mt-5 bg-black text-white px-4 sm:px-5 md:px-6 py-1.5 sm:py-2 md:py-2.5 rounded-lg hover:bg-black hover:text-white transition text-sm sm:text-base font-medium shadow-md">
+          {banners[current].button}
+        </button>
+        
       </div>
+    </div>
+
+    {/* ⬅ LEFT ARROW - Hidden on mobile */}
+    <button 
+      onClick={prevSlide}
+      className="hidden md:flex absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white p-2 sm:p-3 rounded-full transition z-20 text-xl sm:text-2xl backdrop-blur-sm"
+    >
+      ‹
+    </button>
+
+    {/* ➡ RIGHT ARROW - Hidden on mobile */}
+    <button 
+      onClick={nextSlide}
+      className="hidden md:flex absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white p-2 sm:p-3 rounded-full transition z-20 text-xl sm:text-2xl backdrop-blur-sm"
+    >
+      ›
+    </button>
+
+    {/* DOTS - Responsive */}
+    <div className="absolute bottom-3 sm:bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2 md:gap-3 z-20">
+      {banners.map((_, index) => (
+        <div
+          key={index}
+          onClick={() => setCurrent(index)}
+          className={`cursor-pointer transition-all duration-300 ${
+            current === index
+              ? "w-6 sm:w-8 md:w-10 h-1 sm:h-1.5 bg-white shadow-md rounded-full"
+              : "w-1.5 sm:w-2 h-1 sm:h-1.5 bg-white/40 rounded-full hover:bg-white/70"
+          }`}
+        />
+      ))}
+    </div>
+
+  </div>
+</div>
 
       {/* 🔥 CONTINUOUS CATEGORY SCROLL */}
       <div className="mt-10 overflow-hidden bg-gray-100 py-3">

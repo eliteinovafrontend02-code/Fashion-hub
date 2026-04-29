@@ -194,24 +194,24 @@ const Navbar = () => {
       {/* NAVBAR */}
       <div className="mt-2 px-3 md:px-13 py-3 bg-orange-100 flex items-center justify-between w-full shadow-sm">
 {/* LEFT SIDE */}
-        <div className="flex items-center gap-40">
+        <div className="flex items-center gap-4 md:gap-8 lg:gap-40">
 
           {/* ENHANCED SEARCH */}
           <div className="relative" ref={searchRef}>
             <form onSubmit={handleSearch}>
               <input
-                type="text"
-                placeholder="Search products by name, category..."
-                value={searchQuery}
-                onChange={(e) => {
-                  setSearchQuery(e.target.value)
-                  if (e.target.value === '') {
-                    setShowResults(false)
-                  }
-                }}
-                className="w-85 border-2 border-gray-500 rounded-lg px-4 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition"
-                autoComplete="off"
-              />
+  type="text"
+  placeholder="Search products..."
+  value={searchQuery}
+  onChange={(e) => {
+    setSearchQuery(e.target.value)
+    if (e.target.value === '') {
+      setShowResults(false)
+    }
+  }}
+  className="w-full md:w-85 border-2 border-gray-500 rounded-lg px-4 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition text-sm"
+  autoComplete="off"
+/>
               <button 
                 type="submit"
                 className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-orange-500 transition"
@@ -282,7 +282,7 @@ const Navbar = () => {
 
 
           {/* CATEGORIES */}
-          <div className="flex gap-10 text-lg md:text-base">
+          <div className="flex gap-3 md:gap-6 lg:gap-10 text-sm md:text-base">
 
             <NavLink 
               to="/" 
@@ -655,16 +655,16 @@ const Navbar = () => {
         </div>
 
          {/* RIGHT SIDE WITH NAVIGATION */}
-          <div className="flex gap-10 text-sm md:text-base items-center mr-20">
+          <div className="flex gap-3 md:gap-6 lg:gap-10 text-sm md:text-base items-center">
             <span 
               onClick={() => navigate('/about')}
-              className="cursor-pointer hover:text-orange-500 text-lg transition duration-200"
+              className="cursor-pointer hover:text-orange-500 text-sm md:text-lg transition duration-200 whitespace-nowrap"
             >
               About us
             </span>
             <span 
               onClick={() => navigate('/contact')}
-              className="cursor-pointer hover:text-orange-500 text-lg transition duration-200"
+              className="cursor-pointer hover:text-orange-500 text-sm md:text-lg transition duration-200 whitespace-nowrap"
             >
               Contact
             </span>
@@ -674,7 +674,7 @@ const Navbar = () => {
             >
               Cart 🛒
               {cartCount > 0 && (
-                <span className="absolute -top-2 -right-4 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+                <span className="cursor-pointer hover:text-orange-500 text-sm md:text-lg transition duration-200 relative group whitespace-nowrap">
                   {cartCount}
                 </span>
               )}

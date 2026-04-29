@@ -36,7 +36,7 @@ const Checkout = () => {
   const [cardErrors, setCardErrors] = useState({});
   const [isProcessing, setIsProcessing] = useState(false);
   const [showPaymentModal, setShowPaymentModal] = useState(false);
-  const [paymentStep, setPaymentStep] = useState('form'); // form, processing, success
+  const [paymentStep, setPaymentStep] = useState('form');
 
   const subtotal = getSubtotal();
   const shipping = subtotal > 5000 ? 0 : 99;
@@ -51,7 +51,6 @@ const Checkout = () => {
     }
   };
 
-  // Card validation functions
   const validateCardNumber = (number) => {
     const cleaned = number.replace(/\s/g, '');
     if (!/^\d{16}$/.test(cleaned)) return 'Card number must be 16 digits';
@@ -91,7 +90,6 @@ const Checkout = () => {
     
     setCardDetails(prev => ({ ...prev, [name]: formattedValue }));
     
-    // Validate on change
     let error = '';
     if (name === 'cardNumber') error = validateCardNumber(formattedValue);
     if (name === 'expiry') error = validateExpiry(formattedValue);
@@ -136,7 +134,6 @@ const Checkout = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // MOCK PAYMENT - Opens Google Pay / Card Simulator
   const processPayment = () => {
     setShowPaymentModal(true);
     setPaymentStep('form');
@@ -162,12 +159,9 @@ const Checkout = () => {
       return;
     }
     
-    // Simulate Google Pay redirect
     setPaymentStep('processing');
     
-    // Mock Google Pay intent
     setTimeout(() => {
-      // In real scenario, this would open Google Pay app
       const confirmPayment = window.confirm(
         `Pay ₹${total.toLocaleString()} via ${upiId}?\n\n(This is a demo - In real app, Google Pay would open)`
       );
@@ -191,42 +185,42 @@ const Checkout = () => {
   };
 
   const placeOrder = () => {
-  setIsProcessing(true);
+    setIsProcessing(true);
     
-     const minimumLoadingTime = new Promise(resolve => setTimeout(resolve, 2000));
-  
-  const orderProcessing = new Promise((resolve) => {
-    setTimeout(() => {
-      const order = {
-        orderId: 'ORD' + Date.now(),
-        customer: formData,
-        items: cartItems,
-        subtotal: subtotal,
-        shipping: shipping,
-        tax: tax,
-        total: total,
-        paymentMethod: formData.paymentMethod,
-        paymentDetails: formData.paymentMethod === 'card' ? { last4: cardDetails.cardNumber.slice(-4) } : 
-                        formData.paymentMethod === 'upi' ? { upiId: upiId } : null,
-        orderDate: new Date().toISOString(),
-        status: 'Confirmed'
-      };
-      
-      const existingOrders = localStorage.getItem('orders');
-      const orders = existingOrders ? JSON.parse(existingOrders) : [];
-      orders.push(order);
-      localStorage.setItem('orders', JSON.stringify(orders));
-      
-      clearCart();
-      resolve(order);
-    }, 1500);
-  });
-  
-  Promise.all([minimumLoadingTime, orderProcessing]).then(([_, order]) => {
-    setIsProcessing(false);
-    navigate('/order-confirmation', { state: { order } });
-  });
-};
+    const minimumLoadingTime = new Promise(resolve => setTimeout(resolve, 2000));
+    
+    const orderProcessing = new Promise((resolve) => {
+      setTimeout(() => {
+        const order = {
+          orderId: 'ORD' + Date.now(),
+          customer: formData,
+          items: cartItems,
+          subtotal: subtotal,
+          shipping: shipping,
+          tax: tax,
+          total: total,
+          paymentMethod: formData.paymentMethod,
+          paymentDetails: formData.paymentMethod === 'card' ? { last4: cardDetails.cardNumber.slice(-4) } : 
+                          formData.paymentMethod === 'upi' ? { upiId: upiId } : null,
+          orderDate: new Date().toISOString(),
+          status: 'Confirmed'
+        };
+        
+        const existingOrders = localStorage.getItem('orders');
+        const orders = existingOrders ? JSON.parse(existingOrders) : [];
+        orders.push(order);
+        localStorage.setItem('orders', JSON.stringify(orders));
+        
+        clearCart();
+        resolve(order);
+      }, 1500);
+    });
+    
+    Promise.all([minimumLoadingTime, orderProcessing]).then(([_, order]) => {
+      setIsProcessing(false);
+      navigate('/order-confirmation', { state: { order } });
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -251,9 +245,7 @@ const Checkout = () => {
         <Navbar />
         <div className="min-h-screen bg-gray-50 flex items-center justify-center py-20 px-4">
           <div className="text-center bg-white rounded-2xl shadow-xl p-12 max-w-md">
-
-             <CheckoutStepper currentStep={2} />
-
+            <CheckoutStepper currentStep={2} />
             <div className="text-7xl mb-6">🛒</div>
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Your cart is empty!</h2>
             <button onClick={() => navigate('/')} className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-3 rounded-full font-semibold">
@@ -271,9 +263,19 @@ const Checkout = () => {
       <div className="bg-gradient-to-b from-gray-50 to-white min-h-screen py-12 px-4 md:px-16">
         <div className="max-w-7xl mx-auto">
             
-             <CheckoutStepper currentStep={2} />
+          <CheckoutStepper currentStep={2} />
 
-          
+          {/* ===== BACK TO CART BUTTON - TOP ===== */}
+          <div className="mb-5">
+            <button 
+              onClick={() => navigate('/cart')}
+              className="group inline-flex items-center gap-2 text-gray-500 hover:text-orange-500 transition-all duration-300 text-sm"
+            >
+              <span className="text-lg group-hover:-translate-x-1 transition-transform duration-300">←</span>
+              <span className="uppercase tracking-wide">Back to Cart</span>
+            </button>
+          </div>
+
           <div className="text-center mb-10">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Checkout</h1>
             <div className="h-1 w-20 bg-gradient-to-r from-orange-500 to-red-500 mx-auto"></div>
@@ -415,19 +417,29 @@ const Checkout = () => {
                   </div>
                 </div>
                 
-               <button onClick={handleSubmit} disabled={isProcessing}
-  className={`w-full py-4 rounded-full font-bold text-lg transition transform ${
-    isProcessing 
-      ? 'bg-gray-400 cursor-not-allowed' 
-      : 'bg-gradient-to-r from-orange-500 to-red-500 hover:scale-105'
-  } text-white`}>
-  {isProcessing ? (
-    <span className="flex items-center justify-center gap-2">
-      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-      Placing Order...
-    </span>
-  ) : `Place Order • ₹${total.toLocaleString()}`}
-</button>
+                <button onClick={handleSubmit} disabled={isProcessing}
+                  className={`w-full py-4 rounded-full font-bold text-lg transition transform ${
+                    isProcessing 
+                      ? 'bg-gray-400 cursor-not-allowed' 
+                      : 'bg-gradient-to-r from-orange-500 to-red-500 hover:scale-105'
+                  } text-white`}>
+                  {isProcessing ? (
+                    <span className="flex items-center justify-center gap-2">
+                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                      Placing Order...
+                    </span>
+                  ) : `Place Order • ₹${total.toLocaleString()}`}
+                </button>
+
+                {/* ===== BACK TO CART BUTTON - BOTTOM ===== */}
+                <div className="mt-5 pt-3 text-center border-t border-gray-100">
+                  <button 
+                    onClick={() => navigate('/cart')}
+                    className="text-xs text-gray-400 hover:text-orange-500 transition duration-300 flex items-center justify-center gap-1 mx-auto"
+                  >
+                    <span>←</span> Back to Cart
+                  </button>
+                </div>
               </div>
             </div>
           </div>

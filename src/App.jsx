@@ -9,6 +9,7 @@ import Cart from './Cart'
 import Checkout from './Checkout'
 import OrderConfirmation from './OrderConfirmation'
 import OrderSuccess from './OrderSuccess'
+import FashionProducts from './Component1/FashionProducts'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
 
         <Route path='/' element={<Home/>}/>
         <Route path='/fashion' element={<Fashion/>}/>
+        <Route path='/fashion/fproducts' element={<FashionProducts/>}/>
         <Route path='/products' element={<Products/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/checkout' element={<Checkout/>}/>
