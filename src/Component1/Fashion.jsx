@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
+import ScrollButton from '../ScrollButton';
 
 const Fashion = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -331,7 +333,7 @@ const Fashion = () => {
         { 
           id: 201, 
           name: 'Casual Printed Shirt', 
-          path: '/fashion/men/shirts/printed', 
+          path: '/fashion/fproducts', 
           category: 'Men • Essential', 
           price: '2,499', 
           oldPrice: '3,999', 
@@ -341,7 +343,7 @@ const Fashion = () => {
         { 
           id: 202, 
           name: 'Party Wear Saree', 
-          path: '/fashion/women/saree/party', 
+          path: '/fashion/fproducts', 
           category: 'Women • Heritage', 
           price: '8,999', 
           oldPrice: '12,000', 
@@ -351,7 +353,7 @@ const Fashion = () => {
         { 
           id: 203, 
           name: 'Designer Girls Frock', 
-          path: '/fashion/kids/girl/frock', 
+          path: '/fashion/fproducts', 
           category: 'Kids • Festive', 
           price: '3,299', 
           oldPrice: '4,500', 
@@ -361,7 +363,7 @@ const Fashion = () => {
         { 
           id: 204, 
           name: 'Slim Fit Formal Pants', 
-          path: '/fashion/men/pants/formal', 
+          path: '/fashion/fproducts', 
           category: 'Men • Professional', 
           price: '2,899', 
           oldPrice: '4,200', 
@@ -371,9 +373,12 @@ const Fashion = () => {
       ].map((product) => (
         <div key={product.id} className="group flex flex-col">
           
-          {/* ✅ Image Card Section */}
-          <Link to={product.path} className="relative block overflow-hidden bg-white rounded-lg shadow-md group-hover:shadow-2xl transition-all duration-500">
-            
+          {/* ✅ Image Card Section - Updated to pass product ID via state */}
+          <Link 
+            to={product.path} 
+            state={{ defaultSelectedProductId: product.id }}
+            className="relative block overflow-hidden bg-white rounded-lg shadow-md group-hover:shadow-2xl transition-all duration-500"
+          >
             <div className="aspect-[3/4] overflow-hidden">
               <img
                 src={product.image}
@@ -393,7 +398,6 @@ const Fashion = () => {
                 className="w-full bg-orange-600 hover:bg-orange-700 text-white py-3 text-[10px] uppercase tracking-[0.3em] font-bold rounded-sm shadow-xl transition-colors"
                 onClick={(e) => {
                   e.preventDefault();
-                  // Add logic for Cart here
                 }}
               >
                 Discover More
@@ -450,123 +454,9 @@ const Fashion = () => {
   </div>
 </section>
 
-<footer className="bg-gray-950 text-white pt-24 pb-12 px-6 md:px-16 border-t border-gray-800">
-      <div className="max-w-7xl mx-auto">
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
-          
-          {/* 🏛️ BRAND IDENTITY */}
-          <div className="space-y-8">
-            <h2 className="text-3xl font-extrabold tracking-tighter italic">
-              FASHION<span className="text-orange-500">HUB</span>
-            </h2>
-            <p className="text-gray-400 leading-relaxed text-sm">
-              Redefining your style with premium collections. From everyday essentials to luxury fashion, we bring the best trends to your doorstep.
-            </p>
-            <div className="flex gap-6">
-              <a href="#" className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all duration-300">
-                <span className="text-sm">FB</span>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all duration-300">
-                <span className="text-sm">IG</span>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all duration-300">
-                <span className="text-sm">X</span>
-              </a>
-            </div>
-          </div>
+<Footer/>
 
-          {/* 🛍️ QUICK NAVIGATION */}
-          <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-orange-400">Shop By</h4>
-            <ul className="space-y-4 text-gray-400 font-medium">
-              <li><Link to="/fashion/men" className="hover:text-white transition-colors duration-200">Men's Collection</Link></li>
-              <li><Link to="/fashion/women" className="hover:text-white transition-colors duration-200">Women's Fashion</Link></li>
-              <li><Link to="/fashion/kids" className="hover:text-white transition-colors duration-200">Kids' Wear</Link></li>
-              <li><Link to="/accessories" className="hover:text-white transition-colors duration-200">New Arrivals</Link></li>
-            </ul>
-          </div>
-
-          {/* 🛠️ CUSTOMER SERVICE */}
-          <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-orange-400">Support</h4>
-            <ul className="space-y-4 text-gray-400 font-medium">
-              <li><Link to="/about" className="hover:text-white transition-colors duration-200">Our Story</Link></li>
-              <li><Link to="/contact" className="hover:text-white transition-colors duration-200">Contact Us</Link></li>
-              <li><Link to="/shipping" className="hover:text-white transition-colors duration-200">Shipping Info</Link></li>
-              <li><Link to="/returns" className="hover:text-white transition-colors duration-200">Returns Policy</Link></li>
-            </ul>
-          </div>
-
-          {/* 📍 STORE LOCATOR */}
-          <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-orange-400">Contact</h4>
-            <ul className="space-y-5 text-gray-400">
-              <li className="flex items-start gap-4">
-                <span className="text-xl">📍</span>
-                <span className="text-sm leading-relaxed">123 Style Avenue, Vadapalani, <br /> Chennai - 600026</span>
-              </li>
-              <li className="flex items-center gap-4">
-                <span className="text-xl">📞</span>
-                <span className="text-sm">+91 98765 43210</span>
-              </li>
-              <li className="flex items-center gap-4">
-                <span className="text-xl">✉️</span>
-                <span className="text-sm">support@fashionhub.com</span>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-
-        {/* 📜 COPYRIGHT & PAYMENTS */}
-        <div className="pt-12 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="text-gray-500 text-xs tracking-wider">
-            © 2026 FASHION HUB. DESIGNED FOR ELEGANCE.
-          </div>
-          
-          <div className="flex items-center gap-6 grayscale opacity-40 hover:opacity-100 hover:grayscale-0 transition-all duration-500">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-4" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" className="h-6" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="Paypal" className="h-5" />
-          </div>
-
-          <div className="flex gap-8 text-xs font-bold uppercase tracking-tighter text-gray-400">
-            <a href="#" className="hover:text-white transition">Privacy</a>
-            <a href="#" className="hover:text-white transition">Terms</a>
-          </div>
-        </div>
-
-      </div>
-    </footer>
-
-    <button
-      onClick={scrollToTop}
-      className={`fixed bottom-8 right-8 z-[150] bg-orange-600 text-white p-4 rounded-full shadow-2xl hover:bg-black transition-all duration-500 transform ${
-        showButton 
-          ? "opacity-100 translate-y-0 scale-100" 
-          : "opacity-0 translate-y-10 scale-50 pointer-events-none"
-      }`}
-      aria-label="Scroll to top"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={3}
-        stroke="currentColor"
-        className="w-6 h-6"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M4.5 15.75l7.5-7.5 7.5 7.5"
-        />
-      </svg>
-    </button>
-
-    
-       
+<ScrollButton/>     
     </div>
   );
 };

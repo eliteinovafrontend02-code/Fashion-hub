@@ -10,6 +10,16 @@ import Checkout from './Checkout'
 import OrderConfirmation from './OrderConfirmation'
 import OrderSuccess from './OrderSuccess'
 import FashionProducts from './Component1/FashionProducts'
+import Accessories from './Component2/Accessories'
+import AccessoriesProducts from './Component2/AccessoriesProducts'
+import Footwear from './Component3/Footwear'
+import FootwearProducts from './Component3/FootwearProducts'
+import Beauty from './Component4/Beauty'
+import BeautyProducts from './Component4/BeautyProducts'
+import Jewellery from './Component5/Jewellery'
+import JewelleryProducts from './Component5/JewelleryProducts'
+import MenFashion from './Component1/MenFashion'
+import MenFashionProducts from './Component1/MenFashionProducts'
 
 const App = () => {
   return (
@@ -19,13 +29,34 @@ const App = () => {
       <Routes>
 
         <Route path='/' element={<Home/>}/>
-        <Route path='/fashion' element={<Fashion/>}/>
-        <Route path='/fashion/fproducts' element={<FashionProducts/>}/>
         <Route path='/products' element={<Products/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/checkout' element={<Checkout/>}/>
         <Route path='/order-confirmation' element={<OrderConfirmation/>}/>
         <Route path='/order-success' element={<OrderSuccess/>}/>
+
+        {/* fashion routes */}
+        <Route path='/fashion' element={<Fashion/>}/>
+        <Route path='/fashion/fproducts' element={<FashionProducts/>}/>
+        <Route path='/fashion/men' element={<MenFashion/>}/>
+        <Route path='/fashion/men/products' element={<MenFashionProducts/>}/>
+
+        
+        {/* accessories routes */}
+        <Route path='/accessories' element={<Accessories/>}/>
+        <Route path='/accessories/aproducts' element={<AccessoriesProducts/>}/>
+
+        {/* footwear routes */}
+        <Route path='/footwear' element={<Footwear/>}/>
+        <Route path='/footwear/fproducts' element={<FootwearProducts/>}/>
+
+        {/* Beauty routes */}
+        <Route path='/beauty' element={<Beauty/>}/>
+        <Route path='/beauty/bproducts' element={<BeautyProducts/>}/>
+
+        {/* Jewellery routes */}
+        <Route path='/jewellery' element={<Jewellery/>}/>
+        <Route path='/jewellery/jproducts' element={<JewelleryProducts/>}/>
 
       </Routes>
       

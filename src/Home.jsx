@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Footer from './Footer';
+import ScrollButton from './ScrollButton';
 
 const Home = () => {
 
@@ -133,33 +135,55 @@ const Home = () => {
   return (
     <>
       <Navbar />
-
-   {/* 🔥 SLIDER */}
-<div className="mt-5 px-3 md:px-6 lg:px-16">
-  <div className="relative rounded-xl overflow-hidden">
+{/* 🔥 SLIDER */}
+<div className="mt-5 px-3 md:px-6 lg:px-16 relative z-0">
+  <div className="relative rounded-xl overflow-visible">
 
     <img 
       src={banners[current].image}
       alt="banner"
-      className="w-full h-[300px] sm:h-[450px] md:h-[550px] lg:h-[650px] xl:h-[770px] object-cover object-center"
+      className="w-full h-[200px] xs:h-[250px] sm:h-[350px] md:h-[450px] lg:h-[550px] xl:h-[650px] object-cover object-center"
     />
 
     {/* Dark Overlay for better text visibility */}
     <div className="absolute inset-0 bg-black/30 md:bg-black/20"></div>
 
-    {/* TEXT - Responsive */}
+    {/* TEXT - Positioned properly */}
     <div className="absolute inset-0 flex flex-col justify-center px-4 sm:px-8 md:px-12 lg:px-20">
-      <div className="max-w-[90%] sm:max-w-[80%] md:max-w-[500px] lg:max-w-[550px]">
+      {/* Fixed width - text will not overlap image - DECREASED WIDTH FOR BANNER 2 */}
+      <div className={`${
+        current === 1 
+          ? 'w-full sm:w-[45%] md:w-[40%] lg:w-[38%] xl:w-[35%]'
+          : 'w-full sm:w-[55%] md:w-[50%] lg:w-[45%] xl:w-[40%]'
+      }`}>
         
-        <h1 className="text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold drop-shadow-md leading-tight">
-          {banners[current].title}
+        <h1 className={`text-black font-bold drop-shadow-md ${
+          current === 1
+            ? 'text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight'
+            : 'text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight'
+        }`}>
+          {current === 1 ? (
+            <>
+              Redefining Everyday<br className="block sm:hidden" /> Fashion ✨
+            </>
+          ) : (
+            banners[current].title
+          )}
         </h1>
 
-        <p className="hidden sm:block text-black/90 mt-2 sm:mt-3 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed drop-shadow-sm">
+        <p className={`text-black/90 mt-1 sm:mt-2 md:mt-3 leading-tight sm:leading-relaxed drop-shadow-sm ${
+          current === 1
+            ? 'hidden sm:block text-xs sm:text-sm md:text-base lg:text-base'
+            : 'hidden sm:block text-xs sm:text-sm md:text-base lg:text-lg'
+        }`}>
           {banners[current].subtitle}
         </p>
 
-        <button className="mt-3 sm:mt-4 md:mt-5 bg-black text-white px-4 sm:px-5 md:px-6 py-1.5 sm:py-2 md:py-2.5 rounded-lg hover:bg-black hover:text-white transition text-sm sm:text-base font-medium shadow-md">
+        <button className={`mt-2 sm:mt-3 md:mt-4 bg-black text-white rounded-lg hover:bg-black hover:text-white transition font-medium shadow-md ${
+          current === 1
+            ? 'px-3 sm:px-4 md:px-5 py-1 sm:py-1.5 md:py-2 text-xs sm:text-sm md:text-sm'
+            : 'px-3 sm:px-4 md:px-5 py-1 sm:py-1.5 md:py-2 text-xs sm:text-sm md:text-base'
+        }`}>
           {banners[current].button}
         </button>
         
@@ -169,7 +193,7 @@ const Home = () => {
     {/* ⬅ LEFT ARROW - Hidden on mobile */}
     <button 
       onClick={prevSlide}
-      className="hidden md:flex absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white p-2 sm:p-3 rounded-full transition z-20 text-xl sm:text-2xl backdrop-blur-sm"
+      className="hidden md:flex absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white p-1.5 sm:p-2 rounded-full transition z-20 text-sm sm:text-xl backdrop-blur-sm"
     >
       ‹
     </button>
@@ -177,21 +201,21 @@ const Home = () => {
     {/* ➡ RIGHT ARROW - Hidden on mobile */}
     <button 
       onClick={nextSlide}
-      className="hidden md:flex absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white p-2 sm:p-3 rounded-full transition z-20 text-xl sm:text-2xl backdrop-blur-sm"
+      className="hidden md:flex absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white p-1.5 sm:p-2 rounded-full transition z-20 text-sm sm:text-xl backdrop-blur-sm"
     >
       ›
     </button>
 
     {/* DOTS - Responsive */}
-    <div className="absolute bottom-3 sm:bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2 md:gap-3 z-20">
+    <div className="absolute bottom-2 sm:bottom-3 md:bottom-4 left-1/2 -translate-x-1/2 flex gap-1 sm:gap-1.5 md:gap-2 z-20">
       {banners.map((_, index) => (
         <div
           key={index}
           onClick={() => setCurrent(index)}
           className={`cursor-pointer transition-all duration-300 ${
             current === index
-              ? "w-6 sm:w-8 md:w-10 h-1 sm:h-1.5 bg-white shadow-md rounded-full"
-              : "w-1.5 sm:w-2 h-1 sm:h-1.5 bg-white/40 rounded-full hover:bg-white/70"
+              ? "w-4 sm:w-6 md:w-8 h-0.5 sm:h-1 bg-white shadow-md rounded-full"
+              : "w-1.5 sm:w-2 h-0.5 sm:h-1 bg-white/40 rounded-full hover:bg-white/70"
           }`}
         />
       ))}
@@ -199,7 +223,6 @@ const Home = () => {
 
   </div>
 </div>
-
       {/* 🔥 CONTINUOUS CATEGORY SCROLL */}
       <div className="mt-10 overflow-hidden bg-gray-100 py-3">
 
@@ -634,115 +657,10 @@ const Home = () => {
   </div>
 </section>
 
-{/* 🔥 PREMIUM DARK FOOTER */}
-<footer className="bg-gray-950 text-white pt-24 pb-12 px-6 md:px-16 border-t border-gray-800">
-  <div className="max-w-7xl mx-auto">
-    
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
-      
-      {/* 🏛️ BRAND IDENTITY */}
-      <div className="space-y-8">
-        <h2 className="text-3xl font-extrabold tracking-tighter italic">
-          FASHION<span className="text-orange-500">HUB</span>
-        </h2>
-        <p className="text-gray-400 leading-relaxed text-sm">
-          Redefining your style with premium collections. From everyday essentials to luxury fashion, we bring the best trends to your doorstep.
-        </p>
-        <div className="flex gap-6">
-          <a href="#" className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all duration-300">
-            <span className="text-sm">FB</span>
-          </a>
-          <a href="#" className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all duration-300">
-            <span className="text-sm">IG</span>
-          </a>
-          <a href="#" className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all duration-300">
-            <span className="text-sm">X</span>
-          </a>
-        </div>
-      </div>
 
-      {/* 🛍️ QUICK NAVIGATION */}
-      <div>
-        <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-orange-400">Shop By</h4>
-        <ul className="space-y-4 text-gray-400 font-medium">
-          <li><Link to="/fashion/men" className="hover:text-white transition-colors duration-200">Men's Collection</Link></li>
-          <li><Link to="/fashion/women" className="hover:text-white transition-colors duration-200">Women's Fashion</Link></li>
-          <li><Link to="/fashion/kids" className="hover:text-white transition-colors duration-200">Kids' Wear</Link></li>
-          <li><Link to="/accessories" className="hover:text-white transition-colors duration-200">New Arrivals</Link></li>
-        </ul>
-      </div>
+<Footer />
 
-      {/* 🛠️ CUSTOMER SERVICE */}
-      <div>
-        <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-orange-400">Support</h4>
-        <ul className="space-y-4 text-gray-400 font-medium">
-          <li><Link to="/about" className="hover:text-white transition-colors duration-200">Our Story</Link></li>
-          <li><Link to="/contact" className="hover:text-white transition-colors duration-200">Contact Us</Link></li>
-          <li><Link to="/shipping" className="hover:text-white transition-colors duration-200">Shipping Info</Link></li>
-          <li><Link to="/returns" className="hover:text-white transition-colors duration-200">Returns Policy</Link></li>
-        </ul>
-      </div>
-
-      {/* 📍 STORE LOCATOR */}
-      <div>
-        <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-orange-400">Contact</h4>
-        <ul className="space-y-5 text-gray-400">
-          <li className="flex items-start gap-4">
-            <span className="text-xl">📍</span>
-            <span className="text-sm leading-relaxed">123 Style Avenue, Vadapalani, <br /> Chennai - 600026</span>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="text-xl">📞</span>
-            <span className="text-sm">+91 98765 43210</span>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="text-xl">✉️</span>
-            <span className="text-sm">support@fashionhub.com</span>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-
-    {/* 📜 COPYRIGHT & PAYMENTS */}
-    <div className="pt-12 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-8">
-      <div className="text-gray-500 text-xs tracking-wider">
-        © 2026 FASHION HUB. DESIGNED FOR ELEGANCE.
-      </div>
-      
-      <div className="flex items-center gap-6 grayscale opacity-40 hover:opacity-100 hover:grayscale-0 transition-all duration-500">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-4" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" className="h-6" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="Paypal" className="h-5" />
-      </div>
-
-      <div className="flex gap-8 text-xs font-bold uppercase tracking-tighter text-gray-400">
-        <a href="#" className="hover:text-white transition">Privacy</a>
-        <a href="#" className="hover:text-white transition">Terms</a>
-      </div>
-    </div>
-
-  </div>
-</footer>
-
-{/* 🔥 SCROLL TO TOP BUTTON (Intha edathula paste pannunga) */}
-      <button
-        onClick={scrollToTop}
-        className={`fixed bottom-8 right-8 z-[150] bg-orange-600 text-white p-4 rounded-full shadow-2xl hover:bg-black transition-all duration-500 transform ${
-          showButton ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-10 scale-50 pointer-events-none"
-        }`}
-      >
-        <svg 
-          xmlns="http://www.w3.org/2000/svg" 
-          fill="none" 
-          viewBox="0 0 24 24" 
-          strokeWidth={3} 
-          stroke="currentColor" 
-          className="w-6 h-6"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-        </svg>
-      </button>
+<ScrollButton/>
 
     </>
   )

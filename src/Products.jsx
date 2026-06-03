@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 import { useCart } from './CartContext';  
 import { ButtonLoader } from './LoadingSpinner';
+import Footer from "./Footer";
 
 const Products = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -375,6 +376,8 @@ const handleUpdateQuantity = (productId, size, delta) => {
           </div>
         )}
       </div>
+
+      <Footer/>
     </>
   );
 };
