@@ -20,6 +20,8 @@ import Jewellery from './Component5/Jewellery'
 import JewelleryProducts from './Component5/JewelleryProducts'
 import MenFashion from './Component1/MenFashion'
 import MenFashionProducts from './Component1/MenFashionProducts'
+import WomenFashion from './Component1/WomenFashion'
+import WomenFashionProducts from './Component1/WomenFashionProducts'
 
 const App = () => {
   return (
@@ -40,6 +42,8 @@ const App = () => {
         <Route path='/fashion/fproducts' element={<FashionProducts/>}/>
         <Route path='/fashion/men' element={<MenFashion/>}/>
         <Route path='/fashion/men/products' element={<MenFashionProducts/>}/>
+         <Route path='/fashion/women' element={<WomenFashion/>}/>
+        <Route path='/fashion/women/products' element={<WomenFashionProducts/>}/>
 
         
         {/* accessories routes */}

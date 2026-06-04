@@ -1,11 +1,11 @@
-// MenFashion.jsx - Text Bottom Right Aligned
+// WomenFashion.jsx - Text Bottom Right Aligned
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import ScrollButton from '../ScrollButton';
 
-const MenFashion = () => {
+const WomenFashion = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [showButton, setShowButton] = useState(false);
 
@@ -22,103 +22,103 @@ const MenFashion = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Only TWO banners - Shirts and Pants
+  // Only TWO banners - Sarees and Dresses
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Men/mfbanner1.png",
-      titlePart1: "Elevate Your",
-      titlePart2: "Shirt Game",
-      subtitle: "MEN • SHIRTS • PREMIUM",
-      cta: "SHOP SHIRTS",
-      link: "/fashion/men/shirts"
+      image: "/Fashion/Women/wfbanner1.png",
+      titlePart1: "Embrace Elegance",
+      titlePart2: "Premium Sarees",
+      subtitle: "WOMEN • SAREES • TRADITIONAL",
+      cta: "SHOP SAREES",
+      link: "/fashion/women/saree"
     },
     {
       id: 2,
-      image: "/Fashion/Men/mfbanner2.png",
-      titlePart1: "Perfect Fit",
-      titlePart2: "Premium Pants",
-      subtitle: "MEN • PANTS • COMFORT",
-      cta: "SHOP PANTS",
-      link: "/fashion/men/pants"
+      image: "/Fashion/Women/wfbanner2.png",
+      titlePart1: "Effortless Style",
+      titlePart2: "Trendy Dresses",
+      subtitle: "WOMEN • DRESSES • CONTEMPORARY",
+      cta: "SHOP DRESSES",
+      link: "/fashion/women/dresses"
     }
   ];
 
-  // Only TWO categories - Shirts and Pants
-    const categories = [
-      {
-        id: 1,
-        title: "Shirts",
-        tag: "ESSENTIALS",
-        image: "/Fashion/Men/shirt.png",
-        link: "/fashion/men/shirts"
-      },
-      {
-        id: 2,
-        title: "Pants",
-        tag: "PREMIUM",
-        image: "/Fashion/Men/pant.png",
-        link: "/Fashion/men/pants"
-      }
-    ];
+  // Only TWO categories - Sarees and Dresses
+  const categories = [
+    {
+      id: 1,
+      title: "Sarees",
+      tag: "TRADITIONAL",
+      image: "/Fashion/Women/saree.png",
+      link: "/fashion/women/saree"
+    },
+    {
+      id: 2,
+      title: "Dresses",
+      tag: "CONTEMPORARY",
+      image: "/Fashion/Women/dress.png",
+      link: "/fashion/women/dresses"
+    }
+  ];
 
-  // Featured Products for Men 
+  // Featured Products for Women 
   const featuredProducts = [
     { 
       id: 1, 
-      name: 'Classic Casual Shirt', 
-      category: "Men", 
-      sub: "Shirts • Casual", 
-      price: 1299, 
-      oldPrice: 2499, 
-      images: ["/Fashion/Men/Products/mfp1.png", "/Fashion/Men/Products/mfp1_1.png", "/Fashion/Men/Products/mfp1_2.png", "/Fashion/Men/Products/mfp1_3.png", "/Fashion/Men/Products/mfp1_4.png"],
+      name: 'Banarasi Silk Saree', 
+      category: "Women", 
+      sub: "Sarees • Traditional", 
+      price: 3499, 
+      oldPrice: 6999, 
+      images: ["/Fashion/Women/Products/wfp1.png", "/Fashion/Women/Products/wfp1_1.png", "/Fashion/Women/Products/wfp1_2.png", "/Fashion/Women/Products/wfp1_3.png", "/Fashion/Women/Products/wfp1_4.png"],
       tag: "Best Seller", 
-      color: "White", 
-      rating: "4.8", 
-      reviews: "3.2k",
-      details: { "Fabric": "Premium Cotton", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Occasion": "Casual", "Wash": "Machine Wash" }
+      color: "Maroon & Gold", 
+      rating: "4.9", 
+      reviews: "5.1k",
+      details: { "Fabric": "Banarasi Silk", "Type": "Traditional Saree", "Work": "Zari Work", "Blouse": "Unstitched Blouse Piece", "Wash": "Dry Clean Only" }
     },
     { 
       id: 2, 
-      name: 'Slim Fit Jeans', 
-      category: "Men", 
-      sub: "Pants • Jeans", 
-      price: 1799, 
-      oldPrice: 3499, 
-      images: ["/Fashion/Men/Products/mfp2.png", "/Fashion/Men/Products/mfp2_1.png", "/Fashion/Men/Products/mfp2_2.png", "/Fashion/Men/Products/mfp2_3.png", "/Fashion/Men/Products/mfp2_4.png"],
-      tag: "Essential", 
-      color: "Blue", 
-      rating: "4.6", 
-      reviews: "4.5k",
-      details: { "Fabric": "Stretch Denim", "Fit": "Slim Fit", "Rise": "Mid Rise", "Wash": "Medium Blue", "Pockets": "5 Pocket Design" }
+      name: 'Floral Printed Maxi Dress', 
+      category: "Women", 
+      sub: "Dresses • Long", 
+      price: 2499, 
+      oldPrice: 4999, 
+      images: ["/Fashion/Women/Products/wfp2.png", "/Fashion/Women/Products/wfp2_1.png", "/Fashion/Women/Products/wfp2_2.png", "/Fashion/Women/Products/wfp2_3.png", "/Fashion/Women/Products/wfp2_4.png"],
+      tag: "Trending", 
+      color: "Pastel Floral", 
+      rating: "4.7", 
+      reviews: "3.8k",
+      details: { "Fabric": "Rayon", "Fit": "Regular Fit", "Length": "Maxi", "Neck": "V-Neck", "Sleeves": "Half Sleeves" }
     },
     { 
       id: 3, 
-      name: 'Printed Summer Shirt', 
-      category: "Men", 
-      sub: "Shirts • Printed", 
-      price: 1499, 
-      oldPrice: 2999, 
-      images: ["/Fashion/Men/Products/mfp3.png", "/Fashion/Men/Products/mfp3_1.png", "/Fashion/Men/Products/mfp3_2.png", "/Fashion/Men/Products/mfp3_3.png", "/Fashion/Men/Products/mfp3_4.png"],
-      tag: "Trending", 
-      color: "Blue Floral", 
-      rating: "4.7", 
-      reviews: "2.1k",
-      details: { "Fabric": "Cotton Blend", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Pattern": "All-Over Print", "Wash": "Gentle Cycle" }
+      name: 'Kanjivaram Silk Saree', 
+      category: "Women", 
+      sub: "Sarees • Party Wear", 
+      price: 4999, 
+      oldPrice: 9999, 
+      images: ["/Fashion/Women/Products/wfp3.png", "/Fashion/Women/Products/wfp3_1.png", "/Fashion/Women/Products/wfp3_2.png", "/Fashion/Women/Products/wfp3_3.png", "/Fashion/Women/Products/wfp3_4.png"],
+      tag: "Luxury", 
+      color: "Teal & Gold", 
+      rating: "4.8", 
+      reviews: "2.9k",
+      details: { "Fabric": "Kanjivaram Silk", "Type": "Party Wear Saree", "Work": "Temple Border", "Blouse": "Contrast Blouse Piece", "Wash": "Dry Clean Only" }
     },
     { 
       id: 4, 
-      name: 'Formal Trousers', 
-      category: "Men", 
-      sub: "Pants • Formal", 
-      price: 1999, 
-      oldPrice: 3999, 
-      images: ["/Fashion/Men/Products/mfp4.png", "/Fashion/Men/Products/mfp4_1.png", "/Fashion/Men/Products/mfp4_2.png", "/Fashion/Men/Products/mfp4_3.png", "/Fashion/Men/Products/mfp4_4.png"],
+      name: 'Bodycon Short Dress', 
+      category: "Women", 
+      sub: "Dresses • Short", 
+      price: 1899, 
+      oldPrice: 3799, 
+      images: ["/Fashion/Women/Products/wfp4.png", "/Fashion/Women/Products/wfp4_1.png", "/Fashion/Women/Products/wfp4_2.png", "/Fashion/Women/Products/wfp4_3.png", "/Fashion/Women/Products/wfp4_4.png"],
       tag: "New Arrival", 
-      color: "Black", 
-      rating: "4.9", 
-      reviews: "1.8k",
-      details: { "Fabric": "Poly-Viscose", "Fit": "Slim Fit", "Waist": "Mid Rise", "Closure": "Hook & Bar", "Features": "Crease Resistant" }
+      color: "Navy Blue", 
+      rating: "4.6", 
+      reviews: "1.5k",
+      details: { "Fabric": "Cotton Blend", "Fit": "Bodycon", "Length": "Mini", "Neck": "Sweetheart", "Occasion": "Party/Cocktail" }
     },
   ];
 
@@ -130,26 +130,26 @@ const MenFashion = () => {
   }, [banners.length]);
 
   useEffect(() => {
-  const productId = location?.state?.defaultSelectedProductId;
+    const productId = location?.state?.defaultSelectedProductId;
 
-  if (productId) {
-    const productToOpen = products.find(
-      p => p.id === Number(productId)
-    );
+    if (productId) {
+      const productToOpen = featuredProducts.find(
+        p => p.id === Number(productId)
+      );
 
-    if (productToOpen) {
-      setSelectedProduct(productToOpen);
-      setActiveImgIndex(0);
-      setSelectedSize("M");
+      if (productToOpen) {
+        setSelectedProduct(productToOpen);
+        setActiveImgIndex(0);
+        setSelectedSize("M");
+      }
     }
-  }
-}, [location]);
+  }, [location]);
 
   return (
     <div className="bg-white min-h-screen">
       <Navbar />
 
-      {/* ====== MEN'S HERO SECTION - TWO BANNERS (SHIRTS & PANTS) ====== */}
+      {/* ====== WOMEN'S HERO SECTION - TWO BANNERS (SAREES & DRESSES) ====== */}
       <section className="relative h-screen w-full overflow-hidden bg-black">
         {banners.map((banner, idx) => (
           <div
@@ -250,7 +250,7 @@ const MenFashion = () => {
         </div>
       </section>
 
-      {/* ====== CIRCULAR CATEGORY SECTION - SHIRTS & PANTS ONLY ====== */}
+      {/* ====== CIRCULAR CATEGORY SECTION - SAREES & DRESSES ONLY ====== */}
       <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-12 bg-[#f0ecdd] relative overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 sm:mb-16 md:mb-20">
@@ -258,7 +258,7 @@ const MenFashion = () => {
               SHOP BY CATEGORIES
             </h2>
             <div className="h-[1px] w-10 sm:w-12 bg-amber-500 mx-auto"></div>
-            <p className="text-gray-500 mt-4 sm:mt-6 text-xs sm:text-sm tracking-wider">Men's Fashion Essentials</p>
+            <p className="text-gray-500 mt-4 sm:mt-6 text-xs sm:text-sm tracking-wider">Women's Fashion Essentials</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 sm:gap-30 md:gap-40 max-w-3xl mx-auto">
@@ -270,7 +270,7 @@ const MenFashion = () => {
               >
                 <div className="relative p-1.5 rounded-full bg-gradient-to-tr from-black via-transparent to-black transition-all duration-1000 group-hover:rotate-180">
                   
-                   <div className="relative w-54 h-54 md:w-62 md:h-62 lg:w-70 lg:h-70 rounded-full overflow-hidden border-[3px] border-white shadow-2xl transition-transform duration-1000 group-hover:rotate-[-180deg] bg-gradient-to-br from-green-100 via-amber-50 to-green-200">
+                  <div className="relative w-54 h-54 md:w-62 md:h-62 lg:w-70 lg:h-70 rounded-full overflow-hidden border-[3px] border-white shadow-2xl transition-transform duration-1000 group-hover:rotate-[-180deg] bg-gradient-to-br from-green-100 via-amber-50 to-green-200">
                     <img 
                       src={cat.image} 
                       alt={cat.title} 
@@ -299,28 +299,28 @@ const MenFashion = () => {
         </div>
       </section>
       
-      {/* ====== MEN'S FASHION BRAND NARRATIVE ====== */}
+      {/* ====== WOMEN'S FASHION BRAND NARRATIVE ====== */}
       <section className="py-12 sm:py-14 px-4 sm:px-6 md:px-16 bg-[#F5F1ED] flex items-center justify-center overflow-hidden">
         <div className="max-w-[1400px] w-full grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20 items-center">
 
           <div className="order-2 lg:order-1 space-y-4 sm:space-y-6 py-4">
             <div className="space-y-2">
               <h4 className="text-[#A67C52] font-bold tracking-[0.3em] sm:tracking-[0.5em] uppercase text-[8px] sm:text-[9px]">
-                The Men's Collection
+                The Women's Collection
               </h4>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif text-[#2D241E] leading-tight font-light">
-                Modern <br />
-                <span className="italic text-[#8B4513]">Masculine Style</span>
+                Timeless <br />
+                <span className="italic text-[#8B4513]">Elegance & Grace</span>
               </h2>
             </div>
 
             <div className="space-y-3 sm:space-y-5 text-[#544A42] text-sm sm:text-base md:text-lg leading-relaxed font-light">
               <p>
-                At <strong className="text-[#2D241E] font-medium">Fashion Hub Men</strong>, we bring you premium quality shirts and pants crafted for the modern gentleman. From casual days to formal events, find your perfect fit.
+                At <strong className="text-[#2D241E] font-medium">Fashion Hub Women</strong>, we bring you premium quality sarees and dresses crafted for the modern woman. From traditional elegance to contemporary styles, find your perfect look.
               </p>
 
               <p>
-                Explore our range of <strong>Casual & Printed Shirts</strong> and <strong>Jeans & Formal Trousers</strong> – designed for comfort, style, and confidence.
+                Explore our range of <strong>Banarasi & Kanjivaram Sarees</strong> and <strong>Maxi & Bodycon Dresses</strong> – designed for comfort, style, and confidence.
               </p>
             </div>
 
@@ -337,14 +337,14 @@ const MenFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Men/mfbanner.png"
-                  alt="Men's Fashion Collection"
+                  src="/Fashion/Women/wfbanner.png"
+                  alt="Women's Fashion Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />
               </div>
 
               <div className="absolute -bottom-2 sm:-bottom-4 -left-2 sm:-left-4 px-3 sm:px-4 md:px-6 py-2 sm:py-3 bg-white/80 backdrop-blur-lg shadow-xl rounded-lg border border-white hidden md:block">
-                <p className="text-[#8B4513] font-serif italic text-xs sm:text-sm tracking-wide">Premium Quality Menswear</p>
+                <p className="text-[#8B4513] font-serif italic text-xs sm:text-sm tracking-wide">Premium Quality Womenswear</p>
               </div>
             </div>
           </div>
@@ -352,7 +352,7 @@ const MenFashion = () => {
         </div>
       </section>
 
-      {/* 🔥 FEATURED COLLECTIONS - SHIRTS & PANTS */}
+      {/* 🔥 FEATURED COLLECTIONS - SAREES & DRESSES */}
       <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-16 bg-[#EAE3DB]">
         <div className="max-w-7xl mx-auto">
 
@@ -361,11 +361,11 @@ const MenFashion = () => {
               Curated Selection
             </span>
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif tracking-[0.1em] sm:tracking-[0.2em] text-gray-900 uppercase mt-3">
-              Men's Essentials
+              Women's Essentials
             </h2>
             <div className="h-[2px] w-12 sm:w-16 md:w-20 bg-orange-800 mx-auto mt-4 sm:mt-6"></div>
             <p className="text-gray-500 mt-4 sm:mt-6 font-light italic tracking-widest text-xs sm:text-sm">
-              Premium shirts & pants for every occasion
+              Premium sarees & dresses for every occasion
             </p>
           </div>
 
@@ -374,7 +374,7 @@ const MenFashion = () => {
               <div key={product.id} className="group flex flex-col">
                 
                 <Link
-                  to="/fashion/men/products"
+                  to="/fashion/women/products"
                   state={{ defaultSelectedProductId: product.id }}
                   className="relative block overflow-hidden bg-white rounded-lg shadow-md group-hover:shadow-2xl transition-all duration-500"
                 >
@@ -424,7 +424,7 @@ const MenFashion = () => {
           </div>
 
           <div className="mt-16 sm:mt-20 text-center">
-            <Link to="/fashion/men/products">
+            <Link to="/fashion/women/products">
               <button className="group relative px-6 sm:px-8 md:px-12 py-3 sm:py-4 rounded-full overflow-hidden transition-all duration-500 shadow-md hover:shadow-orange-500/40">
                 
                 <span className="absolute inset-0 p-[1px] rounded-full bg-gradient-to-r from-orange-600 via-amber-500 to-red-600">
@@ -444,12 +444,10 @@ const MenFashion = () => {
         </div>
       </section>
 
-      
-
       <Footer />
       <ScrollButton />
     </div>
   );
 };
 
-export default MenFashion;
+export default WomenFashion;

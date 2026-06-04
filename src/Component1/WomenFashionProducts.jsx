@@ -1,11 +1,11 @@
-// MenFashionProducts.jsx
+// WomenFashionProducts.jsx
 import React, { useState, useEffect } from "react";
 import { useCart } from '../CartContext';  
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const MenFashionProducts = () => {
+const WomenFashionProducts = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [activeImgIndex, setActiveImgIndex] = useState(0);
   const [selectedSize, setSelectedSize] = useState("");
@@ -17,175 +17,176 @@ const MenFashionProducts = () => {
   
   const { cartItems, addToCart, updateQuantity, removeItem } = useCart();
 
-  // Men's Fashion Products 
+  // Women's Fashion Products - Sarees & Dresses
   const products = [
+    // SAREES
     { 
       id: 1, 
-      name: 'Classic Casual Shirt', 
-      category: "Men", 
-      sub: "Shirts • Casual", 
-      price: 1299, 
-      oldPrice: 2499, 
-      images: ["/Fashion/Men/Products/mfp1.png", "/Fashion/Men/Products/mfp1_1.png", "/Fashion/Men/Products/mfp1_2.png", "/Fashion/Men/Products/mfp1_3.png", "/Fashion/Men/Products/mfp1_4.png"],
+      name: 'Banarasi Silk Saree', 
+      category: "Women", 
+      sub: "Sarees • Traditional", 
+      price: 3499, 
+      oldPrice: 6999, 
+      images: ["/Fashion/Women/Products/wfp1.png", "/Fashion/Women/Products/wfp1_1.png", "/Fashion/Women/Products/wfp1_2.png", "/Fashion/Women/Products/wfp1_3.png", "/Fashion/Women/Products/wfp1_4.png"],
       tag: "Best Seller", 
-      color: "White", 
-      rating: "4.8", 
-      reviews: "3.2k",
-      details: { "Fabric": "Premium Cotton", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Occasion": "Casual", "Wash": "Machine Wash" }
+      color: "Maroon & Gold", 
+      rating: "4.9", 
+      reviews: "5.1k",
+      details: { "Fabric": "Banarasi Silk", "Type": "Traditional Saree", "Work": "Zari Work", "Blouse": "Unstitched Blouse Piece", "Wash": "Dry Clean Only" }
     },
     { 
       id: 2, 
-      name: 'Slim Fit Jeans', 
-      category: "Men", 
-      sub: "Pants • Jeans", 
-      price: 1799, 
-      oldPrice: 3499, 
-      images: ["/Fashion/Men/Products/mfp2.png", "/Fashion/Men/Products/mfp2_1.png", "/Fashion/Men/Products/mfp2_2.png", "/Fashion/Men/Products/mfp2_3.png", "/Fashion/Men/Products/mfp2_4.png"],
-      tag: "Essential", 
-      color: "Blue", 
-      rating: "4.6", 
-      reviews: "4.5k",
-      details: { "Fabric": "Stretch Denim", "Fit": "Slim Fit", "Rise": "Mid Rise", "Wash": "Medium Blue", "Pockets": "5 Pocket Design" }
+      name: 'Floral Printed Maxi Dress', 
+      category: "Women", 
+      sub: "Dresses • Long", 
+      price: 2499, 
+      oldPrice: 4999, 
+      images: ["/Fashion/Women/Products/wfp2.png", "/Fashion/Women/Products/wfp2_1.png", "/Fashion/Women/Products/wfp2_2.png", "/Fashion/Women/Products/wfp2_3.png", "/Fashion/Women/Products/wfp2_4.png"],
+      tag: "Trending", 
+      color: "Pastel Floral", 
+      rating: "4.7", 
+      reviews: "3.8k",
+      details: { "Fabric": "Rayon", "Fit": "Regular Fit", "Length": "Maxi", "Neck": "V-Neck", "Sleeves": "Half Sleeves" }
     },
     { 
       id: 3, 
-      name: 'Printed Summer Shirt', 
-      category: "Men", 
-      sub: "Shirts • Printed", 
-      price: 1499, 
-      oldPrice: 2999, 
-      images: ["/Fashion/Men/Products/mfp3.png", "/Fashion/Men/Products/mfp3_1.png", "/Fashion/Men/Products/mfp3_2.png", "/Fashion/Men/Products/mfp3_3.png", "/Fashion/Men/Products/mfp3_4.png"],
-      tag: "Trending", 
-      color: "Blue Floral", 
-      rating: "4.7", 
-      reviews: "2.1k",
-      details: { "Fabric": "Cotton Blend", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Pattern": "All-Over Print", "Wash": "Gentle Cycle" }
+      name: 'Kanjivaram Silk Saree', 
+      category: "Women", 
+      sub: "Sarees • Party Wear", 
+      price: 4999, 
+      oldPrice: 9999, 
+      images: ["/Fashion/Women/Products/wfp3.png", "/Fashion/Women/Products/wfp3_1.png", "/Fashion/Women/Products/wfp3_2.png", "/Fashion/Women/Products/wfp3_3.png", "/Fashion/Women/Products/wfp3_4.png"],
+      tag: "Luxury", 
+      color: "Teal & Gold", 
+      rating: "4.8", 
+      reviews: "2.9k",
+      details: { "Fabric": "Kanjivaram Silk", "Type": "Party Wear Saree", "Work": "Temple Border", "Blouse": "Contrast Blouse Piece", "Wash": "Dry Clean Only" }
     },
     { 
       id: 4, 
-      name: 'Formal Trousers', 
-      category: "Men", 
-      sub: "Pants • Formal", 
-      price: 1999, 
-      oldPrice: 3999, 
-      images: ["/Fashion/Men/Products/mfp4.png", "/Fashion/Men/Products/mfp4_1.png", "/Fashion/Men/Products/mfp4_2.png", "/Fashion/Men/Products/mfp4_3.png", "/Fashion/Men/Products/mfp4_4.png"],
+      name: 'Bodycon Short Dress', 
+      category: "Women", 
+      sub: "Dresses • Short", 
+      price: 1899, 
+      oldPrice: 3799, 
+      images: ["/Fashion/Women/Products/wfp4.png", "/Fashion/Women/Products/wfp4_1.png", "/Fashion/Women/Products/wfp4_2.png", "/Fashion/Women/Products/wfp4_3.png", "/Fashion/Women/Products/wfp4_4.png"],
       tag: "New Arrival", 
-      color: "Black", 
-      rating: "4.9", 
-      reviews: "1.8k",
-      details: { "Fabric": "Poly-Viscose", "Fit": "Slim Fit", "Waist": "Mid Rise", "Closure": "Hook & Bar", "Features": "Crease Resistant" }
+      color: "Navy Blue", 
+      rating: "4.6", 
+      reviews: "1.5k",
+      details: { "Fabric": "Cotton Blend", "Fit": "Bodycon", "Length": "Mini", "Neck": "Sweetheart", "Occasion": "Party/Cocktail" }
     },
     { 
       id: 5, 
-      name: 'Oxford Formal Shirt', 
-      category: "Men", 
-      sub: "Shirts • Casual", 
-      price: 1799, 
-      oldPrice: 3499, 
-      images: ["/Fashion/Men/Products/mfp5.png", "/Fashion/Men/Products/mfp5_1.png", "/Fashion/Men/Products/mfp5_2.png", "/Fashion/Men/Products/mfp5_3.png", "/Fashion/Men/Products/mfp5_4.png"],
+      name: 'Chanderi Cotton Saree', 
+      category: "Women", 
+      sub: "Sarees • Casual", 
+      price: 2799, 
+      oldPrice: 5499, 
+      images: ["/Fashion/Women/Products/wfp5.png", "/Fashion/Women/Products/wfp5_1.png", "/Fashion/Women/Products/wfp5_2.png", "/Fashion/Women/Products/wfp5_3.png", "/Fashion/Women/Products/wfp5_4.png"],
       tag: "Essential", 
-      color: "Light Blue", 
-      rating: "4.9", 
-      reviews: "4.5k",
-      details: { "Fabric": "Oxford Weave", "Fit": "Classic Fit", "Sleeve": "Full Sleeve", "Occasion": "Office/Formal", "Care": "Dry Clean" }
+      color: "Mustard Yellow", 
+      rating: "4.5", 
+      reviews: "2.3k",
+      details: { "Fabric": "Chanderi Cotton", "Type": "Casual Saree", "Work": "Subtle Border", "Blouse": "Unstitched", "Wash": "Gentle Hand Wash" }
     },
     { 
       id: 6, 
-      name: 'Classic Straight Jeans', 
-      category: "Men", 
-      sub: "Pants • Jeans", 
-      price: 1699, 
-      oldPrice: 3299, 
-      images: ["/Fashion/Men/Products/mfp6.png", "/Fashion/Men/Products/mfp6_1.png", "/Fashion/Men/Products/mfp6_2.png", "/Fashion/Men/Products/mfp6_3.png", "/Fashion/Men/Products/mfp6_4.png"],
+      name: 'A-Line Floral Dress', 
+      category: "Women", 
+      sub: "Dresses • Short", 
+      price: 1599, 
+      oldPrice: 3199, 
+      images: ["/Fashion/Women/Products/wfp6.png", "/Fashion/Women/Products/wfp6_1.png", "/Fashion/Women/Products/wfp6_2.png", "/Fashion/Women/Products/wfp6_3.png", "/Fashion/Women/Products/wfp6_4.png"],
       tag: "Best Seller", 
-      color: "Dark Blue", 
+      color: "Pink Floral", 
       rating: "4.7", 
-      reviews: "3.8k",
-      details: { "Fabric": "Rigid Denim", "Fit": "Straight Fit", "Rise": "Regular", "Wash": "Dark Indigo", "Durability": "High" }
+      reviews: "4.2k",
+      details: { "Fabric": "Cotton Poplin", "Fit": "A-Line", "Length": "Above Knee", "Neck": "Round Neck", "Sleeves": "Puff Sleeves" }
     },
     { 
       id: 7, 
-      name: "Linen Casual Shirt", 
-      category: "Men", 
-      sub: "Shirts • Casual", 
-      price: 1599, 
-      oldPrice: 2999, 
-      images: ["/Fashion/Men/Products/mfp7.png", "/Fashion/Men/Products/mfp7_1.png", "/Fashion/Men/Products/mfp7_2.png", "/Fashion/Men/Products/mfp7_3.png", "/Fashion/Men/Products/mfp7_4.png"],
-      tag: "Summer Edit", 
-      color: "Beige", 
-      rating: "4.6", 
+      name: 'Designer Lehenga Saree', 
+      category: "Women", 
+      sub: "Sarees • Party Wear", 
+      price: 5999, 
+      oldPrice: 11999, 
+      images: ["/Fashion/Women/Products/wfp7.png", "/Fashion/Women/Products/wfp7_1.png", "/Fashion/Women/Products/wfp7_2.png", "/Fashion/Women/Products/wfp7_3.png", "/Fashion/Women/Products/wfp7_4.png"],
+      tag: "Premium", 
+      color: "Royal Blue", 
+      rating: "4.9", 
       reviews: "1.8k",
-      details: { "Fabric": "Pure Linen", "Fit": "Relaxed Fit", "Sleeve": "Full Sleeve", "Breathable": "High", "Wash": "Hand Wash" }
+      details: { "Fabric": "Georgette", "Type": "Lehenga Saree", "Work": "Heavy Embroidery", "Blouse": "Stitched Blouse", "Occasion": "Wedding/Party" }
     },
     { 
       id: 8, 
-      name: 'Tailored Formal Pants', 
-      category: "Men", 
-      sub: "Pants • Formal", 
+      name: 'Wrap Style Maxi Dress', 
+      category: "Women", 
+      sub: "Dresses • Long", 
       price: 2299, 
-      oldPrice: 4499, 
-      images: ["/Fashion/Men/Products/mfp8.png", "/Fashion/Men/Products/mfp8_1.png", "/Fashion/Men/Products/mfp8_2.png", "/Fashion/Men/Products/mfp8_3.png", "/Fashion/Men/Products/mfp8_4.png"],
-      tag: "Premium", 
-      color: "Charcoal Grey", 
-      rating: "4.8", 
-      reviews: "2.2k",
-      details: { "Fabric": "Wool Blend", "Fit": "Tailored Fit", "Waist": "Mid Rise", "Closure": "Zip Fly", "Occasion": "Business/Formal" }
+      oldPrice: 4599, 
+      images: ["/Fashion/Women/Products/wfp8.png", "/Fashion/Women/Products/wfp8_1.png", "/Fashion/Women/Products/wfp8_2.png", "/Fashion/Women/Products/wfp8_3.png", "/Fashion/Women/Products/wfp8_4.png"],
+      tag: "Trending", 
+      color: "Olive Green", 
+      rating: "4.6", 
+      reviews: "1.9k",
+      details: { "Fabric": "Viscose", "Fit": "Wrap Style", "Length": "Maxi", "Neck": "V-Neck", "Features": "Tie Belt" }
     },
     { 
       id: 9, 
-      name: "Checkered Print Shirt", 
-      category: "Men", 
-      sub: "Shirts • Printed", 
-      price: 1399, 
-      oldPrice: 2799, 
-      images: ["/Fashion/Men/Products/mfp9.png", "/Fashion/Men/Products/mfp9_1.png", "/Fashion/Men/Products/mfp9_2.png", "/Fashion/Men/Products/mfp9_3.png", "/Fashion/Men/Products/mfp9_4.png"],
-      tag: "Trending", 
-      color: "Red/Black Check", 
-      rating: "4.7", 
-      reviews: "2.9k",
-      details: { "Fabric": "Cotton Flannel", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Pattern": "Checkered", "Style": "Casual" }
+      name: 'Silk Blend Festive Saree', 
+      category: "Women", 
+      sub: "Sarees • Traditional", 
+      price: 3999, 
+      oldPrice: 7999, 
+      images: ["/Fashion/Women/Products/wfp9.png", "/Fashion/Women/Products/wfp9_1.png", "/Fashion/Women/Products/wfp9_2.png", "/Fashion/Women/Products/wfp9_3.png", "/Fashion/Women/Products/wfp9_4.png"],
+      tag: "Festival Edit", 
+      color: "Emerald Green", 
+      rating: "4.8", 
+      reviews: "2.5k",
+      details: { "Fabric": "Silk Blend", "Type": "Festive Saree", "Work": "Butidar Pattern", "Blouse": "Unstitched", "Occasion": "Festival/Party" }
     },
     { 
       id: 10, 
-      name: 'Light Wash Jeans', 
-      category: "Men", 
-      sub: "Pants • Jeans", 
-      price: 1599, 
-      oldPrice: 2999, 
-      images: ["/Fashion/Men/Products/mfp10.png", "/Fashion/Men/Products/mfp10_1.png", "/Fashion/Men/Products/mfp10_2.png", "/Fashion/Men/Products/mfp10_3.png", "/Fashion/Men/Products/mfp10_4.png"],
-      tag: "Summer Edit", 
-      color: "Light Blue", 
+      name: 'Off-Shoulder Short Dress', 
+      category: "Women", 
+      sub: "Dresses • Short", 
+      price: 1999, 
+      oldPrice: 3999, 
+      images: ["/Fashion/Women/Products/wfp10.png", "/Fashion/Women/Products/wfp10_1.png", "/Fashion/Women/Products/wfp10_2.png", "/Fashion/Women/Products/wfp10_3.png", "/Fashion/Women/Products/wfp10_4.png"],
+      tag: "Trending", 
+      color: "White", 
       rating: "4.5", 
-      reviews: "3.1k",
-      details: { "Fabric": "Comfort Stretch", "Fit": "Slim Fit", "Rise": "Mid Rise", "Wash": "Light Fade", "Style": "Casual" }
+      reviews: "2.1k",
+      details: { "Fabric": "Cotton Lycra", "Fit": "Bodycon", "Length": "Mini", "Neck": "Off-Shoulder", "Sleeves": "Elastic Sleeves" }
     },
     { 
       id: 11, 
-      name: 'Pleated Formal Trousers', 
-      category: "Men", 
-      sub: "Pants • Formal", 
+      name: 'Cotton Handloom Saree', 
+      category: "Women", 
+      sub: "Sarees • Casual", 
       price: 1899, 
       oldPrice: 3799, 
-      images: ["/Fashion/Men/Products/mfp11.png", "/Fashion/Men/Products/mfp11_1.png", "/Fashion/Men/Products/mfp11_2.png", "/Fashion/Men/Products/mfp11_3.png", "/Fashion/Men/Products/mfp11_4.png"],
-      tag: "Classic", 
-      color: "Navy Blue", 
-      rating: "4.7", 
-      reviews: "1.5k",
-      details: { "Fabric": "Cotton Lycra", "Fit": "Regular Fit", "Waist": "High Rise", "Detail": "Front Pleats", "Features": "Stretch Comfort" }
+      images: ["/Fashion/Women/Products/wfp11.png", "/Fashion/Women/Products/wfp11_1.png", "/Fashion/Women/Products/wfp11_2.png", "/Fashion/Women/Products/wfp11_3.png", "/Fashion/Women/Products/wfp11_4.png"],
+      tag: "Essential", 
+      color: "Indigo Blue", 
+      rating: "4.4", 
+      reviews: "1.7k",
+      details: { "Fabric": "Handloom Cotton", "Type": "Casual Saree", "Work": "Contrast Border", "Blouse": "Unstitched", "Wash": "Gentle Wash" }
     },
     { 
       id: 12, 
-      name: 'Black Skinny Jeans', 
-      category: "Men", 
-      sub: "Pants • Jeans", 
-      price: 1899, 
-      oldPrice: 3599, 
-      images: ["/Fashion/Men/Products/mfp12.png", "/Fashion/Men/Products/mfp12_1.png", "/Fashion/Men/Products/mfp12_2.png", "/Fashion/Men/Products/mfp12_3.png", "/Fashion/Men/Products/mfp12_4.png"],
-      tag: "Trending", 
-      color: "Black", 
-      rating: "4.6", 
-      reviews: "2.7k",
-      details: { "Fabric": "Super Stretch", "Fit": "Skinny Fit", "Rise": "Low Rise", "Wash": "Solid Black", "Style": "Streetwear" }
+      name: 'Satin Slip Dress', 
+      category: "Women", 
+      sub: "Dresses • Long", 
+      price: 2799, 
+      oldPrice: 5599, 
+      images: ["/Fashion/Women/Products/wfp12.png", "/Fashion/Women/Products/wfp12_1.png", "/Fashion/Women/Products/wfp12_2.png", "/Fashion/Women/Products/wfp12_3.png", "/Fashion/Women/Products/wfp12_4.png"],
+      tag: "Luxury", 
+      color: "Champagne", 
+      rating: "4.8", 
+      reviews: "1.2k",
+      details: { "Fabric": "Satin", "Fit": "Slip Fit", "Length": "Maxi", "Neck": "Cowl Neck", "Features": "Adjustable Straps" }
     }
   ];
 
@@ -197,7 +198,7 @@ const MenFashionProducts = () => {
     return cartItem?.quantity || 0;
   };
 
-  const getSizes = () => ["S", "M", "L", "XL", "XXL"];
+  const getSizes = () => ["XS", "S", "M", "L", "XL", "XXL"];
 
   // Effect to handle slideshow in modal
   useEffect(() => {
@@ -304,8 +305,8 @@ const MenFashionProducts = () => {
         
         {/* Header */}
         <div className="mb-24 text-center">
-          <p className="text-[11px] tracking-[0.7em] uppercase text-orange-600 font-bold mb-5">Men's Collection MMXXVI</p>
-          <h2 className="text-7xl font-serif italic uppercase tracking-tighter text-slate-800">The Wardrobe</h2>
+          <p className="text-[11px] tracking-[0.7em] uppercase text-orange-600 font-bold mb-5">Women's Collection MMXXVI</p>
+          <h2 className="text-7xl font-serif italic uppercase tracking-tighter text-slate-800">The Elegance</h2>
           <div className="h-[1px] w-24 bg-slate-300 mx-auto mt-10"></div>
         </div>
 
@@ -482,4 +483,4 @@ const MenFashionProducts = () => {
   );
 };
 
-export default MenFashionProducts;
+export default WomenFashionProducts;
