@@ -22,6 +22,16 @@ import MenFashion from './Component1/MenFashion'
 import MenFashionProducts from './Component1/MenFashionProducts'
 import WomenFashion from './Component1/WomenFashion'
 import WomenFashionProducts from './Component1/WomenFashionProducts'
+import KidsFashion from './Component1/KidsFashion'
+import KidsFashionProducts from './Component1/KidsfashionProducts'
+import ShirtsMenFashion from './Component1/ShirtsMenFashion'
+import ShirtsMenFashionProducts from './Component1/ShirtsMenFashionProducts'
+import PantsMenFashion from './Component1/PantsMenFashion'
+import PantsMenFashionProducts from './Component1/PantsMenFashionProducts'
+import SareeWomenFashion from './Component1/SareeWomenFashion'
+import SareeWomenFashionProducts from './Component1/SareeWomenFashionProducts'
+import DressesWomenFashion from './Component1/DressesWomenFashion'
+import DressesWomenFashionProducts from './Component1/DressesWomenFashionProducts'
 
 const App = () => {
   return (
@@ -40,10 +50,24 @@ const App = () => {
         {/* fashion routes */}
         <Route path='/fashion' element={<Fashion/>}/>
         <Route path='/fashion/fproducts' element={<FashionProducts/>}/>
+
         <Route path='/fashion/men' element={<MenFashion/>}/>
         <Route path='/fashion/men/products' element={<MenFashionProducts/>}/>
-         <Route path='/fashion/women' element={<WomenFashion/>}/>
+        <Route path='/fashion/men/shirts' element={<ShirtsMenFashion/>}/>
+        <Route path='/fashion/men/shirts/products' element={<ShirtsMenFashionProducts/>}/>
+        <Route path='/fashion/men/pants' element={<PantsMenFashion/>}/>
+        <Route path='/fashion/men/pants/products' element={<PantsMenFashionProducts/>}/>
+
+        <Route path='/fashion/women' element={<WomenFashion/>}/>
         <Route path='/fashion/women/products' element={<WomenFashionProducts/>}/>
+        <Route path='/fashion/women/saree' element={<SareeWomenFashion/>}/>
+        <Route path='/fashion/women/saree/products' element={<SareeWomenFashionProducts/>}/>
+        <Route path='/fashion/women/dresses' element={<DressesWomenFashion/>}/>
+        <Route path='/fashion/women/dresses/products' element={<DressesWomenFashionProducts/>}/>
+
+
+        <Route path='/fashion/kids' element={<KidsFashion/>}/>
+        <Route path='/fashion/kids/products' element={<KidsFashionProducts/>}/>
 
         
         {/* accessories routes */}
