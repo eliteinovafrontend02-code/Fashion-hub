@@ -64,19 +64,19 @@ const ShirtsMenFashion = () => {
 
   // Featured Products for Men Shirts
   const featuredProducts = [
-    { 
+       { 
       id: 1, 
-      name: 'Classic Casual Shirt', 
+       name: 'Wool Blend Winter Shirt', 
       category: "Men", 
       sub: "Shirts • Casual", 
-      price: 1299, 
-      oldPrice: 2499, 
-      images: ["/Fashion/Men/Products/mfp1.png", "/Fashion/Men/Products/mfp1_1.png", "/Fashion/Men/Products/mfp1_2.png", "/Fashion/Men/Products/mfp1_3.png", "/Fashion/Men/Products/mfp1_4.png"],
-      tag: "Best Seller", 
-      color: "White", 
-      rating: "4.8", 
-      reviews: "3.2k",
-      details: { "Fabric": "Premium Cotton", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Occasion": "Casual", "Wash": "Machine Wash" }
+      price: 1999, 
+      oldPrice: 3999, 
+      images: ["/Fashion/Men/Shirts/Products/smfp1.png", "/Fashion/Men/Shirts/Products/smfp1_1.png", "/Fashion/Men/Shirts/Products/smfp1_2.png", "/Fashion/Men/Shirts/Products/smfp1_3.png", "/Fashion/Men/Shirts/Products/smfp1_4.png"],
+      tag: "Winter Edit", 
+      color: "Charcoal", 
+      rating: "4.9", 
+      reviews: "1.1k",
+      details: { "Fabric": "Wool Blend", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Warmth": "High", "Care": "Dry Clean" }
     },
     { 
       id: 2, 
@@ -85,41 +85,41 @@ const ShirtsMenFashion = () => {
       sub: "Shirts • Printed", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Fashion/Men/Products/mfp3.png", "/Fashion/Men/Products/mfp3_1.png", "/Fashion/Men/Products/mfp3_2.png", "/Fashion/Men/Products/mfp3_3.png", "/Fashion/Men/Products/mfp3_4.png"],
+      images: ["/Fashion/Men/Shirts/Products/smfp2.png", "/Fashion/Men/Shirts/Products/smfp2_1.png", "/Fashion/Men/Shirts/Products/smfp2_2.png", "/Fashion/Men/Shirts/Products/smfp2_3.png", "/Fashion/Men/Shirts/Products/smfp2_4.png"],
       tag: "Trending", 
-      color: "Blue Floral", 
+      color: "Rose Floral", 
       rating: "4.7", 
       reviews: "2.1k",
       details: { "Fabric": "Cotton Blend", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Pattern": "All-Over Print", "Wash": "Gentle Cycle" }
     },
     { 
       id: 3, 
-      name: 'Oxford Formal Shirt', 
+      name: 'Denim Casual Shirt', 
       category: "Men", 
       sub: "Shirts • Casual", 
-      price: 1799, 
-      oldPrice: 3499, 
-      images: ["/Fashion/Men/Products/mfp5.png", "/Fashion/Men/Products/mfp5_1.png", "/Fashion/Men/Products/mfp5_2.png", "/Fashion/Men/Products/mfp5_3.png", "/Fashion/Men/Products/mfp5_4.png"],
-      tag: "Essential", 
-      color: "Light Blue", 
-      rating: "4.9", 
-      reviews: "4.5k",
-      details: { "Fabric": "Oxford Weave", "Fit": "Classic Fit", "Sleeve": "Full Sleeve", "Occasion": "Office/Formal", "Care": "Dry Clean" }
+      price: 1699, 
+      oldPrice: 3299, 
+      images: ["/Fashion/Men/Shirts/Products/smfp3.png", "/Fashion/Men/Shirts/Products/smfp3_1.png", "/Fashion/Men/Shirts/Products/smfp3_2.png", "/Fashion/Men/Shirts/Products/smfp3_3.png", "/Fashion/Men/Shirts/Products/smfp3_4.png"],
+      tag: "Trending", 
+      color: "Light Blue Denim", 
+      rating: "4.7", 
+      reviews: "2.3k",
+      details: { "Fabric": "Denim", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Style": "Casual", "Wash": "Machine Wash" }
     },
     { 
       id: 4, 
-      name: 'Checkered Print Shirt', 
+      name: 'Animal Print Shirt', 
       category: "Men", 
       sub: "Shirts • Printed", 
-      price: 1399, 
-      oldPrice: 2799, 
-      images: ["/Fashion/Men/Products/mfp9.png", "/Fashion/Men/Products/mfp9_1.png", "/Fashion/Men/Products/mfp9_2.png", "/Fashion/Men/Products/mfp9_3.png", "/Fashion/Men/Products/mfp9_4.png"],
-      tag: "Trending", 
-      color: "Red/Black Check", 
-      rating: "4.7", 
-      reviews: "2.9k",
-      details: { "Fabric": "Cotton Flannel", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Pattern": "Checkered", "Style": "Casual" }
-    },
+      price: 1699, 
+      oldPrice: 3399,  
+      images: ["/Fashion/Men/Shirts/Products/smfp4.png", "/Fashion/Men/Shirts/Products/smfp4_1.png", "/Fashion/Men/Shirts/Products/smfp4_2.png", "/Fashion/Men/Shirts/Products/smfp4_3.png", "/Fashion/Men/Shirts/Products/smfp4_4.png"],
+      tag: "Bold Style", 
+      color: "Leopard Print", 
+      rating: "4.5", 
+      reviews: "0.7k",
+      details: { "Fabric": "Viscose", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Pattern": "Animal", "Occasion": "Party/Night Out" }
+    }
   ];
 
   useEffect(() => {
@@ -150,20 +150,20 @@ const ShirtsMenFashion = () => {
       <Navbar />
 
       {/* ====== MEN'S SHIRTS HERO SECTION - TWO BANNERS (CASUAL & PRINTED) ====== */}
-      <section className="relative h-screen w-full overflow-hidden bg-black">
+      <section className="relative h-auto md:h-screen w-full overflow-hidden bg-black">
         {banners.map((banner, idx) => (
           <div
             key={banner.id}
-            className={`absolute inset-0 transition-all duration-[1500ms] ease-out ${
-              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible'
-            }`}
+            className={`relative md:absolute md:inset-0 transition-all duration-[1500ms] ease-out ${
+            idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible hidden md:block'
+          }`}
           >
-            <div className="relative w-full h-full">
+            <div className="relative w-full h-auto md:h-full">
               <div className="block md:hidden w-full h-full">
                 <img 
                   src={banner.image} 
                   alt={banner.titlePart2} 
-                  className="w-full h-full object-contain bg-black"
+                className="w-full h-auto"
                 />
               </div>
               
@@ -177,32 +177,32 @@ const ShirtsMenFashion = () => {
             </div>
             
             {/* Gradient Overlay - Bottom only */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+          <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent"></div>
 
             {/* Content - Bottom Right Aligned */}
-            <div className="absolute inset-0 flex flex-col justify-end pb-16 sm:pb-20 md:pb-24 lg:pb-32 px-4 sm:px-8 md:px-12 lg:px-32 items-end">
+            <div className="absolute inset-0 flex flex-col justify-end pb-4 sm:pb-20 md:pb-24 lg:pb-32 px-3 sm:px-8 md:px-12 lg:px-32 items-end">
               <div className={`max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-2xl text-white text-right transition-all duration-1000 delay-300 transform ${
                 idx === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-100'
               }`}>
                 
-                <p className="text-amber-400/90 tracking-[0.3em] sm:tracking-[0.5em] text-[9px] sm:text-[10px] md:text-[11px] font-light uppercase mb-3 sm:mb-5">
+                <p className="text-amber-400/90 tracking-[0.2em] sm:tracking-[0.5em] text-[7px] sm:text-[10px] md:text-[11px] font-semibold uppercase mb-1 sm:mb-5">
                   {banner.subtitle}
                 </p>
                 
-                <h1 className="flex flex-col space-y-1 sm:space-y-2 mb-6 sm:mb-12 items-end">
-                  <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
+                <h1 className="flex flex-col space-y-0.5 sm:space-y-2 mb-3 sm:mb-12 items-end">
+                 <span className="text-xs sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
                     {banner.titlePart1}
                   </span>
-                  <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
+                  <span className="text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
                     {banner.titlePart2}
                   </span>
                 </h1>
                 
-                <div className="h-[1px] w-10 sm:w-12 md:w-16 bg-amber-400/50 mb-6 sm:mb-8 md:mb-12 ml-auto"></div>
+                <div className="h-[1px] w-6 sm:w-12 md:w-16 bg-amber-400/50 mb-2 sm:mb-8 md:mb-12 ml-auto"></div>
                 
                 <div className="flex justify-end">
                   <Link to={banner.link}>
-                    <button className="group relative border border-white/40 px-5 sm:px-7 md:px-8 lg:px-10 py-2 sm:py-2.5 md:py-3 lg:py-3.5 overflow-hidden text-[8px] sm:text-[9px] md:text-[10px] lg:text-[11px] tracking-[0.2em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
+                    <button className="group relative border border-white/40 px-3 sm:px-7 md:px-8 lg:px-10 py-1.5 sm:py-2.5 md:py-3 lg:py-3.5 overflow-hidden text-[7px] sm:text-[9px] md:text-[10px] lg:text-[11px] tracking-[0.15em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
                       <span className="absolute inset-0 w-0 bg-amber-400 transition-all duration-500 ease-out group-hover:w-full"></span>
                       <span className="relative z-10 group-hover:text-black">{banner.cta}</span>
                     </button>
@@ -242,12 +242,6 @@ const ShirtsMenFashion = () => {
         >
           ›
         </button>
-
-        <div className="absolute bottom-20 left-1/2 -translate-x-1/2 sm:hidden flex gap-1 text-white/30 text-xs">
-          <span>‹</span>
-          <span className="text-[8px]">swipe</span>
-          <span>›</span>
-        </div>
       </section>
 
       {/* ====== CIRCULAR CATEGORY SECTION - CASUAL & PRINTED ONLY ====== */}

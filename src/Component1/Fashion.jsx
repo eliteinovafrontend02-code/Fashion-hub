@@ -104,54 +104,54 @@ const Fashion = () => {
       <Navbar />
 
       {/* ====== HERO SECTION - RICH FEEL ====== */}
-      <section className="relative h-screen w-full overflow-hidden bg-black">
+      <section className="relative h-auto md:h-screen w-full overflow-hidden bg-black">
         {banners.map((banner, idx) => (
           <div
             key={banner.id}
-            className={`absolute inset-0 transition-all duration-[1500ms] ease-out ${
-              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible'
-            }`}
+             className={`relative md:absolute md:inset-0 transition-all duration-[1500ms] ease-out ${
+              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible hidden md:block'
+            }`}
           >
             {/* Background Image */}
             <img 
               src={banner.image} 
               alt={banner.titlePart2} 
-              className="w-full h-full object-cover"
+              className="w-full h-auto md:h-full object-cover"
             />
             
             {/* Dark Gradient Overlay - Richer contrast */}
-            <div className={`absolute inset-0 bg-gradient-to-r ${banner.color}`}></div>
+            <div className={`hidden md:block absolute inset-0 bg-gradient-to-r ${banner.color}`}></div>
 
             {/* Content */}
-            <div className={`absolute inset-0 flex flex-col justify-center px-12 md:px-32 ${banner.align}`}>
+            <div className={`absolute inset-0 flex flex-col justify-end pb-4 md:justify-center px-4 md:px-32 ${banner.align}`}>
               <div className={`max-w-2xl text-white ${banner.textAlign} transition-all duration-1000 delay-300 transform ${
                 idx === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
               }`}>
                 
                 {/* Gold Accent Subtitle */}
-                <p className="text-amber-400/90 tracking-[0.5em] text-[11px] font-light uppercase mb-5">
+                <p className="text-amber-400/90 tracking-[0.2em] sm:tracking-[0.5em] text-[7px] sm:text-[11px] font-semibold uppercase mb-1 sm:mb-5">
                   {banner.subtitle}
                 </p>
                 
                 {/* Elegant Title */}
-                <h1 className="flex flex-col space-y-2 mb-12">
-                  <span className="text-2xl md:text-3xl font-light italic opacity-90 font-serif">
+              <h1 className="flex flex-col space-y-0.5 sm:space-y-2 mb-3 sm:mb-12">
+                <span className="text-xs sm:text-2xl md:text-3xl font-light italic opacity-90 font-serif">
                     {banner.titlePart1}
                   </span>
-                  <span className="text-4xl md:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
+                    <span className="text-base sm:text-4xl md:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
                     {banner.titlePart2}
                   </span>
                 </h1>
                 
                 {/* Gold Divider */}
-                <div className={`h-[1px] w-16 bg-amber-400/50 mb-12 ${
+                <div className={`h-[1px] w-6 sm:w-16 bg-amber-400/50 mb-2 sm:mb-12 ${
                   banner.align === 'items-center' ? 'mx-auto' : banner.align === 'items-end' ? 'ml-auto' : ''
                 }`}></div>
                 
                 {/* Button */}
                 <div>
                   <Link to={banner.link}>
-                    <button className="group relative border border-white/40 px-10 py-3.5 overflow-hidden text-[11px] tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
+                    <button className="group relative border border-white/40 px-2 sm:px-10 py-1 sm:py-3.5 overflow-hidden text-[6px] sm:text-[11px] tracking-[0.1em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
                       <span className="absolute inset-0 w-0 bg-amber-400 transition-all duration-500 ease-out group-hover:w-full"></span>
                       <span className="relative z-10 group-hover:text-black">{banner.cta}</span>
                     </button>
@@ -164,7 +164,7 @@ const Fashion = () => {
         ))}
 
         {/* Premium Indicators */}
-        <div className="absolute bottom-12 w-full flex justify-center gap-4 z-20">
+        <div className="hidden md:flex absolute bottom-12 w-full justify-center gap-4 z-20">
           {banners.map((_, idx) => (
             <button
               key={idx}

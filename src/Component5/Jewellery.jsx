@@ -152,12 +152,12 @@ const Jewellery = () => {
       <Navbar />
 
       {/* ====== HERO SECTION - TEXT BOTTOM RIGHT ALIGNED ====== */}
-      <section className="relative h-screen w-full overflow-hidden bg-black">
+      <section className="relative h-auto md:h-screen w-full overflow-hidden bg-black">
         {banners.map((banner, idx) => (
           <div
             key={banner.id}
-            className={`absolute inset-0 transition-all duration-[1500ms] ease-out ${
-              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible'
+            className={`relative md:absolute md:inset-0 transition-all duration-[1500ms] ease-out ${
+              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible hidden md:block'
             }`}
           >
             {/* Responsive image container */}
@@ -167,7 +167,7 @@ const Jewellery = () => {
                 <img 
                   src={banner.image} 
                   alt={banner.titlePart2} 
-                  className="w-full h-full object-contain bg-black"
+                 className="w-full h-auto md:h-full object-cover"
                 />
               </div>
               

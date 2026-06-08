@@ -71,9 +71,9 @@ const PantsMenFashion = () => {
       sub: "Pants • Jeans", 
       price: 1799, 
       oldPrice: 3499, 
-      images: ["/Fashion/Men/Products/mfp2.png", "/Fashion/Men/Products/mfp2_1.png", "/Fashion/Men/Products/mfp2_2.png", "/Fashion/Men/Products/mfp2_3.png", "/Fashion/Men/Products/mfp2_4.png"],
+      images: ["/Fashion/Men/Pants/Products/pmfp1.png", "/Fashion/Men/Pants/Products/pmfp1_1.png", "/Fashion/Men/Pants/Products/pmfp1_2.png", "/Fashion/Men/Pants/Products/pmfp1_3.png", "/Fashion/Men/Pants/Products/pmfp1_4.png"],
       tag: "Essential", 
-      color: "Blue", 
+      color: "Light Blue", 
       rating: "4.6", 
       reviews: "4.5k",
       details: { "Fabric": "Stretch Denim", "Fit": "Slim Fit", "Rise": "Mid Rise", "Wash": "Medium Blue", "Pockets": "5 Pocket Design" }
@@ -85,9 +85,9 @@ const PantsMenFashion = () => {
       sub: "Pants • Formal", 
       price: 1999, 
       oldPrice: 3999, 
-      images: ["/Fashion/Men/Products/mfp4.png", "/Fashion/Men/Products/mfp4_1.png", "/Fashion/Men/Products/mfp4_2.png", "/Fashion/Men/Products/mfp4_3.png", "/Fashion/Men/Products/mfp4_4.png"],
+      images: ["/Fashion/Men/Pants/Products/pmfp2.png", "/Fashion/Men/Pants/Products/pmfp2_1.png", "/Fashion/Men/Pants/Products/pmfp2_2.png", "/Fashion/Men/Pants/Products/pmfp2_3.png", "/Fashion/Men/Pants/Products/pmfp2_4.png"],
       tag: "New Arrival", 
-      color: "Black", 
+      color: "green", 
       rating: "4.9", 
       reviews: "1.8k",
       details: { "Fabric": "Poly-Viscose", "Fit": "Slim Fit", "Waist": "Mid Rise", "Closure": "Hook & Bar", "Features": "Crease Resistant" }
@@ -99,9 +99,9 @@ const PantsMenFashion = () => {
       sub: "Pants • Jeans", 
       price: 1699, 
       oldPrice: 3299, 
-      images: ["/Fashion/Men/Products/mfp6.png", "/Fashion/Men/Products/mfp6_1.png", "/Fashion/Men/Products/mfp6_2.png", "/Fashion/Men/Products/mfp6_3.png", "/Fashion/Men/Products/mfp6_4.png"],
+      images: ["/Fashion/Men/Pants/Products/pmfp3.png", "/Fashion/Men/Pants/Products/pmfp3_1.png", "/Fashion/Men/Pants/Products/pmfp3_2.png", "/Fashion/Men/Pants/Products/pmfp3_3.png", "/Fashion/Men/Pants/Products/pmfp3_4.png"],
       tag: "Best Seller", 
-      color: "Dark Blue", 
+      color: " Black", 
       rating: "4.7", 
       reviews: "3.8k",
       details: { "Fabric": "Rigid Denim", "Fit": "Straight Fit", "Rise": "Regular", "Wash": "Dark Indigo", "Durability": "High" }
@@ -113,13 +113,13 @@ const PantsMenFashion = () => {
       sub: "Pants • Formal", 
       price: 2299, 
       oldPrice: 4499, 
-      images: ["/Fashion/Men/Products/mfp8.png", "/Fashion/Men/Products/mfp8_1.png", "/Fashion/Men/Products/mfp8_2.png", "/Fashion/Men/Products/mfp8_3.png", "/Fashion/Men/Products/mfp8_4.png"],
+      images: ["/Fashion/Men/Pants/Products/pmfp4.png", "/Fashion/Men/Pants/Products/pmfp4_1.png", "/Fashion/Men/Pants/Products/pmfp4_2.png", "/Fashion/Men/Pants/Products/pmfp4_3.png", "/Fashion/Men/Pants/Products/pmfp4_4.png"],
       tag: "Premium", 
-      color: "Charcoal Grey", 
+      color: "white", 
       rating: "4.8", 
       reviews: "2.2k",
       details: { "Fabric": "Wool Blend", "Fit": "Tailored Fit", "Waist": "Mid Rise", "Closure": "Zip Fly", "Occasion": "Business/Formal" }
-    },
+    }
   ];
 
   useEffect(() => {
@@ -150,20 +150,20 @@ const PantsMenFashion = () => {
       <Navbar />
 
       {/* ====== MEN'S PANTS HERO SECTION - TWO BANNERS (JEANS & FORMAL) ====== */}
-      <section className="relative h-screen w-full overflow-hidden bg-black">
+      <section className="relative h-auto md:h-screen w-full overflow-hidden bg-black">
         {banners.map((banner, idx) => (
           <div
             key={banner.id}
-            className={`absolute inset-0 transition-all duration-[1500ms] ease-out ${
-              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible'
+            className={`relative md:absolute md:inset-0 transition-all duration-[1500ms] ease-out ${
+              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible hidden md:block'
             }`}
           >
-            <div className="relative w-full h-full">
+            <div className="relative w-full h-auto md:h-full">
               <div className="block md:hidden w-full h-full">
                 <img 
                   src={banner.image} 
                   alt={banner.titlePart2} 
-                  className="w-full h-full object-contain bg-black"
+                className="w-full h-auto"
                 />
               </div>
               
@@ -177,32 +177,32 @@ const PantsMenFashion = () => {
             </div>
             
             {/* Gradient Overlay - Bottom only */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
+            <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent"></div>
 
             {/* Content - Bottom Right Aligned */}
-            <div className="absolute inset-0 flex flex-col justify-end pb-16 sm:pb-20 md:pb-24 lg:pb-32 px-4 sm:px-8 md:px-12 lg:px-32 items-end">
+            <div className="absolute inset-0 flex flex-col justify-end pb-4 sm:pb-20 md:pb-24 lg:pb-32 px-3 sm:px-8 md:px-12 lg:px-32 items-end">
               <div className={`max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-2xl text-white text-right transition-all duration-1000 delay-300 transform ${
                 idx === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-100'
               }`}>
                 
-                <p className="text-amber-400/90 tracking-[0.3em] sm:tracking-[0.5em] text-[9px] sm:text-[10px] md:text-[11px] font-light uppercase mb-3 sm:mb-5">
+                <p className="text-amber-400/90 tracking-[0.2em] sm:tracking-[0.5em] text-[7px] sm:text-[10px] md:text-[11px] font-semibold uppercase mb-1 sm:mb-5">
                   {banner.subtitle}
                 </p>
                 
-                <h1 className="flex flex-col space-y-1 sm:space-y-2 mb-6 sm:mb-12 items-end">
-                  <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
+                <h1 className="flex flex-col space-y-0.5 sm:space-y-2 mb-3 sm:mb-12 items-end">
+                 <span className="text-xs sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
                     {banner.titlePart1}
                   </span>
-                  <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
+                  <span className="text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
                     {banner.titlePart2}
                   </span>
                 </h1>
                 
-                <div className="h-[1px] w-10 sm:w-12 md:w-16 bg-amber-400/50 mb-6 sm:mb-8 md:mb-12 ml-auto"></div>
+                <div className="h-[1px] w-6 sm:w-12 md:w-16 bg-amber-400/50 mb-2 sm:mb-8 md:mb-12 ml-auto"></div>
                 
                 <div className="flex justify-end">
                   <Link to={banner.link}>
-                    <button className="group relative border border-white/40 px-5 sm:px-7 md:px-8 lg:px-10 py-2 sm:py-2.5 md:py-3 lg:py-3.5 overflow-hidden text-[8px] sm:text-[9px] md:text-[10px] lg:text-[11px] tracking-[0.2em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
+                    <button className="group relative border border-white/40 px-3 sm:px-7 md:px-8 lg:px-10 py-1.5 sm:py-2.5 md:py-3 lg:py-3.5 overflow-hidden text-[7px] sm:text-[9px] md:text-[10px] lg:text-[11px] tracking-[0.15em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
                       <span className="absolute inset-0 w-0 bg-amber-400 transition-all duration-500 ease-out group-hover:w-full"></span>
                       <span className="relative z-10 group-hover:text-black">{banner.cta}</span>
                     </button>
@@ -242,12 +242,6 @@ const PantsMenFashion = () => {
         >
           ›
         </button>
-
-        <div className="absolute bottom-20 left-1/2 -translate-x-1/2 sm:hidden flex gap-1 text-white/30 text-xs">
-          <span>‹</span>
-          <span className="text-[8px]">swipe</span>
-          <span>›</span>
-        </div>
       </section>
 
       {/* ====== CIRCULAR CATEGORY SECTION - JEANS & FORMAL ONLY ====== */}

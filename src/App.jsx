@@ -32,6 +32,10 @@ import SareeWomenFashion from './Component1/SareeWomenFashion'
 import SareeWomenFashionProducts from './Component1/SareeWomenFashionProducts'
 import DressesWomenFashion from './Component1/DressesWomenFashion'
 import DressesWomenFashionProducts from './Component1/DressesWomenFashionProducts'
+import BoyKidsFashion from './Component1/BoyKidsFashion'
+import BoyKidsFashionProducts from './Component1/BoyKidsFashionProducts'
+import GirlKidsFashion from './Component1/GirlKidsFashion'
+import GirlKidsFashionProducts from './Component1/GirlKidsFashionProducts'
 
 const App = () => {
   return (
@@ -68,6 +72,10 @@ const App = () => {
 
         <Route path='/fashion/kids' element={<KidsFashion/>}/>
         <Route path='/fashion/kids/products' element={<KidsFashionProducts/>}/>
+        <Route path='/fashion/kids/boy' element={<BoyKidsFashion/>}/>
+        <Route path='/fashion/kids/boy/products' element={<BoyKidsFashionProducts/>}/>
+         <Route path='/fashion/kids/girl' element={<GirlKidsFashion/>}/>
+        <Route path='/fashion/kids/girl/products' element={<GirlKidsFashionProducts/>}/>
 
         
         {/* accessories routes */}

@@ -24,42 +24,48 @@ const DressesWomenFashion = () => {
 
   // Only TWO banners - Short Dresses and Long Dresses
   const banners = [
-    {
+
+     {
       id: 1,
-      image: "/Fashion/Women/Dresses/shortbanner.png",
-      titlePart1: "Chic & Confident",
-      titlePart2: "Short Dresses",
-      subtitle: "WOMEN • SHORT • TRENDY",
-      cta: "SHOP SHORT",
-      link: "/fashion/women/dresses/short"
-    },
-    {
-      id: 2,
-      image: "/Fashion/Women/Dresses/longbanner.png",
+      image: "/Fashion/Women/Dresses/dwfbanner1.png",
       titlePart1: "Elegant Flowing",
       titlePart2: "Long Dresses",
       subtitle: "WOMEN • LONG • GRACEFUL",
       cta: "SHOP LONG",
       link: "/fashion/women/dresses/long"
+    },
+
+    {
+      id: 2,
+      image: "/Fashion/Women/Dresses/dwfbanner2.png",
+      titlePart1: "Chic & Confident",
+      titlePart2: "Short Dresses",
+      subtitle: "WOMEN • SHORT • TRENDY",
+      cta: "SHOP SHORT",
+      link: "/fashion/women/dresses/short"
     }
+   
   ];
 
   // Only TWO categories - Short and Long
   const categories = [
-    {
+
+     {
       id: 1,
+      title: "Long Dresses",
+      tag: "GRACEFUL",
+      image: "/Fashion/Women/Dresses/long.png",
+      link: "/fashion/women/dresses/long"
+    },
+    
+    {
+      id: 2,
       title: "Short Dresses",
       tag: "TRENDY",
       image: "/Fashion/Women/Dresses/short.png",
       link: "/fashion/women/dresses/short"
     },
-    {
-      id: 2,
-      title: "Long Dresses",
-      tag: "GRACEFUL",
-      image: "/Fashion/Women/Dresses/long.png",
-      link: "/fashion/women/dresses/long"
-    }
+   
   ];
 
   // Featured Products for Women Dresses
@@ -150,22 +156,21 @@ const DressesWomenFashion = () => {
       <Navbar />
 
       {/* ====== WOMEN'S DRESSES HERO SECTION - TWO BANNERS (SHORT & LONG) ====== */}
-      <section className="relative h-screen w-full overflow-hidden bg-black">
+      <section className="relative h-auto md:h-screen w-full overflow-hidden bg-black">
         {banners.map((banner, idx) => (
           <div
-            key={banner.id}
-            className={`absolute inset-0 transition-all duration-[1500ms] ease-out ${
-              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible'
+            className={`relative md:absolute md:inset-0 transition-all duration-[1500ms] ease-out ${
+              idx === currentSlide ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-105 invisible hidden md:block'
             }`}
           >
-            <div className="relative w-full h-full">
-              <div className="block md:hidden w-full h-full">
-                <img 
-                  src={banner.image} 
-                  alt={banner.titlePart2} 
-                  className="w-full h-full object-contain bg-black"
-                />
-              </div>
+            <div className="relative w-full h-auto md:h-full">
+             <div className="block md:hidden w-full">
+              <img 
+                src={banner.image} 
+                alt={banner.titlePart2} 
+                className="w-full h-auto"
+              />
+            </div>
               
               <div className="hidden md:block w-full h-full">
                 <img 
@@ -177,32 +182,32 @@ const DressesWomenFashion = () => {
             </div>
             
             {/* Gradient Overlay - Bottom only */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+            <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent"></div>
 
             {/* Content - Bottom Right Aligned */}
-            <div className="absolute inset-0 flex flex-col justify-end pb-16 sm:pb-20 md:pb-24 lg:pb-32 px-4 sm:px-8 md:px-12 lg:px-32 items-end">
+            <div className="absolute inset-0 flex flex-col justify-end pb-4 sm:pb-20 md:pb-24 lg:pb-32 px-3 sm:px-8 md:px-12 lg:px-32 items-end">
               <div className={`max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-2xl text-white text-right transition-all duration-1000 delay-300 transform ${
                 idx === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-100'
               }`}>
                 
-                <p className="text-amber-400/90 tracking-[0.3em] sm:tracking-[0.5em] text-[9px] sm:text-[10px] md:text-[11px] font-light uppercase mb-3 sm:mb-5">
+                <p className="text-amber-400/90 tracking-[0.2em] sm:tracking-[0.5em] text-[7px] sm:text-[10px] md:text-[11px] font-semibold uppercase mb-1 sm:mb-5">
                   {banner.subtitle}
                 </p>
                 
-                <h1 className="flex flex-col space-y-1 sm:space-y-2 mb-6 sm:mb-12 items-end">
-                  <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
+                <h1 className="flex flex-col space-y-0.5 sm:space-y-2 mb-3 sm:mb-12 items-end">
+                    <span className="text-xs sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
                     {banner.titlePart1}
                   </span>
-                  <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
+                  <span className="text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
                     {banner.titlePart2}
                   </span>
                 </h1>
                 
-                <div className="h-[1px] w-10 sm:w-12 md:w-16 bg-amber-400/50 mb-6 sm:mb-8 md:mb-12 ml-auto"></div>
+                <div className="h-[1px] w-6 sm:w-12 md:w-16 bg-amber-400/50 mb-2 sm:mb-8 md:mb-12 ml-auto"></div>
                 
                 <div className="flex justify-end">
                   <Link to={banner.link}>
-                    <button className="group relative border border-white/40 px-5 sm:px-7 md:px-8 lg:px-10 py-2 sm:py-2.5 md:py-3 lg:py-3.5 overflow-hidden text-[8px] sm:text-[9px] md:text-[10px] lg:text-[11px] tracking-[0.2em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
+                    <button className="group relative border border-white/40 px-3 sm:px-7 md:px-8 lg:px-10 py-1.5 sm:py-2.5 md:py-3 lg:py-3.5 overflow-hidden text-[7px] sm:text-[9px] md:text-[10px] lg:text-[11px] tracking-[0.15em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
                       <span className="absolute inset-0 w-0 bg-amber-400 transition-all duration-500 ease-out group-hover:w-full"></span>
                       <span className="relative z-10 group-hover:text-black">{banner.cta}</span>
                     </button>
@@ -242,12 +247,6 @@ const DressesWomenFashion = () => {
         >
           ›
         </button>
-
-        <div className="absolute bottom-20 left-1/2 -translate-x-1/2 sm:hidden flex gap-1 text-white/30 text-xs">
-          <span>‹</span>
-          <span className="text-[8px]">swipe</span>
-          <span>›</span>
-        </div>
       </section>
 
       {/* ====== CIRCULAR CATEGORY SECTION - SHORT & LONG DRESSES ====== */}
@@ -337,7 +336,7 @@ const DressesWomenFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Women/Dresses/dressesbanner.png"
+                  src="/Fashion/Women/Dresses/dwfbanner.png"
                   alt="Women's Dresses Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />
