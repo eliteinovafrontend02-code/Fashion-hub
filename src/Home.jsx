@@ -153,7 +153,7 @@ const Home = () => {
       {/* Fixed width - text will not overlap image - DECREASED WIDTH FOR BANNER 2 */}
       <div className={`${
         current === 1 
-          ? 'w-full sm:w-[45%] md:w-[40%] lg:w-[38%] xl:w-[35%]'
+          ?  'w-full sm:w-[38%] md:w-[33%] lg:w-[30%] xl:w-[28%]'
           : 'w-full sm:w-[55%] md:w-[50%] lg:w-[45%] xl:w-[40%]'
       }`}>
         

@@ -36,6 +36,31 @@ import BoyKidsFashion from './Component1/BoyKidsFashion'
 import BoyKidsFashionProducts from './Component1/BoyKidsFashionProducts'
 import GirlKidsFashion from './Component1/GirlKidsFashion'
 import GirlKidsFashionProducts from './Component1/GirlKidsFashionProducts'
+import WatchesAccessories from './Component2/WatchesAccessories'
+import WatchesAccessoriesProducts from './Component2/WatchesAccessoriesProducts'
+import BagsAccessories from './Component2/BagsAccessories'
+import BagsAccessoriesProducts from './Component2/BagsAccessoriesProducts'
+import SunglassesAccessories from './Component2/SunglassesAccessories'
+import SunglassesAccessoriesProducts from './Component2/SunglassesAccessoriesProducts'
+import MakeupBeauty from './Component4/MakeupBeauty'
+import MakeupBeautyProducts from './Component4/MakeupBeautyProducts'
+import SkincareBeauty from './Component4/SkincareBeauty'
+import SkincareBeautyProducts from './Component4/SkincareBeautyProducts'
+import HaircareBeauty from './Component4/HaircareBeauty'
+import HaircareBeautyProducts from './Component4/HaircareBeautyProducts'
+import EarringsJewellery from './Component5/EarringsJewellery'
+import EarringsJewelleryProducts from './Component5/EarringsJewelleryProducts'
+import NecklaceJewellery from './Component5/NecklaceJewellery'
+import NecklaceJewelleryProducts from './Component5/NecklaceJewelleryProducts'
+import BanglesJewellery from './Component5/BanglesJewellery'
+import BanglesJewelleryProducts from './Component5/BanglesJwelleryProducts'
+import MenFootwear from './Component3/MenFootwear'
+import MenFootwearProducts from './Component3/MenFootwearProducts'
+import WomenFootwear from './Component3/WomenFootwear'
+import WomenFootwearProducts from './Component3/WomenFootwearProducts'
+import KidsFootwear from './Component3/KidsFootwear'
+import KidsFootwearProducts from './Component3/KidsFootwearProducts'
+import CasualShirtMenFashionProducts from './Component1/CasualShirtMenFashionProducts'
 
 const App = () => {
   return (
@@ -59,6 +84,7 @@ const App = () => {
         <Route path='/fashion/men/products' element={<MenFashionProducts/>}/>
         <Route path='/fashion/men/shirts' element={<ShirtsMenFashion/>}/>
         <Route path='/fashion/men/shirts/products' element={<ShirtsMenFashionProducts/>}/>
+        <Route path='/fashion/men/shirts/casual' element={<CasualShirtMenFashionProducts/>}/>
         <Route path='/fashion/men/pants' element={<PantsMenFashion/>}/>
         <Route path='/fashion/men/pants/products' element={<PantsMenFashionProducts/>}/>
 
@@ -81,18 +107,42 @@ const App = () => {
         {/* accessories routes */}
         <Route path='/accessories' element={<Accessories/>}/>
         <Route path='/accessories/aproducts' element={<AccessoriesProducts/>}/>
+        <Route path='/accessories/watches' element={<WatchesAccessories/>}/>
+        <Route path='/accessories/watches/aproducts' element={<WatchesAccessoriesProducts/>}/>
+        <Route path='/accessories/bags' element={<BagsAccessories/>}/>
+        <Route path='/accessories/bags/aproducts' element={<BagsAccessoriesProducts/>}/>
+        <Route path='/accessories/sunglasses' element={<SunglassesAccessories/>}/>
+        <Route path='/accessories/sunglasses/aproducts' element={<SunglassesAccessoriesProducts/>}/>
 
         {/* footwear routes */}
         <Route path='/footwear' element={<Footwear/>}/>
         <Route path='/footwear/fproducts' element={<FootwearProducts/>}/>
+        <Route path='/footwear/men' element={<MenFootwear/>}/>
+        <Route path='/footwear/men/fproducts' element={<MenFootwearProducts/>}/>
+        <Route path='/footwear/women' element={<WomenFootwear/>}/>
+        <Route path='/footwear/women/fproducts' element={<WomenFootwearProducts/>}/>
+        <Route path='/footwear/kids' element={<KidsFootwear/>}/>
+        <Route path='/footwear/kids/fproducts' element={<KidsFootwearProducts/>}/>
 
         {/* Beauty routes */}
         <Route path='/beauty' element={<Beauty/>}/>
         <Route path='/beauty/bproducts' element={<BeautyProducts/>}/>
+        <Route path='/beauty/makeup' element={<MakeupBeauty/>}/>
+        <Route path='/beauty/makeup/bproducts' element={<MakeupBeautyProducts/>}/>
+        <Route path='/beauty/skincare' element={<SkincareBeauty/>}/>
+        <Route path='/beauty/skincare/bproducts' element={<SkincareBeautyProducts/>}/>
+        <Route path='/beauty/haircare' element={<HaircareBeauty/>}/>
+        <Route path='/beauty/haircare/bproducts' element={<HaircareBeautyProducts/>}/>
 
         {/* Jewellery routes */}
         <Route path='/jewellery' element={<Jewellery/>}/>
         <Route path='/jewellery/jproducts' element={<JewelleryProducts/>}/>
+        <Route path='/jewellery/earrings' element={<EarringsJewellery/>}/>
+        <Route path='/jewellery/earrings/jproducts' element={<EarringsJewelleryProducts/>}/>
+        <Route path='/jewellery/necklace' element={<NecklaceJewellery/>}/>
+        <Route path='/jewellery/necklace/jproducts' element={<NecklaceJewelleryProducts/>}/>
+        <Route path='/jewellery/bangles' element={<BanglesJewellery/>}/>
+        <Route path='/jewellery/bangles/jproducts' element={<BanglesJewelleryProducts/>}/>
 
       </Routes>
       

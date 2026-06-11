@@ -163,11 +163,11 @@ const Beauty = () => {
             {/* Responsive image container */}
             <div className="relative w-full h-full">
               {/* Mobile/Tablet view - shows full image without cropping */}
-              <div className="block md:hidden w-full h-full">
+              <div className="block md:hidden w-full">
                 <img 
                   src={banner.image} 
                   alt={banner.titlePart2} 
-                  className="w-full h-auto md:h-full object-cover"
+                  className="w-full h-[220px] object-cover object-center"
                 />
               </div>
               
@@ -182,29 +182,29 @@ const Beauty = () => {
             </div>
             
             {/* Gradient Overlay - Bottom only */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+            <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
 
             {/* Content - Bottom Right Aligned */}
-            <div className="absolute inset-0 flex flex-col justify-end pb-16 sm:pb-20 md:pb-24 lg:pb-32 px-4 sm:px-8 md:px-12 lg:px-32 items-end">
+            <div className="absolute inset-0 flex flex-col justify-end pb-4 sm:pb-20 md:pb-24 lg:pb-32 px-3 sm:px-8 md:px-12 lg:px-32 items-end">
               <div className={`max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-2xl text-white text-right transition-all duration-1000 delay-300 transform ${
                 idx === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-100'
               }`}>
                 
-                <p className="text-amber-400/90 tracking-[0.3em] sm:tracking-[0.5em] text-[9px] sm:text-[10px] md:text-[11px] font-light uppercase mb-3 sm:mb-5">
+                <p className="text-amber-400/90 tracking-[0.2em] sm:tracking-[0.5em] text-[7px] sm:text-[10px] md:text-[11px] font-semibold uppercase mb-1 sm:mb-5">
                   {banner.subtitle}
                 </p>
                 
-                <h1 className="flex flex-col space-y-1 sm:space-y-2 mb-6 sm:mb-12 items-end">
-                  <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
+                <h1 className="flex flex-col space-y-0.5 sm:space-y-2 mb-3 sm:mb-12 items-end">
+                  <span className="text-xs sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
                     {banner.titlePart1}
                   </span>
-                  <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
+                  <span className="text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
                     {banner.titlePart2}
                   </span>
                 </h1>
                 
                 {/* Gold Divider - Right Aligned */}
-                <div className="h-[1px] w-10 sm:w-12 md:w-16 bg-amber-400/50 mb-6 sm:mb-8 md:mb-12 ml-auto"></div>
+                <div className="h-[1px] w-6 sm:w-12 md:w-16 bg-amber-400/50 mb-2 sm:mb-8 md:mb-12 ml-auto"></div>
                 
                 {/* Button - Right Aligned */}
                 <div className="flex justify-end">
@@ -222,7 +222,7 @@ const Beauty = () => {
         ))}
 
         {/* Premium Indicators */}
-        <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 lg:bottom-12 w-full flex justify-center gap-2 sm:gap-3 md:gap-4 z-20">
+        <div className="hidden sm:flex absolute bottom-4 sm:bottom-6 md:bottom-8 lg:bottom-12 w-full justify-center gap-2 sm:gap-3 md:gap-4 z-20">
           {banners.map((_, idx) => (
             <button
               key={idx}
@@ -250,12 +250,6 @@ const Beauty = () => {
           ›
         </button>
 
-        {/* Mobile Swipe Hint */}
-        <div className="absolute bottom-20 left-1/2 -translate-x-1/2 sm:hidden flex gap-1 text-white/30 text-xs">
-          <span>‹</span>
-          <span className="text-[8px]">swipe</span>
-          <span>›</span>
-        </div>
       </section>
 
       {/* ====== CIRCULAR CATEGORY SECTION - MAKEUP | SKINCARE | HAIRCARE ====== */}

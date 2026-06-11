@@ -159,7 +159,7 @@ const Fashion = () => {
                 </div>
 
               </div>
-            </div>
+              </div>
           </div>
         ))}
 

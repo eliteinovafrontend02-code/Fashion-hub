@@ -163,11 +163,11 @@ const Jewellery = () => {
             {/* Responsive image container */}
             <div className="relative w-full h-full">
               {/* Mobile/Tablet view - shows full image without cropping */}
-              <div className="block md:hidden w-full h-full">
+              <div className="block md:hidden w-full">
                 <img 
                   src={banner.image} 
                   alt={banner.titlePart2} 
-                 className="w-full h-auto md:h-full object-cover"
+                  className="w-full h-[220px] object-cover object-center"
                 />
               </div>
               
@@ -185,20 +185,20 @@ const Jewellery = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
 
             {/* Content - Bottom Right Aligned */}
-            <div className="absolute inset-0 flex flex-col justify-end pb-16 sm:pb-20 md:pb-24 lg:pb-32 px-4 sm:px-8 md:px-12 lg:px-32 items-end">
+            <div className="absolute inset-0 flex flex-col justify-end pb-4 sm:pb-20 md:pb-24 lg:pb-32 px-3 sm:px-8 md:px-12 lg:px-32 items-end">
               <div className={`max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-2xl text-white text-right transition-all duration-1000 delay-300 transform ${
                 idx === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
               }`}>
                 
-                <p className="text-amber-400/90 tracking-[0.3em] sm:tracking-[0.5em] text-[9px] sm:text-[10px] md:text-[11px] font-light uppercase mb-3 sm:mb-5">
+                <p className="text-amber-400/90 tracking-[0.2em] sm:tracking-[0.5em] text-[7px] sm:text-[10px] md:text-[11px] font-semibold uppercase mb-1 sm:mb-5">
                   {banner.subtitle}
                 </p>
                 
-                <h1 className="flex flex-col space-y-1 sm:space-y-2 mb-6 sm:mb-12 items-end">
-                  <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
+                <h1 className="flex flex-col space-y-0.5 sm:space-y-2 mb-3 sm:mb-12 items-end">
+                  <span className="text-xs sm:text-xl md:text-2xl lg:text-3xl font-light italic opacity-90 font-serif">
                     {banner.titlePart1}
                   </span>
-                  <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
+                  <span className="text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-[0.02em] capitalize leading-tight font-light">
                     {banner.titlePart2}
                   </span>
                 </h1>
@@ -209,7 +209,7 @@ const Jewellery = () => {
                 {/* Button - Right Aligned */}
                 <div className="flex justify-end">
                   <Link to={banner.link}>
-                    <button className="group relative border border-white/40 px-5 sm:px-7 md:px-8 lg:px-10 py-2 sm:py-2.5 md:py-3 lg:py-3.5 overflow-hidden text-[8px] sm:text-[9px] md:text-[10px] lg:text-[11px] tracking-[0.2em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
+                    <button className="group relative border border-white/40 px-2 sm:px-7 md:px-8 lg:px-10 py-1 sm:py-2.5 md:py-3 lg:py-3.5 overflow-hidden text-[6px] sm:text-[9px] md:text-[10px] lg:text-[11px] tracking-[0.1em] sm:tracking-[0.3em] font-light transition-all duration-500 text-white hover:border-amber-400/50">
                       <span className="absolute inset-0 w-0 bg-amber-400 transition-all duration-500 ease-out group-hover:w-full"></span>
                       <span className="relative z-10 group-hover:text-black">{banner.cta}</span>
                     </button>
@@ -222,7 +222,7 @@ const Jewellery = () => {
         ))}
 
         {/* Premium Indicators */}
-        <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 lg:bottom-12 w-full flex justify-center gap-2 sm:gap-3 md:gap-4 z-20">
+        <div className="hidden sm:flex absolute bottom-4 sm:bottom-6 md:bottom-8 lg:bottom-12 w-full justify-center gap-2 sm:gap-3 md:gap-4 z-20">
           {banners.map((_, idx) => (
             <button
               key={idx}
@@ -249,13 +249,6 @@ const Jewellery = () => {
         >
           ›
         </button>
-
-        {/* Mobile Swipe Hint */}
-        <div className="absolute bottom-20 left-1/2 -translate-x-1/2 sm:hidden flex gap-1 text-white/30 text-xs">
-          <span>‹</span>
-          <span className="text-[8px]">swipe</span>
-          <span>›</span>
-        </div>
       </section>
 
       {/* ====== CIRCULAR CATEGORY SECTION - EARRINGS | NECKLACE | BANGLES ====== */}

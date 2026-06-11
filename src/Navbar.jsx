@@ -2,6 +2,71 @@ import React, { useState, useEffect, useRef } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { useCart } from './CartContext'
 
+
+const SidebarLeaf = ({ label, to, navigate, closeSidebar }) => (
+  <div
+    onClick={() => { navigate(to); closeSidebar() }}
+    className="px-10 py-2 text-sm text-gray-600 hover:bg-orange-100 hover:text-orange-600 cursor-pointer transition"
+  >
+    {label}
+  </div>
+)
+
+const SidebarLink = ({ label, to, navigate, closeSidebar }) => (
+  <div
+    onClick={() => { navigate(to); closeSidebar() }}
+    className="px-4 py-3 text-sm font-medium text-gray-700 hover:bg-orange-50 hover:text-orange-600 cursor-pointer transition border-b border-orange-100"
+  >
+    {label}
+  </div>
+)
+
+const SidebarSub = ({ label, to, navigate, closeSidebar, children }) => {
+  const [open, setOpen] = useState(false)
+  return (
+    <div>
+      <div className="flex items-center">
+        <div
+          onClick={() => { if (to) { navigate(to); closeSidebar() } }}
+          className="flex-1 px-6 py-2 text-left text-orange-600 hover:bg-orange-100 transition text-sm cursor-pointer"
+        >
+          {label}
+        </div>
+        <button
+          onClick={() => setOpen(o => !o)}
+          className="px-3 py-2 text-orange-600 hover:bg-orange-100 transition outline-none border-none focus:outline-none"
+        >
+          <span className="text-xs transition-transform duration-200" style={{ display: 'inline-block', transform: open ? 'rotate(180deg)' : 'rotate(0deg)' }}>▼</span>
+        </button>
+      </div>
+      {open && <div className="bg-white">{children}</div>}
+    </div>
+  )
+}
+
+const SidebarAccordion = ({ label, to, navigate, closeSidebar, children }) => {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="border-b border-orange-200">
+      <div className="flex items-center">
+        <div
+          onClick={() => { if (to) { navigate(to); closeSidebar() } }}
+          className="flex-1 px-4 py-3 text-left font-semibold text-orange-800 hover:text-orange-500 transition text-sm cursor-pointer tracking-wide"
+        >
+          {label}
+        </div>
+        <button
+          onClick={() => setOpen(o => !o)}
+          className="px-3 py-3 text-orange-700 hover:bg-orange-50 transition outline-none border-none focus:outline-none"
+        >
+          <span className="text-xs transition-transform duration-200" style={{ display: 'inline-block', transform: open ? 'rotate(180deg)' : 'rotate(0deg)' }}>▼</span>
+        </button>
+      </div>
+      {open && <div className="bg-orange-50">{children}</div>}
+    </div>
+  )
+}
+
 const Navbar = () => {
   const { getItemCount, cartItems } = useCart()
   const cartCount = getItemCount()
@@ -120,56 +185,7 @@ const Navbar = () => {
   const closeSidebar = () => setSidebarOpen(false)
 
   // ── Sidebar accordion ──────────────────────────────────────────────────────
-  const SidebarAccordion = ({ label, children }) => {
-    const [open, setOpen] = useState(false)
-    return (
-      <div className="border-b border-orange-200">
-        <button
-          onClick={() => setOpen(o => !o)}
-          className="w-full flex items-center justify-between px-4 py-3 text-left font-semibold text-orange-700 hover:bg-orange-50 transition text-sm"
-        >
-          <span>{label}</span>
-          <span className="text-xs transition-transform duration-200" style={{ display: 'inline-block', transform: open ? 'rotate(180deg)' : 'rotate(0deg)' }}>▼</span>
-        </button>
-        {open && <div className="bg-orange-50">{children}</div>}
-      </div>
-    )
-  }
-
-  const SidebarSub = ({ label, children }) => {
-    const [open, setOpen] = useState(false)
-    return (
-      <div>
-        <button
-          onClick={() => setOpen(o => !o)}
-          className="w-full flex items-center justify-between px-6 py-2 text-left text-orange-600 hover:bg-orange-100 transition text-sm"
-        >
-          <span>{label}</span>
-          <span className="text-xs transition-transform duration-200" style={{ display: 'inline-block', transform: open ? 'rotate(180deg)' : 'rotate(0deg)' }}>▼</span>
-        </button>
-        {open && <div className="bg-white">{children}</div>}
-      </div>
-    )
-  }
-
-  const SidebarLeaf = ({ label, to }) => (
-    <div
-      onClick={() => { navigate(to); closeSidebar() }}
-      className="px-10 py-2 text-sm text-gray-600 hover:bg-orange-100 hover:text-orange-600 cursor-pointer transition"
-    >
-      {label}
-    </div>
-  )
-
-  const SidebarLink = ({ label, to }) => (
-    <div
-      onClick={() => { navigate(to); closeSidebar() }}
-      className="px-4 py-3 text-sm font-medium text-gray-700 hover:bg-orange-50 hover:text-orange-600 cursor-pointer transition border-b border-orange-100"
-    >
-      {label}
-    </div>
-  )
-
+  
   return (
     <>
       {/* ── INLINE STYLES for marquee & sidebar ── */}
@@ -218,171 +234,199 @@ const Navbar = () => {
       {sidebarOpen && <div className="sidebar-overlay" onClick={closeSidebar} />}
 
       {/* ── SIDEBAR PANEL ── */}
-      <div className={`sidebar-panel ${sidebarOpen ? 'open' : ''}`}>
+      <div className={`sidebar-panel ${sidebarOpen ? 'open' : ''}`} style={{background: 'linear-gradient(180deg, #fff8f0 0%, #fff3e8 50%, #fff8f0 100%)'}}>
         {/* Header */}
-        <div className="bg-orange-500 px-4 py-3 flex items-center justify-between flex-shrink-0">
+        <div className="bg-orange-200 border-b border-orange-300 px-4 py-3 flex items-center justify-between flex-shrink-0">
           <div className="flex items-center gap-2">
             <img src="/logo.png" alt="logo" className="w-9 h-9 object-contain" />
-            <span style={{ fontFamily: 'Cookie, cursive' }} className="text-2xl text-white">fashion hub</span>
+            <span style={{ fontFamily: 'Cookie, cursive' }} className="text-2xl text-orange-600">fashion hub</span>
           </div>
           <button
             onClick={closeSidebar}
-            className="text-white bg-orange-600 hover:bg-orange-700 rounded-full w-7 h-7 flex items-center justify-center text-sm transition"
+            className="text-orange-600 bg-orange-200 hover:bg-orange-300 rounded-full w-7 h-7 flex items-center justify-center text-sm transition"
           >✕</button>
         </div>
 
         {/* Mobile search */}
-        <div className="px-3 py-2 bg-orange-50 border-b border-orange-200 flex-shrink-0">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Search products..."
-              value={searchQuery}
-              onChange={e => { setSearchQuery(e.target.value); if (e.target.value) performSearch(e.target.value); else setShowResults(false) }}
-              className="w-full border-2 border-orange-300 rounded-lg px-3 py-2 pr-8 focus:outline-none focus:ring-2 focus:ring-orange-400 text-sm"
-              autoComplete="off"
-            />
-            <span className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 text-sm">🔍</span>
+       {/* Mobile search */}
+<div className="px-3 py-2 bg-white border-b border-orange-100 flex-shrink-0">
+  <div className="relative">
+    <input
+      type="text"
+      placeholder="Search products..."
+      value={searchQuery}
+      onChange={e => { setSearchQuery(e.target.value); if (e.target.value) performSearch(e.target.value); else setShowResults(false) }}
+      className="w-full border-2 border-orange-300 rounded-lg px-3 py-2 pr-8 focus:outline-none focus:ring-2 focus:ring-orange-400 text-sm"
+      autoComplete="off"
+    />
+    <span className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 text-sm">🔍</span>
+  </div>
+
+  {/* Mobile Search Results */}
+            {showResults && searchQuery && (
+              <div className="mt-2 bg-white rounded-lg border border-orange-200 shadow-lg max-h-64 overflow-y-auto">
+                <div className="p-2 border-b border-orange-100 flex justify-between items-center">
+                  <span className="text-xs font-bold text-gray-600">Results ({searchResults.length})</span>
+                  <button onClick={() => setShowResults(false)} className="text-gray-400 text-xs">✕</button>
+                </div>
+                {searchResults.length > 0 ? (
+                  <div>
+                    {searchResults.map((product, index) => (
+                      <div
+                        key={index}
+                        onClick={() => { navigate(product.path); setShowResults(false); setSearchQuery(''); closeSidebar() }}
+                        className="p-3 hover:bg-orange-50 cursor-pointer border-b border-orange-50 last:border-b-0 transition"
+                      >
+                        <p className="font-semibold text-gray-800 text-sm">
+                          {highlightMatch(product.name, searchQuery)}
+                        </p>
+                        <div className="flex gap-2 mt-0.5">
+                          <p className="text-xs text-gray-400">{product.category}</p>
+                          <p className="text-xs text-gray-400">• {product.subcategory}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="text-center py-4">
+                    <p className="text-gray-500 text-sm">No results for "{searchQuery}"</p>
+                    <div className="mt-2 flex flex-wrap gap-1 justify-center px-2">
+                      {['Shirt', 'Watch', 'Shoes', 'Saree', 'Dress', 'Bag'].map(s => (
+                        <button key={s} onClick={() => { setSearchQuery(s); performSearch(s) }}
+                          className="text-xs bg-orange-100 hover:bg-orange-200 px-2 py-1 rounded transition">{s}</button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
-        </div>
 
         {/* Body - scrollable */}
-        <div className="flex-1 ">
+        <div className="flex-1 overflow-y-auto">
 
           {/* Quick links */}
-          <SidebarLink label="🏠  Home" to="/" />
-          <SidebarLink label="ℹ️  About Us" to="/about" />
-          <SidebarLink label="📞  Contact" to="/contact" />
-          <SidebarLink label="🛒  Cart" to="/cart" />
+          <SidebarLink label="🏠  Home" to="/" navigate={navigate} closeSidebar={closeSidebar} />
+          <SidebarLink label="ℹ️  About Us" to="/about" navigate={navigate} closeSidebar={closeSidebar} />
+          <SidebarLink label="📞  Contact" to="/contact" navigate={navigate} closeSidebar={closeSidebar} />
+          <SidebarLink label="🛒  Cart" to="/cart" navigate={navigate} closeSidebar={closeSidebar} />
 
 
           {/* FASHION */}
-          <SidebarAccordion label="👗  Fashion">
-            <SidebarSub label="Men">
-              <SidebarSub label="Shirts">
-                <SidebarLeaf label="Casual" to="/fashion/men/shirts/casual" />
-                <SidebarLeaf label="Printed" to="/fashion/men/shirts/printed" />
-              </SidebarSub>
-              <SidebarSub label="Pants">
-                <SidebarLeaf label="Jean" to="/fashion/men/pants/jean" />
-                <SidebarLeaf label="Formal" to="/fashion/men/pants/formal" />
-              </SidebarSub>
-            </SidebarSub>
-            <SidebarSub label="Women">
-              <SidebarSub label="Saree">
-                <SidebarLeaf label="Casual" to="/fashion/women/saree/casual" />
-                <SidebarLeaf label="Party" to="/fashion/women/saree/party" />
-              </SidebarSub>
-              <SidebarSub label="Dresses">
-                <SidebarLeaf label="Short" to="/fashion/women/dresses/short" />
-                <SidebarLeaf label="Long" to="/fashion/women/dresses/long" />
-              </SidebarSub>
-            </SidebarSub>
-            <SidebarSub label="Kids">
-              <SidebarSub label="Boy">
-                <SidebarLeaf label="Shirt" to="/fashion/kids/boy/shirt" />
-                <SidebarLeaf label="Set" to="/fashion/kids/boy/set" />
-              </SidebarSub>
-              <SidebarSub label="Girl">
-                <SidebarLeaf label="Frock" to="/fashion/kids/girl/frock" />
-                <SidebarLeaf label="Set" to="/fashion/kids/girl/set" />
-              </SidebarSub>
-            </SidebarSub>
-          </SidebarAccordion>
-
-          {/* ACCESSORIES */}
-          <SidebarAccordion label="💎  Accessories">
-            <SidebarSub label="Watches">
-              <SidebarLeaf label="Casual" to="/accessories/watches/casual" />
-              <SidebarLeaf label="Formal" to="/accessories/watches/formal" />
-            </SidebarSub>
-            <SidebarSub label="Bags">
-              <SidebarLeaf label="Handbag" to="/accessories/bags/handbag" />
-              <SidebarLeaf label="Sling" to="/accessories/bags/sling" />
-            </SidebarSub>
-            <SidebarSub label="Sunglasses">
-              <SidebarLeaf label="Round" to="/accessories/sunglasses/round" />
-              <SidebarLeaf label="Square" to="/accessories/sunglasses/square" />
-            </SidebarSub>
-          </SidebarAccordion>
-
-          {/* FOOTWEAR */}
-          <SidebarAccordion label="👟  Footwear">
-            <SidebarSub label="Men">
-              <SidebarSub label="Shoes">
-                <SidebarLeaf label="Casual" to="/footwear/men/shoes/casual" />
-                <SidebarLeaf label="Formal" to="/footwear/men/shoes/formal" />
-              </SidebarSub>
-              <SidebarSub label="Sandals">
-                <SidebarLeaf label="Sports" to="/footwear/men/sandals/sports" />
-                <SidebarLeaf label="Flat" to="/footwear/men/sandals/flat" />
-              </SidebarSub>
-            </SidebarSub>
-            <SidebarSub label="Women">
-              <SidebarSub label="Heels">
-                <SidebarLeaf label="Party" to="/footwear/women/heels/party" />
-                <SidebarLeaf label="Casual" to="/footwear/women/heels/casual" />
-              </SidebarSub>
-              <SidebarSub label="Flats">
-                <SidebarLeaf label="Ballerina" to="/footwear/women/flats/ballerina" />
-                <SidebarLeaf label="Ethnic" to="/footwear/women/flats/ethnic" />
-              </SidebarSub>
-            </SidebarSub>
-            <SidebarSub label="Kids">
-              <SidebarSub label="Boy">
-                <SidebarSub label="Shoes">
-                  <SidebarLeaf label="School" to="/footwear/kids/boy/shoes/school" />
-                  <SidebarLeaf label="Casual" to="/footwear/kids/boy/shoes/casual" />
+              <SidebarAccordion label="👗  Fashion" to="/fashion" navigate={navigate} closeSidebar={closeSidebar}>
+                <SidebarSub label="Men" to="/fashion/men" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarSub label="Shirts" to="/fashion/men/shirts" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Casual" to="/fashion/men/shirts/casual" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Printed" to="/fashion/men/shirts/printed" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                  <SidebarSub label="Pants" to="/fashion/men/pants" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Jean" to="/fashion/men/pants/jean" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Formal" to="/fashion/men/pants/formal" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
                 </SidebarSub>
-                <SidebarSub label="Sandals">
-                  <SidebarLeaf label="Velcro" to="/footwear/kids/boy/sandals/velcro" />
-                  <SidebarLeaf label="Soft" to="/footwear/kids/boy/sandals/soft" />
+                <SidebarSub label="Women" to="/fashion/women" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarSub label="Saree" to="/fashion/women/saree" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Casual" to="/fashion/women/saree/casual" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Party" to="/fashion/women/saree/party" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                  <SidebarSub label="Dresses" to="/fashion/women/dresses" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Short" to="/fashion/women/dresses/short" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Long" to="/fashion/women/dresses/long" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
                 </SidebarSub>
-              </SidebarSub>
-              <SidebarSub label="Girl">
-                <SidebarSub label="Shoes">
-                  <SidebarLeaf label="School" to="/footwear/kids/girl/shoes/school" />
-                  <SidebarLeaf label="Casual" to="/footwear/kids/girl/shoes/casual" />
+                <SidebarSub label="Kids" to="/fashion/kids" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarSub label="Boy" to="/fashion/kids/boy" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Shirt" to="/fashion/kids/boy/shirt" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Set" to="/fashion/kids/boy/set" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                  <SidebarSub label="Girl" to="/fashion/kids/girl" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Frock" to="/fashion/kids/girl/frock" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Set" to="/fashion/kids/girl/set" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
                 </SidebarSub>
-                <SidebarSub label="Sandals">
-                  <SidebarLeaf label="Velcro" to="/footwear/kids/girl/sandals/velcro" />
-                  <SidebarLeaf label="Soft" to="/footwear/kids/girl/sandals/soft" />
-                </SidebarSub>
-              </SidebarSub>
-            </SidebarSub>
-          </SidebarAccordion>
+              </SidebarAccordion>
 
-          {/* BEAUTY */}
-          <SidebarAccordion label="✨  Beauty">
-            <SidebarSub label="Makeup">
-              <SidebarLeaf label="Face" to="/beauty/makeup/face" />
-              <SidebarLeaf label="Lips" to="/beauty/makeup/lips" />
-            </SidebarSub>
-            <SidebarSub label="Skincare">
-              <SidebarLeaf label="Sunscreen" to="/beauty/skincare/sunscreen" />
-              <SidebarLeaf label="Moisturizer" to="/beauty/skincare/moisturizer" />
-            </SidebarSub>
-            <SidebarSub label="Haircare">
-              <SidebarLeaf label="Shampoo" to="/beauty/haircare/shampoo" />
-              <SidebarLeaf label="Oil" to="/beauty/haircare/oil" />
-            </SidebarSub>
-          </SidebarAccordion>
+              {/* ACCESSORIES */}
+              <SidebarAccordion label="💎  Accessories" to="/accessories" navigate={navigate} closeSidebar={closeSidebar}>
+                <SidebarSub label="Watches" to="/accessories/watches" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Casual" to="/accessories/watches/casual" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Formal" to="/accessories/watches/formal" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+                <SidebarSub label="Bags" to="/accessories/bags" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Handbag" to="/accessories/bags/handbag" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Sling" to="/accessories/bags/sling" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+                <SidebarSub label="Sunglasses" to="/accessories/sunglasses" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Round" to="/accessories/sunglasses/round" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Square" to="/accessories/sunglasses/square" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+              </SidebarAccordion>
 
-          {/* JEWELLERY */}
-          <SidebarAccordion label="💍  Jewellery">
-            <SidebarSub label="Earrings">
-              <SidebarLeaf label="Stud" to="/jewellery/earrings/stud" />
-              <SidebarLeaf label="Jhumka" to="/jewellery/earrings/jhumka" />
-            </SidebarSub>
-            <SidebarSub label="Necklace">
-              <SidebarLeaf label="Chain" to="/jewellery/necklace/chain" />
-              <SidebarLeaf label="Choker" to="/jewellery/necklace/choker" />
-            </SidebarSub>
-            <SidebarSub label="Bangles">
-              <SidebarLeaf label="Traditional" to="/jewellery/bangles/traditional" />
-              <SidebarLeaf label="Model" to="/jewellery/bangles/model" />
-            </SidebarSub>
-          </SidebarAccordion>
+              {/* FOOTWEAR */}
+              <SidebarAccordion label="👟  Footwear" to="/footwear" navigate={navigate} closeSidebar={closeSidebar}>
+                <SidebarSub label="Men" to="/footwear/men" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarSub label="Shoes" to="/footwear/men/shoes" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Casual" to="/footwear/men/shoes/casual" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Formal" to="/footwear/men/shoes/formal" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                  <SidebarSub label="Sandals" to="/footwear/men/sandals" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Sports" to="/footwear/men/sandals/sports" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Flat" to="/footwear/men/sandals/flat" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                </SidebarSub>
+                <SidebarSub label="Women" to="/footwear/women" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarSub label="Heels" to="/footwear/women/heels" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Party" to="/footwear/women/heels/party" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Casual" to="/footwear/women/heels/casual" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                  <SidebarSub label="Flats" to="/footwear/women/flats" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Ballerina" to="/footwear/women/flats/ballerina" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Ethnic" to="/footwear/women/flats/ethnic" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                </SidebarSub>
+                <SidebarSub label="Kids" to="/footwear/kids" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarSub label="Boy" to="/footwear/kids/boy" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Shoes" to="/footwear/kids/boy/shoes" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Sandals" to="/footwear/kids/boy/sandals" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                  <SidebarSub label="Girl" to="/footwear/kids/girl" navigate={navigate} closeSidebar={closeSidebar}>
+                    <SidebarLeaf label="Shoes" to="/footwear/kids/girl/shoes" navigate={navigate} closeSidebar={closeSidebar} />
+                    <SidebarLeaf label="Sandals" to="/footwear/kids/girl/sandals" navigate={navigate} closeSidebar={closeSidebar} />
+                  </SidebarSub>
+                </SidebarSub>
+              </SidebarAccordion>
+
+              {/* BEAUTY */}
+              <SidebarAccordion label="✨  Beauty" to="/beauty" navigate={navigate} closeSidebar={closeSidebar}>
+                <SidebarSub label="Makeup" to="/beauty/makeup" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Face" to="/beauty/makeup/face" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Lips" to="/beauty/makeup/lips" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+                <SidebarSub label="Skincare" to="/beauty/skincare" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Sunscreen" to="/beauty/skincare/sunscreen" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Moisturizer" to="/beauty/skincare/moisturizer" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+                <SidebarSub label="Haircare" to="/beauty/haircare" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Shampoo" to="/beauty/haircare/shampoo" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Oil" to="/beauty/haircare/oil" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+              </SidebarAccordion>
+
+              {/* JEWELLERY */}
+              <SidebarAccordion label="💍  Jewellery" to="/jewellery" navigate={navigate} closeSidebar={closeSidebar}>
+                <SidebarSub label="Earrings" to="/jewellery/earrings" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Stud" to="/jewellery/earrings/stud" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Jhumka" to="/jewellery/earrings/jhumka" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+                <SidebarSub label="Necklace" to="/jewellery/necklace" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Chain" to="/jewellery/necklace/chain" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Choker" to="/jewellery/necklace/choker" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+                <SidebarSub label="Bangles" to="/jewellery/bangles" navigate={navigate} closeSidebar={closeSidebar}>
+                  <SidebarLeaf label="Traditional" to="/jewellery/bangles/traditional" navigate={navigate} closeSidebar={closeSidebar} />
+                  <SidebarLeaf label="Model" to="/jewellery/bangles/model" navigate={navigate} closeSidebar={closeSidebar} />
+                </SidebarSub>
+              </SidebarAccordion>
 
         </div>
       </div>
@@ -685,18 +729,9 @@ const Navbar = () => {
                         <NavLink to="/footwear/kids/boy" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Boy ▸</NavLink>
                         <div className="absolute left-full top-0 hidden group-hover/sub:block bg-white shadow-md p-2 min-w-[160px] z-50">
                           <div className="relative group/mini">
-                            <NavLink to="/footwear/kids/boy/shoes" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Shoes ▸</NavLink>
-                            <div className="absolute left-full top-0 hidden group-hover/mini:block bg-white shadow-md p-2 min-w-[140px] z-50">
-                              <NavLink to="/footwear/kids/boy/shoes/school" className="block px-2 py-1 hover:bg-orange-100 text-sm">School</NavLink>
-                              <NavLink to="/footwear/kids/boy/shoes/casual" className="block px-2 py-1 hover:bg-orange-100 text-sm">Casual</NavLink>
-                            </div>
-                          </div>
-                          <div className="relative group/mini mt-1">
-                            <NavLink to="/footwear/kids/boy/sandals" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Sandals ▸</NavLink>
-                            <div className="absolute left-full top-0 hidden group-hover/mini:block bg-white shadow-md p-2 min-w-[140px] z-50">
-                              <NavLink to="/footwear/kids/boy/sandals/velcro" className="block px-2 py-1 hover:bg-orange-100 text-sm">Velcro</NavLink>
-                              <NavLink to="/footwear/kids/boy/sandals/soft" className="block px-2 py-1 hover:bg-orange-100 text-sm">Soft</NavLink>
-                            </div>
+                            <NavLink to="/footwear/kids/boy/shoes" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Shoes </NavLink>
+                            <NavLink to="/footwear/kids/boy/sandals" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Sandals </NavLink>
+                          
                           </div>
                         </div>
                       </div>
@@ -704,18 +739,9 @@ const Navbar = () => {
                         <NavLink to="/footwear/kids/girl" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Girl ▸</NavLink>
                         <div className="absolute left-full top-0 hidden group-hover/sub:block bg-white shadow-md p-2 min-w-[160px] z-50">
                           <div className="relative group/mini">
-                            <NavLink to="/footwear/kids/girl/shoes" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Shoes ▸</NavLink>
-                            <div className="absolute left-full top-0 hidden group-hover/mini:block bg-white shadow-md p-2 min-w-[140px] z-50">
-                              <NavLink to="/footwear/kids/girl/shoes/school" className="block px-2 py-1 hover:bg-orange-100 text-sm">School</NavLink>
-                              <NavLink to="/footwear/kids/girl/shoes/casual" className="block px-2 py-1 hover:bg-orange-100 text-sm">Casual</NavLink>
-                            </div>
-                          </div>
-                          <div className="relative group/mini mt-1">
-                            <NavLink to="/footwear/kids/girl/sandals" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Sandals ▸</NavLink>
-                            <div className="absolute left-full top-0 hidden group-hover/mini:block bg-white shadow-md p-2 min-w-[140px] z-50">
-                              <NavLink to="/footwear/kids/girl/sandals/velcro" className="block px-2 py-1 hover:bg-orange-100 text-sm">Velcro</NavLink>
-                              <NavLink to="/footwear/kids/girl/sandals/soft" className="block px-2 py-1 hover:bg-orange-100 text-sm">Soft</NavLink>
-                            </div>
+                            <NavLink to="/footwear/kids/girl/shoes" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Shoes </NavLink>
+                            <NavLink to="/footwear/kids/girl/sandals" className="block px-2 py-1 hover:bg-orange-100 rounded text-sm">Sandals </NavLink>
+                          
                           </div>
                         </div>
                       </div>
