@@ -61,6 +61,18 @@ import WomenFootwearProducts from './Component3/WomenFootwearProducts'
 import KidsFootwear from './Component3/KidsFootwear'
 import KidsFootwearProducts from './Component3/KidsFootwearProducts'
 import CasualShirtMenFashionProducts from './Component1/CasualShirtMenFashionProducts'
+import ShoesMenFootwear from './Component3/ShoesMenFootwear'
+import ShoesMenFootwearProducts from './Component3/ShoesMenFootwearProducts'
+import SandalsMenFootwear from './Component3/SandalsMenFootwear'
+import SandalsMenFootwearProducts from './Component3/SandalsMenFootwearProducts'
+import HeelsWomenFootwear from './Component3/HeelsWomenFootwear'
+import HeelsWomenFootwearProducts from './Component3/HeelsWomenFootwearProducts'
+import FlatsWomenFootwear from './Component3/FlatsWomenFootwear'
+import FlatsWomenFootwearProducts from './Component3/FlatsWomenFootwearProducts'
+import BoyKidsFootwear from './Component3/BoyKidsFootwear'
+import BoyKidsFootwearProducts from './Component3/BoyKidsFootwearProducts'
+import GirlKidsFootwear from './Component3/GirlKidsFootwear'
+import GirlKidsFootwearProducts from './Component3/GirlKidsFootwearProducts'
 
 const App = () => {
   return (
@@ -117,12 +129,27 @@ const App = () => {
         {/* footwear routes */}
         <Route path='/footwear' element={<Footwear/>}/>
         <Route path='/footwear/fproducts' element={<FootwearProducts/>}/>
+
         <Route path='/footwear/men' element={<MenFootwear/>}/>
         <Route path='/footwear/men/fproducts' element={<MenFootwearProducts/>}/>
+        <Route path='/footwear/men/shoes' element={<ShoesMenFootwear/>}/>
+        <Route path='/footwear/men/shoes/fproducts' element={<ShoesMenFootwearProducts/>}/>
+        <Route path='/footwear/men/sandals' element={<SandalsMenFootwear/>}/>
+        <Route path='/footwear/men/sandals/fproducts' element={<SandalsMenFootwearProducts/>}/>
+
         <Route path='/footwear/women' element={<WomenFootwear/>}/>
         <Route path='/footwear/women/fproducts' element={<WomenFootwearProducts/>}/>
+        <Route path='/footwear/women/heels' element={<HeelsWomenFootwear/>}/>
+        <Route path='/footwear/women/heels/fproducts' element={<HeelsWomenFootwearProducts/>}/>
+        <Route path='/footwear/women/flats' element={<FlatsWomenFootwear/>}/>
+        <Route path='/footwear/women/flats/fproducts' element={<FlatsWomenFootwearProducts/>}/>
+
         <Route path='/footwear/kids' element={<KidsFootwear/>}/>
         <Route path='/footwear/kids/fproducts' element={<KidsFootwearProducts/>}/>
+        <Route path='/footwear/kids/boy' element={<BoyKidsFootwear/>}/>
+        <Route path='/footwear/kids/boy/fproducts' element={<BoyKidsFootwearProducts/>}/>
+        <Route path='/footwear/kids/girl' element={<GirlKidsFootwear/>}/>
+        <Route path='/footwear/kids/girl/fproducts' element={<GirlKidsFootwearProducts/>}/>
 
         {/* Beauty routes */}
         <Route path='/beauty' element={<Beauty/>}/>

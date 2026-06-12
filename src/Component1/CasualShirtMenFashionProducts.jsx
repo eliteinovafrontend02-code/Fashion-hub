@@ -1,662 +1,427 @@
-// CasualShirtMenFashionProducts.jsx
-import React, { useState, useEffect } from "react";
-import { useCart } from '../CartContext';
-import Navbar from "../Navbar";
-import Footer from "../Footer";
-import { useLocation, useNavigate } from 'react-router-dom';
+// CasualShirtsMenFashion.jsx
+import React, { useState, useEffect } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import Navbar from '../Navbar';
+import Footer from '../Footer';
+import ScrollButton from '../ScrollButton';
 
-const CasualShirtMenFashionProducts = () => {
-  const [selectedProduct, setSelectedProduct] = useState(null);
-  const [activeImgIndex, setActiveImgIndex] = useState(0);
-  const [selectedSize, setSelectedSize] = useState("");
-  const [isPaused, setIsPaused] = useState(false);
-  const [isAddingToCart, setIsAddingToCart] = useState(false);
-  const [activeFilter, setActiveFilter] = useState("All");
-
-  const location = useLocation();
+const CasualShirtsMenFashion = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const [activeFilter, setActiveFilter] = useState('all');
+  const [showSizeGuide, setShowSizeGuide] = useState(false);
+  const [showQuickView, setShowQuickView] = useState(null);
+  const [selectedSize, setSelectedSize] = useState('M');
 
-  const { cartItems, addToCart, updateQuantity, removeItem } = useCart();
-
-  const filters = ["All", "Cotton", "Denim", "Linen", "Formal"];
-
-  const products = [
-    {
-      id: 1,
-      name: 'Classic White Cotton Shirt',
-      category: "Men",
-      sub: "Casual • Cotton",
-      fabric: "Cotton",
-      price: 1299,
-      oldPrice: 2499,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1_4.png"
-      ],
-      tag: "Bestseller",
-      color: "Pure White",
-      rating: "4.8",
-      reviews: "3.2k",
-      details: { "Fabric": "100% Cotton", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Collar": "Classic Collar", "Wash": "Machine Wash" }
+  // All Casual Shirts (12 products)
+  const casualProducts = [
+    { 
+      id: 1, 
+      name: 'Wool Blend Winter Shirt', 
+      fabric: 'Wool', 
+      price: 1999, 
+      oldPrice: 3999, 
+      images: ["/Fashion/Men/Shirts/Products/smfp1.png", "/Fashion/Men/Shirts/Products/smfp1_1.png", "/Fashion/Men/Shirts/Products/smfp1_2.png", "/Fashion/Men/Shirts/Products/smfp1_3.png", "/Fashion/Men/Shirts/Products/smfp1_4.png"],
+      tag: 'Winter Edit',
+      color: 'Charcoal',
+      fit: 'Regular Fit',
+      rating: 4.9,
+      reviews: '1.1k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Wool Blend", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Warmth": "High", "Care": "Dry Clean" }
     },
-    {
-      id: 2,
-      name: 'Light Blue Denim Shirt',
-      category: "Men",
-      sub: "Casual • Denim",
-      fabric: "Denim",
-      price: 1699,
-      oldPrice: 3299,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2_4.png"
-      ],
-      tag: "Trending",
-      color: "Light Blue",
-      rating: "4.7",
-      reviews: "2.3k",
-      details: { "Fabric": "Denim", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Style": "Casual", "Wash": "Machine Wash" }
+    { 
+      id: 3, 
+      name: 'Denim Casual Shirt', 
+      fabric: 'Denim', 
+      price: 1699, 
+      oldPrice: 3299, 
+      images: ["/Fashion/Men/Shirts/Products/smfp3.png", "/Fashion/Men/Shirts/Products/smfp3_1.png", "/Fashion/Men/Shirts/Products/smfp3_2.png", "/Fashion/Men/Shirts/Products/smfp3_3.png", "/Fashion/Men/Shirts/Products/smfp3_4.png"],
+      tag: 'Trending',
+      color: 'Light Blue Denim',
+      fit: 'Regular Fit',
+      rating: 4.7,
+      reviews: '2.3k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Denim", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Style": "Casual", "Wash": "Machine Wash" }
     },
-    {
-      id: 3,
-      name: 'Beige Linen Summer Shirt',
-      category: "Men",
-      sub: "Casual • Linen",
-      fabric: "Linen",
-      price: 1499,
-      oldPrice: 2999,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3_4.png"
-      ],
-      tag: "Summer Edit",
-      color: "Beige",
-      rating: "4.6",
-      reviews: "1.8k",
-      details: { "Fabric": "Pure Linen", "Fit": "Relaxed Fit", "Sleeve": "Full Sleeve", "Breathable": "High", "Wash": "Gentle Wash" }
+    { 
+      id: 5, 
+      name: 'Bamboo Cotton Shirt', 
+      fabric: 'Cotton', 
+      price: 1799, 
+      oldPrice: 3599, 
+      images: ["/Fashion/Men/Shirts/Products/smfp5.png", "/Fashion/Men/Shirts/Products/smfp5_1.png", "/Fashion/Men/Shirts/Products/smfp5_2.png", "/Fashion/Men/Shirts/Products/smfp5_3.png", "/Fashion/Men/Shirts/Products/smfp5_4.png"],
+      tag: 'Eco Friendly',
+      color: 'Sage Green',
+      fit: 'Relaxed Fit',
+      rating: 4.8,
+      reviews: '0.8k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Bamboo Cotton", "Fit": "Relaxed Fit", "Sleeve": "Full Sleeve", "Features": "Eco-Friendly", "Wash": "Gentle Cycle" }
     },
-    {
-      id: 4,
-      name: 'Navy Blue Formal Shirt',
-      category: "Men",
-      sub: "Casual • Formal",
-      fabric: "Formal",
-      price: 1899,
-      oldPrice: 3599,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4_4.png"
-      ],
-      tag: "Classic",
-      color: "Navy Blue",
-      rating: "4.9",
-      reviews: "2.7k",
-      details: { "Fabric": "Cotton Blend", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Occasion": "Office/Formal", "Wash": "Machine Wash" }
+    { 
+      id: 7, 
+      name: 'Soft Flannel Shirt', 
+      fabric: 'Flannel', 
+      price: 1299, 
+      oldPrice: 2499, 
+      images: ["/Fashion/Men/Shirts/Products/smfp7.png", "/Fashion/Men/Shirts/Products/smfp7_1.png", "/Fashion/Men/Shirts/Products/smfp7_2.png", "/Fashion/Men/Shirts/Products/smfp7_3.png", "/Fashion/Men/Shirts/Products/smfp7_4.png"],
+      tag: 'Cozy',
+      color: 'Red Plaid',
+      fit: 'Regular Fit',
+      rating: 4.8,
+      reviews: '2.0k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Cotton Flannel", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Occasion": "Winter Casual", "Wash": "Machine Wash" }
     },
-    {
-      id: 5,
-      name: 'Olive Green Cotton Shirt',
-      category: "Men",
-      sub: "Casual • Cotton",
-      fabric: "Cotton",
-      price: 1199,
-      oldPrice: 2399,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5_4.png"
-      ],
-      tag: "New Arrival",
-      color: "Olive Green",
-      rating: "4.5",
-      reviews: "1.1k",
-      details: { "Fabric": "100% Cotton", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Style": "Casual", "Wash": "Machine Wash" }
+    { 
+      id: 9, 
+      name: 'Solid Oxford Shirt', 
+      fabric: 'Cotton', 
+      price: 1499, 
+      oldPrice: 2999, 
+      images: ["/Fashion/Men/Shirts/Products/smfp9.png", "/Fashion/Men/Shirts/Products/smfp9_1.png", "/Fashion/Men/Shirts/Products/smfp9_2.png", "/Fashion/Men/Shirts/Products/smfp9_3.png", "/Fashion/Men/Shirts/Products/smfp9_4.png"],
+      tag: 'Best Seller',
+      color: 'Navy Blue',
+      fit: 'Classic Fit',
+      rating: 4.8,
+      reviews: '3.1k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Oxford Cotton", "Fit": "Classic Fit", "Sleeve": "Full Sleeve", "Occasion": "Casual/Office", "Wash": "Machine Wash" }
     },
-    {
-      id: 6,
-      name: 'Dark Indigo Denim Shirt',
-      category: "Men",
-      sub: "Casual • Denim",
-      fabric: "Denim",
-      price: 1799,
-      oldPrice: 3499,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6_4.png"
-      ],
-      tag: "Premium",
-      color: "Dark Indigo",
-      rating: "4.7",
-      reviews: "1.6k",
-      details: { "Fabric": "Heavy Denim", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Wash": "Cold Wash", "Style": "Rugged Casual" }
+    { 
+      id: 11, 
+      name: 'Cotton Linen Shirt', 
+      fabric: 'Linen', 
+      price: 1399, 
+      oldPrice: 2799, 
+      images: ["/Fashion/Men/Shirts/Products/smfp11.png", "/Fashion/Men/Shirts/Products/smfp11_1.png", "/Fashion/Men/Shirts/Products/smfp11_2.png", "/Fashion/Men/Shirts/Products/smfp11_3.png", "/Fashion/Men/Shirts/Products/smfp11_4.png"],
+      tag: 'Summer Edit',
+      color: 'Off White',
+      fit: 'Relaxed Fit',
+      rating: 4.5,
+      reviews: '1.9k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Cotton Linen Blend", "Fit": "Relaxed Fit", "Sleeve": "Half Sleeve", "Occasion": "Beach/Casual", "Wash": "Machine Wash" }
     },
-    {
-      id: 7,
-      name: 'White Linen Casual Shirt',
-      category: "Men",
-      sub: "Casual • Linen",
-      fabric: "Linen",
-      price: 1599,
-      oldPrice: 3199,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7_4.png"
-      ],
-      tag: "Essentials",
-      color: "Off White",
-      rating: "4.8",
-      reviews: "2.1k",
-      details: { "Fabric": "Linen Blend", "Fit": "Relaxed Fit", "Sleeve": "Full Sleeve", "Breathable": "Very High", "Wash": "Hand Wash" }
+    { 
+      id: 13, 
+      name: 'Premium Cotton Shirt', 
+      fabric: 'Cotton', 
+      price: 1599, 
+      oldPrice: 3199, 
+      images: ["/Fashion/Men/Shirts/Products/smfp1.png", "/Fashion/Men/Shirts/Products/smfp1_1.png", "/Fashion/Men/Shirts/Products/smfp1_2.png", "/Fashion/Men/Shirts/Products/smfp1_3.png", "/Fashion/Men/Shirts/Products/smfp1_4.png"],
+      tag: 'Premium',
+      color: 'White',
+      fit: 'Slim Fit',
+      rating: 4.7,
+      reviews: '1.2k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Egyptian Cotton", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Quality": "Premium", "Wash": "Machine Wash" }
     },
-    {
-      id: 8,
-      name: 'Sky Blue Formal Shirt',
-      category: "Men",
-      sub: "Casual • Formal",
-      fabric: "Formal",
-      price: 1999,
-      oldPrice: 3999,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8_4.png"
-      ],
-      tag: "Signature",
-      color: "Sky Blue",
-      rating: "4.9",
-      reviews: "3.5k",
-      details: { "Fabric": "Poly Cotton", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Occasion": "Office/Events", "Wash": "Machine Wash" }
+    { 
+      id: 14, 
+      name: 'Summer Linen Shirt', 
+      fabric: 'Linen', 
+      price: 1499, 
+      oldPrice: 2999, 
+      images: ["/Fashion/Men/Shirts/Products/smfp11.png", "/Fashion/Men/Shirts/Products/smfp11_1.png", "/Fashion/Men/Shirts/Products/smfp11_2.png", "/Fashion/Men/Shirts/Products/smfp11_3.png", "/Fashion/Men/Shirts/Products/smfp11_4.png"],
+      tag: 'Breezy',
+      color: 'Beige',
+      fit: 'Relaxed Fit',
+      rating: 4.6,
+      reviews: '0.9k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Pure Linen", "Fit": "Relaxed Fit", "Sleeve": "Half Sleeve", "Occasion": "Summer Casual", "Wash": "Gentle Cycle" }
     },
-    {
-      id: 9,
-      name: 'Rust Brown Cotton Shirt',
-      category: "Men",
-      sub: "Casual • Cotton",
-      fabric: "Cotton",
-      price: 1299,
-      oldPrice: 2599,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9_4.png"
-      ],
-      tag: "Trending",
-      color: "Rust Brown",
-      rating: "4.6",
-      reviews: "1.4k",
-      details: { "Fabric": "100% Cotton", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Style": "Casual", "Wash": "Machine Wash" }
+    { 
+      id: 15, 
+      name: 'Classic Denim Shirt', 
+      fabric: 'Denim', 
+      price: 1799, 
+      oldPrice: 3599, 
+      images: ["/Fashion/Men/Shirts/Products/smfp3.png", "/Fashion/Men/Shirts/Products/smfp3_1.png", "/Fashion/Men/Shirts/Products/smfp3_2.png", "/Fashion/Men/Shirts/Products/smfp3_3.png", "/Fashion/Men/Shirts/Products/smfp3_4.png"],
+      tag: 'Classic',
+      color: 'Washed Blue',
+      fit: 'Regular Fit',
+      rating: 4.7,
+      reviews: '1.5k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Denim", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Style": "Classic", "Wash": "Machine Wash" }
     },
-    {
-      id: 10,
-      name: 'Grey Washed Denim Shirt',
-      category: "Men",
-      sub: "Casual • Denim",
-      fabric: "Denim",
-      price: 1599,
-      oldPrice: 3199,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10_4.png"
-      ],
-      tag: "New Arrival",
-      color: "Grey Washed",
-      rating: "4.5",
-      reviews: "0.9k",
-      details: { "Fabric": "Washed Denim", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Style": "Street Casual", "Wash": "Machine Wash" }
+    { 
+      id: 16, 
+      name: 'Washed Flannel Shirt', 
+      fabric: 'Flannel', 
+      price: 1399, 
+      oldPrice: 2799, 
+      images: ["/Fashion/Men/Shirts/Products/smfp7.png", "/Fashion/Men/Shirts/Products/smfp7_1.png", "/Fashion/Men/Shirts/Products/smfp7_2.png", "/Fashion/Men/Shirts/Products/smfp7_3.png", "/Fashion/Men/Shirts/Products/smfp7_4.png"],
+      tag: 'Weekend Wear',
+      color: 'Green Plaid',
+      fit: 'Regular Fit',
+      rating: 4.7,
+      reviews: '1.1k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Cotton Flannel", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Style": "Washed", "Wash": "Machine Wash" }
     },
-    {
-      id: 11,
-      name: 'Sage Green Linen Shirt',
-      category: "Men",
-      sub: "Casual • Linen",
-      fabric: "Linen",
-      price: 1699,
-      oldPrice: 3399,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11_4.png"
-      ],
-      tag: "Summer Edit",
-      color: "Sage Green",
-      rating: "4.7",
-      reviews: "1.3k",
-      details: { "Fabric": "Pure Linen", "Fit": "Relaxed Fit", "Sleeve": "Full Sleeve", "Breathable": "High", "Wash": "Gentle Wash" }
+    { 
+      id: 17, 
+      name: 'Organic Cotton Shirt', 
+      fabric: 'Cotton', 
+      price: 1699, 
+      oldPrice: 3399, 
+      images: ["/Fashion/Men/Shirts/Products/smfp5.png", "/Fashion/Men/Shirts/Products/smfp5_1.png", "/Fashion/Men/Shirts/Products/smfp5_2.png", "/Fashion/Men/Shirts/Products/smfp5_3.png", "/Fashion/Men/Shirts/Products/smfp5_4.png"],
+      tag: 'Sustainable',
+      color: 'Natural',
+      fit: 'Regular Fit',
+      rating: 4.9,
+      reviews: '0.7k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Organic Cotton", "Fit": "Regular Fit", "Sleeve": "Full Sleeve", "Certified": "GOTS", "Wash": "Machine Wash" }
     },
-    {
-      id: 12,
-      name: 'Charcoal Grey Formal Shirt',
-      category: "Men",
-      sub: "Casual • Formal",
-      fabric: "Formal",
-      price: 2099,
-      oldPrice: 4199,
-      images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12_4.png"
-      ],
-      tag: "Premium",
-      color: "Charcoal Grey",
-      rating: "4.8",
-      reviews: "2.0k",
-      details: { "Fabric": "Lycra Cotton", "Fit": "Slim Fit", "Sleeve": "Full Sleeve", "Occasion": "Formal/Party", "Wash": "Machine Wash" }
+    { 
+      id: 18, 
+      name: 'Airy Linen Shirt', 
+      fabric: 'Linen', 
+      price: 1599, 
+      oldPrice: 3199, 
+      images: ["/Fashion/Men/Shirts/Products/smfp9.png", "/Fashion/Men/Shirts/Products/smfp9_1.png", "/Fashion/Men/Shirts/Products/smfp9_2.png", "/Fashion/Men/Shirts/Products/smfp9_3.png", "/Fashion/Men/Shirts/Products/smfp9_4.png"],
+      tag: 'Bestseller',
+      color: 'Sky Blue',
+      fit: 'Relaxed Fit',
+      rating: 4.6,
+      reviews: '2.1k',
+      sub: 'Shirts • Casual',
+      details: { "Fabric": "Linen Blend", "Fit": "Relaxed Fit", "Sleeve": "Half Sleeve", "Breathability": "High", "Wash": "Gentle Cycle" }
     }
   ];
 
-  // Filtered products
-  const filteredProducts = activeFilter === "All"
-    ? products
-    : products.filter(p => p.fabric === activeFilter);
+  const filters = ['all', 'Cotton', 'Linen', 'Denim', 'Flannel', 'Wool'];
+  
+  const filteredProducts = activeFilter === 'all' 
+    ? casualProducts 
+    : casualProducts.filter(p => p.fabric === activeFilter);
 
-  const getCartQuantity = (productId, size) => {
-    const cartItem = cartItems.find(item =>
-      item.id === productId && item.selectedSize === size
-    );
-    return cartItem?.quantity || 0;
+  // Handle product click - navigates to products page with selected product
+  const handleProductClick = (product) => {
+    navigate('/fashion/men/shirts/products', { 
+      state: { defaultSelectedProductId: product.id } 
+    });
   };
 
-  const getSizes = () => ["S", "M", "L", "XL"];
-
-  // Slideshow in modal
-  useEffect(() => {
-    let interval;
-    if (selectedProduct && !isPaused) {
-      interval = setInterval(() => {
-        setActiveImgIndex((prev) => (prev + 1) % selectedProduct.images.length);
-      }, 3000);
-    }
-    return () => clearInterval(interval);
-  }, [selectedProduct, isPaused]);
-
-  // Lock scroll when modal open
-  useEffect(() => {
-    if (selectedProduct) {
-      document.documentElement.style.overflow = "hidden";
-      document.body.style.overflow = "hidden";
-    } else {
-      document.documentElement.style.overflow = "auto";
-      document.body.style.overflow = "auto";
-    }
-    return () => {
-      document.documentElement.style.overflow = "auto";
-      document.body.style.overflow = "auto";
-    };
-  }, [selectedProduct]);
-
-  useEffect(() => {
-    if (location.state && location.state.defaultSelectedProductId) {
-      const productId = location.state.defaultSelectedProductId;
-      const productToOpen = products.find(p => p.id === productId);
-      if (productToOpen) {
-        setSelectedProduct(productToOpen);
-        setActiveImgIndex(0);
-        setSelectedSize(getSizes()[0]);
-      }
-    }
-  }, [location.state]);
-
-  const handleOpenProduct = (product) => {
-    setSelectedProduct(product);
-    setActiveImgIndex(0);
-    setIsPaused(false);
-    setSelectedSize(getSizes()[0]);
-  };
-
-  const handleClose = () => {
-    setSelectedProduct(null);
-    setActiveImgIndex(0);
-    setSelectedSize("");
-    setIsPaused(false);
-  };
-
-  const handleAddToCart = async (product, size) => {
-    if (!size) { alert("Please select a size"); return; }
-    setIsAddingToCart(true);
-    await new Promise(resolve => setTimeout(resolve, 500));
-    addToCart(product, 1, size, product.color);
-    setIsAddingToCart(false);
-  };
-
-  const handleGoToCart = async () => {
-    const currentQuantity = getCartQuantity(selectedProduct.id, selectedSize);
-    if (currentQuantity === 0) await handleAddToCart(selectedProduct, selectedSize);
-    navigate('/cart');
-  };
-
-  const handleBuyNow = async () => {
-    const currentQuantity = getCartQuantity(selectedProduct.id, selectedSize);
-    if (currentQuantity === 0) await handleAddToCart(selectedProduct, selectedSize);
-    navigate('/cart');
-  };
-
-  const handleUpdateQuantity = (productId, size, delta) => {
-    const currentQty = getCartQuantity(productId, size);
-    const newQty = currentQty + delta;
-    if (newQty <= 0) {
-      removeItem(productId, size, selectedProduct?.color);
-    } else {
-      updateQuantity(productId, newQty, size, selectedProduct?.color);
-    }
-  };
+  // Get size options
+  const getSizes = () => ["S", "M", "L", "XL", "XXL"];
 
   return (
-    <>
+    <div className="bg-[#faf8f5] min-h-screen">
       <Navbar />
 
-      {/* ====== HERO BANNER ====== */}
-      <div className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] overflow-hidden">
-        <img
-          src="/Fashion/Men/Shirts/Casual/csmfhero.png"
-          alt="Casual Shirts"
+      {/* Hero Section */}
+      <section className="relative h-[45vh] md:h-[55vh] overflow-hidden">
+        <img 
+          src="/Fashion/Men/Shirts/casual-hero-banner.png"
+          alt="Casual Shirts Collection"
           className="w-full h-full object-cover object-center"
+          onError={(e) => {
+            e.target.src = "/Fashion/Men/Shirts/smfbanner1.png";
+          }}
         />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-
-        {/* Text overlay */}
-        <div className="absolute inset-0 flex flex-col items-center justify-end pb-8 sm:pb-12 md:pb-16 text-center px-4">
-          <p className="text-amber-400 text-[9px] sm:text-[11px] tracking-[0.4em] sm:tracking-[0.6em] uppercase font-semibold mb-2 sm:mb-3">
-            Men • Casual • Collection
-          </p>
-          <h1 className="text-white font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wide capitalize">
-            Casual Shirts
-          </h1>
-          <div className="h-[1px] w-12 sm:w-16 bg-amber-400/60 mt-3 sm:mt-5"></div>
-          <p className="text-white/70 text-[10px] sm:text-xs mt-3 tracking-[0.2em] uppercase">
-            {products.length} Premium Styles
-          </p>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-12 md:pb-20">
+          <div className="text-center text-white px-4">
+            <p className="text-amber-300 tracking-[0.3em] text-[10px] md:text-xs mb-3 font-semibold">
+              12 ESSENTIAL PIECES
+            </p>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-light tracking-wide">
+              The Casual Edit
+            </h1>
+            <div className="h-[1px] w-12 bg-amber-400 mx-auto mt-4 mb-4"></div>
+            <p className="text-sm md:text-base font-light tracking-wide max-w-lg mx-auto">
+              Curated collection of everyday comfort shirts
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
-      {/* ====== FILTER BAR ====== */}
-      <div className="sticky top-[68px] md:top-[220px] z-[80] bg-white border-b border-gray-100 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-2 sm:gap-3 overflow-x-auto scrollbar-hide">
-          <span className="text-[10px] text-gray-400 uppercase tracking-widest font-bold whitespace-nowrap mr-1">
-            Filter:
-          </span>
-          {filters.map(filter => (
-            <button
-              key={filter}
-              onClick={() => setActiveFilter(filter)}
-              className={`whitespace-nowrap px-4 sm:px-5 py-1.5 sm:py-2 rounded-full text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-all duration-300 border ${
-                activeFilter === filter
-                  ? 'bg-slate-900 text-white border-slate-900 shadow-md'
-                  : 'bg-white text-gray-500 border-gray-200 hover:border-slate-900 hover:text-slate-900'
-              }`}
-            >
-              {filter}
-              {filter !== "All" && (
-                <span className="ml-1 text-[9px] opacity-60">
-                  ({products.filter(p => p.fabric === filter).length})
-                </span>
-              )}
-            </button>
-          ))}
-          {activeFilter !== "All" && (
-            <button
-              onClick={() => setActiveFilter("All")}
-              className="whitespace-nowrap px-3 py-1.5 rounded-full text-[10px] font-bold text-orange-600 border border-orange-200 hover:bg-orange-50 transition ml-auto"
-            >
-              Clear ✕
-            </button>
-          )}
-        </div>
-      </div>
-
-      {/* ====== PRODUCT GRID ====== */}
-      <div className="bg-[#f8f7f4] py-12 px-4 sm:px-6 md:px-12 lg:px-24 min-h-screen font-sans text-slate-900">
-
-        {/* Results count */}
-        <div className="mb-6 sm:mb-8 flex items-center justify-between">
-          <p className="text-xs text-gray-400 tracking-widest uppercase">
-            Showing <span className="text-slate-900 font-bold">{filteredProducts.length}</span> of {products.length} styles
-          </p>
-          {activeFilter !== "All" && (
-            <span className="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded-full font-bold uppercase tracking-wider">
-              {activeFilter}
-            </span>
-          )}
-        </div>
-
-        {/* Grid */}
-        {filteredProducts.length > 0 ? (
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 sm:gap-x-6 md:gap-x-10 gap-y-10 sm:gap-y-14 md:gap-y-20 mb-16">
-            {filteredProducts.map((p) => (
-              <div
-                key={p.id}
-                className="group cursor-pointer relative"
-                onClick={() => handleOpenProduct(p)}
+      {/* Filter Pills */}
+      <div className="sticky top-0 z-20 bg-[#faf8f5]/95 backdrop-blur-sm border-b border-gray-200 py-4 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-2 md:gap-3">
+            {filters.map(filter => (
+              <button
+                key={filter}
+                onClick={() => setActiveFilter(filter)}
+                className={`px-4 md:px-6 py-1.5 md:py-2 text-[10px] md:text-[11px] uppercase tracking-[0.2em] rounded-full transition-all duration-300 ${
+                  activeFilter === filter
+                    ? 'bg-black text-white'
+                    : 'bg-transparent text-gray-600 border border-gray-300 hover:border-black hover:text-black'
+                }`}
               >
-                <div className="relative overflow-hidden aspect-[3/4] bg-white transition-all duration-1000 group-hover:shadow-2xl group-hover:-translate-y-3 rounded-[16px] sm:rounded-[24px]">
-                  <img
-                    src={p.images[0]}
-                    className="w-full h-full object-cover transition-transform duration-[1.5s] group-hover:scale-110"
-                    alt={p.name}
-                  />
-                  <div className="absolute top-3 right-3 sm:top-5 sm:right-5 bg-white/90 backdrop-blur-sm px-2 sm:px-4 py-1 sm:py-1.5 text-[7px] sm:text-[8px] font-black uppercase tracking-widest rounded-full">
-                    {p.tag}
-                  </div>
-                  {/* Fabric badge */}
-                  <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 bg-black/70 text-white px-2 py-0.5 text-[7px] sm:text-[8px] uppercase tracking-wider rounded-full font-bold">
-                    {p.fabric}
-                  </div>
-                </div>
-                <div className="mt-4 sm:mt-6 md:mt-8 space-y-1 sm:space-y-2 px-1 text-center md:text-left">
-                  <p className="text-[8px] sm:text-[9px] text-orange-800 font-bold uppercase tracking-[0.2em] opacity-50">{p.sub}</p>
-                  <h3 className="text-[12px] sm:text-[13px] md:text-[14px] font-bold tracking-wide uppercase group-hover:text-orange-700 leading-tight">{p.name}</h3>
-                  <p className="font-medium text-sm sm:text-base md:text-lg tracking-tight text-slate-700">
-                    ₹{p.price.toLocaleString()}
-                    <span className="text-slate-300 line-through ml-2 text-[11px] sm:text-[13px]">₹{p.oldPrice.toLocaleString()}</span>
-                  </p>
-                </div>
-              </div>
+                {filter === 'all' ? 'All Shirts' : filter}
+              </button>
             ))}
           </div>
-        ) : (
-          <div className="text-center py-24">
-            <p className="text-4xl mb-4">👕</p>
-            <p className="text-gray-400 text-sm tracking-widest uppercase">No products found for "{activeFilter}"</p>
-            <button
-              onClick={() => setActiveFilter("All")}
-              className="mt-6 px-6 py-2 bg-slate-900 text-white text-xs uppercase tracking-widest rounded-full hover:bg-orange-600 transition"
-            >
-              View All
-            </button>
-          </div>
-        )}
+          
+          {/* Product count */}
+          <p className="text-center text-[10px] text-gray-400 mt-3 tracking-wide">
+            {filteredProducts.length} {filteredProducts.length === 1 ? 'shirt' : 'shirts'} available
+          </p>
+        </div>
       </div>
 
-      {/* ====== MODAL ====== */}
-      {selectedProduct && (
-        <div
-          className="fixed inset-0 z-[90] flex items-center justify-center animate-in fade-in duration-300"
-          style={{ padding: '120px 25px 25px 25px' }}
-        >
-          {/* Backdrop */}
-          <div
-            className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm"
-            onClick={handleClose}
-            style={{ zIndex: -1 }}
-          ></div>
-
-          <div className="relative bg-white w-full max-w-7xl h-full md:h-[90vh] overflow-hidden flex flex-col md:flex-row shadow-[0_50px_100px_rgba(0,0,0,0.4)] rounded-[20px] md:rounded-[40px] animate-in zoom-in-95 duration-500 ring-1 ring-slate-100">
-
-            {/* Close button */}
-            <button
-              onClick={handleClose}
-              className="absolute top-3 right-3 z-[95] w-9 h-9 flex items-center justify-center bg-white hover:bg-slate-100 rounded-full text-slate-600 hover:text-black transition-all shadow-lg text-base font-bold"
-            >✕</button>
-
-            {/* LEFT: Images */}
-            <div className="md:w-3/5 bg-[#f3f2ee] flex flex-row h-[62vh] md:h-full relative overflow-hidden">
-              {/* Thumbnails */}
-              <div
-                className="flex flex-col gap-2 p-2 z-10 w-1/4 justify-center overflow-y-auto"
-                onMouseEnter={() => setIsPaused(true)}
-                onMouseLeave={() => setIsPaused(false)}
-              >
-                {selectedProduct.images.map((img, i) => (
-                  <div
-                    key={i}
-                    onMouseEnter={() => setActiveImgIndex(i)}
-                    onClick={() => setActiveImgIndex(i)}
-                    className={`w-full h-14 md:h-20 cursor-pointer overflow-hidden transition-all duration-500 rounded-lg ${
-                      activeImgIndex === i
-                        ? 'ring-2 ring-orange-500 shadow-xl scale-105'
-                        : 'opacity-50 hover:opacity-100'
-                    }`}
+      {/* Product Grid - 3x4 Layout for 12 products */}
+      <section className="py-12 md:py-16 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+          {filteredProducts.map((product) => (
+            <div
+              key={product.id}
+              className="group cursor-pointer"
+              onClick={() => handleProductClick(product)}
+            >
+              <div className="relative overflow-hidden bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1">
+                {/* Image Container */}
+                <div className="aspect-[3/4] overflow-hidden bg-gray-100">
+                  <img
+                    src={product.images[0]}
+                    alt={product.name}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                
+                {/* Tag Badge */}
+                <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2 py-0.5 text-[8px] font-bold uppercase tracking-wider rounded">
+                  {product.tag}
+                </span>
+                
+                {/* Rating Badge */}
+                <span className="absolute top-3 right-3 bg-black/70 backdrop-blur-sm px-2 py-0.5 text-[8px] font-bold text-white rounded-full flex items-center gap-1">
+                  ★ {product.rating}
+                </span>
+                
+                {/* Quick View Overlay */}
+                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
+                  <button 
+                    className="bg-white text-black px-6 py-2 text-[10px] font-bold uppercase tracking-[0.2em] rounded-full hover:bg-black hover:text-white transition-colors"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setShowQuickView(product);
+                    }}
                   >
-                    <img src={img} className="w-full h-full object-cover" alt="" />
-                  </div>
-                ))}
+                    Quick View
+                  </button>
+                </div>
               </div>
-
-              {/* Main image */}
-              <div className="relative w-3/4 h-full overflow-hidden">
-                <img
-                  key={selectedProduct.id + activeImgIndex}
-                  src={selectedProduct.images[activeImgIndex]}
-                  className="w-full h-full object-cover transition-all duration-700"
-                  alt=""
-                />
+              
+              {/* Product Info */}
+              <div className="mt-4 text-center">
+                <p className="text-[9px] text-amber-700 uppercase tracking-[0.2em] font-semibold mb-1">
+                  {product.fabric}
+                </p>
+                <h3 className="text-sm md:text-base font-medium text-gray-800 group-hover:text-amber-700 transition-colors">
+                  {product.name}
+                </h3>
+                <div className="mt-2 flex justify-center items-center gap-2">
+                  <span className="text-gray-400 line-through text-xs">
+                    ₹{product.oldPrice.toLocaleString()}
+                  </span>
+                  <span className="text-black font-bold text-base">
+                    ₹{product.price.toLocaleString()}
+                  </span>
+                </div>
               </div>
             </div>
+          ))}
+        </div>
+      </section>
 
-            {/* RIGHT: Info */}
-            <div className="md:w-2/5 p-6 sm:p-10 md:p-16 overflow-y-auto flex flex-col bg-[#f4f3f0] border-l border-slate-100">
-              <div className="mb-auto">
-                <p className="text-orange-700 font-bold text-[10px] uppercase tracking-[0.4em] mb-3">{selectedProduct.sub}</p>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif italic text-slate-950 leading-tight uppercase mb-6">{selectedProduct.name}</h2>
+      {/* Size Guide Banner */}
+      <section className="py-16 px-4 bg-[#e8e4db] mt-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="inline-block p-4 bg-white rounded-full mb-4 shadow-md">
+            <span className="text-2xl">📏</span>
+          </div>
+          <h3 className="text-xl md:text-2xl font-serif mb-3 text-gray-800">Need help with sizing?</h3>
+          <p className="text-gray-600 text-sm mb-6 max-w-md mx-auto">Check our detailed size guide to find your perfect fit</p>
+          <button 
+            onClick={() => setShowSizeGuide(true)}
+            className="border border-black px-8 py-3 text-[11px] uppercase tracking-[0.2em] hover:bg-black hover:text-white transition-colors"
+          >
+            View Size Guide
+          </button>
+        </div>
+      </section>
 
-                <div className="flex items-center gap-4 sm:gap-6 mb-6 sm:mb-10">
-                  <span className="text-[11px] font-bold bg-slate-950 text-white px-4 py-1.5 rounded-full">★ {selectedProduct.rating}</span>
-                  <span className="text-slate-500 text-[10px] font-bold tracking-widest">{selectedProduct.reviews} REVIEWS</span>
-                </div>
+      {/* Back to Shirts Link */}
+      <section className="py-12 px-4 text-center">
+        <Link to="/fashion/men/shirts">
+          <button className="group flex items-center gap-2 mx-auto text-gray-500 hover:text-black transition-colors">
+            <span className="text-lg">←</span>
+            <span className="text-[10px] uppercase tracking-[0.2em]">Back to All Shirts</span>
+          </button>
+        </Link>
+      </section>
 
-                <div className="flex items-baseline gap-4 mb-6 sm:mb-10">
-                  <span className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tighter text-slate-950">₹{selectedProduct.price.toLocaleString()}</span>
-                  <span className="text-slate-300 line-through text-lg sm:text-xl">₹{selectedProduct.oldPrice.toLocaleString()}</span>
-                </div>
-
-                <div className="space-y-3 sm:space-y-4 mb-8 sm:mb-12">
-                  {Object.entries(selectedProduct.details).map(([key, value]) => (
-                    <div key={key} className="flex justify-between text-[13px] border-b border-slate-200/60 pb-2 sm:pb-3 group/item">
-                      <span className="text-slate-500 uppercase tracking-widest text-[10px] font-bold group-hover/item:text-slate-800 transition-colors">{key}</span>
-                      <span className="text-slate-950 font-bold text-sm">{value}</span>
-                    </div>
-                  ))}
-                  <div className="flex justify-between text-[13px] pt-2">
-                    <span className="text-slate-500 uppercase tracking-widest text-[10px] font-bold">Base Color</span>
-                    <span className="text-black font-bold border-b-2 border-orange-500 pb-1">{selectedProduct.color}</span>
-                  </div>
-                </div>
-
-                {/* Size selector */}
-                <div className="mb-8 sm:mb-10">
-                  <p className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-500 mb-4 sm:mb-5">Select Size</p>
-                  <div className="flex flex-wrap gap-2 sm:gap-3">
-                    {getSizes().map(s => {
-                      const cartQty = getCartQuantity(selectedProduct.id, s);
-                      return (
-                        <button
-                          key={s}
-                          onClick={() => setSelectedSize(s)}
-                          className={`h-10 sm:h-12 min-w-[55px] sm:min-w-[65px] text-[11px] font-bold transition-all rounded-2xl border ${
-                            selectedSize === s
-                              ? 'bg-slate-950 text-white border-slate-950 shadow-lg -translate-y-1'
-                              : 'border-slate-200/80 bg-white/50 text-slate-500 hover:border-slate-950 hover:text-slate-950 hover:bg-white'
-                          }`}
-                        >
-                          {s}
-                          {cartQty > 0 && selectedSize === s && (
-                            <span className="ml-1 text-xs">({cartQty})</span>
-                          )}
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
+      {/* Quick View Modal */}
+      {showQuickView && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowQuickView(null)}></div>
+          
+          <div className="relative bg-white w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl animate-in zoom-in-95 duration-300">
+            <button 
+              onClick={() => setShowQuickView(null)}
+              className="absolute top-4 right-4 z-10 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-gray-100"
+            >
+              ✕
+            </button>
+            
+            <div className="flex flex-col md:flex-row">
+              {/* Image */}
+              <div className="md:w-1/2 bg-gray-100">
+                <img 
+                  src={showQuickView.images[0]} 
+                  alt={showQuickView.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
-
-              {/* Action buttons */}
-              <div className="space-y-3 sm:space-y-4 pt-4 sm:pt-6 border-t border-slate-200/60">
-                {getCartQuantity(selectedProduct.id, selectedSize) > 0 ? (
-                  <div className="flex items-center gap-3 h-14 sm:h-16 animate-in slide-in-from-bottom-2">
-                    <div className="flex items-center justify-between bg-slate-100/50 h-full px-5 sm:px-8 flex-1 max-w-[140px] sm:max-w-[160px] rounded-full border border-slate-200/60 shadow-inner">
+              
+              {/* Info */}
+              <div className="md:w-1/2 p-6 md:p-8">
+                <p className="text-amber-700 text-[9px] tracking-[0.3em] uppercase font-bold mb-2">
+                  {showQuickView.sub}
+                </p>
+                <h2 className="text-2xl font-serif mb-3">{showQuickView.name}</h2>
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="text-2xl font-bold">₹{showQuickView.price.toLocaleString()}</span>
+                  <span className="text-gray-400 line-through">₹{showQuickView.oldPrice.toLocaleString()}</span>
+                </div>
+                
+                <div className="mb-4">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] mb-2">Select Size</p>
+                  <div className="flex gap-2">
+                    {getSizes().map(s => (
                       <button
-                        onClick={() => handleUpdateQuantity(selectedProduct.id, selectedSize, -1)}
-                        className="text-xl text-slate-500 hover:text-orange-600 font-light transition-colors"
-                      >−</button>
-                      <span className="font-bold text-lg text-slate-950">
-                        {getCartQuantity(selectedProduct.id, selectedSize)}
-                      </span>
-                      <button
-                        onClick={() => handleUpdateQuantity(selectedProduct.id, selectedSize, 1)}
-                        className="text-xl text-slate-500 hover:text-orange-600 font-light transition-colors"
-                      >+</button>
-                    </div>
-                    <button
-                      onClick={handleGoToCart}
-                      className="flex-1 bg-orange-700 text-white font-bold h-full text-[11px] uppercase tracking-widest rounded-full hover:bg-orange-800 transition-all shadow-[0_15px_30px_rgba(194,65,12,0.3)]"
-                    >
-                      Go To Cart
-                    </button>
+                        key={s}
+                        onClick={() => setSelectedSize(s)}
+                        className={`w-10 h-10 text-sm font-medium rounded-full border transition-all ${
+                          selectedSize === s 
+                            ? 'bg-black text-white border-black' 
+                            : 'border-gray-300 hover:border-black'
+                        }`}
+                      >
+                        {s}
+                      </button>
+                    ))}
                   </div>
-                ) : (
-                  <button
-                    onClick={() => handleAddToCart(selectedProduct, selectedSize)}
-                    disabled={isAddingToCart}
-                    className={`w-full border-2 border-slate-950 text-slate-950 font-bold h-14 sm:h-16 text-[11px] uppercase tracking-[0.3em] rounded-full transition-all transform active:scale-95 ${
-                      isAddingToCart ? 'opacity-50 cursor-not-allowed' : 'hover:bg-slate-950 hover:text-white'
-                    }`}
-                  >
-                    {isAddingToCart ? (
-                      <span className="flex items-center justify-center gap-2">
-                        <div className="w-4 h-4 border-2 border-slate-950 border-t-transparent rounded-full animate-spin"></div>
-                        Adding...
-                      </span>
-                    ) : 'Add to Bag'}
-                  </button>
-                )}
-
-                <button
-                  onClick={handleBuyNow}
-                  disabled={isAddingToCart}
-                  className="w-full bg-slate-950 text-white font-bold h-14 sm:h-16 text-[11px] uppercase tracking-[0.3em] rounded-full shadow-2xl hover:bg-black transition-all transform active:scale-95 disabled:opacity-50"
+                </div>
+                
+                <button 
+                  onClick={() => {
+                    setShowQuickView(null);
+                    handleProductClick(showQuickView);
+                  }}
+                  className="w-full bg-black text-white py-3 text-[11px] uppercase tracking-[0.2em] rounded-full hover:bg-gray-800 transition-colors mt-4"
                 >
-                  {isAddingToCart ? 'Adding...' : 'Buy Now'}
+                  View Full Details
                 </button>
               </div>
             </div>
@@ -664,9 +429,55 @@ const CasualShirtMenFashionProducts = () => {
         </div>
       )}
 
+      {/* Size Guide Modal */}
+      {showSizeGuide && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowSizeGuide(false)}></div>
+          
+          <div className="relative bg-white w-full max-w-2xl rounded-2xl overflow-hidden shadow-2xl animate-in zoom-in-95 duration-300">
+            <div className="p-6 border-b">
+              <h2 className="text-2xl font-serif text-center">Size Guide</h2>
+              <button 
+                onClick={() => setShowSizeGuide(false)}
+                className="absolute top-4 right-4 w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200"
+              >
+                ✕
+              </button>
+            </div>
+            
+            <div className="p-6">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b">
+                      <th className="text-left py-3 px-2">Size</th>
+                      <th className="text-left py-3 px-2">Chest (in)</th>
+                      <th className="text-left py-3 px-2">Shoulder (in)</th>
+                      <th className="text-left py-3 px-2">Length (in)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b"><td className="py-3 px-2 font-medium">S</td><td className="py-3 px-2">36-38</td><td className="py-3 px-2">16-17</td><td className="py-3 px-2">27-28</td></tr>
+                    <tr className="border-b"><td className="py-3 px-2 font-medium">M</td><td className="py-3 px-2">38-40</td><td className="py-3 px-2">17-18</td><td className="py-3 px-2">28-29</td></tr>
+                    <tr className="border-b"><td className="py-3 px-2 font-medium">L</td><td className="py-3 px-2">40-42</td><td className="py-3 px-2">18-19</td><td className="py-3 px-2">29-30</td></tr>
+                    <tr className="border-b"><td className="py-3 px-2 font-medium">XL</td><td className="py-3 px-2">42-44</td><td className="py-3 px-2">19-20</td><td className="py-3 px-2">30-31</td></tr>
+                    <tr><td className="py-3 px-2 font-medium">XXL</td><td className="py-3 px-2">44-46</td><td className="py-3 px-2">20-21</td><td className="py-3 px-2">31-32</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              
+              <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+                <p className="text-xs text-gray-500 text-center">Model is 6'0" tall and wearing size M for a regular fit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <Footer />
-    </>
+      <ScrollButton />
+    </div>
   );
 };
 
-export default CasualShirtMenFashionProducts;
+export default CasualShirtsMenFashion;
