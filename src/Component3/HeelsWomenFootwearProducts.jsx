@@ -25,188 +25,199 @@ useEffect(() => {
   const { cartItems, addToCart, updateQuantity, removeItem } = useCart();
 
   // Women's Heels Products (6 Party + 6 Casual = 12 products)
-  const products = [
-    // PARTY HEELS 1
+const products = [
+    // 1. PARTY HEELS - Luxury Stilettos
     { 
       id: 1, 
-      name: 'Stiletto Party Heels', 
-      category: "Women", 
+      name: 'Crystal Embellished Stilettos', 
+      category: "Footwear", 
+      sub: "Heels • Party", 
+      price: 2499, 
+      oldPrice: 4999, 
+      images: ["/Footwear/Women/Heels/Products/hwfp1.png", "/Footwear/Women/Heels/Products/hwfp1_1.png", "/Footwear/Women/Heels/Products/hwfp1_2.png", "/Footwear/Women/Heels/Products/hwfp1_3.png", "/Footwear/Women/Heels/Products/hwfp1_4.png"],
+      tag: "Luxury", 
+      color: "Silver", 
+      rating: "4.9", 
+      reviews: "2.8k",
+      details: { "Type": "Stiletto Heels", "Material": "Satin & Crystal", "Heel Height": "4 inches", "Closure": "Ankle Strap", "Occasion": "Party & Weddings" }
+    },
+
+    // 2. CASUAL HEELS - Block Heels
+    { 
+      id: 2, 
+      name: 'Comfort Block Heel Pumps', 
+      category: "Footwear", 
+      sub: "Heels • Casual", 
+      price: 1249, 
+      oldPrice: 2499, 
+      images: ["/Footwear/Women/Heels/Products/hwfp2.png", "/Footwear/Women/Heels/Products/hwfp2_1.png", "/Footwear/Women/Heels/Products/hwfp2_2.png", "/Footwear/Women/Heels/Products/hwfp2_3.png", "/Footwear/Women/Heels/Products/hwfp2_4.png"],
+      tag: "Best Seller", 
+      color: "Nude", 
+      rating: "4.7", 
+      reviews: "5.2k",
+      details: { "Type": "Block Heels", "Material": "Leather", "Heel Height": "2.5 inches", "Closure": "Slip-On", "Daily Wear": "Yes" }
+    },
+
+    // 3. PARTY HEELS - Peep Toe Stilettos
+    { 
+      id: 3, 
+      name: 'Peep Toe Glitter Stilettos', 
+      category: "Footwear", 
+      sub: "Heels • Party", 
+      price: 2999, 
+      oldPrice: 5999, 
+      images: ["/Footwear/Women/Heels/Products/hwfp3.png", "/Footwear/Women/Heels/Products/hwfp3_1.png", "/Footwear/Women/Heels/Products/hwfp3_2.png", "/Footwear/Women/Heels/Products/hwfp3_3.png", "/Footwear/Women/Heels/Products/hwfp3_4.png"],
+      tag: "Luxury", 
+      color: "Rose Gold", 
+      rating: "4.9", 
+      reviews: "1.6k",
+      details: { "Type": "Peep Toe Stilettos", "Material": "Glitter Fabric", "Heel Height": "4.5 inches", "Closure": "Ankle Strap", "Party Glam": "Yes" }
+    },
+
+    // 4. CASUAL HEELS - Wedge Sandals
+    { 
+      id: 4, 
+      name: 'Comfort Wedge Casual Heels', 
+      category: "Footwear", 
+      sub: "Heels • Casual", 
+      price: 1499, 
+      oldPrice: 2999, 
+      images: ["/Footwear/Women/Heels/Products/hwfp4.png", "/Footwear/Women/Heels/Products/hwfp4_1.png", "/Footwear/Women/Heels/Products/hwfp4_2.png", "/Footwear/Women/Heels/Products/hwfp4_3.png", "/Footwear/Women/Heels/Products/hwfp4_4.png"],
+      tag: "Trending", 
+      color: "Tan", 
+      rating: "4.6", 
+      reviews: "3.8k",
+      details: { "Type": "Wedge Heels", "Material": "Suede Leather", "Heel Height": "2 inches", "Closure": "Slip-On", "Comfort": "Cushioned Footbed" }
+    },
+
+    // 5. PARTY HEELS - Ankle Strap Pumps
+    { 
+      id: 5, 
+      name: 'Ankle Strap Crystal Heels', 
+      category: "Footwear", 
       sub: "Heels • Party", 
       price: 3499, 
       oldPrice: 6999, 
-      images: ["/Footwear/Women/Heels/Products/hwfp1.png", "/Footwear/Women/Heels/Products/hwfp1_1.png", "/Footwear/Women/Heels/Products/hwfp1_2.png", "/Footwear/Women/Heels/Products/hwfp1_3.png", "/Footwear/Women/Heels/Products/hwfp1_4.png"],
+      images: ["/Footwear/Women/Heels/Products/hwfp5.png", "/Footwear/Women/Heels/Products/hwfp5_1.png", "/Footwear/Women/Heels/Products/hwfp5_2.png", "/Footwear/Women/Heels/Products/hwfp5_3.png", "/Footwear/Women/Heels/Products/hwfp5_4.png"],
+      tag: "Luxury", 
+      color: "Gold", 
+      rating: "5.0", 
+      reviews: "1.2k",
+      details: { "Type": "Ankle Strap Heels", "Material": "Patent Leather & Crystal", "Heel Height": "4 inches", "Closure": "Buckle Strap", "Occasion": "Gala & Weddings" }
+    },
+
+    // 6. CASUAL HEELS - Kitten Heels
+    { 
+      id: 6, 
+      name: 'Elegant Kitten Heel Pumps', 
+      category: "Footwear", 
+      sub: "Heels • Casual", 
+      price: 999, 
+      oldPrice: 1999, 
+      images: ["/Footwear/Women/Heels/Products/hwfp6.png", "/Footwear/Women/Heels/Products/hwfp6_1.png", "/Footwear/Women/Heels/Products/hwfp6_2.png", "/Footwear/Women/Heels/Products/hwfp6_3.png", "/Footwear/Women/Heels/Products/hwfp6_4.png"],
       tag: "Best Seller", 
       color: "Black", 
-      rating: "4.9", 
-      reviews: "4.2k",
-      details: { "Material": "Patent Leather", "Sole": "Leather", "Closure": "Slip-On", "Occasion": "Party/Wedding", "Heel Height": "4 inches" }
-    },
-    // CASUAL HEELS 1
-    { 
-      id: 2, 
-      name: 'Block Casual Heels', 
-      category: "Women", 
-      sub: "Heels • Casual", 
-      price: 2799, 
-      oldPrice: 5599, 
-      images: ["/Footwear/Women/Heels/Products/hwfp2.png", "/Footwear/Women/Heels/Products/hwfp2_1.png", "/Footwear/Women/Heels/Products/hwfp2_2.png", "/Footwear/Women/Heels/Products/hwfp2_3.png", "/Footwear/Women/Heels/Products/hwfp2_4.png"],
-      tag: "Trending", 
-      color: "Tan", 
-      rating: "4.8", 
-      reviews: "3.4k",
-      details: { "Material": "Faux Leather", "Sole": "Rubber", "Closure": "Ankle Strap", "Occasion": "Casual/Office", "Heel Height": "2.5 inches" }
-    },
-    // PARTY HEELS 2
-    { 
-      id: 3, 
-      name: 'Bridal Party Heels', 
-      category: "Women", 
-      sub: "Heels • Party", 
-      price: 4999, 
-      oldPrice: 9999, 
-      images: ["/Footwear/Women/Heels/Products/hwfp3.png", "/Footwear/Women/Heels/Products/hwfp3_1.png", "/Footwear/Women/Heels/Products/hwfp3_2.png", "/Footwear/Women/Heels/Products/hwfp3_3.png", "/Footwear/Women/Heels/Products/hwfp3_4.png"],
-      tag: "Luxury", 
-      color: "Ivory", 
-      rating: "5.0", 
-      reviews: "1.8k",
-      details: { "Material": "Satin + Pearl", "Sole": "Leather", "Closure": "Ankle Strap", "Occasion": "Wedding/Bridal", "Heel Height": "3.5 inches" }
-    },
-    // CASUAL HEELS 2
-    { 
-      id: 4, 
-      name: 'Kitten Casual Heels', 
-      category: "Women", 
-      sub: "Heels • Casual", 
-      price: 2499, 
-      oldPrice: 4999, 
-      images: ["/Footwear/Women/Heels/Products/hwfp4.png", "/Footwear/Women/Heels/Products/hwfp4_1.png", "/Footwear/Women/Heels/Products/hwfp4_2.png", "/Footwear/Women/Heels/Products/hwfp4_3.png", "/Footwear/Women/Heels/Products/hwfp4_4.png"],
-      tag: "Comfort", 
-      color: "Beige", 
-      rating: "4.5", 
+      rating: "4.7", 
       reviews: "4.5k",
-      details: { "Material": "Suede", "Sole": "Rubber", "Closure": "Slip-On", "Occasion": "Casual/Office", "Heel Height": "1.5 inches" }
+      details: { "Type": "Kitten Heels", "Material": "Leather", "Heel Height": "1.5 inches", "Closure": "Slip-On", "Office Wear": "Yes" }
     },
-    // PARTY HEELS 3
+
+    // 7. PARTY HEELS - Metallic Stilettos
     { 
-      id: 5, 
-      name: 'Platform Party Heels', 
-      category: "Women", 
+      id: 7, 
+      name: 'Metallic Platinum Stilettos', 
+      category: "Footwear", 
       sub: "Heels • Party", 
       price: 3999, 
       oldPrice: 7999, 
-      images: ["/Footwear/Women/Heels/Products/hwfp5.png", "/Footwear/Women/Heels/Products/hwfp5_1.png", "/Footwear/Women/Heels/Products/hwfp5_2.png", "/Footwear/Women/Heels/Products/hwfp5_3.png", "/Footwear/Women/Heels/Products/hwfp5_4.png"],
-      tag: "Trendy", 
-      color: "Silver", 
-      rating: "4.6", 
-      reviews: "2.1k",
-      details: { "Material": "Metallic Leather", "Sole": "Platform", "Closure": "Zipper", "Occasion": "Party/Night Out", "Heel Height": "5 inches" }
-    },
-    // CASUAL HEELS 3
-    { 
-      id: 6, 
-      name: 'Wedges Casual Heels', 
-      category: "Women", 
-      sub: "Heels • Casual", 
-      price: 2999, 
-      oldPrice: 5999, 
-      images: ["/Footwear/Women/Heels/Products/hwfp6.png", "/Footwear/Women/Heels/Products/hwfp6_1.png", "/Footwear/Women/Heels/Products/hwfp6_2.png", "/Footwear/Women/Heels/Products/hwfp6_3.png", "/Footwear/Women/Heels/Products/hwfp6_4.png"],
-      tag: "Summer Edit", 
-      color: "Natural", 
-      rating: "4.7", 
-      reviews: "2.8k",
-      details: { "Material": "Jute + Leather", "Sole": "Wedge", "Closure": "Ankle Strap", "Occasion": "Casual/Beach", "Heel Height": "2 inches" }
-    },
-    // PARTY HEELS 4
-    { 
-      id: 7, 
-      name: 'Crystal Party Heels', 
-      category: "Women", 
-      sub: "Heels • Party", 
-      price: 5999, 
-      oldPrice: 11999, 
       images: ["/Footwear/Women/Heels/Products/hwfp7.png", "/Footwear/Women/Heels/Products/hwfp7_1.png", "/Footwear/Women/Heels/Products/hwfp7_2.png", "/Footwear/Women/Heels/Products/hwfp7_3.png", "/Footwear/Women/Heels/Products/hwfp7_4.png"],
-      tag: "Red Carpet", 
-      color: "Crystal Clear", 
-      rating: "5.0", 
+      tag: "Luxury", 
+      color: "Platinum", 
+      rating: "4.9", 
       reviews: "0.9k",
-      details: { "Material": "Transparent PVC + Crystals", "Sole": "Leather", "Closure": "Ankle Strap", "Occasion": "Gala/Cocktail", "Heel Height": "4.5 inches" }
+      details: { "Type": "Metallic Stilettos", "Material": "Metallic Leather", "Heel Height": "4.5 inches", "Closure": "Ankle Strap", "Statement": "Bold & Glamorous" }
     },
-    // CASUAL HEELS 4
+
+    // 8. CASUAL HEELS - Espadrille Wedges
     { 
       id: 8, 
-      name: 'Cork Casual Heels', 
-      category: "Women", 
+      name: 'Espadrille Wedge Casual Heels', 
+      category: "Footwear", 
       sub: "Heels • Casual", 
-      price: 2699, 
-      oldPrice: 5399, 
+      price: 1799, 
+      oldPrice: 3599, 
       images: ["/Footwear/Women/Heels/Products/hwfp8.png", "/Footwear/Women/Heels/Products/hwfp8_1.png", "/Footwear/Women/Heels/Products/hwfp8_2.png", "/Footwear/Women/Heels/Products/hwfp8_3.png", "/Footwear/Women/Heels/Products/hwfp8_4.png"],
-      tag: "Eco Friendly", 
-      color: "Cork", 
-      rating: "4.7", 
-      reviews: "1.5k",
-      details: { "Material": "Cork + Leather", "Sole": "Rubber", "Closure": "Slip-On", "Occasion": "Casual/Resort", "Sustainable": "Yes" }
+      tag: "Trending", 
+      color: "Natural", 
+      rating: "4.5", 
+      reviews: "2.6k",
+      details: { "Type": "Espadrille Wedges", "Material": "Canvas & Jute", "Heel Height": "2.5 inches", "Closure": "Slip-On", "Vacation": "Summer Essential" }
     },
-    // PARTY HEELS 5
+
+    // 9. PARTY HEELS - Strappy Stilettos
     { 
       id: 9, 
-      name: 'Ankle Strap Party Heels', 
-      category: "Women", 
+      name: 'Strappy Diamond Stilettos', 
+      category: "Footwear", 
       sub: "Heels • Party", 
-      price: 3799, 
-      oldPrice: 7599, 
+      price: 4499, 
+      oldPrice: 8999, 
       images: ["/Footwear/Women/Heels/Products/hwfp9.png", "/Footwear/Women/Heels/Products/hwfp9_1.png", "/Footwear/Women/Heels/Products/hwfp9_2.png", "/Footwear/Women/Heels/Products/hwfp9_3.png", "/Footwear/Women/Heels/Products/hwfp9_4.png"],
-      tag: "Classic", 
-      color: "Nude", 
-      rating: "4.8", 
-      reviews: "2.2k",
-      details: { "Material": "Suede", "Sole": "Leather", "Closure": "Ankle Buckle", "Occasion": "Party/Cocktail", "Heel Height": "3 inches" }
+      tag: "Luxury", 
+      color: "Diamond White", 
+      rating: "5.0", 
+      reviews: "0.7k",
+      details: { "Type": "Strappy Stilettos", "Material": "Satin & Rhinestone", "Heel Height": "4 inches", "Closure": "Thin Ankle Strap", "Occasion": "Red Carpet Events" }
     },
-    // CASUAL HEELS 5
+
+    // 10. CASUAL HEELS - Chunky Heel Boots
     { 
       id: 10, 
-      name: 'Espadrille Casual Heels', 
-      category: "Women", 
-      sub: "Heels • Casual", 
-      price: 2399, 
-      oldPrice: 4799, 
-      images: ["/Footwear/Women/Heels/Products/hwfp10.png", "/Footwear/Women/Heels/Products/hwfp10_1.png", "/Footwear/Women/Heels/Products/hwfp10_2.png", "/Footwear/Women/Heels/Products/hwfp10_3.png", "/Footwear/Women/Heels/Products/hwfp10_4.png"],
-      tag: "Vacation", 
-      color: "Stripe", 
-      rating: "4.6", 
-      reviews: "1.9k",
-      details: { "Material": "Canvas + Jute", "Sole": "Rope", "Closure": "Slip-On", "Occasion": "Beach/Vacation", "Heel Height": "2 inches" }
-    },
-    // PARTY HEELS 6
-    { 
-      id: 11, 
-      name: 'Lace Up Party Heels', 
-      category: "Women", 
-      sub: "Heels • Party", 
-      price: 4299, 
-      oldPrice: 8599, 
-      images: ["/Footwear/Women/Heels/Products/hwfp11.png", "/Footwear/Women/Heels/Products/hwfp11_1.png", "/Footwear/Women/Heels/Products/hwfp11_2.png", "/Footwear/Women/Heels/Products/hwfp11_3.png", "/Footwear/Women/Heels/Products/hwfp11_4.png"],
-      tag: "Statement", 
-      color: "Red", 
-      rating: "4.9", 
-      reviews: "1.1k",
-      details: { "Material": "Satin", "Sole": "Leather", "Closure": "Lace-Up", "Occasion": "Party/Date Night", "Heel Height": "4 inches" }
-    },
-    // CASUAL HEELS 6
-    { 
-      id: 12, 
-      name: 'Pump Casual Heels', 
-      category: "Women", 
+      name: 'Chunky Heel Ankle Boots', 
+      category: "Footwear", 
       sub: "Heels • Casual", 
       price: 2199, 
       oldPrice: 4399, 
+      images: ["/Footwear/Women/Heels/Products/hwfp10.png", "/Footwear/Women/Heels/Products/hwfp10_1.png", "/Footwear/Women/Heels/Products/hwfp10_2.png", "/Footwear/Women/Heels/Products/hwfp10_3.png", "/Footwear/Women/Heels/Products/hwfp10_4.png"],
+      tag: "Best Seller", 
+      color: "Brown", 
+      rating: "4.8", 
+      reviews: "3.2k",
+      details: { "Type": "Chunky Heel Boots", "Material": "Suede Leather", "Heel Height": "2 inches", "Closure": "Side Zipper", "Style": "Casual & Edgy" }
+    },
+
+    // 11. PARTY HEELS - Slingback Stilettos
+    { 
+      id: 11, 
+      name: 'Slingback Pearl Stilettos', 
+      category: "Footwear", 
+      sub: "Heels • Party", 
+      price: 2799, 
+      oldPrice: 5599, 
+      images: ["/Footwear/Women/Heels/Products/hwfp11.png", "/Footwear/Women/Heels/Products/hwfp11_1.png", "/Footwear/Women/Heels/Products/hwfp11_2.png", "/Footwear/Women/Heels/Products/hwfp11_3.png", "/Footwear/Women/Heels/Products/hwfp11_4.png"],
+      tag: "Luxury", 
+      color: "Ivory", 
+      rating: "4.8", 
+      reviews: "1.1k",
+      details: { "Type": "Slingback Stilettos", "Material": "Satin & Pearl", "Heel Height": "3.5 inches", "Closure": "Slingback Strap", "Elegant": "Bridal & Party" }
+    },
+
+    // 12. CASUAL HEELS - Low Heel Mules
+    { 
+      id: 12, 
+      name: 'Open Toe Low Heel Mules', 
+      category: "Footwear", 
+      sub: "Heels • Casual", 
+      price: 1399, 
+      oldPrice: 2799, 
       images: ["/Footwear/Women/Heels/Products/hwfp12.png", "/Footwear/Women/Heels/Products/hwfp12_1.png", "/Footwear/Women/Heels/Products/hwfp12_2.png", "/Footwear/Women/Heels/Products/hwfp12_3.png", "/Footwear/Women/Heels/Products/hwfp12_4.png"],
-      tag: "Essential", 
-      color: "Navy", 
-      rating: "4.7", 
-      reviews: "3.5k",
-      details: { "Material": "Leather", "Sole": "Rubber", "Closure": "Slip-On", "Occasion": "Office/Casual", "Heel Height": "2 inches" }
+      tag: "Trending", 
+      color: "Cream", 
+      rating: "4.6", 
+      reviews: "2.9k",
+      details: { "Type": "Low Heel Mules", "Material": "Faux Leather", "Heel Height": "1.5 inches", "Closure": "Slip-On", "Effortless": "Chic & Casual" }
     }
-  ];
+];
 
   // Get cart quantity for a product
   const getCartQuantity = (productId, size) => {

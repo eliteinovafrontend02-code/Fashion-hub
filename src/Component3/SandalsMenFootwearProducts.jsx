@@ -26,188 +26,199 @@ useEffect(() => {
   const { cartItems, addToCart, updateQuantity, removeItem } = useCart();
 
   // Men's Sandals Products (6 Sports + 6 Flat = 12 products)
-  const products = [
-    // SPORTS SANDALS 1
+const products = [
+    // 1. SPORTS SANDALS
     { 
       id: 1, 
-      name: 'Sports Adventure Sandals', 
-      category: "Men", 
+      name: 'Adventure Sports Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Sports", 
       price: 1499, 
       oldPrice: 2999, 
       images: ["/Footwear/Men/Sandals/Products/smfp1.png", "/Footwear/Men/Sandals/Products/smfp1_1.png", "/Footwear/Men/Sandals/Products/smfp1_2.png", "/Footwear/Men/Sandals/Products/smfp1_3.png", "/Footwear/Men/Sandals/Products/smfp1_4.png"],
       tag: "Best Seller", 
-      color: "Black/Grey", 
+      color: "Black & Blue", 
       rating: "4.8", 
-      reviews: "4.2k",
-      details: { "Material": "Neoprene + Rubber", "Sole": "Grip Technology", "Closure": "Adjustable Straps", "Use": "Outdoor/Trekking", "Water Friendly": "Yes" }
+      reviews: "3.5k",
+      details: { "Type": "Sports Sandals", "Material": "EVA & Synthetic", "Sole": "Rugged Rubber", "Closure": "Adjustable Straps", "Activity": "Outdoor & Trekking" }
     },
-    // FLAT SANDALS 1
+
+    // 2. FLAT SANDALS
     { 
       id: 2, 
-      name: 'Comfort Flat Sandals', 
-      category: "Men", 
+      name: 'Classic Leather Flat Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Flat", 
       price: 799, 
       oldPrice: 1599, 
       images: ["/Footwear/Men/Sandals/Products/smfp2.png", "/Footwear/Men/Sandals/Products/smfp2_1.png", "/Footwear/Men/Sandals/Products/smfp2_2.png", "/Footwear/Men/Sandals/Products/smfp2_3.png", "/Footwear/Men/Sandals/Products/smfp2_4.png"],
-      tag: "Essential", 
+      tag: "Trending", 
       color: "Brown", 
       rating: "4.6", 
-      reviews: "6.8k",
-      details: { "Material": "Synthetic Leather", "Sole": "EVA Foam", "Closure": "Slip-On", "Toe Style": "Open", "Use": "Beach/Home" }
+      reviews: "4.2k",
+      details: { "Type": "Flat Sandals", "Material": "Genuine Leather", "Sole": "Flat Rubber Sole", "Closure": "Slip-On", "Daily Wear": "Yes" }
     },
-    // SPORTS SANDALS 2
+
+    // 3. SPORTS SANDALS
     { 
       id: 3, 
-      name: 'Trail Sport Sandals', 
-      category: "Men", 
+      name: 'Trail Running Sport Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Sports", 
       price: 1799, 
       oldPrice: 3599, 
       images: ["/Footwear/Men/Sandals/Products/smfp3.png", "/Footwear/Men/Sandals/Products/smfp3_1.png", "/Footwear/Men/Sandals/Products/smfp3_2.png", "/Footwear/Men/Sandals/Products/smfp3_3.png", "/Footwear/Men/Sandals/Products/smfp3_4.png"],
-      tag: "Trending", 
-      color: "Navy/Orange", 
-      rating: "4.7", 
-      reviews: "2.5k",
-      details: { "Material": "Quick-Dry Fabric", "Sole": "Rugged Rubber", "Closure": "Velcro Straps", "Use": "Hiking/Water", "Toe Protection": "Closed Toe" }
-    },
-    // FLAT SANDALS 2
-    { 
-      id: 4, 
-      name: 'Leather Flat Sandals', 
-      category: "Men", 
-      sub: "Sandals • Flat", 
-      price: 1299, 
-      oldPrice: 2599, 
-      images: ["/Footwear/Men/Sandals/Products/smfp4.png", "/Footwear/Men/Sandals/Products/smfp4_1.png", "/Footwear/Men/Sandals/Products/smfp4_2.png", "/Footwear/Men/Sandals/Products/smfp4_3.png", "/Footwear/Men/Sandals/Products/smfp4_4.png"],
-      tag: "Premium", 
-      color: "Tan", 
+      tag: "Luxury", 
+      color: "Grey & Orange", 
       rating: "4.9", 
       reviews: "1.8k",
-      details: { "Material": "Genuine Leather", "Sole": "Cushioned Rubber", "Closure": "Adjustable Straps", "Use": "Casual/Resort", "Comfort": "High" }
+      details: { "Type": "Trail Sandals", "Material": "Quick-Dry Mesh", "Sole": "Grip Sole", "Closure": "Velcro & Buckle", "Water Friendly": "Yes" }
     },
-    // SPORTS SANDALS 3
+
+    // 4. FLAT SANDALS
     { 
-      id: 5, 
-      name: 'Water Sport Sandals', 
-      category: "Men", 
-      sub: "Sandals • Sports", 
-      price: 1399, 
-      oldPrice: 2799, 
-      images: ["/Footwear/Men/Sandals/Products/smfp5.png", "/Footwear/Men/Sandals/Products/smfp5_1.png", "/Footwear/Men/Sandals/Products/smfp5_2.png", "/Footwear/Men/Sandals/Products/smfp5_3.png", "/Footwear/Men/Sandals/Products/smfp5_4.png"],
-      tag: "Water Ready", 
-      color: "Blue/Grey", 
-      rating: "4.6", 
-      reviews: "3.1k",
-      details: { "Material": "Mesh + Rubber", "Sole": "Drainage System", "Closure": "Bungee Lace", "Use": "Kayaking/Beach", "Quick Dry": "Yes" }
-    },
-    // FLAT SANDALS 3
-    { 
-      id: 6, 
-      name: 'Slide Flat Sandals', 
-      category: "Men", 
+      id: 4, 
+      name: 'Comfort Memory Foam Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Flat", 
       price: 699, 
       oldPrice: 1399, 
-      images: ["/Footwear/Men/Sandals/Products/smfp6.png", "/Footwear/Men/Sandals/Products/smfp6_1.png", "/Footwear/Men/Sandals/Products/smfp6_2.png", "/Footwear/Men/Sandals/Products/smfp6_3.png", "/Footwear/Men/Sandals/Products/smfp6_4.png"],
-      tag: "Budget Pick", 
+      images: ["/Footwear/Men/Sandals/Products/smfp4.png", "/Footwear/Men/Sandals/Products/smfp4_1.png", "/Footwear/Men/Sandals/Products/smfp4_2.png", "/Footwear/Men/Sandals/Products/smfp4_3.png", "/Footwear/Men/Sandals/Products/smfp4_4.png"],
+      tag: "Best Seller", 
       color: "Black", 
-      rating: "4.4", 
-      reviews: "8.5k",
-      details: { "Material": "EVA Foam", "Sole": "Non-Slip", "Closure": "Slip-On", "Use": "Pool/Home", "Lightweight": "Yes" }
+      rating: "4.7", 
+      reviews: "5.6k",
+      details: { "Type": "Comfort Sandals", "Material": "Synthetic Leather", "Sole": "Memory Foam", "Closure": "Slip-On", "Cushioning": "Extra Soft" }
     },
-    // SPORTS SANDALS 4
+
+    // 5. SPORTS SANDALS
+    { 
+      id: 5, 
+      name: 'Water Sports Quick-Dry Sandals', 
+      category: "Footwear", 
+      sub: "Sandals • Sports", 
+      price: 1599, 
+      oldPrice: 3199, 
+      images: ["/Footwear/Men/Sandals/Products/smfp5.png", "/Footwear/Men/Sandals/Products/smfp5_1.png", "/Footwear/Men/Sandals/Products/smfp5_2.png", "/Footwear/Men/Sandals/Products/smfp5_3.png", "/Footwear/Men/Sandals/Products/smfp5_4.png"],
+      tag: "Trending", 
+      color: "Navy Blue", 
+      rating: "4.8", 
+      reviews: "2.9k",
+      details: { "Type": "Water Sandals", "Material": "Neoprene & Rubber", "Sole": "Non-Slip", "Closure": "Adjustable Straps", "Beach Ready": "Yes" }
+    },
+
+    // 6. FLAT SANDALS
+    { 
+      id: 6, 
+      name: 'Ethnic Jute Flat Sandals', 
+      category: "Footwear", 
+      sub: "Sandals • Flat", 
+      price: 899, 
+      oldPrice: 1799, 
+      images: ["/Footwear/Men/Sandals/Products/smfp6.png", "/Footwear/Men/Sandals/Products/smfp6_1.png", "/Footwear/Men/Sandals/Products/smfp6_2.png", "/Footwear/Men/Sandals/Products/smfp6_3.png", "/Footwear/Men/Sandals/Products/smfp6_4.png"],
+      tag: "Trending", 
+      color: "Natural", 
+      rating: "4.5", 
+      reviews: "2.3k",
+      details: { "Type": "Jute Sandals", "Material": "Jute & Cotton", "Sole": "Jute Sole", "Closure": "Slip-On", "Ethnic Wear": "Yes" }
+    },
+
+    // 7. SPORTS SANDALS
     { 
       id: 7, 
-      name: 'Hiking Sport Sandals', 
-      category: "Men", 
+      name: 'Performance Gym Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Sports", 
       price: 1999, 
       oldPrice: 3999, 
       images: ["/Footwear/Men/Sandals/Products/smfp7.png", "/Footwear/Men/Sandals/Products/smfp7_1.png", "/Footwear/Men/Sandals/Products/smfp7_2.png", "/Footwear/Men/Sandals/Products/smfp7_3.png", "/Footwear/Men/Sandals/Products/smfp7_4.png"],
-      tag: "Heavy Duty", 
-      color: "Olive Green", 
+      tag: "Luxury", 
+      color: "Black & Red", 
       rating: "4.9", 
       reviews: "1.2k",
-      details: { "Material": "Nylon Webbing", "Sole": "Vibram Grip", "Closure": "Buckle System", "Use": "Mountain Trek", "Arch Support": "High" }
+      details: { "Type": "Gym Sandals", "Material": "High Density Foam", "Sole": "Anti-Skid", "Closure": "Buckle", "Post-Workout": "Recovery Support" }
     },
-    // FLAT SANDALS 4
+
+    // 8. FLAT SANDALS
     { 
       id: 8, 
-      name: 'Wooden Flat Sandals', 
-      category: "Men", 
+      name: 'Minimalist Slip-On Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Flat", 
-      price: 999, 
-      oldPrice: 1999, 
+      price: 549, 
+      oldPrice: 1099, 
       images: ["/Footwear/Men/Sandals/Products/smfp8.png", "/Footwear/Men/Sandals/Products/smfp8_1.png", "/Footwear/Men/Sandals/Products/smfp8_2.png", "/Footwear/Men/Sandals/Products/smfp8_3.png", "/Footwear/Men/Sandals/Products/smfp8_4.png"],
-      tag: "Artisan", 
-      color: "Natural Wood", 
-      rating: "4.7", 
-      reviews: "1.5k",
-      details: { "Material": "Leather + Wood", "Sole": "Carved Wood", "Closure": "Adjustable Straps", "Use": "Resort/Casual", "Style": "Handcrafted" }
+      tag: "Essential", 
+      color: "Tan", 
+      rating: "4.4", 
+      reviews: "3.8k",
+      details: { "Type": "Minimalist Sandals", "Material": "PU Leather", "Sole": "EVA Sole", "Closure": "Slip-On", "Lightweight": "Yes" }
     },
-    // SPORTS SANDALS 5
+
+    // 9. SPORTS SANDALS
     { 
       id: 9, 
-      name: 'Run Sport Sandals', 
-      category: "Men", 
+      name: 'Hiking Adventure Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Sports", 
-      price: 1599, 
-      oldPrice: 3199, 
+      price: 2199, 
+      oldPrice: 4399, 
       images: ["/Footwear/Men/Sandals/Products/smfp9.png", "/Footwear/Men/Sandals/Products/smfp9_1.png", "/Footwear/Men/Sandals/Products/smfp9_2.png", "/Footwear/Men/Sandals/Products/smfp9_3.png", "/Footwear/Men/Sandals/Products/smfp9_4.png"],
-      tag: "Performance", 
-      color: "Red/Black", 
-      rating: "4.7", 
-      reviews: "2.8k",
-      details: { "Material": "Breathable Mesh", "Sole": "Responsive Foam", "Closure": "Lace-Up", "Use": "Running/Training", "Cushioning": "High" }
+      tag: "Luxury", 
+      color: "Olive Green", 
+      rating: "5.0", 
+      reviews: "0.8k",
+      details: { "Type": "Hiking Sandals", "Material": "Durable Nylon", "Sole": "Vibram Sole", "Closure": "Dial Fit System", "Trail Ready": "Yes" }
     },
-    // FLAT SANDALS 5
+
+    // 10. FLAT SANDALS
     { 
       id: 10, 
-      name: 'Toga Flat Sandals', 
-      category: "Men", 
+      name: 'Canvas Casual Flat Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Flat", 
-      price: 1199, 
-      oldPrice: 2399, 
+      price: 649, 
+      oldPrice: 1299, 
       images: ["/Footwear/Men/Sandals/Products/smfp10.png", "/Footwear/Men/Sandals/Products/smfp10_1.png", "/Footwear/Men/Sandals/Products/smfp10_2.png", "/Footwear/Men/Sandals/Products/smfp10_3.png", "/Footwear/Men/Sandals/Products/smfp10_4.png"],
-      tag: "Classic", 
-      color: "Brown", 
-      rating: "4.8", 
-      reviews: "2.1k",
-      details: { "Material": "Suede Leather", "Sole": "Leather + Rubber", "Closure": "Slip-On", "Style": "Roman", "Occasion": "Casual/Resort" }
+      tag: "Best Seller", 
+      color: "Beige", 
+      rating: "4.6", 
+      reviews: "4.5k",
+      details: { "Type": "Canvas Sandals", "Material": "Canvas & Cotton", "Sole": "Flexible Rubber", "Closure": "Slip-On", "Summer Essential": "Yes" }
     },
-    // SPORTS SANDALS 6
+
+    // 11. SPORTS SANDALS
     { 
       id: 11, 
-      name: 'Adventure Sport Sandals', 
-      category: "Men", 
+      name: 'All-Terrain Sport Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Sports", 
       price: 1899, 
       oldPrice: 3799, 
       images: ["/Footwear/Men/Sandals/Products/smfp11.png", "/Footwear/Men/Sandals/Products/smfp11_1.png", "/Footwear/Men/Sandals/Products/smfp11_2.png", "/Footwear/Men/Sandals/Products/smfp11_3.png", "/Footwear/Men/Sandals/Products/smfp11_4.png"],
-      tag: "Explorer", 
-      color: "Khaki", 
-      rating: "4.8", 
-      reviews: "1.9k",
-      details: { "Material": "Polyester Webbing", "Sole": "All-Terrain Grip", "Closure": "Quick-Release Buckle", "Use": "Camping/Travel", "Warranty": "1 Year" }
+      tag: "Trending", 
+      color: "Black & Yellow", 
+      rating: "4.7", 
+      reviews: "2.1k",
+      details: { "Type": "All-Terrain Sandals", "Material": "Synthetic & Mesh", "Sole": "Multi-Terrain Grip", "Closure": "Double Strap", "Outdoor Ready": "Yes" }
     },
-    // FLAT SANDALS 6
+
+    // 12. FLAT SANDALS
     { 
       id: 12, 
-      name: 'Yoga Flat Sandals', 
-      category: "Men", 
+      name: 'Padded Sole Relax Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Flat", 
-      price: 899, 
-      oldPrice: 1799, 
+      price: 749, 
+      oldPrice: 1499, 
       images: ["/Footwear/Men/Sandals/Products/smfp12.png", "/Footwear/Men/Sandals/Products/smfp12_1.png", "/Footwear/Men/Sandals/Products/smfp12_2.png", "/Footwear/Men/Sandals/Products/smfp12_3.png", "/Footwear/Men/Sandals/Products/smfp12_4.png"],
-      tag: "Mindful", 
-      color: "Sand", 
-      rating: "4.6", 
+      tag: "Essential", 
+      color: "Grey", 
+      rating: "4.5", 
       reviews: "3.2k",
-      details: { "Material": "Recycled Fabric", "Sole": "Eco Rubber", "Closure": "Slip-On", "Use": "Yoga/Meditation", "Eco-Friendly": "Yes" }
+      details: { "Type": "Relax Sandals", "Material": "Soft PU", "Sole": "Padded Cushion", "Closure": "Slip-On", "Home & Outdoor": "Yes" }
     }
-  ];
+];
 
   // Get cart quantity for a product
   const getCartQuantity = (productId, size) => {

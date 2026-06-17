@@ -64,62 +64,69 @@ const SandalsMenFootwear = () => {
 
   // Featured Products for Men Sandals
   const featuredProducts = [
+    // 1. SPORTS SANDALS
     { 
       id: 1, 
-      name: 'Sports Adventure Sandals', 
-      category: "Men", 
+      name: 'Adventure Sports Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Sports", 
       price: 1499, 
       oldPrice: 2999, 
       images: ["/Footwear/Men/Sandals/Products/smfp1.png", "/Footwear/Men/Sandals/Products/smfp1_1.png", "/Footwear/Men/Sandals/Products/smfp1_2.png", "/Footwear/Men/Sandals/Products/smfp1_3.png", "/Footwear/Men/Sandals/Products/smfp1_4.png"],
       tag: "Best Seller", 
-      color: "Black/Grey", 
+      color: "Black & Blue", 
       rating: "4.8", 
-      reviews: "4.2k",
-      details: { "Material": "Neoprene + Rubber", "Sole": "Grip Technology", "Closure": "Adjustable Straps", "Use": "Outdoor/Trekking", "Water Friendly": "Yes" }
+      reviews: "3.5k",
+      details: { "Type": "Sports Sandals", "Material": "EVA & Synthetic", "Sole": "Rugged Rubber", "Closure": "Adjustable Straps", "Activity": "Outdoor & Trekking" }
     },
+
+    // 2. FLAT SANDALS
     { 
       id: 2, 
-      name: 'Comfort Flat Sandals', 
-      category: "Men", 
+      name: 'Classic Leather Flat Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Flat", 
       price: 799, 
       oldPrice: 1599, 
       images: ["/Footwear/Men/Sandals/Products/smfp2.png", "/Footwear/Men/Sandals/Products/smfp2_1.png", "/Footwear/Men/Sandals/Products/smfp2_2.png", "/Footwear/Men/Sandals/Products/smfp2_3.png", "/Footwear/Men/Sandals/Products/smfp2_4.png"],
-      tag: "Essential", 
+      tag: "Trending", 
       color: "Brown", 
       rating: "4.6", 
-      reviews: "6.8k",
-      details: { "Material": "Synthetic Leather", "Sole": "EVA Foam", "Closure": "Slip-On", "Toe Style": "Open", "Use": "Beach/Home" }
+      reviews: "4.2k",
+      details: { "Type": "Flat Sandals", "Material": "Genuine Leather", "Sole": "Flat Rubber Sole", "Closure": "Slip-On", "Daily Wear": "Yes" }
     },
+
+    // 3. SPORTS SANDALS
     { 
       id: 3, 
-      name: 'Trail Sport Sandals', 
-      category: "Men", 
+      name: 'Trail Running Sport Sandals', 
+      category: "Footwear", 
       sub: "Sandals • Sports", 
       price: 1799, 
       oldPrice: 3599, 
       images: ["/Footwear/Men/Sandals/Products/smfp3.png", "/Footwear/Men/Sandals/Products/smfp3_1.png", "/Footwear/Men/Sandals/Products/smfp3_2.png", "/Footwear/Men/Sandals/Products/smfp3_3.png", "/Footwear/Men/Sandals/Products/smfp3_4.png"],
-      tag: "Trending", 
-      color: "Navy/Orange", 
-      rating: "4.7", 
-      reviews: "2.5k",
-      details: { "Material": "Quick-Dry Fabric", "Sole": "Rugged Rubber", "Closure": "Velcro Straps", "Use": "Hiking/Water", "Toe Protection": "Closed Toe" }
-    },
-    { 
-      id: 4, 
-      name: 'Leather Flat Sandals', 
-      category: "Men", 
-      sub: "Sandals • Flat", 
-      price: 1299, 
-      oldPrice: 2599, 
-      images: ["/Footwear/Men/Sandals/Products/smfp4.png", "/Footwear/Men/Sandals/Products/smfp4_1.png", "/Footwear/Men/Sandals/Products/smfp4_2.png", "/Footwear/Men/Sandals/Products/smfp4_3.png", "/Footwear/Men/Sandals/Products/smfp4_4.png"],
-      tag: "Premium", 
-      color: "Tan", 
+      tag: "Luxury", 
+      color: "Grey & Orange", 
       rating: "4.9", 
       reviews: "1.8k",
-      details: { "Material": "Genuine Leather", "Sole": "Cushioned Rubber", "Closure": "Adjustable Straps", "Use": "Casual/Resort", "Comfort": "High" }
-    }
+      details: { "Type": "Trail Sandals", "Material": "Quick-Dry Mesh", "Sole": "Grip Sole", "Closure": "Velcro & Buckle", "Water Friendly": "Yes" }
+    },
+
+    // 4. FLAT SANDALS
+    { 
+      id: 4, 
+      name: 'Comfort Memory Foam Sandals', 
+      category: "Footwear", 
+      sub: "Sandals • Flat", 
+      price: 699, 
+      oldPrice: 1399, 
+      images: ["/Footwear/Men/Sandals/Products/smfp4.png", "/Footwear/Men/Sandals/Products/smfp4_1.png", "/Footwear/Men/Sandals/Products/smfp4_2.png", "/Footwear/Men/Sandals/Products/smfp4_3.png", "/Footwear/Men/Sandals/Products/smfp4_4.png"],
+      tag: "Best Seller", 
+      color: "Black", 
+      rating: "4.7", 
+      reviews: "5.6k",
+      details: { "Type": "Comfort Sandals", "Material": "Synthetic Leather", "Sole": "Memory Foam", "Closure": "Slip-On", "Cushioning": "Extra Soft" }
+    },
   ];
 
   useEffect(() => {

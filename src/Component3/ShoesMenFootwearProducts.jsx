@@ -26,187 +26,198 @@ useEffect(() => {
 
   // Men's Shoes Products (6 Casual + 6 Formal = 12 products)
   const products = [
-    // CASUAL SHOES 1
+    // 1. FORMAL LEATHER SHOES
     { 
       id: 1, 
-      name: 'Classic Leather Sneakers', 
-      category: "Men", 
-      sub: "Shoes • Casual", 
-      price: 2499, 
-      oldPrice: 4999, 
+      name: 'Premium Leather Oxford Shoes', 
+      category: "Footwear", 
+      sub: "Shoes • Formal", 
+      price: 1499, 
+      oldPrice: 3999, 
       images: ["/Footwear/Men/Shoes/Products/smfp1.png", "/Footwear/Men/Shoes/Products/smfp1_1.png", "/Footwear/Men/Shoes/Products/smfp1_2.png", "/Footwear/Men/Shoes/Products/smfp1_3.png", "/Footwear/Men/Shoes/Products/smfp1_4.png"],
       tag: "Best Seller", 
-      color: "White/Tan", 
-      rating: "4.8", 
-      reviews: "3.2k",
-      details: { "Material": "Genuine Leather", "Sole": "Rubber", "Closure": "Lace-Up", "Occasion": "Casual/Office", "Care": "Wipe Clean" }
+      color: "Black", 
+      rating: "4.9", 
+      reviews: "4.2k",
+      details: { "Type": "Oxford", "Material": "Full Grain Leather", "Sole": "Leather Sole", "Closure": "Lace-Up", "Occasion": "Office & Formal Events" }
     },
-    // FORMAL SHOES 1
+
+    // 2. CASUAL SNEAKERS
     { 
       id: 2, 
-      name: 'Oxford Formal Shoes', 
-      category: "Men", 
-      sub: "Shoes • Formal", 
-      price: 4499, 
-      oldPrice: 8999, 
-      images: ["/Footwear/Men/Shoes/Products/smfp2.png", "/Footwear/Men/Shoes/Products/smfp2_1.png", "/Footwear/Men/Shoes/Products/smfp2_2.png", "/Footwear/Men/Shoes/Products/smfp2_3.png", "/Footwear/Men/Shoes/Products/smfp2_4.png"],
-      tag: "Luxury", 
-      color: "Black", 
-      rating: "5.0", 
-      reviews: "1.2k",
-      details: { "Material": "Premium Patent Leather", "Sole": "Leather", "Closure": "Lace-Up", "Occasion": "Wedding/Formal", "Finish": "High Gloss" }
-    },
-    // CASUAL SHOES 2
-    { 
-      id: 3, 
-      name: 'Sporty Running Shoes', 
-      category: "Men", 
-      sub: "Shoes • Casual", 
-      price: 2999, 
-      oldPrice: 5999, 
-      images: ["/Footwear/Men/Shoes/Products/smfp3.png", "/Footwear/Men/Shoes/Products/smfp3_1.png", "/Footwear/Men/Shoes/Products/smfp3_2.png", "/Footwear/Men/Shoes/Products/smfp3_3.png", "/Footwear/Men/Shoes/Products/smfp3_4.png"],
-      tag: "Essential", 
-      color: "Black/Red", 
-      rating: "4.6", 
-      reviews: "4.5k",
-      details: { "Material": "Mesh + Synthetic", "Sole": "EVA Foam", "Closure": "Lace-Up", "Cushioning": "High", "Use": "Running/Training" }
-    },
-    // FORMAL SHOES 2
-    { 
-      id: 4, 
-      name: 'Leather Loafers', 
-      category: "Men", 
-      sub: "Shoes • Formal", 
-      price: 3499, 
-      oldPrice: 6999, 
-      images: ["/Footwear/Men/Shoes/Products/smfp4.png", "/Footwear/Men/Shoes/Products/smfp4_1.png", "/Footwear/Men/Shoes/Products/smfp4_2.png", "/Footwear/Men/Shoes/Products/smfp4_3.png", "/Footwear/Men/Shoes/Products/smfp4_4.png"],
-      tag: "Premium", 
-      color: "Brown", 
-      rating: "4.9", 
-      reviews: "2.1k",
-      details: { "Material": "Polished Leather", "Sole": "Leather + Rubber", "Closure": "Slip-On", "Occasion": "Business/Formal", "Style": "Classic" }
-    },
-    // CASUAL SHOES 3
-    { 
-      id: 5, 
-      name: 'Canvas Casual Shoes', 
-      category: "Men", 
+      name: 'White Classic Canvas Sneakers', 
+      category: "Footwear", 
       sub: "Shoes • Casual", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Footwear/Men/Shoes/Products/smfp5.png", "/Footwear/Men/Shoes/Products/smfp5_1.png", "/Footwear/Men/Shoes/Products/smfp5_2.png", "/Footwear/Men/Shoes/Products/smfp5_3.png", "/Footwear/Men/Shoes/Products/smfp5_4.png"],
-      tag: "Essential", 
-      color: "Navy Blue", 
-      rating: "4.5", 
-      reviews: "3.8k",
-      details: { "Material": "Canvas", "Sole": "Rubber", "Closure": "Lace-Up", "Style": "Vintage", "Use": "Daily Wear" }
+      images: ["/Footwear/Men/Shoes/Products/smfp2.png", "/Footwear/Men/Shoes/Products/smfp2_1.png", "/Footwear/Men/Shoes/Products/smfp2_2.png", "/Footwear/Men/Shoes/Products/smfp2_3.png", "/Footwear/Men/Shoes/Products/smfp2_4.png"],
+      tag: "Trending", 
+      color: "White", 
+      rating: "4.7", 
+      reviews: "5.8k",
+      details: { "Type": "Sneakers", "Material": "Canvas & Rubber", "Sole": "Rubber Sole", "Closure": "Lace-Up", "Daily Wear": "Yes" }
     },
-    // FORMAL SHOES 3
+
+    // 3. FORMAL DERBY SHOES
+    { 
+      id: 3, 
+      name: 'Brown Derby Formal Shoes', 
+      category: "Footwear", 
+      sub: "Shoes • Formal", 
+      price: 1999, 
+      oldPrice: 2999, 
+      images: ["/Footwear/Men/Shoes/Products/smfp3.png", "/Footwear/Men/Shoes/Products/smfp3_1.png", "/Footwear/Men/Shoes/Products/smfp3_2.png", "/Footwear/Men/Shoes/Products/smfp3_3.png", "/Footwear/Men/Shoes/Products/smfp3_4.png"],
+      tag: "Luxury", 
+      color: "Brown", 
+      rating: "4.8", 
+      reviews: "2.3k",
+      details: { "Type": "Derby", "Material": "Premium Calf Leather", "Sole": "Goodyear Welted", "Closure": "Lace-Up", "Handcrafted": "Yes" }
+    },
+
+    // 4. CASUAL LOAFERS
+    { 
+      id: 4, 
+      name: 'Tan Suede Tassel Loafers', 
+      category: "Footwear", 
+      sub: "Shoes • Casual", 
+      price: 1749, 
+      oldPrice: 3499, 
+      images: ["/Footwear/Men/Shoes/Products/smfp4.png", "/Footwear/Men/Shoes/Products/smfp4_1.png", "/Footwear/Men/Shoes/Products/smfp4_2.png", "/Footwear/Men/Shoes/Products/smfp4_3.png", "/Footwear/Men/Shoes/Products/smfp4_4.png"],
+      tag: "Best Seller", 
+      color: "Tan", 
+      rating: "4.6", 
+      reviews: "3.1k",
+      details: { "Type": "Tassel Loafers", "Material": "Suede Leather", "Sole": "Rubber Sole", "Closure": "Slip-On", "Comfort": "Memory Foam Insole" }
+    },
+
+    // 5. FORMAL MONK STRAP
+    { 
+      id: 5, 
+      name: 'Double Monk Strap Formal Shoes', 
+      category: "Footwear", 
+      sub: "Shoes • Formal", 
+      price: 2499, 
+      oldPrice: 3999, 
+      images: ["/Footwear/Men/Shoes/Products/smfp5.png", "/Footwear/Men/Shoes/Products/smfp5_1.png", "/Footwear/Men/Shoes/Products/smfp5_2.png", "/Footwear/Men/Shoes/Products/smfp5_3.png", "/Footwear/Men/Shoes/Products/smfp5_4.png"],
+      tag: "Luxury", 
+      color: "Dark Brown", 
+      rating: "4.9", 
+      reviews: "1.6k",
+      details: { "Type": "Monk Strap", "Material": "Polished Leather", "Sole": "Leather Sole", "Closure": "Double Buckle", "Occasion": "Business & Weddings" }
+    },
+
+    // 6. CASUAL RUNNING SHOES
     { 
       id: 6, 
-      name: 'Derby Formal Shoes', 
-      category: "Men", 
-      sub: "Shoes • Formal", 
-      price: 3999, 
-      oldPrice: 7999, 
+      name: 'Mesh Running Athletic Shoes', 
+      category: "Footwear", 
+      sub: "Shoes • Casual", 
+      price: 1999, 
+      oldPrice: 3999, 
       images: ["/Footwear/Men/Shoes/Products/smfp6.png", "/Footwear/Men/Shoes/Products/smfp6_1.png", "/Footwear/Men/Shoes/Products/smfp6_2.png", "/Footwear/Men/Shoes/Products/smfp6_3.png", "/Footwear/Men/Shoes/Products/smfp6_4.png"],
-      tag: "Classic", 
-      color: "Dark Brown", 
+      tag: "Trending", 
+      color: "Black & Red", 
       rating: "4.8", 
-      reviews: "1.5k",
-      details: { "Material": "Full Grain Leather", "Sole": "Leather", "Closure": "Lace-Up", "Occasion": "Office/Formal", "Comfort": "Cushioned Insole" }
+      reviews: "6.2k",
+      details: { "Type": "Athletic", "Material": "Mesh & Synthetic", "Sole": "EVA Foam", "Cushioning": "Air Cushion Technology", "Sports": "Running & Gym" }
     },
-    // CASUAL SHOES 4
+
+    // 7. FORMAL TUXEDO SHOES
     { 
       id: 7, 
-      name: 'Slip-On Casual Shoes', 
-      category: "Men", 
-      sub: "Shoes • Casual", 
-      price: 1799, 
-      oldPrice: 3599, 
+      name: 'Patent Leather Tuxedo Shoes', 
+      category: "Footwear", 
+      sub: "Shoes • Formal", 
+      price: 2499, 
+      oldPrice: 2999, 
       images: ["/Footwear/Men/Shoes/Products/smfp7.png", "/Footwear/Men/Shoes/Products/smfp7_1.png", "/Footwear/Men/Shoes/Products/smfp7_2.png", "/Footwear/Men/Shoes/Products/smfp7_3.png", "/Footwear/Men/Shoes/Products/smfp7_4.png"],
-      tag: "Easy Wear", 
-      color: "Grey", 
-      rating: "4.7", 
-      reviews: "2.2k",
-      details: { "Material": "Knit Fabric", "Sole": "Memory Foam", "Closure": "Slip-On", "Occasion": "Casual/Travel", "Breathable": "Yes" }
+      tag: "Luxury", 
+      color: "Black Patent", 
+      rating: "5.0", 
+      reviews: "0.9k",
+      details: { "Type": "Tuxedo", "Material": "Patent Leather", "Sole": "Leather Sole", "Closure": "Lace-Up", "Occasion": "Black Tie & Weddings" }
     },
-    // FORMAL SHOES 4
+
+    // 8. CASUAL SLIP-ONS
     { 
       id: 8, 
-      name: 'Monk Strap Shoes', 
-      category: "Men", 
-      sub: "Shoes • Formal", 
-      price: 4299, 
-      oldPrice: 8599, 
+      name: 'Espadrille Canvas Slip-Ons', 
+      category: "Footwear", 
+      sub: "Shoes • Casual", 
+      price: 899, 
+      oldPrice: 1799, 
       images: ["/Footwear/Men/Shoes/Products/smfp8.png", "/Footwear/Men/Shoes/Products/smfp8_1.png", "/Footwear/Men/Shoes/Products/smfp8_2.png", "/Footwear/Men/Shoes/Products/smfp8_3.png", "/Footwear/Men/Shoes/Products/smfp8_4.png"],
-      tag: "Statement", 
-      color: "Tan", 
-      rating: "4.9", 
-      reviews: "0.9k",
-      details: { "Material": "Polished Calf Leather", "Sole": "Leather", "Closure": "Buckle Strap", "Occasion": "Business/Party", "Style": "European" }
+      tag: "Trending", 
+      color: "Navy & White", 
+      rating: "4.5", 
+      reviews: "2.7k",
+      details: { "Type": "Espadrille", "Material": "Canvas & Jute", "Sole": "Jute & Rubber", "Closure": "Slip-On", "Vacation Wear": "Yes" }
     },
-    // CASUAL SHOES 5
+
+    // 9. FORMAL CHELSEA BOOTS
     { 
       id: 9, 
-      name: 'High Top Sneakers', 
-      category: "Men", 
-      sub: "Shoes • Casual", 
-      price: 2699, 
-      oldPrice: 5399, 
+      name: 'Suede Chelsea Boots', 
+      category: "Footwear", 
+      sub: "Shoes • Formal", 
+      price: 1999, 
+      oldPrice: 2999, 
       images: ["/Footwear/Men/Shoes/Products/smfp9.png", "/Footwear/Men/Shoes/Products/smfp9_1.png", "/Footwear/Men/Shoes/Products/smfp9_2.png", "/Footwear/Men/Shoes/Products/smfp9_3.png", "/Footwear/Men/Shoes/Products/smfp9_4.png"],
-      tag: "Street Style", 
-      color: "Black/White", 
-      rating: "4.8", 
-      reviews: "2.8k",
-      details: { "Material": "Synthetic Leather", "Sole": "Thick Rubber", "Closure": "Lace-Up", "Style": "Urban", "Ankle Support": "High" }
+      tag: "Luxury", 
+      color: "Chocolate Brown", 
+      rating: "4.9", 
+      reviews: "1.8k",
+      details: { "Type": "Chelsea Boots", "Material": "Premium Suede", "Sole": "Crepe Sole", "Closure": "Elastic Side Panels", "Style": "Smart Casual & Formal" }
     },
-    // FORMAL SHOES 5
+
+    // 10. CASUAL CHUKKA BOOTS
     { 
       id: 10, 
-      name: 'Patent Leather Shoes', 
-      category: "Men", 
-      sub: "Shoes • Formal", 
-      price: 4999, 
-      oldPrice: 9999, 
+      name: 'Desert Chukka Boots', 
+      category: "Footwear", 
+      sub: "Shoes • Casual", 
+      price: 1249, 
+      oldPrice: 2499, 
       images: ["/Footwear/Men/Shoes/Products/smfp10.png", "/Footwear/Men/Shoes/Products/smfp10_1.png", "/Footwear/Men/Shoes/Products/smfp10_2.png", "/Footwear/Men/Shoes/Products/smfp10_3.png", "/Footwear/Men/Shoes/Products/smfp10_4.png"],
-      tag: "Luxury", 
-      color: "Burgundy", 
-      rating: "5.0", 
-      reviews: "0.8k",
-      details: { "Material": "Patent Leather", "Sole": "Leather", "Closure": "Lace-Up", "Occasion": "Wedding/Gala", "Finish": "Mirror Shine" }
+      tag: "Best Seller", 
+      color: "Suede Sand", 
+      rating: "4.7", 
+      reviews: "3.5k",
+      details: { "Type": "Chukka Boots", "Material": "Suede Leather", "Sole": "Crepe Sole", "Closure": "Lace-Up", "Versatile": "Casual & Semi-Formal" }
     },
-    // CASUAL SHOES 6
+
+    // 11. FORMAL WINGTIP SHOES
     { 
       id: 11, 
-      name: 'Espadrille Casual Shoes', 
-      category: "Men", 
-      sub: "Shoes • Casual", 
-      price: 1599, 
-      oldPrice: 3199, 
+      name: 'Wingtip Brogue Formal Shoes', 
+      category: "Footwear", 
+      sub: "Shoes • Formal", 
+      price: 1249, 
+      oldPrice: 4499, 
       images: ["/Footwear/Men/Shoes/Products/smfp11.png", "/Footwear/Men/Shoes/Products/smfp11_1.png", "/Footwear/Men/Shoes/Products/smfp11_2.png", "/Footwear/Men/Shoes/Products/smfp11_3.png", "/Footwear/Men/Shoes/Products/smfp11_4.png"],
-      tag: "Summer Edit", 
-      color: "Beige", 
-      rating: "4.6", 
-      reviews: "1.4k",
-      details: { "Material": "Canvas + Jute", "Sole": "Rope", "Closure": "Slip-On", "Occasion": "Beach/Vacation", "Style": "Bohemian" }
+      tag: "Luxury", 
+      color: "Burgundy", 
+      rating: "4.8", 
+      reviews: "1.3k",
+      details: { "Type": "Wingtip Brogue", "Material": "Polished Calf Leather", "Sole": "Leather Sole", "Design": "Classic Brogue Perforations", "Occasion": "Formal & Semi-Formal" }
     },
-    // FORMAL SHOES 6
+
+    // 12. CASUAL SKATE SHOES
     { 
       id: 12, 
-      name: 'Wingtip Brogues', 
-      category: "Men", 
-      sub: "Shoes • Formal", 
-      price: 4699, 
-      oldPrice: 9399, 
+      name: 'Low Top Skate Sneakers', 
+      category: "Footwear", 
+      sub: "Shoes • Casual", 
+      price: 999, 
+      oldPrice: 1999, 
       images: ["/Footwear/Men/Shoes/Products/smfp12.png", "/Footwear/Men/Shoes/Products/smfp12_1.png", "/Footwear/Men/Shoes/Products/smfp12_2.png", "/Footwear/Men/Shoes/Products/smfp12_3.png", "/Footwear/Men/Shoes/Products/smfp12_4.png"],
-      tag: "Heritage", 
-      color: "Cognac", 
-      rating: "4.9", 
-      reviews: "1.1k",
-      details: { "Material": "Burnished Leather", "Sole": "Leather", "Closure": "Lace-Up", "Pattern": "Broguing", "Occasion": "Formal/Semi-Formal" }
+      tag: "Trending", 
+      color: "Grey & White", 
+      rating: "4.6", 
+      reviews: "4.8k",
+      details: { "Type": "Skate Shoes", "Material": "Canvas & Suede", "Sole": "Vulcanized Rubber", "Closure": "Lace-Up", "Style": "Streetwear & Casual" }
     }
-  ];
+];
 
   // Get cart quantity for a product
   const getCartQuantity = (productId, size) => {

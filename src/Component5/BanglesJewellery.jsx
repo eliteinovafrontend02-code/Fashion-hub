@@ -64,62 +64,70 @@ const BanglesJewellery = () => {
 
   // Featured Products for Bangles
   const featuredProducts = [
+    // 1. SILVER TRADITIONAL BANGLE
     { 
       id: 1, 
-      name: 'Gold Plated Traditional Bangles', 
+      name: 'Silver Traditional Kadha', 
       category: "Jewellery", 
       sub: "Bangles • Traditional", 
-      price: 2499, 
-      oldPrice: 4999, 
+      price: 2999, 
+      oldPrice: 5999, 
       images: ["/Jewellery/Bangles/Products/bjp1.png", "/Jewellery/Bangles/Products/bjp1_1.png", "/Jewellery/Bangles/Products/bjp1_2.png", "/Jewellery/Bangles/Products/bjp1_3.png", "/Jewellery/Bangles/Products/bjp1_4.png"],
       tag: "Best Seller", 
-      color: "Gold", 
+      color: "Silver", 
       rating: "4.9", 
-      reviews: "2.5k",
-      details: { "Type": "Traditional", "Material": "Brass with Gold Plating", "Size": "Adjustable", "Weight": "40g", "Occasion": "Festival" }
+      reviews: "3.2k",
+      details: { "Type": "Traditional Kadha", "Material": "Sterling Silver (92.5%)", "Design": "Engraved Temple Motifs", "Weight": "25g", "Occasion": "Festival & Wedding" }
     },
+
+    // 2. MODEL FASHION BANGLE
     { 
       id: 2, 
-      name: 'Acrylic Model Bangles Set', 
+      name: 'Gold Plated Modern Cuff', 
       category: "Jewellery", 
-      sub: "Bangles • Model", 
-      price: 899, 
-      oldPrice: 1799, 
+      sub: "Bangles • Fashion", 
+      price: 999, 
+      oldPrice: 3199, 
       images: ["/Jewellery/Bangles/Products/bjp2.png", "/Jewellery/Bangles/Products/bjp2_1.png", "/Jewellery/Bangles/Products/bjp2_2.png", "/Jewellery/Bangles/Products/bjp2_3.png", "/Jewellery/Bangles/Products/bjp2_4.png"],
       tag: "Trending", 
-      color: "Multicolor", 
+      color: "Gold", 
       rating: "4.7", 
-      reviews: "3.2k",
-      details: { "Type": "Model", "Material": "Acrylic", "Size": "2.4 inches", "Set of": "6 Bangles", "Daily Wear": "Yes" }
+      reviews: "2.1k",
+      details: { "Type": "Modern Cuff", "Material": "Brass with Gold Plating", "Design": "Minimalist Open Cuff", "Adjustable": "Yes", "Daily Wear": "Yes" }
     },
+
+    // 3. TRADITIONAL GOLD BANGLE
     { 
       id: 3, 
-      name: 'Kundan Work Traditional Bangles', 
+      name: 'Antique Gold Temple Bangle', 
       category: "Jewellery", 
       sub: "Bangles • Traditional", 
-      price: 3999, 
-      oldPrice: 7999, 
+      price: 1999, 
+      oldPrice: 3999, 
       images: ["/Jewellery/Bangles/Products/bjp3.png", "/Jewellery/Bangles/Products/bjp3_1.png", "/Jewellery/Bangles/Products/bjp3_2.png", "/Jewellery/Bangles/Products/bjp3_3.png", "/Jewellery/Bangles/Products/bjp3_4.png"],
       tag: "Luxury", 
-      color: "Gold & Kundan", 
-      rating: "4.8", 
+      color: "Antique Gold", 
+      rating: "4.9", 
       reviews: "1.8k",
-      details: { "Type": "Traditional", "Material": "Brass", "Stone": "Kundan Work", "Size": "Adjustable", "Occasion": "Wedding" }
+      details: { "Type": "Temple Bangle", "Material": "Brass with Antique Gold Finish", "Stone": "Kundan & Meenakari", "Weight": "40g", "Occasion": "Wedding & Festivals" }
     },
+
+    // 4. MODEL FASHION BANGLE
     { 
       id: 4, 
-      name: 'Minimalist Metal Model Bangles', 
+      name: 'Rose Gold Chain Bangle', 
       category: "Jewellery", 
-      sub: "Bangles • Model", 
-      price: 1299, 
-      oldPrice: 2599, 
+      sub: "Bangles • Fashion", 
+      price: 1899, 
+      oldPrice: 3799, 
       images: ["/Jewellery/Bangles/Products/bjp4.png", "/Jewellery/Bangles/Products/bjp4_1.png", "/Jewellery/Bangles/Products/bjp4_2.png", "/Jewellery/Bangles/Products/bjp4_3.png", "/Jewellery/Bangles/Products/bjp4_4.png"],
       tag: "Best Seller", 
-      color: "Silver", 
-      rating: "4.6", 
-      reviews: "2.1k",
-      details: { "Type": "Model", "Material": "Stainless Steel", "Size": "2.5 inches", "Set of": "4 Bangles", "Minimalist": "Yes" }
+      color: "Rose Gold", 
+      rating: "4.8", 
+      reviews: "2.5k",
+      details: { "Type": "Chain Bangle", "Material": "Stainless Steel with Rose Gold Plating", "Design": "Interlocking Chains", "Closure": "Lobster Clasp", "Layered Look": "Yes" }
     },
+
   ];
 
   useEffect(() => {

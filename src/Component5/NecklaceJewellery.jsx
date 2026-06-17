@@ -64,61 +64,61 @@ const NecklaceJewellery = () => {
 
   // Featured Products for Necklace
   const featuredProducts = [
-    { 
+   { 
       id: 1, 
-      name: 'Gold Chain Necklace', 
+      name: 'Delicate Heart Pendant Chain', 
       category: "Jewellery", 
-      sub: "Necklace • Chain", 
-      price: 3499, 
-      oldPrice: 6999, 
+      sub: "Necklace • Women's Chain", 
+      price: 5999, 
+      oldPrice: 7999, 
       images: ["/Jewellery/Necklace/Products/njp1.png", "/Jewellery/Necklace/Products/njp1_1.png", "/Jewellery/Necklace/Products/njp1_2.png", "/Jewellery/Necklace/Products/njp1_3.png", "/Jewellery/Necklace/Products/njp1_4.png"],
       tag: "Best Seller", 
-      color: "Gold", 
+      color: "Rose Gold", 
       rating: "4.9", 
-      reviews: "2.5k",
-      details: { "Type": "Chain", "Material": "Gold Plated", "Length": "18 inches", "Closure": "Lobster Clasp", "Hypoallergenic": "Yes" }
+      reviews: "3.2k",
+      details: { "Type": "Pendant Chain", "Material": "14K Rose Gold", "Pendant": "Heart Shaped", "Length": "16 inches", "Closure": "Lobster Clasp" }
     },
     { 
       id: 2, 
-      name: 'Pearl Choker Necklace', 
+      name: 'Royal Emerald Choker', 
       category: "Jewellery", 
-      sub: "Necklace • Choker", 
-      price: 3999, 
-      oldPrice: 7999, 
+      sub: "Necklace • Women's Choker", 
+      price: 6999, 
+      oldPrice: 9999, 
       images: ["/Jewellery/Necklace/Products/njp2.png", "/Jewellery/Necklace/Products/njp2_1.png", "/Jewellery/Necklace/Products/njp2_2.png", "/Jewellery/Necklace/Products/njp2_3.png", "/Jewellery/Necklace/Products/njp2_4.png"],
-      tag: "Trending", 
-      color: "White Pearl", 
-      rating: "4.8", 
-      reviews: "1.8k",
-      details: { "Type": "Choker", "Material": "Freshwater Pearls", "Length": "14 inches", "Closure": "Magnetic", "Elegant": "Yes" }
+      tag: "Luxury", 
+      color: "Gold + Emerald", 
+      rating: "4.9", 
+      reviews: "987",
+      details: { "Type": "Gemstone Choker", "Material": "18K Gold", "Stone": "Natural Emerald", "Setting": "Kundan", "Bridal Collection": "Yes" }
     },
     { 
       id: 3, 
-      name: 'Silver Chain Necklace', 
+      name: 'Tiny Star Chain Necklace', 
       category: "Jewellery", 
-      sub: "Necklace • Chain", 
-      price: 2799, 
-      oldPrice: 5599, 
+      sub: "Necklace • Women's Chain", 
+      price: 5999, 
+      oldPrice: 7899, 
       images: ["/Jewellery/Necklace/Products/njp3.png", "/Jewellery/Necklace/Products/njp3_1.png", "/Jewellery/Necklace/Products/njp3_2.png", "/Jewellery/Necklace/Products/njp3_3.png", "/Jewellery/Necklace/Products/njp3_4.png"],
-      tag: "Best Seller", 
+      tag: "Premium", 
       color: "Silver", 
-      rating: "4.7", 
-      reviews: "2.1k",
-      details: { "Type": "Chain", "Material": "Sterling Silver", "Length": "20 inches", "Closure": "Lobster Clasp", "Tarnish Free": "Yes" }
+      rating: "4.8", 
+      reviews: "1.8k",
+      details: { "Type": "Star Pendant", "Material": "Sterling Silver", "Design": "Minimalist", "Length": "18 inches", "Daily Wear": "Yes" }
     },
     { 
       id: 4, 
-      name: 'Layered Choker Set', 
+      name: 'Diamond Halo Choker', 
       category: "Jewellery", 
-      sub: "Necklace • Choker", 
-      price: 5499, 
-      oldPrice: 10999, 
+      sub: "Necklace • Women's Choker", 
+      price: 4999, 
+      oldPrice: 8999, 
       images: ["/Jewellery/Necklace/Products/njp4.png", "/Jewellery/Necklace/Products/njp4_1.png", "/Jewellery/Necklace/Products/njp4_2.png", "/Jewellery/Necklace/Products/njp4_3.png", "/Jewellery/Necklace/Products/njp4_4.png"],
-      tag: "Luxury", 
-      color: "Gold", 
+      tag: "Trending", 
+      color: "White Diamond", 
       rating: "4.9", 
-      reviews: "1.2k",
-      details: { "Type": "Layered Choker", "Material": "Gold Plated", "Length": "14-16 inches", "Style": "Modern", "Occasion": "Party" }
+      reviews: "654",
+      details: { "Type": "Halo Choker", "Material": "Silver Plated", "Stone": "Cubic Zirconia", "Length": "14 inches", "Party Wear": "Yes" }
     },
   ];
 

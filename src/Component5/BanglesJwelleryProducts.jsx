@@ -25,179 +25,199 @@ useEffect(() => {
 
   // Bangles Products - 4 Traditional + 8 Fashion/Designer (Total 12)
   // Image Path Pattern: /Jewellery/Bangles/Products/bjp{id}.png
-  const products = [
-    // ====== TRADITIONAL BANGLES (4 products) ======
+const products = [
+    // 1. SILVER TRADITIONAL BANGLE
     { 
       id: 1, 
-      name: 'Gold Plated Traditional Bangles', 
-      category: "Jewellery", 
-      sub: "Bangles • Traditional", 
-      price: 2499, 
-      oldPrice: 4999, 
-      images: ["/Jewellery/Bangles/Products/bjp1.png", "/Jewellery/Bangles/Products/bjp1_1.png", "/Jewellery/Bangles/Products/bjp1_2.png", "/Jewellery/Bangles/Products/bjp1_3.png", "/Jewellery/Bangles/Products/bjp1_4.png"],
-      tag: "Best Seller", 
-      color: "Gold", 
-      rating: "4.9", 
-      reviews: "2.5k",
-      details: { "Type": "Traditional", "Material": "Brass with Gold Plating", "Size": "Adjustable", "Weight": "40g", "Occasion": "Festival" }
-    },
-    { 
-      id: 2, 
-      name: 'Kundan Work Traditional Bangles', 
-      category: "Jewellery", 
-      sub: "Bangles • Traditional", 
-      price: 3999, 
-      oldPrice: 7999, 
-      images: ["/Jewellery/Bangles/Products/bjp2.png", "/Jewellery/Bangles/Products/bjp2_1.png", "/Jewellery/Bangles/Products/bjp2_2.png", "/Jewellery/Bangles/Products/bjp2_3.png", "/Jewellery/Bangles/Products/bjp2_4.png"],
-      tag: "Luxury", 
-      color: "Gold & Kundan", 
-      rating: "4.8", 
-      reviews: "1.8k",
-      details: { "Type": "Traditional", "Material": "Brass", "Stone": "Kundan Work", "Size": "Adjustable", "Occasion": "Wedding" }
-    },
-    { 
-      id: 3, 
-      name: 'Antique Silver Oxidized Bangles', 
-      category: "Jewellery", 
-      sub: "Bangles • Traditional", 
-      price: 1799, 
-      oldPrice: 3599, 
-      images: ["/Jewellery/Bangles/Products/bjp3.png", "/Jewellery/Bangles/Products/bjp3_1.png", "/Jewellery/Bangles/Products/bjp3_2.png", "/Jewellery/Bangles/Products/bjp3_3.png", "/Jewellery/Bangles/Products/bjp3_4.png"],
-      tag: "Trending", 
-      color: "Antique Silver", 
-      rating: "4.7", 
-      reviews: "2.1k",
-      details: { "Type": "Traditional", "Material": "Silver Plated", "Design": "Oxidized Finish", "Size": "2.6 inches", "Bohemian Style": "Yes" }
-    },
-    { 
-      id: 4, 
-      name: 'Meenakari Colorful Bangles', 
+      name: 'Silver Traditional Kadha', 
       category: "Jewellery", 
       sub: "Bangles • Traditional", 
       price: 2999, 
       oldPrice: 5999, 
-      images: ["/Jewellery/Bangles/Products/bjp4.png", "/Jewellery/Bangles/Products/bjp4_1.png", "/Jewellery/Bangles/Products/bjp4_2.png", "/Jewellery/Bangles/Products/bjp4_3.png", "/Jewellery/Bangles/Products/bjp4_4.png"],
+      images: ["/Jewellery/Bangles/Products/bjp1.png", "/Jewellery/Bangles/Products/bjp1_1.png", "/Jewellery/Bangles/Products/bjp1_2.png", "/Jewellery/Bangles/Products/bjp1_3.png", "/Jewellery/Bangles/Products/bjp1_4.png"],
       tag: "Best Seller", 
-      color: "Multicolor", 
-      rating: "4.8", 
-      reviews: "1.5k",
-      details: { "Type": "Traditional", "Material": "Brass", "Design": "Meenakari Art", "Size": "Adjustable", "Set of": "6 Bangles" }
+      color: "Silver", 
+      rating: "4.9", 
+      reviews: "3.2k",
+      details: { "Type": "Traditional Kadha", "Material": "Sterling Silver (92.5%)", "Design": "Engraved Temple Motifs", "Weight": "25g", "Occasion": "Festival & Wedding" }
     },
 
-    // ====== FASHION / DESIGNER BANGLES (8 products) ======
+    // 2. MODEL FASHION BANGLE
+    { 
+      id: 2, 
+      name: 'Gold Plated Modern Cuff', 
+      category: "Jewellery", 
+      sub: "Bangles • Fashion", 
+      price: 999, 
+      oldPrice: 3199, 
+      images: ["/Jewellery/Bangles/Products/bjp2.png", "/Jewellery/Bangles/Products/bjp2_1.png", "/Jewellery/Bangles/Products/bjp2_2.png", "/Jewellery/Bangles/Products/bjp2_3.png", "/Jewellery/Bangles/Products/bjp2_4.png"],
+      tag: "Trending", 
+      color: "Gold", 
+      rating: "4.7", 
+      reviews: "2.1k",
+      details: { "Type": "Modern Cuff", "Material": "Brass with Gold Plating", "Design": "Minimalist Open Cuff", "Adjustable": "Yes", "Daily Wear": "Yes" }
+    },
+
+    // 3. TRADITIONAL GOLD BANGLE
+    { 
+      id: 3, 
+      name: 'Antique Gold Temple Bangle', 
+      category: "Jewellery", 
+      sub: "Bangles • Traditional", 
+      price: 1999, 
+      oldPrice: 3999, 
+      images: ["/Jewellery/Bangles/Products/bjp3.png", "/Jewellery/Bangles/Products/bjp3_1.png", "/Jewellery/Bangles/Products/bjp3_2.png", "/Jewellery/Bangles/Products/bjp3_3.png", "/Jewellery/Bangles/Products/bjp3_4.png"],
+      tag: "Luxury", 
+      color: "Antique Gold", 
+      rating: "4.9", 
+      reviews: "1.8k",
+      details: { "Type": "Temple Bangle", "Material": "Brass with Antique Gold Finish", "Stone": "Kundan & Meenakari", "Weight": "40g", "Occasion": "Wedding & Festivals" }
+    },
+
+    // 4. MODEL FASHION BANGLE
+    { 
+      id: 4, 
+      name: 'Rose Gold Chain Bangle', 
+      category: "Jewellery", 
+      sub: "Bangles • Fashion", 
+      price: 1899, 
+      oldPrice: 3799, 
+      images: ["/Jewellery/Bangles/Products/bjp4.png", "/Jewellery/Bangles/Products/bjp4_1.png", "/Jewellery/Bangles/Products/bjp4_2.png", "/Jewellery/Bangles/Products/bjp4_3.png", "/Jewellery/Bangles/Products/bjp4_4.png"],
+      tag: "Best Seller", 
+      color: "Rose Gold", 
+      rating: "4.8", 
+      reviews: "2.5k",
+      details: { "Type": "Chain Bangle", "Material": "Stainless Steel with Rose Gold Plating", "Design": "Interlocking Chains", "Closure": "Lobster Clasp", "Layered Look": "Yes" }
+    },
+
+    // 5. TRADITIONAL PEARL BANGLE
     { 
       id: 5, 
-      name: 'Acrylic Marble Fashion Bangles', 
+      name: 'Pearl & Gold Traditional Bangle', 
       category: "Jewellery", 
-      sub: "Bangles • Fashion", 
-      price: 599, 
-      oldPrice: 1199, 
+      sub: "Bangles • Traditional", 
+      price: 3999, 
+      oldPrice: 7999, 
       images: ["/Jewellery/Bangles/Products/bjp5.png", "/Jewellery/Bangles/Products/bjp5_1.png", "/Jewellery/Bangles/Products/bjp5_2.png", "/Jewellery/Bangles/Products/bjp5_3.png", "/Jewellery/Bangles/Products/bjp5_4.png"],
-      tag: "Trending", 
-      color: "White Marble", 
-      rating: "4.6", 
-      reviews: "3.2k",
-      details: { "Type": "Fashion", "Material": "Acrylic", "Design": "Marble Effect", "Size": "2.4 inches", "Set of": "4 Bangles" }
+      tag: "Luxury", 
+      color: "Gold & Pearl", 
+      rating: "4.9", 
+      reviews: "1.5k",
+      details: { "Type": "Pearl Studded Bangle", "Material": "Gold Plated Brass", "Pearl Type": "Freshwater Cultured", "Design": "Traditional Floral Motifs", "Weight": "35g" }
     },
+
+    // 6. MODEL FASHION BANGLE
     { 
       id: 6, 
-      name: 'Resin Floral Designer Bangles', 
-      category: "Jewellery", 
-      sub: "Bangles • Fashion", 
-      price: 899, 
-      oldPrice: 1799, 
-      images: ["/Jewellery/Bangles/Products/bjp6.png", "/Jewellery/Bangles/Products/bjp6_1.png", "/Jewellery/Bangles/Products/bjp6_2.png", "/Jewellery/Bangles/Products/bjp6_3.png", "/Jewellery/Bangles/Products/bjp6_4.png"],
-      tag: "Best Seller", 
-      color: "Pink & Gold", 
-      rating: "4.8", 
-      reviews: "2.4k",
-      details: { "Type": "Fashion", "Material": "Resin", "Design": "Dried Flowers Inside", "Size": "2.5 inches", "Handmade": "Yes" }
-    },
-    { 
-      id: 7, 
-      name: 'Wooden Carved Boho Bangles', 
-      category: "Jewellery", 
-      sub: "Bangles • Fashion", 
-      price: 699, 
-      oldPrice: 1399, 
-      images: ["/Jewellery/Bangles/Products/bjp7.png", "/Jewellery/Bangles/Products/bjp7_1.png", "/Jewellery/Bangles/Products/bjp7_2.png", "/Jewellery/Bangles/Products/bjp7_3.png", "/Jewellery/Bangles/Products/bjp7_4.png"],
-      tag: "Trending", 
-      color: "Brown Wood", 
-      rating: "4.5", 
-      reviews: "1.9k",
-      details: { "Type": "Fashion", "Material": "Natural Wood", "Design": "Carved Pattern", "Size": "Adjustable", "Eco Friendly": "Yes" }
-    },
-    { 
-      id: 8, 
-      name: 'K-Pop Style Colorful Bangles', 
-      category: "Jewellery", 
-      sub: "Bangles • Fashion", 
-      price: 499, 
-      oldPrice: 999, 
-      images: ["/Jewellery/Bangles/Products/bjp8.png", "/Jewellery/Bangles/Products/bjp8_1.png", "/Jewellery/Bangles/Products/bjp8_2.png", "/Jewellery/Bangles/Products/bjp8_3.png", "/Jewellery/Bangles/Products/bjp8_4.png"],
-      tag: "Trending", 
-      color: "Pastel Mix", 
-      rating: "4.7", 
-      reviews: "4.1k",
-      details: { "Type": "Fashion", "Material": "Plastic", "Design": "Korean Style", "Size": "2.3 inches", "Set of": "8 Bangles" }
-    },
-    { 
-      id: 9, 
-      name: 'Leather Wrap Designer Bangles', 
+      name: 'Acrylic Color Block Bangle Set', 
       category: "Jewellery", 
       sub: "Bangles • Fashion", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Jewellery/Bangles/Products/bjp9.png", "/Jewellery/Bangles/Products/bjp9_1.png", "/Jewellery/Bangles/Products/bjp9_2.png", "/Jewellery/Bangles/Products/bjp9_3.png", "/Jewellery/Bangles/Products/bjp9_4.png"],
-      tag: "Premium", 
-      color: "Brown & Black", 
+      images: ["/Jewellery/Bangles/Products/bjp6.png", "/Jewellery/Bangles/Products/bjp6_1.png", "/Jewellery/Bangles/Products/bjp6_2.png", "/Jewellery/Bangles/Products/bjp6_3.png", "/Jewellery/Bangles/Products/bjp6_4.png"],
+      tag: "Trending", 
+      color: "Multicolor", 
       rating: "4.6", 
-      reviews: "1.2k",
-      details: { "Type": "Fashion", "Material": "Leather + Metal", "Size": "Adjustable", "Set of": "2 Bangles", "Bohemian": "Yes" }
+      reviews: "3.1k",
+      details: { "Type": "Acrylic Bangle Set", "Material": "High Quality Acrylic", "Set": "Set of 4 Bangles", "Design": "Color Block", "Weight": "Ultra Light" }
     },
+
+    // 7. TRADITIONAL SOUTH INDIAN BANGLE
+    { 
+      id: 7, 
+      name: 'South Indian Silk Thread Bangle', 
+      category: "Jewellery", 
+      sub: "Bangles • Traditional", 
+      price: 1499, 
+      oldPrice: 3999, 
+      images: ["/Jewellery/Bangles/Products/bjp7.png", "/Jewellery/Bangles/Products/bjp7_1.png", "/Jewellery/Bangles/Products/bjp7_2.png", "/Jewellery/Bangles/Products/bjp7_3.png", "/Jewellery/Bangles/Products/bjp7_4.png"],
+      tag: "Best Seller", 
+      color: "Gold & Red", 
+      rating: "4.8", 
+      reviews: "2.2k",
+      details: { "Type": "Silk Thread Bangle", "Material": "Silk Thread & Gold Plated Brass", "Design": "Traditional Temple Motifs", "Weight": "12g", "Festival Wear": "Yes" }
+    },
+
+    // 8. MODEL FASHION BANGLE
+    { 
+      id: 8, 
+      name: 'Silver Minimalist Geometric Bangles', 
+      category: "Jewellery", 
+      sub: "Bangles • Fashion", 
+      price: 1099, 
+      oldPrice: 2199, 
+      images: ["/Jewellery/Bangles/Products/bjp8.png", "/Jewellery/Bangles/Products/bjp8_1.png", "/Jewellery/Bangles/Products/bjp8_2.png", "/Jewellery/Bangles/Products/bjp8_3.png", "/Jewellery/Bangles/Products/bjp8_4.png"],
+      tag: "Essential", 
+      color: "Silver", 
+      rating: "4.7", 
+      reviews: "1.9k",
+      details: { "Type": "Geometric Bangle Set", "Material": "Stainless Steel", "Design": "Minimalist Geometric", "Set": "Set of 3 Bangles", "Daily Wear": "Yes" }
+    },
+
+    // 9. TRADITIONAL GOLD JADAU BANGLE
+    { 
+      id: 9, 
+      name: 'Jadau Kundan Bridal Bangle', 
+      category: "Jewellery", 
+      sub: "Bangles • Traditional", 
+      price: 1999, 
+      oldPrice: 4999, 
+      images: ["/Jewellery/Bangles/Products/bjp9.png", "/Jewellery/Bangles/Products/bjp9_1.png", "/Jewellery/Bangles/Products/bjp9_2.png", "/Jewellery/Bangles/Products/bjp9_3.png", "/Jewellery/Bangles/Products/bjp9_4.png"],
+      tag: "Luxury", 
+      color: "Gold & Pink", 
+      rating: "5.0", 
+      reviews: "1.2k",
+      details: { "Type": "Jadau Bridal Bangle", "Material": "Brass with Gold Plating", "Stone": "Kundan & Polki", "Design": "Intricate Jadau Work", "Occasion": "Wedding & Bridal" }
+    },
+
+    // 10. MODEL FASHION BANGLE
     { 
       id: 10, 
-      name: 'Crystal Stone Party Wear Bangles', 
+      name: 'Enamel Paisley Pattern Bangles', 
       category: "Jewellery", 
       sub: "Bangles • Fashion", 
-      price: 1599, 
-      oldPrice: 3199, 
+      price: 999, 
+      oldPrice: 2999, 
       images: ["/Jewellery/Bangles/Products/bjp10.png", "/Jewellery/Bangles/Products/bjp10_1.png", "/Jewellery/Bangles/Products/bjp10_2.png", "/Jewellery/Bangles/Products/bjp10_3.png", "/Jewellery/Bangles/Products/bjp10_4.png"],
-      tag: "Best Seller", 
-      color: "Gold & Crystal", 
-      rating: "4.8", 
-      reviews: "1.7k",
-      details: { "Type": "Fashion", "Material": "Gold Plated", "Stone": "Cubic Zirconia", "Size": "2.5 inches", "Party Wear": "Yes" }
-    },
-    { 
-      id: 11, 
-      name: 'Geometric Enamel Designer Bangles', 
-      category: "Jewellery", 
-      sub: "Bangles • Fashion", 
-      price: 799, 
-      oldPrice: 1599, 
-      images: ["/Jewellery/Bangles/Products/bjp11.png", "/Jewellery/Bangles/Products/bjp11_1.png", "/Jewellery/Bangles/Products/bjp11_2.png", "/Jewellery/Bangles/Products/bjp11_3.png", "/Jewellery/Bangles/Products/bjp11_4.png"],
       tag: "Trending", 
       color: "Blue & Gold", 
       rating: "4.5", 
       reviews: "2.3k",
-      details: { "Type": "Fashion", "Material": "Enamel + Metal", "Design": "Geometric Pattern", "Size": "2.4 inches", "Set of": "4 Bangles" }
+      details: { "Type": "Enamel Bangle Set", "Material": "Brass with Enamel Finish", "Design": "Paisley Patterns", "Set": "Set of 3 Bangles", "Gift Ready": "Yes" }
     },
+
+    // 11. TRADITIONAL SILVER PATTU BANGLE
+    { 
+      id: 11, 
+      name: 'Silver Pattu Bridal Bangles', 
+      category: "Jewellery", 
+      sub: "Bangles • Traditional", 
+      price: 1999, 
+      oldPrice: 5999, 
+      images: ["/Jewellery/Bangles/Products/bjp11.png", "/Jewellery/Bangles/Products/bjp11_1.png", "/Jewellery/Bangles/Products/bjp11_2.png", "/Jewellery/Bangles/Products/bjp11_3.png", "/Jewellery/Bangles/Products/bjp11_4.png"],
+      tag: "Luxury", 
+      color: "Silver & Gold", 
+      rating: "4.9", 
+      reviews: "1.4k",
+      details: { "Type": "Pattu Bridal Bangle", "Material": "Sterling Silver with Gold Plating", "Design": "Traditional Pattu Design", "Weight": "50g", "Bridal Collection": "Yes" }
+    },
+
+    // 12. MODEL FASHION BANGLE
     { 
       id: 12, 
-      name: 'Glass Beaded Multi-Color Bangles', 
+      name: 'Hammered Metal Adjustable Cuff', 
       category: "Jewellery", 
       sub: "Bangles • Fashion", 
-      price: 399, 
-      oldPrice: 799, 
+      price: 1199, 
+      oldPrice: 2399, 
       images: ["/Jewellery/Bangles/Products/bjp12.png", "/Jewellery/Bangles/Products/bjp12_1.png", "/Jewellery/Bangles/Products/bjp12_2.png", "/Jewellery/Bangles/Products/bjp12_3.png", "/Jewellery/Bangles/Products/bjp12_4.png"],
-      tag: "Essential", 
-      color: "Rainbow", 
-      rating: "4.4", 
-      reviews: "3.8k",
-      details: { "Type": "Fashion", "Material": "Glass Beads", "Design": "Handcrafted Beads", "Size": "2.5 inches", "Set of": "10 Bangles" }
+      tag: "Trending", 
+      color: "Brass", 
+      rating: "4.7", 
+      reviews: "1.6k",
+      details: { "Type": "Hammered Cuff", "Material": "Brass with Protective Coating", "Design": "Hammered Texture", "Adjustable": "Yes", "Statement Piece": "Yes" }
     }
-  ];
+];
 
   // Get cart quantity for a product
   const getCartQuantity = (productId, size) => {

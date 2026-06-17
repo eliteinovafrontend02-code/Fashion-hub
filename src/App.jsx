@@ -73,6 +73,38 @@ import BoyKidsFootwear from './Component3/BoyKidsFootwear'
 import BoyKidsFootwearProducts from './Component3/BoyKidsFootwearProducts'
 import GirlKidsFootwear from './Component3/GirlKidsFootwear'
 import GirlKidsFootwearProducts from './Component3/GirlKidsFootwearProducts'
+import PrintedShirtMenFashionProducts from './Component1/PrintedShirtMenFashionProducts'
+import CasualSareeWomenFashionProducts from './Component1/CasualSareeWomenFashionProducts'
+import JeanPantsMenFashionProducts from './Component1/JeanPantsMenFashionProducts'
+import FormalPantsMenFashionProducts from './Component1/FormalPantsMenFashionProducts'
+import PartySareeWomenFashionProducts from './Component1/PartySareeWomenFashionProducts'
+import ShortDressesWomenFashionProducts from './Component1/ShortDressesWomenFashionProducts'
+import LongDressesWomenFashionProducts from './Component1/LongDressesWomenFashionProducts'
+import ShirtBoyKidsFashionProducts from './Component1/ShirtBoyKidsFashionProducts'
+import SetBoyKidsFashionProducts from './Component1/SetBoyKidsFashionProducts'
+import FrockGirlKidsFashionProducts from './Component1/FrockGirlKidsFashionProducts'
+import SetGirlKidsFashionProducts from './Component1/SetGirlKidsFashionProducts'
+import CasualWatchesAccessoriesProducts from './Component2/CasualWatchesAccessoriesProducts'
+import FormalWatchesAccessoriesProducts from './Component2/FormalWatchesAccessoriesProducts'
+import HandbagBagsAccessoriesProducts from './Component2/HandbagBagsAccessoriesProducts'
+import SlingBagsAccessoriesProducts from './Component2/SlingBagsAccessoriesProducts'
+import RoundSunglassesAccessoriesProducts from './Component2/RoundSunglassesAccessoriesProducts'
+import SquareSunglassesAccessoriesProducts from './Component2/SquareSunglassesAccessoriesProducts'
+import CasualShoesMenFootwearProducts from './Component3/CasualShoesMenFootwearProducts'
+import FormalShoesMenFootwearProducts from './Component3/FormalShoesMenFootwearProducts'
+import SportsSandalsMenFootwearProducts from './Component3/SportsSandalsMenFootwearProducts'
+import FlatSandalsMenFootwearProducts from './Component3/FlatSandalsMenFootwearProducts'
+import PartyHeelsWomenFootwearProducts from './Component3/PartyHeelsWomenFootwearProducts'
+import CasualHeelsWomenFootwearProducts from './Component3/CasualHeelsWomenFootwearProducts'
+import BallerinaFlatWomenFootwearProducts from './Component3/BallerinaFlatWomenFootwearProducts'
+import EthnicFlatWomenFootwearProducts from './Component3/EthnicFlatWomenFootwearProducts'
+import ShoesBoyKidsFootwearProducts from './Component3/ShoesBoyKidsFootwearProducts'
+import SandalsBoyKidsFootwearProducts from './Component3/SandalsBoyKidsFootwearProducts'
+import ShoesGirlKidsFootwearProducts from './Component3/ShoesGirlKidsFootwearProducts'
+import SandalsGirlKidsFootwearProducts from './Component3/SandalsGirlKidsFootwearProducts'
+import About from './About'
+import Contact from './Contact'
+import Services from './Services'
 
 const App = () => {
   return (
@@ -87,6 +119,9 @@ const App = () => {
         <Route path='/checkout' element={<Checkout/>}/>
         <Route path='/order-confirmation' element={<OrderConfirmation/>}/>
         <Route path='/order-success' element={<OrderSuccess/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/services' element={<Services/>}/>
 
         {/* fashion routes */}
         <Route path='/fashion' element={<Fashion/>}/>
@@ -97,23 +132,34 @@ const App = () => {
         <Route path='/fashion/men/shirts' element={<ShirtsMenFashion/>}/>
         <Route path='/fashion/men/shirts/products' element={<ShirtsMenFashionProducts/>}/>
         <Route path='/fashion/men/shirts/casual' element={<CasualShirtMenFashionProducts/>}/>
+        <Route path='/fashion/men/shirts/printed' element={<PrintedShirtMenFashionProducts/>}/>
         <Route path='/fashion/men/pants' element={<PantsMenFashion/>}/>
         <Route path='/fashion/men/pants/products' element={<PantsMenFashionProducts/>}/>
+        <Route path='/fashion/men/pants/jean' element={<JeanPantsMenFashionProducts/>}/>
+        <Route path='/fashion/men/pants/formal' element={<FormalPantsMenFashionProducts/>}/>
 
         <Route path='/fashion/women' element={<WomenFashion/>}/>
         <Route path='/fashion/women/products' element={<WomenFashionProducts/>}/>
         <Route path='/fashion/women/saree' element={<SareeWomenFashion/>}/>
         <Route path='/fashion/women/saree/products' element={<SareeWomenFashionProducts/>}/>
+        <Route path='/fashion/women/saree/casual' element={<CasualSareeWomenFashionProducts/>}/>
+        <Route path='/fashion/women/saree/party' element={<PartySareeWomenFashionProducts/>}/>
         <Route path='/fashion/women/dresses' element={<DressesWomenFashion/>}/>
         <Route path='/fashion/women/dresses/products' element={<DressesWomenFashionProducts/>}/>
+        <Route path='/fashion/women/dresses/short' element={<ShortDressesWomenFashionProducts/>}/>
+        <Route path='/fashion/women/dresses/long' element={<LongDressesWomenFashionProducts/>}/>
 
 
         <Route path='/fashion/kids' element={<KidsFashion/>}/>
         <Route path='/fashion/kids/products' element={<KidsFashionProducts/>}/>
         <Route path='/fashion/kids/boy' element={<BoyKidsFashion/>}/>
         <Route path='/fashion/kids/boy/products' element={<BoyKidsFashionProducts/>}/>
-         <Route path='/fashion/kids/girl' element={<GirlKidsFashion/>}/>
+        <Route path='/fashion/kids/boy/shirt' element={<ShirtBoyKidsFashionProducts/>}/>
+        <Route path='/fashion/kids/boy/set' element={<SetBoyKidsFashionProducts/>}/>
+        <Route path='/fashion/kids/girl' element={<GirlKidsFashion/>}/>
         <Route path='/fashion/kids/girl/products' element={<GirlKidsFashionProducts/>}/>
+        <Route path='/fashion/kids/girl/frock' element={<FrockGirlKidsFashionProducts/>}/>
+        <Route path='/fashion/kids/girl/set' element={<SetGirlKidsFashionProducts/>}/>
 
         
         {/* accessories routes */}
@@ -121,10 +167,18 @@ const App = () => {
         <Route path='/accessories/aproducts' element={<AccessoriesProducts/>}/>
         <Route path='/accessories/watches' element={<WatchesAccessories/>}/>
         <Route path='/accessories/watches/aproducts' element={<WatchesAccessoriesProducts/>}/>
+        <Route path='/accessories/watches/casual' element={<CasualWatchesAccessoriesProducts/>}/>
+        <Route path='/accessories/watches/formal' element={<FormalWatchesAccessoriesProducts/>}/>
+
         <Route path='/accessories/bags' element={<BagsAccessories/>}/>
         <Route path='/accessories/bags/aproducts' element={<BagsAccessoriesProducts/>}/>
+        <Route path='/accessories/bags/handbag' element={<HandbagBagsAccessoriesProducts/>}/>
+        <Route path='/accessories/bags/sling' element={<SlingBagsAccessoriesProducts/>}/>
+
         <Route path='/accessories/sunglasses' element={<SunglassesAccessories/>}/>
         <Route path='/accessories/sunglasses/aproducts' element={<SunglassesAccessoriesProducts/>}/>
+        <Route path='/accessories/sunglasses/round' element={<RoundSunglassesAccessoriesProducts/>}/>
+        <Route path='/accessories/sunglasses/square' element={<SquareSunglassesAccessoriesProducts/>}/>
 
         {/* footwear routes */}
         <Route path='/footwear' element={<Footwear/>}/>
@@ -134,22 +188,34 @@ const App = () => {
         <Route path='/footwear/men/fproducts' element={<MenFootwearProducts/>}/>
         <Route path='/footwear/men/shoes' element={<ShoesMenFootwear/>}/>
         <Route path='/footwear/men/shoes/fproducts' element={<ShoesMenFootwearProducts/>}/>
+        <Route path='/footwear/men/shoes/casual' element={<CasualShoesMenFootwearProducts/>}/>
+        <Route path='/footwear/men/shoes/formal' element={<FormalShoesMenFootwearProducts/>}/>
         <Route path='/footwear/men/sandals' element={<SandalsMenFootwear/>}/>
         <Route path='/footwear/men/sandals/fproducts' element={<SandalsMenFootwearProducts/>}/>
+        <Route path='/footwear/men/sandals/sports' element={<SportsSandalsMenFootwearProducts/>}/>
+        <Route path='/footwear/men/sandals/flat' element={<FlatSandalsMenFootwearProducts/>}/>
 
         <Route path='/footwear/women' element={<WomenFootwear/>}/>
         <Route path='/footwear/women/fproducts' element={<WomenFootwearProducts/>}/>
         <Route path='/footwear/women/heels' element={<HeelsWomenFootwear/>}/>
         <Route path='/footwear/women/heels/fproducts' element={<HeelsWomenFootwearProducts/>}/>
+        <Route path='/footwear/women/heels/party' element={<PartyHeelsWomenFootwearProducts/>}/>
+        <Route path='/footwear/women/heels/casual' element={<CasualHeelsWomenFootwearProducts/>}/>
         <Route path='/footwear/women/flats' element={<FlatsWomenFootwear/>}/>
         <Route path='/footwear/women/flats/fproducts' element={<FlatsWomenFootwearProducts/>}/>
+        <Route path='/footwear/women/flats/ballerina' element={<BallerinaFlatWomenFootwearProducts/>}/>
+        <Route path='/footwear/women/flats/ethnic' element={<EthnicFlatWomenFootwearProducts/>}/>
 
         <Route path='/footwear/kids' element={<KidsFootwear/>}/>
         <Route path='/footwear/kids/fproducts' element={<KidsFootwearProducts/>}/>
         <Route path='/footwear/kids/boy' element={<BoyKidsFootwear/>}/>
         <Route path='/footwear/kids/boy/fproducts' element={<BoyKidsFootwearProducts/>}/>
+        <Route path='/footwear/kids/boy/shoes' element={<ShoesBoyKidsFootwearProducts/>}/>
+        <Route path='/footwear/kids/boy/sandals' element={<SandalsBoyKidsFootwearProducts/>}/>
         <Route path='/footwear/kids/girl' element={<GirlKidsFootwear/>}/>
         <Route path='/footwear/kids/girl/fproducts' element={<GirlKidsFootwearProducts/>}/>
+        <Route path='/footwear/kids/girl/shoes' element={<ShoesGirlKidsFootwearProducts/>}/>
+        <Route path='/footwear/kids/girl/sandals' element={<SandalsGirlKidsFootwearProducts/>}/>
 
         {/* Beauty routes */}
         <Route path='/beauty' element={<Beauty/>}/>

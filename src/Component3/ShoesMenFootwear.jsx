@@ -64,62 +64,69 @@ const ShoesMenFootwear = () => {
 
   // Featured Products for Men Shoes
   const featuredProducts = [
+   // 1. FORMAL LEATHER SHOES
     { 
       id: 1, 
-      name: 'Classic Leather Sneakers', 
-      category: "Men", 
-      sub: "Shoes • Casual", 
-      price: 2499, 
-      oldPrice: 4999, 
+      name: 'Premium Leather Oxford Shoes', 
+      category: "Footwear", 
+      sub: "Shoes • Formal", 
+      price: 1499, 
+      oldPrice: 3999, 
       images: ["/Footwear/Men/Shoes/Products/smfp1.png", "/Footwear/Men/Shoes/Products/smfp1_1.png", "/Footwear/Men/Shoes/Products/smfp1_2.png", "/Footwear/Men/Shoes/Products/smfp1_3.png", "/Footwear/Men/Shoes/Products/smfp1_4.png"],
       tag: "Best Seller", 
-      color: "White/Tan", 
-      rating: "4.8", 
-      reviews: "3.2k",
-      details: { "Material": "Genuine Leather", "Sole": "Rubber", "Closure": "Lace-Up", "Occasion": "Casual/Office", "Care": "Wipe Clean" }
+      color: "Black", 
+      rating: "4.9", 
+      reviews: "4.2k",
+      details: { "Type": "Oxford", "Material": "Full Grain Leather", "Sole": "Leather Sole", "Closure": "Lace-Up", "Occasion": "Office & Formal Events" }
     },
+
+    // 2. CASUAL SNEAKERS
     { 
       id: 2, 
-      name: 'Oxford Formal Shoes', 
-      category: "Men", 
-      sub: "Shoes • Formal", 
-      price: 4499, 
-      oldPrice: 8999, 
+      name: 'White Classic Canvas Sneakers', 
+      category: "Footwear", 
+      sub: "Shoes • Casual", 
+      price: 1299, 
+      oldPrice: 2599, 
       images: ["/Footwear/Men/Shoes/Products/smfp2.png", "/Footwear/Men/Shoes/Products/smfp2_1.png", "/Footwear/Men/Shoes/Products/smfp2_2.png", "/Footwear/Men/Shoes/Products/smfp2_3.png", "/Footwear/Men/Shoes/Products/smfp2_4.png"],
-      tag: "Luxury", 
-      color: "Black", 
-      rating: "5.0", 
-      reviews: "1.2k",
-      details: { "Material": "Premium Patent Leather", "Sole": "Leather", "Closure": "Lace-Up", "Occasion": "Wedding/Formal", "Finish": "High Gloss" }
+      tag: "Trending", 
+      color: "White", 
+      rating: "4.7", 
+      reviews: "5.8k",
+      details: { "Type": "Sneakers", "Material": "Canvas & Rubber", "Sole": "Rubber Sole", "Closure": "Lace-Up", "Daily Wear": "Yes" }
     },
+
+    // 3. FORMAL DERBY SHOES
     { 
       id: 3, 
-      name: 'Sporty Running Shoes', 
-      category: "Men", 
-      sub: "Shoes • Casual", 
-      price: 2999, 
-      oldPrice: 5999, 
+      name: 'Brown Derby Formal Shoes', 
+      category: "Footwear", 
+      sub: "Shoes • Formal", 
+      price: 1999, 
+      oldPrice: 2999, 
       images: ["/Footwear/Men/Shoes/Products/smfp3.png", "/Footwear/Men/Shoes/Products/smfp3_1.png", "/Footwear/Men/Shoes/Products/smfp3_2.png", "/Footwear/Men/Shoes/Products/smfp3_3.png", "/Footwear/Men/Shoes/Products/smfp3_4.png"],
-      tag: "Essential", 
-      color: "Black/Red", 
-      rating: "4.6", 
-      reviews: "4.5k",
-      details: { "Material": "Mesh + Synthetic", "Sole": "EVA Foam", "Closure": "Lace-Up", "Cushioning": "High", "Use": "Running/Training" }
+      tag: "Luxury", 
+      color: "Brown", 
+      rating: "4.8", 
+      reviews: "2.3k",
+      details: { "Type": "Derby", "Material": "Premium Calf Leather", "Sole": "Goodyear Welted", "Closure": "Lace-Up", "Handcrafted": "Yes" }
     },
+
+    // 4. CASUAL LOAFERS
     { 
       id: 4, 
-      name: 'Leather Loafers', 
-      category: "Men", 
-      sub: "Shoes • Formal", 
-      price: 3499, 
-      oldPrice: 6999, 
+      name: 'Tan Suede Tassel Loafers', 
+      category: "Footwear", 
+      sub: "Shoes • Casual", 
+      price: 1749, 
+      oldPrice: 3499, 
       images: ["/Footwear/Men/Shoes/Products/smfp4.png", "/Footwear/Men/Shoes/Products/smfp4_1.png", "/Footwear/Men/Shoes/Products/smfp4_2.png", "/Footwear/Men/Shoes/Products/smfp4_3.png", "/Footwear/Men/Shoes/Products/smfp4_4.png"],
-      tag: "Premium", 
-      color: "Brown", 
-      rating: "4.9", 
-      reviews: "2.1k",
-      details: { "Material": "Polished Leather", "Sole": "Leather + Rubber", "Closure": "Slip-On", "Occasion": "Business/Formal", "Style": "Classic" }
-    }
+      tag: "Best Seller", 
+      color: "Tan", 
+      rating: "4.6", 
+      reviews: "3.1k",
+      details: { "Type": "Tassel Loafers", "Material": "Suede Leather", "Sole": "Rubber Sole", "Closure": "Slip-On", "Comfort": "Memory Foam Insole" }
+    },
   ];
 
   useEffect(() => {

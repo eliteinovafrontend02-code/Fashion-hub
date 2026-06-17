@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useCart } from '../CartContext';  
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import SizeGuide from "../SizeGuide";
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const ShirtsMenFashionProducts = () => {
@@ -484,6 +485,9 @@ useEffect(() => {
           </div>
         )}
       </div>
+
+      {/* Size Guide Modal */}
+      <SizeGuide />
 
       <Footer />
     </>

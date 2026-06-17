@@ -498,6 +498,7 @@ const products = [
           </div>
         )}
       </div>
+      
 
       <Footer />
     </>
