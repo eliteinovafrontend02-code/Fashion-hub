@@ -239,7 +239,7 @@ const CasualShirtsMenFashion = () => {
     },
     {
       id: 11,
-      name: "White Cotton Poplin",
+      name: "pink Cotton Poplin",
       fabric: "Cotton",
       price: 1899,
       oldPrice: 2999,
@@ -249,7 +249,7 @@ const CasualShirtsMenFashion = () => {
       sub: "Crisp Poplin",
       description: "Crisp white poplin shirt. A timeless essential for every wardrobe — the fine poplin weave gives a polished look that works for casual Fridays, weekend brunches, or smart-casual events.",
       features: ["100% Cotton Poplin", "Slim Fit", "Classic collar", "Crisp & lightweight", "Available in 5 sizes"],
-      color: "White",
+      color: "pink",
       images: [
         "/Fashion/Men/Shirts/Casual/Products/csmfp11.png",
         "/Fashion/Men/Shirts/Casual/Products/csmfp11_1.png",

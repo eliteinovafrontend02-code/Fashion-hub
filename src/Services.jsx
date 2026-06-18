@@ -141,94 +141,94 @@ const Services = () => {
       
       <div className="min-h-screen bg-[#f5eadf]">
         
-        {/* 🏆 LUXURY HERO SECTION */}
-        <section className="relative w-full h-[70vh] md:h-[80vh] overflow-hidden mt-5">
+        {/* 🏆 LUXURY HERO SECTION - Mobile Optimized */}
+        <section className="relative w-full h-[30vh] sm:h-[55vh] md:h-[70vh] lg:h-[80vh] overflow-hidden mt-5">
           <div className="absolute inset-0">
             <img 
-              src="/services-hero.jpg" 
+              src="/servicebanner.png" 
               alt="Our Services" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-center"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-orange-900/85 to-black/70"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-orange-900/65 to-black/70"></div>
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,200,100,0.1),transparent)]"></div>
           </div>
 
-          <div className="relative z-10 h-full flex items-center justify-center px-6 md:px-20">
+          <div className="relative z-10 h-full flex items-center justify-center px-4 sm:px-6 md:px-20">
             <div className="text-center max-w-5xl animate-fadeInUp">
-              <div className="inline-block mb-6">
-                <span className="inline-block border-2 border-orange-400/50 text-orange-200 px-8 py-2 rounded-full text-sm font-semibold tracking-[0.3em] uppercase backdrop-blur-sm">
+              <div className="inline-block mb-3 sm:mb-4 md:mb-6">
+                <span className="inline-block border-2 border-orange-400/50 text-orange-200 px-4 sm:px-6 md:px-8 py-1.5 sm:py-2 rounded-full text-[10px] sm:text-xs md:text-sm font-semibold tracking-[0.2em] sm:tracking-[0.3em] uppercase backdrop-blur-sm">
                   Premium Services
                 </span>
               </div>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight mb-6">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-white leading-tight mb-3 sm:mb-4 md:mb-6">
                 Experience <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-300">Luxury</span>
               </h1>
-              <p className="text-xl md:text-2xl text-orange-100/80 max-w-3xl mx-auto leading-relaxed font-light tracking-wide">
+              <p className="text-sm sm:text-base md:text-xl lg:text-2xl text-orange-100/80 max-w-3xl mx-auto leading-relaxed font-light tracking-wide px-2">
                 Discover our exclusive range of premium services designed to make your fashion journey truly exceptional.
               </p>
-              <div className="flex justify-center mt-8">
-                <div className="w-32 h-[2px] bg-gradient-to-r from-transparent via-orange-400 to-transparent"></div>
+              <div className="flex justify-center mt-4 sm:mt-6 md:mt-8">
+                <div className="w-20 sm:w-24 md:w-32 h-[2px] bg-gradient-to-r from-transparent via-orange-400 to-transparent"></div>
               </div>
             </div>
           </div>
 
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/60 animate-bounce">
-            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          {/* Scroll Indicator - Hidden on mobile */}
+          <div className="absolute bottom-2 sm:bottom-4 md:bottom-8 left-1/2 transform -translate-x-1/2 text-white/60 animate-bounce hidden sm:block">
+            <svg className="w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
             </svg>
           </div>
         </section>
 
-        {/* 🎯 WHY CHOOSE US */}
-        <section className="py-20 px-6 md:px-20 bg-white/30">
+        {/* 🎯 WHY CHOOSE US - Mobile Optimized */}
+        <section className="py-10 sm:py-16 md:py-20 px-4 sm:px-6 md:px-20 bg-white/30">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16 animate-fadeInUp">
-              <span className="text-orange-600 font-bold text-sm tracking-[0.3em] uppercase">Why Choose Us</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-orange-900 mt-4 mb-4">
+            <div className="text-center mb-8 sm:mb-12 md:mb-16 animate-fadeInUp">
+              <span className="text-orange-600 font-bold text-[10px] sm:text-xs md:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase">Why Choose Us</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-orange-900 mt-2 sm:mt-3 md:mt-4 mb-3 sm:mb-4">
                 Excellence in <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700">Every Detail</span>
               </h2>
-              <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent mx-auto rounded-full"></div>
+              <div className="w-16 sm:w-20 md:w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent mx-auto rounded-full"></div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  className="bg-white p-8 rounded-2xl text-center shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 animate-fadeInUp"
+                  className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl text-center shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 animate-fadeInUp"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="text-5xl mb-4">{feature.icon}</div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">{feature.title}</h3>
-                  <p className="text-sm text-gray-500 font-light">{feature.description}</p>
+                  <div className="text-3xl sm:text-4xl md:text-5xl mb-2 sm:mb-3 md:mb-4">{feature.icon}</div>
+                  <h3 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 mb-1 sm:mb-2">{feature.title}</h3>
+                  <p className="text-xs sm:text-sm text-gray-500 font-light">{feature.description}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* 🌟 OUR SERVICES */}
-        <section className="py-20 px-6 md:px-20 relative">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl"></div>
+        {/* 🌟 OUR SERVICES - Mobile Optimized */}
+        <section className="py-10 sm:py-16 md:py-20 px-4 sm:px-6 md:px-20 relative">
+          <div className="absolute top-0 right-0 w-48 sm:w-64 md:w-96 h-48 sm:h-64 md:h-96 bg-orange-500/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-48 sm:w-64 md:w-96 h-48 sm:h-64 md:h-96 bg-orange-500/5 rounded-full blur-3xl"></div>
           
           <div className="max-w-7xl mx-auto relative z-10">
-            <div className="text-center mb-16 animate-fadeInUp">
-              <span className="text-orange-600 font-bold text-sm tracking-[0.3em] uppercase">What We Offer</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-orange-900 mt-4 mb-4">
+            <div className="text-center mb-8 sm:mb-12 md:mb-16 animate-fadeInUp">
+              <span className="text-orange-600 font-bold text-[10px] sm:text-xs md:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase">What We Offer</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-orange-900 mt-2 sm:mt-3 md:mt-4 mb-3 sm:mb-4">
                 Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700">Premium Services</span>
               </h2>
-              <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent mx-auto rounded-full"></div>
-              <p className="text-gray-600 mt-6 max-w-2xl mx-auto text-lg font-light">
+              <div className="w-16 sm:w-20 md:w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent mx-auto rounded-full"></div>
+              <p className="text-sm sm:text-base md:text-lg text-gray-600 mt-4 sm:mt-5 md:mt-6 max-w-2xl mx-auto px-2 font-light">
                 Every service is crafted with precision and care to ensure you receive nothing but the best.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
               {services.map((service, index) => (
                 <div
                   key={service.id}
-                  className={`${service.bg} p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fadeInUp group relative overflow-hidden cursor-pointer`}
+                  className={`${service.bg} p-5 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fadeInUp group relative overflow-hidden cursor-pointer`}
                   style={{ animationDelay: `${index * 0.1}s` }}
                   onClick={() => openModal(service)}
                 >
@@ -236,16 +236,16 @@ const Services = () => {
                   <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${service.color}`}></div>
                   
                   {/* Icon with Gradient Background */}
-                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${service.color} flex items-center justify-center text-3xl mb-5 shadow-lg ${service.shadow} group-hover:scale-110 transition-transform duration-300`}>
+                  <div className={`w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-r ${service.color} flex items-center justify-center text-2xl sm:text-3xl mb-3 sm:mb-4 md:mb-5 shadow-lg ${service.shadow} group-hover:scale-110 transition-transform duration-300`}>
                     {service.icon}
                   </div>
                   
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{service.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed font-light">{service.description}</p>
+                  <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-2 sm:mb-3">{service.title}</h3>
+                  <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-light">{service.description}</p>
                   
                   {/* Learn More Link */}
-                  <div className="mt-4">
-                    <button className="text-orange-600 font-semibold text-sm flex items-center gap-1 group-hover:gap-3 transition-all duration-300 hover:text-orange-700">
+                  <div className="mt-3 sm:mt-4">
+                    <button className="text-orange-600 font-semibold text-xs sm:text-sm flex items-center gap-1 group-hover:gap-3 transition-all duration-300 hover:text-orange-700">
                       Learn More 
                       <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
                     </button>
@@ -256,18 +256,18 @@ const Services = () => {
           </div>
         </section>
 
-        {/* 📋 HOW IT WORKS */}
-        <section className="py-20 px-6 md:px-20 bg-white/50">
+        {/* 📋 HOW IT WORKS - Mobile Optimized */}
+        <section className="py-10 sm:py-16 md:py-20 px-4 sm:px-6 md:px-20 bg-white/50">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16 animate-fadeInUp">
-              <span className="text-orange-600 font-bold text-sm tracking-[0.3em] uppercase">Simple Process</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-orange-900 mt-4 mb-4">
+            <div className="text-center mb-8 sm:mb-12 md:mb-16 animate-fadeInUp">
+              <span className="text-orange-600 font-bold text-[10px] sm:text-xs md:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase">Simple Process</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-orange-900 mt-2 sm:mt-3 md:mt-4 mb-3 sm:mb-4">
                 How It <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700">Works</span>
               </h2>
-              <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent mx-auto rounded-full"></div>
+              <div className="w-16 sm:w-20 md:w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent mx-auto rounded-full"></div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
               {[
                 {
                   step: "01",
@@ -290,40 +290,40 @@ const Services = () => {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="relative bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fadeInUp text-center group"
+                  className="relative bg-white p-6 sm:p-8 md:p-10 rounded-2xl sm:rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fadeInUp text-center group"
                   style={{ animationDelay: `${index * 0.2}s` }}
                 >
                   {/* Step Number */}
-                  <div className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-orange-500/30">
+                  <div className="absolute -top-3 -right-3 sm:-top-4 sm:-right-4 w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-base sm:text-lg md:text-xl shadow-lg shadow-orange-500/30">
                     {item.step}
                   </div>
                   
-                  <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-4xl sm:text-5xl md:text-6xl mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300">
                     {item.icon}
                   </div>
                   
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                  <p className="text-gray-600 font-light leading-relaxed">{item.description}</p>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">{item.title}</h3>
+                  <p className="text-sm sm:text-base text-gray-600 font-light leading-relaxed">{item.description}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* 💎 TESTIMONIALS */}
-        <section className="py-20 px-6 md:px-20 relative">
+        {/* 💎 TESTIMONIALS - Mobile Optimized */}
+        <section className="py-10 sm:py-16 md:py-20 px-4 sm:px-6 md:px-20 relative">
           <div className="absolute inset-0 bg-orange-900/5"></div>
           
           <div className="max-w-7xl mx-auto relative z-10">
-            <div className="text-center mb-16 animate-fadeInUp">
-              <span className="text-orange-600 font-bold text-sm tracking-[0.3em] uppercase">Client Testimonials</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-orange-900 mt-4 mb-4">
+            <div className="text-center mb-8 sm:mb-12 md:mb-16 animate-fadeInUp">
+              <span className="text-orange-600 font-bold text-[10px] sm:text-xs md:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase">Client Testimonials</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-orange-900 mt-2 sm:mt-3 md:mt-4 mb-3 sm:mb-4">
                 What Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700">Clients Say</span>
               </h2>
-              <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent mx-auto rounded-full"></div>
+              <div className="w-16 sm:w-20 md:w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent mx-auto rounded-full"></div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
               {[
                 {
                   name: "Priya Sharma",
@@ -349,77 +349,77 @@ const Services = () => {
               ].map((testimonial, index) => (
                 <div
                   key={index}
-                  className="bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-fadeInUp"
+                  className="bg-white p-5 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-fadeInUp"
                   style={{ animationDelay: `${index * 0.2}s` }}
                 >
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="w-14 h-14 bg-gradient-to-r from-orange-100 to-orange-200 rounded-full flex items-center justify-center text-3xl">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-r from-orange-100 to-orange-200 rounded-full flex items-center justify-center text-2xl sm:text-3xl">
                       {testimonial.image}
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
-                      <p className="text-sm text-gray-500">{testimonial.role}</p>
+                      <h4 className="font-bold text-gray-900 text-sm sm:text-base">{testimonial.name}</h4>
+                      <p className="text-xs sm:text-sm text-gray-500">{testimonial.role}</p>
                     </div>
                   </div>
                   
-                  <div className="flex mb-4 text-orange-500 text-xl">
+                  <div className="flex mb-2 sm:mb-3 md:mb-4 text-orange-500 text-base sm:text-xl">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <span key={i}>★</span>
                     ))}
                   </div>
                   
-                  <p className="text-gray-600 italic font-light leading-relaxed">"{testimonial.quote}"</p>
+                  <p className="text-gray-600 text-sm sm:text-base italic font-light leading-relaxed">"{testimonial.quote}"</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* 🎯 CTA SECTION */}
-        <section className="relative py-28 px-6 md:px-20 overflow-hidden">
+        {/* 🎯 CTA SECTION - Mobile Optimized */}
+        <section className="relative py-16 sm:py-20 md:py-24 lg:py-28 px-4 sm:px-6 md:px-20 overflow-hidden">
           <div className="absolute inset-0">
-            <img src="/services-cta-bg.jpg" alt="CTA Background" className="w-full h-full object-cover" />
+            <img src="/service.png" alt="CTA Background" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-orange-900/90 to-black/80"></div>
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,200,100,0.05),transparent)]"></div>
           </div>
           
           <div className="relative z-10 max-w-5xl mx-auto text-center animate-fadeInUp">
-            <span className="inline-block border border-orange-400/30 text-orange-300 px-6 py-2 rounded-full text-xs font-bold tracking-[0.3em] uppercase backdrop-blur-sm mb-6">
+            <span className="inline-block border border-orange-400/30 text-orange-300 px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-[10px] sm:text-xs font-bold tracking-[0.2em] sm:tracking-[0.3em] uppercase backdrop-blur-sm mb-4 sm:mb-6">
               Ready to Experience Luxury
             </span>
-            <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
               Let's Elevate Your <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-300">Fashion Journey</span>
             </h2>
-            <p className="text-xl text-white/70 mb-12 max-w-2xl mx-auto font-light tracking-wide">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/70 mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto font-light tracking-wide px-2">
               Experience our premium services designed to make your fashion experience truly exceptional.
             </p>
             
-            <div className="flex flex-wrap justify-center gap-4">
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
               <Link to="/contact">
-                <button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-12 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-2xl hover:shadow-orange-500/40 flex items-center gap-2">
+                <button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 sm:px-8 md:px-12 py-3 sm:py-4 rounded-full font-bold text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-2xl hover:shadow-orange-500/40 flex items-center gap-2">
                   Get Started
                   <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                 </button>
               </Link>
               <Link to="/">
-                <button className="border-2 border-white/50 text-white hover:bg-white hover:text-orange-900 px-12 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 active:scale-95 backdrop-blur-sm">
+                <button className="border-2 border-white/50 text-white hover:bg-white hover:text-orange-900 px-6 sm:px-8 md:px-12 py-3 sm:py-4 rounded-full font-bold text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 active:scale-95 backdrop-blur-sm">
                   Explore Collections
                 </button>
               </Link>
             </div>
 
-            <div className="flex justify-center mt-12">
-              <div className="w-32 h-[2px] bg-gradient-to-r from-transparent via-orange-400/50 to-transparent"></div>
+            <div className="flex justify-center mt-8 sm:mt-10 md:mt-12">
+              <div className="w-20 sm:w-24 md:w-32 h-[2px] bg-gradient-to-r from-transparent via-orange-400/50 to-transparent"></div>
             </div>
           </div>
         </section>
 
       </div>
 
-      {/* 🔥 SERVICE DETAIL MODAL - PERFECTLY CENTERED */}
+      {/* 🔥 SERVICE DETAIL MODAL - PERFECTLY CENTERED & Mobile Optimized */}
       {isModalOpen && selectedService && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fadeIn">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 animate-fadeIn">
           {/* Backdrop */}
           <div 
             className="absolute inset-0 bg-black/70 backdrop-blur-sm"
@@ -427,63 +427,63 @@ const Services = () => {
           ></div>
           
           {/* Modal Content - Perfectly Centered */}
-          <div className="relative bg-white rounded-3xl max-w-3xl w-full max-h-[80vh] overflow-y-auto shadow-2xl animate-scaleIn mx-4">
+          <div className="relative bg-white rounded-2xl sm:rounded-3xl max-w-3xl w-full max-h-[85vh] sm:max-h-[80vh] overflow-y-auto shadow-2xl animate-scaleIn mx-2 sm:mx-4">
             {/* Close Button */}
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 w-12 h-12 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-2xl transition-all duration-300 hover:rotate-90 z-10"
+              className="absolute top-2 sm:top-3 md:top-4 right-2 sm:right-3 md:right-4 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center text-xl sm:text-2xl transition-all duration-300 hover:rotate-90 z-10"
             >
               ✕
             </button>
 
             {/* Header */}
-            <div className={`p-8 bg-gradient-to-r ${selectedService.color} rounded-t-3xl`}>
-              <div className="flex items-center gap-4">
-                <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-5xl">
+            <div className={`p-5 sm:p-6 md:p-8 bg-gradient-to-r ${selectedService.color} rounded-t-2xl sm:rounded-t-3xl`}>
+              <div className="flex items-center gap-3 sm:gap-4">
+                <div className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-3xl sm:text-4xl md:text-5xl">
                   {selectedService.icon}
                 </div>
                 <div>
-                  <h3 className="text-3xl font-bold text-white">{selectedService.title}</h3>
-                  <p className="text-white/80 text-sm font-light mt-1">Premium Service</p>
+                  <h3 className="text-2xl sm:text-2xl md:text-3xl font-bold text-white">{selectedService.title}</h3>
+                  <p className="text-white/80 text-xs sm:text-sm font-light mt-0.5 sm:mt-1">Premium Service</p>
                 </div>
               </div>
             </div>
 
             {/* Body */}
-            <div className="p-8">
-              <div className="mb-6">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">About This Service</h4>
-                <p className="text-gray-600 leading-relaxed font-light">
+            <div className="p-5 sm:p-6 md:p-8">
+              <div className="mb-4 sm:mb-5 md:mb-6">
+                <h4 className="text-base sm:text-lg font-bold text-gray-900 mb-2 sm:mb-3">About This Service</h4>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed font-light">
                   {selectedService.fullDetails}
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-gray-900 mb-3">Key Features</h4>
-                <div className="grid grid-cols-2 gap-3">
+                <h4 className="text-base sm:text-lg font-bold text-gray-900 mb-2 sm:mb-3">Key Features</h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                   {selectedService.features.map((feature, index) => (
-                    <div key={index} className="flex items-center gap-2 bg-gray-50 p-3 rounded-xl">
-                      <span className="text-green-500 text-lg">✓</span>
-                      <span className="text-gray-700 text-sm font-medium">{feature}</span>
+                    <div key={index} className="flex items-center gap-2 bg-gray-50 p-2.5 sm:p-3 rounded-xl">
+                      <span className="text-green-500 text-base sm:text-lg">✓</span>
+                      <span className="text-gray-700 text-xs sm:text-sm font-medium">{feature}</span>
                     </div>
                   ))}
                 </div>
               </div>
 
               {/* Action Buttons */}
-              <div className="mt-8 flex flex-wrap gap-4">
+              <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <button
                   onClick={() => {
                     closeModal();
                     window.location.href = '/contact';
                   }}
-                  className="flex-1 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-3 rounded-xl font-bold transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-orange-500/30"
+                  className="w-full sm:flex-1 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-orange-500/30"
                 >
                   Get This Service
                 </button>
                 <button
                   onClick={closeModal}
-                  className="flex-1 border-2 border-gray-300 hover:border-gray-400 text-gray-700 hover:text-gray-900 px-6 py-3 rounded-xl font-bold transition-all duration-300"
+                  className="w-full sm:flex-1 border-2 border-gray-300 hover:border-gray-400 text-gray-700 hover:text-gray-900 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-300"
                 >
                   Close
                 </button>
@@ -552,6 +552,13 @@ const Services = () => {
         
         .animate-bounce {
           animation: bounce 2s infinite;
+        }
+
+        /* Mobile optimization */
+        @media (max-width: 480px) {
+          .animate-fadeInUp {
+            animation-duration: 0.6s;
+          }
         }
       `}</style>
     </>

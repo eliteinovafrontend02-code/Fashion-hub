@@ -105,6 +105,18 @@ import SandalsGirlKidsFootwearProducts from './Component3/SandalsGirlKidsFootwea
 import About from './About'
 import Contact from './Contact'
 import Services from './Services'
+import FaceMakeUpBeautyProducts from './Component4/FaceMakeUpBeautyProducts'
+import LipsMakeupBeautyProducts from './Component4/LipsMakeupBeautyProducts'
+import SunscreenSkincareBeautyProducts from './Component4/SunscreenSkincareBeautyProducts'
+import MoisturizerSkincareBeautyProducts from './Component4/MoisturizerSkincareBeautyProducts'
+import ShampooHaircareBeautyProducts from './Component4/ShampooHaircareBeautyProducts'
+import OilHaircareBeautyProducts from './Component4/OilHaircareBeautyProducts'
+import StudEarringsJewelleryProducts from './Component5/StudEarringsJewelleryProducts'
+import JhumkaEarringsJewelleryProducts from './Component5/JhumkaEarringsJewelleryProducts'
+import ChainNecklaceJewelleryProducts from './Component5/ChainNecklaceJewelleryProducts'
+import ChokerNecklaceJewelleryProducts from './Component5/ChokerNecklaceJewelleryProducts'
+import TraditionalBanglesJewelleryProducts from './Component5/TraditionalBanglesJewelleryProducts'
+import ModelBanglesJewelleryProducts from './Component5/ModelBanglesJewelleryProducts'
 
 const App = () => {
   return (
@@ -222,20 +234,36 @@ const App = () => {
         <Route path='/beauty/bproducts' element={<BeautyProducts/>}/>
         <Route path='/beauty/makeup' element={<MakeupBeauty/>}/>
         <Route path='/beauty/makeup/bproducts' element={<MakeupBeautyProducts/>}/>
+        <Route path='/beauty/makeup/face' element={<FaceMakeUpBeautyProducts/>}/> 
+        <Route path='/beauty/makeup/lips' element={<LipsMakeupBeautyProducts/>}/> 
+
         <Route path='/beauty/skincare' element={<SkincareBeauty/>}/>
         <Route path='/beauty/skincare/bproducts' element={<SkincareBeautyProducts/>}/>
+        <Route path='/beauty/skincare/sunscreen' element={<SunscreenSkincareBeautyProducts />} />
+        <Route path='/beauty/skincare/moisturizer' element={<MoisturizerSkincareBeautyProducts />} />
+
         <Route path='/beauty/haircare' element={<HaircareBeauty/>}/>
         <Route path='/beauty/haircare/bproducts' element={<HaircareBeautyProducts/>}/>
+        <Route path='/beauty/haircare/shampoo' element={<ShampooHaircareBeautyProducts/>}/>
+        <Route path='/beauty/haircare/oil' element={<OilHaircareBeautyProducts/>}/>
 
         {/* Jewellery routes */}
         <Route path='/jewellery' element={<Jewellery/>}/>
         <Route path='/jewellery/jproducts' element={<JewelleryProducts/>}/>
         <Route path='/jewellery/earrings' element={<EarringsJewellery/>}/>
         <Route path='/jewellery/earrings/jproducts' element={<EarringsJewelleryProducts/>}/>
+        <Route path='/jewellery/earrings/stud' element={<StudEarringsJewelleryProducts/>}/>
+        <Route path='/jewellery/earrings/jhumka' element={<JhumkaEarringsJewelleryProducts/>}/>
+
         <Route path='/jewellery/necklace' element={<NecklaceJewellery/>}/>
         <Route path='/jewellery/necklace/jproducts' element={<NecklaceJewelleryProducts/>}/>
+        <Route path='/jewellery/necklace/chain' element={<ChainNecklaceJewelleryProducts/>}/>
+        <Route path='/jewellery/necklace/choker' element={<ChokerNecklaceJewelleryProducts/>}/>
+
         <Route path='/jewellery/bangles' element={<BanglesJewellery/>}/>
         <Route path='/jewellery/bangles/jproducts' element={<BanglesJewelleryProducts/>}/>
+        <Route path='/jewellery/bangles/traditional' element={<TraditionalBanglesJewelleryProducts/>}/>
+        <Route path='/jewellery/bangles/model' element={<ModelBanglesJewelleryProducts/>}/>
 
       </Routes>
       
