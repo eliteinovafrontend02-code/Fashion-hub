@@ -175,7 +175,7 @@ const ShirtBoyKidsFashion = () => {
     },
     {
       id: 8,
-      name: "White Linen Shirt",
+      name: "pink Linen Shirt",
       fabric: "Linen",
       price: 1299,
       oldPrice: 1999,
@@ -183,9 +183,9 @@ const ShirtBoyKidsFashion = () => {
       reviews: 654,
       tag: "Classic",
       sub: "Pure Linen",
-      description: "Crisp white linen shirt for boys with a sophisticated look. The lightweight, breathable linen fabric is perfect for summer weddings, family events, and formal occasions.",
+      description: "Crisp pink linen shirt for boys with a sophisticated look. The lightweight, breathable linen fabric is perfect for summer weddings, family events, and formal occasions.",
       features: ["100% Pure Linen", "Slim Fit", "Spread collar", "Summer essential", "Dry clean recommended"],
-      color: "White",
+      color: "pink",
       images: [
         "/Fashion/Kids/Boy/Shirts/Products/sbkfp8.png",
         "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_1.png",
@@ -217,7 +217,7 @@ const ShirtBoyKidsFashion = () => {
     },
     {
       id: 10,
-      name: "Light Blue Denim Shirt",
+      name: "Grey Denim Shirt",
       fabric: "Denim",
       price: 1399,
       oldPrice: 2199,
@@ -225,9 +225,9 @@ const ShirtBoyKidsFashion = () => {
       reviews: 1345,
       tag: "Bestseller",
       sub: "Soft Denim",
-      description: "Light blue denim shirt with a casual, relaxed look. The soft denim fabric provides comfort and style for active boys. Perfect for everyday wear and outdoor adventures.",
+      description: "Grey denim shirt with a casual, relaxed look. The soft denim fabric provides comfort and style for active boys. Perfect for everyday wear and outdoor adventures.",
       features: ["100% Cotton Denim", "Relaxed Fit", "Button front", "Light wash", "Durable fabric"],
-      color: "Light Blue",
+      color: "Grey",
       images: [
         "/Fashion/Kids/Boy/Shirts/Products/sbkfp10.png",
         "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_1.png",
@@ -269,7 +269,7 @@ const ShirtBoyKidsFashion = () => {
       sub: "Premium Cotton",
       description: "Classic Oxford cotton shirt for boys. The durable, comfortable fabric and timeless design make it perfect for school, family events, and formal occasions. A versatile wardrobe staple.",
       features: ["100% Oxford Cotton", "Regular Fit", "Button-down collar", "Durable fabric", "Machine washable"],
-      color: "Light Blue",
+      color: "Light Brown",
       images: [
         "/Fashion/Kids/Boy/Shirts/Products/sbkfp12.png",
         "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_1.png",
@@ -517,7 +517,7 @@ const ShirtBoyKidsFashion = () => {
                         activeImgIndex === i ? 'ring-2 ring-orange-500 shadow-xl scale-105' : 'opacity-50 hover:opacity-100'
                       }`}
                     >
-                      <img src={img} className="w-full h-full object-cover" alt="" />
+                      <img src={img} className="w-full h-full object-contain" alt="" />
                     </div>
                   ))}
                 </div>
@@ -527,7 +527,7 @@ const ShirtBoyKidsFashion = () => {
                   <img 
                     key={selectedProduct.id + activeImgIndex} 
                     src={selectedProduct.images[activeImgIndex]} 
-                    className="w-full h-full object-cover transition-all duration-700" 
+                    className="w-full h-full object-contain transition-all duration-700" 
                     alt={selectedProduct.name} 
                   />
                   

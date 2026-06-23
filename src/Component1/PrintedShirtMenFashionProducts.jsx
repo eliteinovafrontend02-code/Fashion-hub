@@ -518,7 +518,7 @@ const PrintedShirtMenFashion = () => {
                         activeImgIndex === i ? 'ring-2 ring-orange-500 shadow-xl scale-105' : 'opacity-50 hover:opacity-100'
                       }`}
                     >
-                      <img src={img} className="w-full h-full object-cover" alt="" />
+                      <img src={img} className="w-full h-full object-contain" alt="" />
                     </div>
                   ))}
                 </div>
@@ -528,7 +528,7 @@ const PrintedShirtMenFashion = () => {
                   <img 
                     key={selectedProduct.id + activeImgIndex} 
                     src={selectedProduct.images[activeImgIndex]} 
-                    className="w-full h-full object-cover transition-all duration-700" 
+                    className="w-full h-full object-contain transition-all duration-700" 
                     alt={selectedProduct.name} 
                   />
                   

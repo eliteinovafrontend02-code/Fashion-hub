@@ -278,90 +278,7 @@ const LongDressesWomenFashion = () => {
         "/Fashion/Women/Dresses/Long/Products/ldwfp12_4.png"
       ]
     },
-    {
-      id: 13,
-      name: "Silk Slit Gown",
-      fabric: "Silk",
-      price: 10999,
-      oldPrice: 16999,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Premium",
-      sub: "Luxury Silk",
-      description: "Elegant silk gown with a dramatic thigh-high slit. The flowing fabric and daring slit create a sophisticated yet glamorous look perfect for red carpet events, cocktail parties, and formal dinners.",
-      features: ["100% Silk", "Thigh-high slit", "Floor-length", "Side zipper", "Elegant drape"],
-      color: "Platinum",
-      images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp13.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp13_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp13_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp13_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp13_4.png"
-      ]
-    },
-    {
-      id: 14,
-      name: "Velvet Wrap Maxi",
-      fabric: "Velvet",
-      price: 9499,
-      oldPrice: 14499,
-      rating: 4.6,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Luxury Velvet",
-      description: "Stunning velvet wrap maxi dress with a flattering V-neckline. The wrap design and luxurious velvet fabric create a sophisticated look perfect for formal events, holiday parties, and evening celebrations.",
-      features: ["100% Velvet", "Wrap style", "Floor-length", "V-neckline", "Adjustable tie"],
-      color: "Deep Teal",
-      images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp14.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp14_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp14_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp14_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp14_4.png"
-      ]
-    },
-    {
-      id: 15,
-      name: "Georgette Ruffle Maxi",
-      fabric: "Georgette",
-      price: 8499,
-      oldPrice: 12999,
-      rating: 4.5,
-      reviews: 1456,
-      tag: "Classic",
-      sub: "Designer Georgette",
-      description: "Romantic georgette maxi dress with delicate ruffle detailing. The flowing fabric and feminine ruffles create a dreamy, ethereal look perfect for garden weddings, spring parties, and romantic celebrations.",
-      features: ["100% Georgette", "Ruffle detailing", "Floor-length", "Flowing design", "Lined bodice"],
-      color: "Dusty Rose",
-      images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp15.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp15_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp15_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp15_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp15_4.png"
-      ]
-    },
-    {
-      id: 16,
-      name: "Silk Empire Waist Gown",
-      fabric: "Silk",
-      price: 11999,
-      oldPrice: 17999,
-      rating: 4.7,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Luxury Silk",
-      description: "Elegant silk gown with an empire waist silhouette. The flowing fabric and flattering empire cut create a sophisticated, Greek-goddess look perfect for formal events, weddings, and grand celebrations.",
-      features: ["100% Silk", "Empire waist", "Floor-length", "Flowing silhouette", "Elegant design"],
-      color: "Ivory",
-      images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp16.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp16_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp16_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp16_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp16_4.png"
-      ]
-    }
+
   ];
 
   const filters = ['all', 'Silk', 'Velvet', 'Georgette'];
@@ -601,7 +518,7 @@ const LongDressesWomenFashion = () => {
                         activeImgIndex === i ? 'ring-2 ring-orange-500 shadow-xl scale-105' : 'opacity-50 hover:opacity-100'
                       }`}
                     >
-                      <img src={img} className="w-full h-full object-cover" alt="" />
+                      <img src={img} className="w-full h-full object-contain" alt="" />
                     </div>
                   ))}
                 </div>
@@ -611,7 +528,7 @@ const LongDressesWomenFashion = () => {
                   <img 
                     key={selectedProduct.id + activeImgIndex} 
                     src={selectedProduct.images[activeImgIndex]} 
-                    className="w-full h-full object-cover transition-all duration-700" 
+                    className="w-full h-full object-contain transition-all duration-700" 
                     alt={selectedProduct.name} 
                   />
                   
