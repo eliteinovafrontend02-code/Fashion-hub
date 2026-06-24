@@ -18,9 +18,9 @@ useEffect(() => {
   window.addEventListener('resize', handleResize);
   return () => window.removeEventListener('resize', handleResize);
 }, []);
-  
-  const location = useLocation();
-  const navigate = useNavigate();
+
+      const location = useLocation();
+      const navigate = useNavigate();
   
   const { cartItems, addToCart, updateQuantity, removeItem } = useCart();
 
