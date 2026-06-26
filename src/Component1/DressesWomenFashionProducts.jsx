@@ -25,7 +25,6 @@ useEffect(() => {
   const { cartItems, addToCart, updateQuantity, removeItem } = useCart();
 
   // Women's Dresses Fashion Products - Mixed Short & Long (12 Products)
-  // Image Path Pattern: /Fashion/Women/Dresses/Products/dwfp{id}.png
   const products = [
     // SHORT DRESSES (IDs 1,3,5,7,9,11)
     { 

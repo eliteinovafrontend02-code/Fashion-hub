@@ -27,261 +27,261 @@ const SetGirlKidsFashion = () => {
   }, []);
 
   const setGirlProducts = [
-    {
-      id: 1,
-      name: "Princess Cotton Set",
-      fabric: "Cotton",
-      price: 999,
-      oldPrice: 1599,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Pure Cotton",
-      description: "Beautiful princess-style cotton set for girls. Includes a lovely frock and matching accessories. The soft, breathable fabric keeps your little princess comfortable while looking elegant. Perfect for parties and special occasions.",
-      features: ["100% Pure Cotton", "Frock + Accessories", "Princess cut", "Lace detailing", "Machine washable"],
-      color: "Pink",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp1_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp1_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp1_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Linen Summer Set",
-      fabric: "Linen",
-      price: 1099,
-      oldPrice: 1699,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Pure Linen",
-      description: "Lightweight linen summer set for girls. Includes a comfortable top and matching shorts. The breathable linen fabric keeps your little girl cool and stylish during warm weather. Perfect for vacations and beach days.",
-      features: ["100% Pure Linen", "Top + Shorts", "Breathable fabric", "Summer essential", "Easy care"],
-      color: "White",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp2_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp2_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp2_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Velvet Party Set",
-      fabric: "Velvet",
-      price: 1499,
-      oldPrice: 2299,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Premium",
-      sub: "Luxury Velvet",
-      description: "Luxurious velvet party set for girls. Includes a beautiful velvet dress and matching accessories. The plush velvet fabric and elegant design make it perfect for weddings, festive celebrations, and grand parties.",
-      features: ["100% Velvet", "Dress + Accessories", "Party wear", "Rich texture", "Dry clean only"],
-      color: "Maroon",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp3_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp3_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp3_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Cotton Floral Set",
-      fabric: "Cotton",
-      price: 899,
-      oldPrice: 1499,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Popular",
-      sub: "Soft Cotton",
-      description: "Charming cotton floral set for girls. Includes a vibrant floral top and matching skirt. The soft cotton fabric and colorful patterns make it perfect for everyday wear, playdates, and family outings.",
-      features: ["100% Soft Cotton", "Top + Skirt", "Floral print", "Machine washable", "Everyday wear"],
-      color: "Yellow",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp4.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp4_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp4_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp4_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Linen Embroidered Set",
-      fabric: "Linen",
-      price: 1199,
-      oldPrice: 1899,
-      rating: 4.4,
-      reviews: 987,
-      tag: "Classic",
-      sub: "Pure Linen",
-      description: "Elegant linen set with delicate embroidery work for girls. Includes a beautifully embroidered top and matching bottoms. The breathable linen fabric combined with intricate embroidery creates a sophisticated look.",
-      features: ["100% Pure Linen", "Top + Bottoms", "Embroidered detail", "Lightweight", "Dry clean recommended"],
-      color: "Beige",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp5.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp5_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp5_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp5_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Cotton Ruffled Set",
-      fabric: "Cotton",
-      price: 799,
-      oldPrice: 1299,
-      rating: 4.5,
-      reviews: 876,
-      tag: "Essential",
-      sub: "Soft Cotton",
-      description: "Adorable cotton set with playful ruffle detailing for girls. Includes a cute ruffled top and matching bottoms. The soft cotton fabric and fun design make it perfect for everyday wear and birthday parties.",
-      features: ["100% Soft Cotton", "Top + Bottoms", "Ruffle detailing", "Machine washable", "Playful design"],
-      color: "Peach",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp6.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp6_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp6_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp6_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Velvet Embellished Set",
-      fabric: "Velvet",
-      price: 1699,
-      oldPrice: 2599,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Premium",
-      sub: "Luxury Velvet",
-      description: "Gorgeous velvet set with beautiful embellishments and sequin work for girls. Includes a stunning top and matching bottoms. The rich velvet fabric and sparkling embellishments create a glamorous look.",
-      features: ["100% Velvet", "Top + Bottoms", "Sequin embellishments", "Party wear", "Dry clean only"],
-      color: "Royal Blue",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp7.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp7_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp7_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp7_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Linen Striped Set",
-      fabric: "Linen",
-      price: 999,
-      oldPrice: 1599,
-      rating: 4.3,
-      reviews: 654,
-      tag: "New",
-      sub: "Pure Linen",
-      description: "Stylish linen set with classic stripes for girls. Includes a striped top and matching shorts. The lightweight linen fabric and timeless pattern make it perfect for school, casual outings, and summer vacations.",
-      features: ["100% Pure Linen", "Top + Shorts", "Striped pattern", "Breathable", "Machine washable"],
-      color: "Blue Stripes",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp8.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp8_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp8_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp8_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Cotton Lace Set",
-      fabric: "Cotton",
-      price: 1099,
-      oldPrice: 1699,
-      rating: 4.6,
-      reviews: 789,
-      tag: "Bestseller",
-      sub: "Premium Cotton",
-      description: "Elegant cotton set with intricate lace detailing for girls. Includes a beautiful lace top and matching skirt. The premium cotton fabric combined with beautiful lace work creates a sophisticated, princess-like look.",
-      features: ["100% Premium Cotton", "Top + Skirt", "Lace detailing", "Special occasion", "Machine washable"],
-      color: "Ivory",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp9.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp9_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp9_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp9_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Velvet Tiered Set",
-      fabric: "Velvet",
-      price: 1599,
-      oldPrice: 2499,
-      rating: 4.6,
-      reviews: 1345,
-      tag: "Trending",
-      sub: "Luxury Velvet",
-      description: "Stunning velvet tiered set for girls. Includes a beautiful tiered dress and matching accessories. The rich velvet fabric and tiered design create a royal, princess-like look. Perfect for weddings and festive celebrations.",
-      features: ["100% Velvet", "Dress + Accessories", "Tiered skirt", "Party wear", "Dry clean only"],
-      color: "Burgundy",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp10.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp10_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp10_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp10_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Linen Pin-tuck Set",
-      fabric: "Linen",
-      price: 1049,
-      oldPrice: 1649,
-      rating: 4.4,
-      reviews: 567,
-      tag: "Classic",
-      sub: "Pure Linen",
-      description: "Elegant linen set with delicate pin-tuck detailing for girls. Includes a beautifully crafted top and matching bottoms. The breathable linen fabric and intricate pin-tuck work create a sophisticated, vintage-inspired look.",
-      features: ["100% Pure Linen", "Top + Bottoms", "Pin-tuck detailing", "Lightweight", "Dry clean recommended"],
-      color: "Lavender",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp11.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp11_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp11_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp11_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Cotton Party Set",
-      fabric: "Cotton",
-      price: 849,
-      oldPrice: 1399,
-      rating: 4.5,
-      reviews: 2345,
-      tag: "Essential",
-      sub: "Soft Cotton",
-      description: "Lovely cotton party set for girls. Includes a colorful top and matching skirt with playful prints. The soft cotton fabric and vibrant design make it perfect for birthday parties, playdates, and everyday fun.",
-      features: ["100% Soft Cotton", "Top + Skirt", "Colorful prints", "Machine washable", "Party wear"],
-      color: "Multicolor",
-      images: [
-        "/Fashion/Kids/Girl/Set/Products/sgkfp12.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp12_1.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp12_2.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp12_3.png",
-        "/Fashion/Kids/Girl/Set/Products/sgkfp12_4.png"
-      ]
-    }
-  ];
+  {
+    id: 1,
+    name: "Velvet Peplum Set",
+    fabric: "Velvet",
+    price: 1599,
+    oldPrice: 2399,
+    rating: 4.8,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Luxury Velvet",
+    description: "A gorgeous velvet peplum top paired with a matching flared skirt. The rich velvet fabric and elegant peplum silhouette make it perfect for weddings and festive celebrations.",
+    features: ["100% Velvet", "Peplum top + Skirt", "Flared skirt", "Party wear", "Dry clean only"],
+    color: "Burgundy",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1_4.jpg"
+    ]
+  },
+  {
+    id: 2,
+    name: "Silk Embroidered Crop Set",
+    fabric: "Silk",
+    price: 1799,
+    oldPrice: 2699,
+    rating: 4.7,
+    reviews: 1876,
+    tag: "Premium",
+    sub: "Pure Silk",
+    description: "A stunning silk crop top with intricate zari embroidery paired with a flowing silk skirt. Designed to give your little one a royal, festive look.",
+    features: ["100% Pure Silk", "Crop top + Skirt", "Zari embroidery", "Flowing skirt", "Dry clean only"],
+    color: "Gold",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2_4.jpg"
+    ]
+  },
+  {
+    id: 3,
+    name: "Tulle Layered Skirt Set",
+    fabric: "Tulle",
+    price: 1399,
+    oldPrice: 2099,
+    rating: 4.7,
+    reviews: 1567,
+    tag: "Trending",
+    sub: "Soft Tulle",
+    description: "A dreamy tulle layered skirt paired with a satin crop top. The voluminous tulle skirt and delicate top create a princess-like party look.",
+    features: ["Tulle + Satin", "Crop top + Layered skirt", "Voluminous tulle", "Party wear", "Spot clean"],
+    color: "Blush Pink",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3_4.jpg"
+    ]
+  },
+  {
+    id: 4,
+    name: "Cotton Ruffled Skirt Set",
+    fabric: "Cotton",
+    price: 899,
+    oldPrice: 1399,
+    rating: 4.5,
+    reviews: 1234,
+    tag: "Popular",
+    sub: "Pure Cotton",
+    description: "A playful cotton set featuring a ruffled off-shoulder top and a matching tiered skirt. Perfect for birthday parties and casual celebrations.",
+    features: ["100% Pure Cotton", "Off-shoulder top + Skirt", "Ruffle detailing", "Tiered skirt", "Machine washable"],
+    color: "Mint Green",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4_4.jpg"
+    ]
+  },
+  {
+    id: 5,
+    name: "Velvet Cape Top Set",
+    fabric: "Velvet",
+    price: 1699,
+    oldPrice: 2499,
+    rating: 4.6,
+    reviews: 987,
+    tag: "Luxury",
+    sub: "Luxury Velvet",
+    description: "A royal velvet cape-style top paired with a matching A-line skirt. The cape adds drama while the velvet fabric ensures a luxurious feel.",
+    features: ["100% Velvet", "Cape top + Skirt", "A-line skirt", "Dramatic style", "Dry clean only"],
+    color: "Royal Blue",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5_4.jpg"
+    ]
+  },
+  {
+    id: 6,
+    name: "Linen Wrap Top Set",
+    fabric: "Linen",
+    price: 999,
+    oldPrice: 1499,
+    rating: 4.5,
+    reviews: 876,
+    tag: "Essential",
+    sub: "Pure Linen",
+    description: "A stylish linen wrap-around top paired with matching shorts. Breathable, lightweight, and perfect for summer parties and beach outings.",
+    features: ["100% Pure Linen", "Wrap top + Shorts", "Lightweight", "Summer essential", "Machine washable"],
+    color: "Terracotta",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6_4.jpg"
+    ]
+  },
+  {
+    id: 7,
+    name: "Sequin Embellished Party Set",
+    fabric: "Velvet",
+    price: 1899,
+    oldPrice: 2799,
+    rating: 4.9,
+    reviews: 1123,
+    tag: "Premium",
+    sub: "Velvet + Sequin",
+    description: "A dazzling party set with a sequin-embellished velvet top and a matching flared skirt. Perfect for weddings, receptions, and grand celebrations.",
+    features: ["Velvet + Sequin", "Embellished top + Skirt", "Flared skirt", "Party wear", "Dry clean only"],
+    color: "Ruby Red",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7_4.jpg"
+    ]
+  },
+  {
+    id: 8,
+    name: "Linen Puff Sleeve Set",
+    fabric: "Linen",
+    price: 949,
+    oldPrice: 1399,
+    rating: 4.4,
+    reviews: 654,
+    tag: "Trending",
+    sub: "Pure Linen",
+    description: "A chic linen set with a puff-sleeve top and matching high-waist shorts. The breathable fabric and stylish design make it ideal for summer parties.",
+    features: ["100% Pure Linen", "Puff sleeve top + Shorts", "High-waist shorts", "Breathable", "Machine washable"],
+    color: "Coral",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8_4.jpg"
+    ]
+  },
+  {
+    id: 9,
+    name: "Lace & Velvet Festive Set",
+    fabric: "Velvet",
+    price: 1699,
+    oldPrice: 2499,
+    rating: 4.8,
+    reviews: 789,
+    tag: "Bestseller",
+    sub: "Velvet + Lace",
+    description: "An elegant festive set with a lace-detailed velvet top and a matching layered skirt. The combination of velvet and lace creates a sophisticated look.",
+    features: ["Velvet + Lace", "Lace top + Layered skirt", "Festive wear", "Elegant design", "Dry clean only"],
+    color: "Champagne",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9_4.jpg"
+    ]
+  },
+  {
+    id: 10,
+    name: "Tulle Skirt & Satin Top Set",
+    fabric: "Tulle",
+    price: 1499,
+    oldPrice: 2299,
+    rating: 4.7,
+    reviews: 1345,
+    tag: "Premium",
+    sub: "Tulle + Satin",
+    description: "A beautiful set featuring a satin top and a multi-layered tulle skirt. The shiny satin top and fluffy tulle skirt make it perfect for fairy-tale occasions.",
+    features: ["Satin + Tulle", "Satin top + Tulle skirt", "Multi-layered skirt", "Party wear", "Spot clean"],
+    color: "Lavender",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10_4.jpg"
+    ]
+  },
+  {
+    id: 11,
+    name: "Cotton Embroidered Festive Set",
+    fabric: "Cotton",
+    price: 1099,
+    oldPrice: 1699,
+    rating: 4.6,
+    reviews: 567,
+    tag: "Classic",
+    sub: "Pure Cotton",
+    description: "A festive cotton set with hand-embroidered details on the top and a matching flared skirt. The intricate embroidery adds a traditional touch.",
+    features: ["100% Pure Cotton", "Embroidered top + Skirt", "Flared skirt", "Hand embroidery", "Machine washable"],
+    color: "Ivory",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11_4.jpg"
+    ]
+  },
+  {
+    id: 12,
+    name: "Velvet Bow Detail Party Set",
+    fabric: "Velvet",
+    price: 1599,
+    oldPrice: 2399,
+    rating: 4.8,
+    reviews: 2345,
+    tag: "Trending",
+    sub: "Luxury Velvet",
+    description: "A stunning party set with a velvet top featuring a large bow detail and a matching flared skirt. The bow adds a playful yet elegant touch.",
+    features: ["100% Velvet", "Bow detail top + Skirt", "Flared skirt", "Party wear", "Dry clean only"],
+    color: "Plum",
+    images: [
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12_1.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12_2.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12_3.jpg",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12_4.jpg"
+    ]
+  }
+];
 
-  const filters = ['all', 'Cotton', 'Linen', 'Velvet'];
+  const filters = ['all', 'Cotton', 'Linen', 'Velvet','Silk','Tulle'];
   const filteredProducts = activeFilter === 'all'
     ? setGirlProducts
     : setGirlProducts.filter(p => p.fabric === activeFilter);
@@ -518,7 +518,7 @@ const SetGirlKidsFashion = () => {
                         activeImgIndex === i ? 'ring-2 ring-orange-500 shadow-xl scale-105' : 'opacity-50 hover:opacity-100'
                       }`}
                     >
-                      <img src={img} className="w-full h-full object-cover" alt="" />
+                      <img src={img} className="w-full h-full object-contain" alt="" />
                     </div>
                   ))}
                 </div>
@@ -528,7 +528,7 @@ const SetGirlKidsFashion = () => {
                   <img 
                     key={selectedProduct.id + activeImgIndex} 
                     src={selectedProduct.images[activeImgIndex]} 
-                    className="w-full h-full object-cover transition-all duration-700" 
+                    className="w-full h-full object-contain transition-all duration-700" 
                     alt={selectedProduct.name} 
                   />
                   

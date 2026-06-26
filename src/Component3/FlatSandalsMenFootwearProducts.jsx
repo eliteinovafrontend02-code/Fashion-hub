@@ -41,11 +41,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Premium Leather", "Cushioned Footbed", "Slip-on Style", "Durable", "Comfortable Fit"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp1_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp1_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp1_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp1_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp1_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp1_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp1_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp1_4.jpg"
       ]
     },
     {
@@ -62,11 +62,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Durable Synthetic", "Lightweight", "Slip-on Style", "Water-friendly", "Comfortable"],
       color: "Black",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp2_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp2_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp2_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp2_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp2_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp2_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp2_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp2_4.jpg"
       ]
     },
     {
@@ -81,13 +81,13 @@ const FlatSandalsMenFootwear = () => {
       sub: "Premium Rubber",
       description: "Durable rubber pool sandals with a comfortable fit. The premium rubber material and slip-resistant sole make them perfect for poolside, beach, and water activities.",
       features: ["Premium Rubber", "Slip-resistant Sole", "Water-friendly", "Lightweight", "Durable"],
-      color: "Blue",
+      color: "Green",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp3_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp3_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp3_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp3_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp3_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp3_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp3_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp3_4.jpg"
       ]
     },
     {
@@ -104,11 +104,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Premium Leather", "Thong Style", "Comfortable Fit", "Durable", "Classic Look"],
       color: "Tan",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp4.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp4_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp4_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp4_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp4_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp4.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp4_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp4_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp4_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp4_4.jpg"
       ]
     },
     {
@@ -125,11 +125,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Comfort Synthetic", "Cushioned Footbed", "Slip-on Style", "Lightweight", "Casual Wear"],
       color: "Grey",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp5.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp5_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp5_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp5_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp5_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp5.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp5_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp5_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp5_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp5_4.jpg"
       ]
     },
     {
@@ -146,11 +146,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Durable Rubber", "Quick-drying", "Water-friendly", "Slip-resistant", "Lightweight"],
       color: "Green",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp6.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp6_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp6_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp6_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp6_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp6.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp6_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp6_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp6_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp6_4.jpg"
       ]
     },
     {
@@ -167,11 +167,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Luxury Leather", "Adjustable Straps", "Cushioned Footbed", "Premium Quality", "Elegant Design"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp7.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp7_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp7_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp7_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp7_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp7.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp7_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp7_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp7_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp7_4.jpg"
       ]
     },
     {
@@ -186,13 +186,13 @@ const FlatSandalsMenFootwear = () => {
       sub: "Soft Synthetic",
       description: "Soft synthetic comfort sandals for everyday wear. The lightweight material and ergonomic design make them perfect for home, casual outings, and relaxation.",
       features: ["Soft Synthetic", "Ergonomic Design", "Slip-on Style", "Lightweight", "Everyday Comfort"],
-      color: "Navy",
+      color: "Black",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp8.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp8_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp8_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp8_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp8_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp8.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp8_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp8_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp8_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp8_4.jpg"
       ]
     },
     {
@@ -209,11 +209,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Comfort Rubber", "Cushioned Footbed", "Slip-on Style", "Lightweight", "Casual Wear"],
       color: "Black",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp9.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp9_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp9_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp9_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp9_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp9.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp9_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp9_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp9_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp9_4.jpg"
       ]
     },
     {
@@ -230,11 +230,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Premium Leather", "Contoured Footbed", "Adjustable Straps", "Anatomically Designed", "Superior Comfort"],
       color: "Tan",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp10.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp10_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp10_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp10_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp10_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp10.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp10_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp10_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp10_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp10_4.jpg"
       ]
     },
     {
@@ -251,11 +251,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Sport Synthetic", "Lightweight", "Slip-on Style", "Cushioned Footbed", "Modern Design"],
       color: "Red",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp11.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp11_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp11_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp11_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp11_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp11.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp11_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp11_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp11_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp11_4.jpg"
       ]
     },
     {
@@ -272,11 +272,11 @@ const FlatSandalsMenFootwear = () => {
       features: ["Soft Rubber", "Lightweight", "Slip-on Style", "Water-friendly", "Everyday Comfort"],
       color: "Blue",
       images: [
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp12.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp12_1.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp12_2.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp12_3.png",
-        "/Footwear/Men/Sandals/Flat/Products/fsmfp12_4.png"
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp12.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp12_1.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp12_2.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp12_3.jpg",
+        "/Footwear/Men/Sandals/Flat/Products/fsmfp12_4.jpg"
       ]
     }
   ];
@@ -519,7 +519,7 @@ const FlatSandalsMenFootwear = () => {
                         activeImgIndex === i ? 'ring-2 ring-orange-500 shadow-xl scale-105' : 'opacity-50 hover:opacity-100'
                       }`}
                     >
-                      <img src={img} className="w-full h-full object-cover" alt="" />
+                      <img src={img} className="w-full h-full object-contain" alt="" />
                     </div>
                   ))}
                 </div>
@@ -529,7 +529,7 @@ const FlatSandalsMenFootwear = () => {
                   <img 
                     key={selectedProduct.id + activeImgIndex} 
                     src={selectedProduct.images[activeImgIndex]} 
-                    className="w-full h-full object-cover transition-all duration-700" 
+                    className="w-full h-full object-contain transition-all duration-700" 
                     alt={selectedProduct.name} 
                   />
                   

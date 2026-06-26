@@ -41,11 +41,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Premium Leather", "Cushioned Sole", "Lace-up Closure", "Breathable Lining", "Durable"],
       color: "White",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp1_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp1_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp1_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp1_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp1_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp1_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp1_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp1_4.jpg"
       ]
     },
     {
@@ -62,11 +62,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Premium Suede", "Slip-on Style", "Comfortable Fit", "Durable Sole", "Versatile"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp2_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp2_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp2_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp2_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp2_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp2_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp2_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp2_4.jpg"
       ]
     },
     {
@@ -83,11 +83,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Durable Canvas", "Lightweight", "Lace-up Closure", "Flexible Sole", "Breathable"],
       color: "Navy",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp3_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp3_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp3_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp3_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp3_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp3_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp3_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp3_4.jpg"
       ]
     },
     {
@@ -104,11 +104,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Premium Leather", "Oxford Style", "Lace-up Closure", "Cushioned Insole", "Formal Look"],
       color: "Black",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp4.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp4_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp4_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp4_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp4_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp4.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp4_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp4_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp4_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp4_4.jpg"
       ]
     },
     {
@@ -125,11 +125,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Premium Suede", "Boot Style", "Lace-up Closure", "Cushioned Sole", "Versatile"],
       color: "Tan",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp5.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp5_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp5_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp5_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp5_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp5.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp5_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp5_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp5_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp5_4.jpg"
       ]
     },
     {
@@ -146,11 +146,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Soft Canvas", "Slip-on Style", "Comfortable Fit", "Lightweight", "Casual Look"],
       color: "Grey",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp6.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp6_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp6_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp6_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp6_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp6.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp6_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp6_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp6_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp6_4.jpg"
       ]
     },
     {
@@ -167,11 +167,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Premium Leather", "Chelsea Style", "Elastic Side Panels", "Cushioned Sole", "Versatile"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp7.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp7_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp7_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp7_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp7_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp7.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp7_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp7_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp7_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp7_4.jpg"
       ]
     },
     {
@@ -188,11 +188,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Premium Suede", "Penny Loafer Style", "Slip-on", "Comfortable Fit", "Classic Look"],
       color: "Navy",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp8.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp8_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp8_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp8_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp8_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp8.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp8_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp8_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp8_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp8_4.jpg"
       ]
     },
     {
@@ -209,11 +209,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Durable Canvas", "High-top Style", "Lace-up Closure", "Comfortable Sole", "Streetwear"],
       color: "Black",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp9.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp9_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp9_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp9_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp9_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp9.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp9_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp9_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp9_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp9_4.jpg"
       ]
     },
     {
@@ -230,11 +230,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Premium Leather", "Moccasin Style", "Slip-on", "Soft Sole", "Comfortable"],
       color: "Tan",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp10.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp10_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp10_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp10_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp10_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp10.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp10_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp10_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp10_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp10_4.jpg"
       ]
     },
     {
@@ -251,11 +251,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Premium Suede", "Chukka Style", "Lace-up Closure", "Cushioned Insole", "Elegant Design"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp11.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp11_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp11_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp11_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp11_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp11.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp11_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp11_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp11_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp11_4.jpg"
       ]
     },
     {
@@ -272,11 +272,11 @@ const CasualShoesMenFootwear = () => {
       features: ["Soft Canvas", "Espadrille Style", "Slip-on", "Jute Sole", "Summer Essential"],
       color: "Beige",
       images: [
-        "/Footwear/Men/Shoes/Casual/Products/csmfp12.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp12_1.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp12_2.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp12_3.png",
-        "/Footwear/Men/Shoes/Casual/Products/csmfp12_4.png"
+        "/Footwear/Men/Shoes/Casual/Products/csmfp12.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp12_1.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp12_2.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp12_3.jpg",
+        "/Footwear/Men/Shoes/Casual/Products/csmfp12_4.jpg"
       ]
     }
   ];
@@ -519,7 +519,7 @@ const CasualShoesMenFootwear = () => {
                         activeImgIndex === i ? 'ring-2 ring-orange-500 shadow-xl scale-105' : 'opacity-50 hover:opacity-100'
                       }`}
                     >
-                      <img src={img} className="w-full h-full object-cover" alt="" />
+                      <img src={img} className="w-full h-full object-contain" alt="" />
                     </div>
                   ))}
                 </div>
@@ -529,7 +529,7 @@ const CasualShoesMenFootwear = () => {
                   <img 
                     key={selectedProduct.id + activeImgIndex} 
                     src={selectedProduct.images[activeImgIndex]} 
-                    className="w-full h-full object-cover transition-all duration-700" 
+                    className="w-full h-full object-contain transition-all duration-700" 
                     alt={selectedProduct.name} 
                   />
                   

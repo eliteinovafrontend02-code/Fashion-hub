@@ -26,260 +26,260 @@ const PartyHeelsWomenFootwear = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const partyHeelsProducts = [
-    {
-      id: 1,
-      name: "Gold Stiletto Heels",
-      fabric: "Leather",
-      price: 3499,
-      oldPrice: 5499,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Stunning gold stiletto heels that make a bold statement. The premium leather construction and sleek stiletto heel make them perfect for parties, weddings, and red carpet events.",
-      features: ["Premium Leather", "Stiletto Heel", "Ankle Strap", "Cushioned Insole", "Party Ready"],
-      color: "Gold",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp1_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp1_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp1_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Satin Embellished Pumps",
-      fabric: "Satin",
-      price: 3999,
-      oldPrice: 6299,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Luxury Satin",
-      description: "Elegant satin embellished pumps with crystal detailing. The luxurious satin fabric and sparkling embellishments make them perfect for cocktail parties, receptions, and formal events.",
-      features: ["Luxury Satin", "Crystal Embellishments", "Pointed Toe", "Cushioned Insole", "Formal Events"],
-      color: "Blush Pink",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp2_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp2_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp2_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Velvet Block Heels",
-      fabric: "Velvet",
-      price: 2999,
-      oldPrice: 4699,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Luxury Velvet",
-      description: "Luxurious velvet block heels with a sophisticated design. The rich velvet fabric and comfortable block heel make them perfect for parties, weddings, and festive celebrations.",
-      features: ["Luxury Velvet", "Block Heel", "Ankle Strap", "Cushioned Insole", "Comfortable Wear"],
-      color: "Burgundy",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp3_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp3_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp3_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Leather Peep Toe Heels",
-      fabric: "Leather",
-      price: 3199,
-      oldPrice: 4999,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Classic leather peep toe heels with a chic design. The premium leather and stylish peep toe make them perfect for cocktail parties, date nights, and special occasions.",
-      features: ["Premium Leather", "Peep Toe", "Stiletto Heel", "Ankle Strap", "Stylish Design"],
-      color: "Black",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp4.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp4_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp4_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp4_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Satin Bow Pumps",
-      fabric: "Satin",
-      price: 3699,
-      oldPrice: 5799,
-      rating: 4.8,
-      reviews: 987,
-      tag: "Premium",
-      sub: "Luxury Satin",
-      description: "Elegant satin bow pumps with a feminine design. The luxurious satin fabric and delicate bow detail make them perfect for weddings, parties, and formal events.",
-      features: ["Luxury Satin", "Bow Detail", "Stiletto Heel", "Pointed Toe", "Elegant Style"],
-      color: "Ivory",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp5.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp5_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp5_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp5_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Velvet Strappy Heels",
-      fabric: "Velvet",
-      price: 2799,
-      oldPrice: 4399,
-      rating: 4.4,
-      reviews: 876,
-      tag: "Essential",
-      sub: "Luxury Velvet",
-      description: "Stylish velvet strappy heels with a modern design. The rich velvet fabric and strappy detailing make them perfect for cocktail parties, nights out, and festive events.",
-      features: ["Luxury Velvet", "Strappy Design", "Block Heel", "Ankle Strap", "Modern Style"],
-      color: "Navy",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp6.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp6_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp6_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp6_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Leather Platform Heels",
-      fabric: "Leather",
-      price: 3899,
-      oldPrice: 6099,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Dramatic leather platform heels with a bold silhouette. The premium leather and platform design make them perfect for parties, events, and making a fashion statement.",
-      features: ["Premium Leather", "Platform Sole", "Stiletto Heel", "Ankle Strap", "Statement Style"],
-      color: "Red",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp7.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp7_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp7_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp7_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Satin Crystal Heels",
-      fabric: "Satin",
-      price: 4299,
-      oldPrice: 6699,
-      rating: 4.9,
-      reviews: 654,
-      tag: "Premium",
-      sub: "Luxury Satin",
-      description: "Exquisite satin crystal heels with stunning embellishments. The luxurious satin and crystal detailing make them perfect for red carpet events, weddings, and grand celebrations.",
-      features: ["Luxury Satin", "Crystal Embellishments", "Stiletto Heel", "Pointed Toe", "Red Carpet Ready"],
-      color: "Silver",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp8.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp8_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp8_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp8_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Velvet Ankle Strap Heels",
-      fabric: "Velvet",
-      price: 2599,
-      oldPrice: 4099,
-      rating: 4.5,
-      reviews: 789,
-      tag: "New",
-      sub: "Luxury Velvet",
-      description: "Chic velvet ankle strap heels with a sophisticated design. The rich velvet and elegant ankle strap make them perfect for cocktail parties, receptions, and festive events.",
-      features: ["Luxury Velvet", "Ankle Strap", "Block Heel", "Cushioned Insole", "Elegant Style"],
-      color: "Emerald",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp9.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp9_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp9_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp9_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Leather Stiletto Pumps",
-      fabric: "Leather",
-      price: 3599,
-      oldPrice: 5599,
-      rating: 4.6,
-      reviews: 1345,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Classic leather stiletto pumps with a timeless design. The premium leather and sleek stiletto heel make them perfect for formal events, office parties, and special occasions.",
-      features: ["Premium Leather", "Stiletto Heel", "Pointed Toe", "Cushioned Insole", "Timeless Design"],
-      color: "Nude",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp10.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp10_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp10_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp10_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Satin T-Strap Heels",
-      fabric: "Satin",
-      price: 3899,
-      oldPrice: 6099,
-      rating: 4.7,
-      reviews: 567,
-      tag: "Premium",
-      sub: "Luxury Satin",
-      description: "Elegant satin T-strap heels with a vintage-inspired design. The luxurious satin and T-strap detailing make them perfect for weddings, parties, and vintage-themed events.",
-      features: ["Luxury Satin", "T-Strap Design", "Stiletto Heel", "Cushioned Insole", "Vintage Style"],
-      color: "Champagne",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp11.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp11_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp11_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp11_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Velvet Mule Heels",
-      fabric: "Velvet",
-      price: 2399,
-      oldPrice: 3799,
-      rating: 4.4,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Luxury Velvet",
-      description: "Stylish velvet mule heels with a modern design. The rich velvet and easy slip-on style make them perfect for parties, casual events, and festive celebrations.",
-      features: ["Luxury Velvet", "Mule Style", "Block Heel", "Slip-on", "Modern Design"],
-      color: "Purple",
-      images: [
-        "/Footwear/Women/Heels/Party/Products/phwfp12.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp12_1.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp12_2.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp12_3.png",
-        "/Footwear/Women/Heels/Party/Products/phwfp12_4.png"
-      ]
-    }
-  ];
+const partyHeelsProducts = [
+  {
+    id: 1,
+    name: "Gold Gilded Stiletto Heels",
+    fabric: "Metallic Calfskin",
+    price: 4499,
+    oldPrice: 6499,
+    rating: 4.9,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Italian Metallic Leather",
+    description: "Exquisite gold gilded stiletto heels crafted from premium Italian metallic calfskin. The luxurious gold finish and sculptural stiletto heel create a breathtaking silhouette, perfect for red carpet events, galas, and grand celebrations.",
+    features: ["Italian Metallic Calfskin", "Sculptural Stiletto Heel", "Luxe Ankle Strap", "Memory Foam Insole", "Red Carpet Ready"],
+    color: "Gold Gilded",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp1_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp1_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp1_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp1_4.png"
+    ]
+  },
+  {
+    id: 2,
+    name: "Crystal Embellished Satin Pumps",
+    fabric: "Silk Satin",
+    price: 4999,
+    oldPrice: 7299,
+    rating: 4.9,
+    reviews: 1876,
+    tag: "Premium",
+    sub: "Luxury Silk Satin",
+    description: "Opulent silk satin pumps adorned with hand-set Swarovski crystals. The exquisite crystal embellishments and impeccable craftsmanship make these the ultimate choice for black-tie events, luxury weddings, and exclusive receptions.",
+    features: ["Luxury Silk Satin", "Swarovski Crystal Embellishments", "Sculptural Pointed Toe", "Plush Cushioned Insole", "Black-Tie Ready"],
+    color: "Iridescent Rose Gold",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp2_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp2_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp2_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp2_4.png"
+    ]
+  },
+  {
+    id: 3,
+    name: "Royal Velvet Block Heels",
+    fabric: "Italian Velvet",
+    price: 3999,
+    oldPrice: 5899,
+    rating: 4.8,
+    reviews: 1567,
+    tag: "Trending",
+    sub: "Premium Italian Velvet",
+    description: "Regal Italian velvet block heels with an elegant, commanding presence. The lush velvet texture and sophisticated block heel offer both comfort and opulence, ideal for high-end galas, luxury weddings, and exclusive social events.",
+    features: ["Premium Italian Velvet", "Sculptural Block Heel", "Luxe Ankle Strap", "Ultra-Cushioned Insole", "Grand Occasion Wear"],
+    color: "Regal Burgundy",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp3_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp3_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp3_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp3_4.png"
+    ]
+  },
+  {
+    id: 4,
+    name: "Luxe Leather Peep Toe Heels",
+    fabric: "Full-Grain Leather",
+    price: 4299,
+    oldPrice: 6199,
+    rating: 4.7,
+    reviews: 1234,
+    tag: "Classic",
+    sub: "Premium Full-Grain Leather",
+    description: "Sophisticated full-grain leather peep toe heels with a refined silhouette. The exquisite leather craftsmanship and chic peep toe design exude timeless luxury, perfect for upscale cocktail events, luxury dinners, and exclusive soirées.",
+    features: ["Premium Full-Grain Leather", "Sculptural Peep Toe", "Elegant Stiletto Heel", "Luxe Ankle Strap", "Timeless Elegance"],
+    color: "Obsidian Black",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp4.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp4_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp4_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp4_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp4_4.png"
+    ]
+  },
+  {
+    id: 5,
+    name: "Luxury Satin Bow Pumps",
+    fabric: "Duchess Satin",
+    price: 4699,
+    oldPrice: 6799,
+    rating: 4.9,
+    reviews: 987,
+    tag: "Premium",
+    sub: "Luxury Duchess Satin",
+    description: "Exquisite Duchess satin pumps featuring an artisanal bow detail. The sumptuous satin and handcrafted bow create an air of refined elegance, making these the perfect choice for destination weddings, luxury galas, and grand celebrations.",
+    features: ["Luxury Duchess Satin", "Artisanal Bow Detail", "Sculptural Stiletto Heel", "Elegant Pointed Toe", "Grand Wedding Ready"],
+    color: "Champagne Pearl",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp5.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp5_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp5_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp5_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp5_4.png"
+    ]
+  },
+  {
+    id: 6,
+    name: "Velvet Strappy Statement Heels",
+    fabric: "Luxury Velvet",
+    price: 3799,
+    oldPrice: 5599,
+    rating: 4.6,
+    reviews: 876,
+    tag: "Essential",
+    sub: "Premium Luxury Velvet",
+    description: "Luxurious velvet strappy heels with a contemporary, bold design. The rich velvet and artistic strappy detailing create a modern statement, perfect for exclusive fashion events, upscale cocktail parties, and luxury nights out.",
+    features: ["Premium Luxury Velvet", "Artistic Strappy Design", "Sculptural Block Heel", "Luxe Ankle Strap", "Modern Statement"],
+    color: "Midnight Sapphire",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp6.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp6_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp6_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp6_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp6_4.png"
+    ]
+  },
+  {
+    id: 7,
+    name: "Grand Leather Platform Heels",
+    fabric: "Italian Leather",
+    price: 4899,
+    oldPrice: 6999,
+    rating: 4.9,
+    reviews: 1123,
+    tag: "Bestseller",
+    sub: "Premium Italian Leather",
+    description: "Dramatic Italian leather platform heels with a commanding presence. The luxurious leather and architectural platform design make these the ultimate statement for fashion-forward events, red carpet appearances, and grand celebrations.",
+    features: ["Premium Italian Leather", "Architectural Platform Sole", "Sculptural Stiletto Heel", "Luxe Ankle Strap", "Fashion Statement"],
+    color: "Crimson Velvet",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp7.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp7_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp7_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp7_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp7_4.png"
+    ]
+  },
+  {
+    id: 8,
+    name: "Swarovski Crystal Stiletto Heels",
+    fabric: "Luxury Satin",
+    price: 5999,
+    oldPrice: 8499,
+    rating: 5.0,
+    reviews: 654,
+    tag: "Premium",
+    sub: "Premium Luxury Satin",
+    description: "Spectacular Swarovski crystal-embellished stiletto heels, a masterpiece of craftsmanship. The flawless satin and breathtaking crystal detailing create an unforgettable look for the most prestigious red carpet events, royal weddings, and grand celebrations.",
+    features: ["Premium Luxury Satin", "Swarovski Crystal Masterpiece", "Sculptural Stiletto Heel", "Elegant Pointed Toe", "Red Carpet Royalty"],
+    color: "Platinum Silver",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp8.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp8_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp8_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp8_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp8_4.png"
+    ]
+  },
+  {
+    id: 9,
+    name: "Luxe Velvet Ankle Strap Heels",
+    fabric: "Premium Velvet",
+    price: 3599,
+    oldPrice: 5299,
+    rating: 4.7,
+    reviews: 789,
+    tag: "New",
+    sub: "Premium Luxury Velvet",
+    description: "Sumptuous premium velvet ankle strap heels with an elegant, refined design. The luxurious velvet and sophisticated ankle strap create a polished look, ideal for exclusive cocktail parties, luxury receptions, and high-end events.",
+    features: ["Premium Luxury Velvet", "Elegant Ankle Strap", "Sculptural Block Heel", "Luxe Cushioned Insole", "Refined Elegance"],
+    color: "Deep Emerald",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp9.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp9_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp9_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp9_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp9_4.png"
+    ]
+  },
+  {
+    id: 10,
+    name: "Grand Leather Stiletto Pumps",
+    fabric: "Full-Grain Leather",
+    price: 4599,
+    oldPrice: 6599,
+    rating: 4.8,
+    reviews: 1345,
+    tag: "Classic",
+    sub: "Premium Full-Grain Leather",
+    description: "Timeless full-grain leather stiletto pumps with impeccable craftsmanship. The exquisite leather and sculptural stiletto heel embody understated luxury, perfect for prestigious formal events, gallery openings, and exclusive soirées.",
+    features: ["Premium Full-Grain Leather", "Sculptural Stiletto Heel", "Sophisticated Pointed Toe", "Luxe Cushioned Insole", "Timeless Luxury"],
+    color: "Blush Nude",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp10.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp10_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp10_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp10_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp10_4.png"
+    ]
+  },
+  {
+    id: 11,
+    name: "Luxury T-Strap Satin Heels",
+    fabric: "Duchess Satin",
+    price: 4799,
+    oldPrice: 6999,
+    rating: 4.9,
+    reviews: 567,
+    tag: "Premium",
+    sub: "Premium Duchess Satin",
+    description: "Exquisite Duchess satin T-strap heels with a vintage-inspired, grand design. The luxurious satin and artful T-strap detailing create a sophisticated look, perfect for luxury vintage events, grand weddings, and exclusive receptions.",
+    features: ["Premium Duchess Satin", "Artful T-Strap Design", "Sculptural Stiletto Heel", "Luxe Cushioned Insole", "Grand Vintage Style"],
+    color: "Champagne Gold",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp11.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp11_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp11_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp11_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp11_4.png"
+    ]
+  },
+  {
+    id: 12,
+    name: "Luxe Velvet Mule Heels",
+    fabric: "Premium Velvet",
+    price: 3499,
+    oldPrice: 5199,
+    rating: 4.6,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Premium Luxury Velvet",
+    description: "Luxurious premium velvet mule heels with a contemporary, effortless design. The rich velvet and elegant slip-on silhouette offer refined ease, perfect for upscale social events, luxury gatherings, and grand celebrations.",
+    features: ["Premium Luxury Velvet", "Elegant Mule Silhouette", "Sculptural Block Heel", "Effortless Slip-on", "Refined Modern Design"],
+    color: "Royal Amethyst",
+    images: [
+      "/Footwear/Women/Heels/Party/Products/phwfp12.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp12_1.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp12_2.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp12_3.png",
+      "/Footwear/Women/Heels/Party/Products/phwfp12_4.png"
+    ]
+  }
+];
 
   const filters = ['all', 'Leather', 'Satin', 'Velvet'];
   const filteredProducts = activeFilter === 'all'

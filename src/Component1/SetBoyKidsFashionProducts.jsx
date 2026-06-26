@@ -40,11 +40,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Cotton", "T-shirt + Shorts", "Comfortable fit", "Machine washable", "Everyday wear"],
       color: "Navy Blue",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_4.jpg"
       ]
     },
     {
@@ -61,11 +61,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Shirt + Shorts", "Breathable fabric", "Summer essential", "Relaxed fit"],
       color: "Beige",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_4.jpg"
       ]
     },
     {
@@ -82,11 +82,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Shirt + Shorts", "Durable fabric", "Machine washable", "Casual style"],
       color: "Blue Denim",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_4.jpg"
       ]
     },
     {
@@ -99,15 +99,15 @@ const SetBoyKidsFashion = () => {
       reviews: 1234,
       tag: "Classic",
       sub: "Premium Cotton",
-      description: "Elegant cotton party set for boys. Includes a smart shirt and matching trousers. Perfect for weddings, family gatherings, and special occasions. Comfortable and stylish.",
-      features: ["100% Premium Cotton", "Shirt + Trousers", "Smart fit", "Special occasions", "Machine washable"],
+      description: "Elegant cotton party set for boys. Includes a smart shirt and matching shorts. Perfect for weddings, family gatherings, and special occasions. Comfortable and stylish.",
+      features: ["100% Premium Cotton", "Shirt + Shorts", "Smart fit", "Special occasions", "Machine washable"],
       color: "White",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_4.jpg"
       ]
     },
     {
@@ -124,11 +124,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Shirt + Shorts", "Lightweight", "Beach essential", "Easy care"],
       color: "Light Blue",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_4.jpg"
       ]
     },
     {
@@ -145,11 +145,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Soft Cotton", "T-shirt + Shorts", "Playful print", "Stretchable", "Machine washable"],
       color: "Red",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_4.jpg"
       ]
     },
     {
@@ -166,11 +166,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Jacket + Jeans", "Full set", "Fashionable", "Durable"],
       color: "Dark Blue",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_4.jpg"
       ]
     },
     {
@@ -187,11 +187,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Shirt + Trousers", "Formal style", "Breathable", "Dry clean recommended"],
       color: "Grey",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_4.jpg"
       ]
     },
     {
@@ -208,11 +208,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Soft Cotton", "T-shirt + Shorts", "Graphic print", "Vibrant colors", "Machine washable"],
       color: "Yellow",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_4.jpg"
       ]
     },
     {
@@ -229,11 +229,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Shirt + Cargo Shorts", "Adventure style", "Functional pockets", "Durable"],
       color: "Olive",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_4.jpg"
       ]
     },
     {
@@ -250,11 +250,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Striped Shirt + Shorts", "Vacation style", "Lightweight", "Easy care"],
       color: "Blue Stripes",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_4.jpg"
       ]
     },
     {
@@ -271,11 +271,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Premium Cotton", "Shirt + Trousers", "School style", "Durable fabric", "Machine washable"],
       color: "White & Navy",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_1.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_2.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_3.png",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_4.png"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_1.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_2.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_3.jpg",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_4.jpg"
       ]
     }
   ];
@@ -517,7 +517,7 @@ const SetBoyKidsFashion = () => {
                         activeImgIndex === i ? 'ring-2 ring-orange-500 shadow-xl scale-105' : 'opacity-50 hover:opacity-100'
                       }`}
                     >
-                      <img src={img} className="w-full h-full object-cover" alt="" />
+                      <img src={img} className="w-full h-full object-contain" alt="" />
                     </div>
                   ))}
                 </div>
@@ -527,7 +527,7 @@ const SetBoyKidsFashion = () => {
                   <img 
                     key={selectedProduct.id + activeImgIndex} 
                     src={selectedProduct.images[activeImgIndex]} 
-                    className="w-full h-full object-cover transition-all duration-700" 
+                    className="w-full h-full object-contain transition-all duration-700" 
                     alt={selectedProduct.name} 
                   />
                   
