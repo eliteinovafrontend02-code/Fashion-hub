@@ -160,7 +160,7 @@ useEffect(() => {
       sub: "Necklace • Women's Choker", 
       price: 5999, 
       oldPrice: 8999, 
-      images: ["/Jewellery/Necklace/Products/njp10.webp", "/Jewellery/Necklace/Products/njp10_1.webp", "/Jewellery/Necklace/Products/njp0_2.webp", "/Jewellery/Necklace/Products/njp10_3.webp", "/Jewellery/Necklace/Products/njp10_4.webp"],
+      images: ["/Jewellery/Necklace/Products/njp10.webp", "/Jewellery/Necklace/Products/njp10_1.webp", "/Jewellery/Necklace/Products/njp10_2.webp", "/Jewellery/Necklace/Products/njp10_3.webp", "/Jewellery/Necklace/Products/njp10_4.webp"],
       tag: "Luxury", 
       color: "Gold + Ruby", 
       rating: "4.9", 

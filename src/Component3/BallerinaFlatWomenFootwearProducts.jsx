@@ -281,7 +281,7 @@ const BallerinaFlatWomenFootwear = () => {
   }
   ];
 
-  const filters = ['all', 'Leather', 'Suede', 'Synthetic'];
+  const filters = ['all', 'Leather', 'Suede', 'Satin', 'Silk'];
   const filteredProducts = activeFilter === 'all'
     ? ballerinaFlatProducts
     : ballerinaFlatProducts.filter(p => p.fabric === activeFilter);

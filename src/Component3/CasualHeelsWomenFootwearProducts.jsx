@@ -281,7 +281,7 @@ const CasualHeelsWomenFootwear = () => {
   }
   ];
 
-  const filters = ['all', 'Leather', 'Suede', 'Synthetic'];
+  const filters = ['all', 'Leather', 'Suede', 'Satin'];
   const filteredProducts = activeFilter === 'all'
     ? casualHeelsProducts
     : casualHeelsProducts.filter(p => p.fabric === activeFilter);

@@ -528,7 +528,7 @@ const MoisturizerSkincareBeauty = () => {
                   <img 
                     key={selectedProduct.id + activeImgIndex} 
                     src={selectedProduct.images[activeImgIndex]} 
-                    className="w-full h-full object-cover transition-all duration-700" 
+                    className="w-full h-full object-contain transition-all duration-700" 
                     alt={selectedProduct.name} 
                   />
                   

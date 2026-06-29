@@ -30,15 +30,15 @@ const partyHeelsProducts = [
   {
     id: 1,
     name: "Gold Gilded Stiletto Heels",
-    fabric: "Metallic Calfskin",
+    fabric: "Leather",
     price: 4499,
     oldPrice: 6499,
     rating: 4.9,
     reviews: 2345,
     tag: "Bestseller",
     sub: "Italian Metallic Leather",
-    description: "Exquisite gold gilded stiletto heels crafted from premium Italian metallic calfskin. The luxurious gold finish and sculptural stiletto heel create a breathtaking silhouette, perfect for red carpet events, galas, and grand celebrations.",
-    features: ["Italian Metallic Calfskin", "Sculptural Stiletto Heel", "Luxe Ankle Strap", "Memory Foam Insole", "Red Carpet Ready"],
+    description: "Exquisite gold gilded stiletto heels crafted from premium Italian metallic Leather. The luxurious gold finish and sculptural stiletto heel create a breathtaking silhouette, perfect for red carpet events, galas, and grand celebrations.",
+    features: ["Italian Metallic Leather", "Sculptural Stiletto Heel", "Luxe Ankle Strap", "Memory Foam Insole", "Red Carpet Ready"],
     color: "Gold Gilded",
     images: [
       "/Footwear/Women/Heels/Party/Products/phwfp1.webp",
@@ -51,7 +51,7 @@ const partyHeelsProducts = [
   {
     id: 2,
     name: "Crystal Embellished Satin Pumps",
-    fabric: "Silk Satin",
+    fabric: "Satin",
     price: 4999,
     oldPrice: 7299,
     rating: 4.9,
@@ -72,7 +72,7 @@ const partyHeelsProducts = [
   {
     id: 3,
     name: "Royal Velvet Block Heels",
-    fabric: "Italian Velvet",
+    fabric: "Velvet",
     price: 3999,
     oldPrice: 5899,
     rating: 4.8,
@@ -93,7 +93,7 @@ const partyHeelsProducts = [
   {
     id: 4,
     name: "Luxe Leather Peep Toe Heels",
-    fabric: "Full-Grain Leather",
+    fabric: "Leather",
     price: 4299,
     oldPrice: 6199,
     rating: 4.7,
@@ -114,7 +114,7 @@ const partyHeelsProducts = [
   {
     id: 5,
     name: "Luxury Satin Bow Pumps",
-    fabric: "Duchess Satin",
+    fabric: "Satin",
     price: 4699,
     oldPrice: 6799,
     rating: 4.9,
@@ -135,7 +135,7 @@ const partyHeelsProducts = [
   {
     id: 6,
     name: "Velvet Strappy Statement Heels",
-    fabric: "Luxury Velvet",
+    fabric: "Velvet",
     price: 3799,
     oldPrice: 5599,
     rating: 4.6,
@@ -156,7 +156,7 @@ const partyHeelsProducts = [
   {
     id: 7,
     name: "Grand Leather Platform Heels",
-    fabric: "Italian Leather",
+    fabric: "Leather",
     price: 4899,
     oldPrice: 6999,
     rating: 4.9,
@@ -177,7 +177,7 @@ const partyHeelsProducts = [
   {
     id: 8,
     name: "Swarovski Crystal Stiletto Heels",
-    fabric: "Luxury Satin",
+    fabric: "Satin",
     price: 5999,
     oldPrice: 8499,
     rating: 5.0,
@@ -198,7 +198,7 @@ const partyHeelsProducts = [
   {
     id: 9,
     name: "Luxe Velvet Ankle Strap Heels",
-    fabric: "Premium Velvet",
+    fabric: "Velvet",
     price: 3599,
     oldPrice: 5299,
     rating: 4.7,
@@ -219,7 +219,7 @@ const partyHeelsProducts = [
   {
     id: 10,
     name: "Grand Leather Stiletto Pumps",
-    fabric: "Full-Grain Leather",
+    fabric: "Leather",
     price: 4599,
     oldPrice: 6599,
     rating: 4.8,
@@ -240,7 +240,7 @@ const partyHeelsProducts = [
   {
     id: 11,
     name: "Luxury T-Strap Satin Heels",
-    fabric: "Duchess Satin",
+    fabric: "Satin",
     price: 4799,
     oldPrice: 6999,
     rating: 4.9,
@@ -261,7 +261,7 @@ const partyHeelsProducts = [
   {
     id: 12,
     name: "Luxe Velvet Mule Heels",
-    fabric: "Premium Velvet",
+    fabric: "Velvet",
     price: 3499,
     oldPrice: 5199,
     rating: 4.6,

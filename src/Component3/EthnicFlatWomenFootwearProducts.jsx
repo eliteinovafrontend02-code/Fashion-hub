@@ -281,7 +281,7 @@ const EthnicFlatWomenFootwear = () => {
   }
   ];
 
-  const filters = ['all', 'Leather', 'Suede', 'Synthetic'];
+  const filters = ['all', 'Leather', 'Suede', 'Silk','Velvet'];
   const filteredProducts = activeFilter === 'all'
     ? ethnicFlatProducts
     : ethnicFlatProducts.filter(p => p.fabric === activeFilter);
