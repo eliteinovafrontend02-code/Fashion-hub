@@ -40,11 +40,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Cotton", "T-shirt + Shorts", "Comfortable fit", "Machine washable", "Everyday wear"],
       color: "Navy Blue",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Shirt + Shorts", "Breathable fabric", "Summer essential", "Relaxed fit"],
       color: "Beige",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Shirt + Shorts", "Durable fabric", "Machine washable", "Casual style"],
       color: "Blue Denim",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Premium Cotton", "Shirt + Shorts", "Smart fit", "Special occasions", "Machine washable"],
       color: "White",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Shirt + Shorts", "Lightweight", "Beach essential", "Easy care"],
       color: "Light Blue",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Soft Cotton", "T-shirt + Shorts", "Playful print", "Stretchable", "Machine washable"],
       color: "Red",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp6_4.webp"
       ]
     },
     {
@@ -166,11 +166,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Jacket + Jeans", "Full set", "Fashionable", "Durable"],
       color: "Dark Blue",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp7_4.webp"
       ]
     },
     {
@@ -187,11 +187,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Shirt + Trousers", "Formal style", "Breathable", "Dry clean recommended"],
       color: "Grey",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp8_4.webp"
       ]
     },
     {
@@ -208,11 +208,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Soft Cotton", "T-shirt + Shorts", "Graphic print", "Vibrant colors", "Machine washable"],
       color: "Yellow",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp9_4.webp"
       ]
     },
     {
@@ -229,11 +229,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Shirt + Cargo Shorts", "Adventure style", "Functional pockets", "Durable"],
       color: "Olive",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp10_4.webp"
       ]
     },
     {
@@ -250,11 +250,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Striped Shirt + Shorts", "Vacation style", "Lightweight", "Easy care"],
       color: "Blue Stripes",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp11_4.webp"
       ]
     },
     {
@@ -271,11 +271,11 @@ const SetBoyKidsFashion = () => {
       features: ["100% Premium Cotton", "Shirt + Trousers", "School style", "Durable fabric", "Machine washable"],
       color: "White & Navy",
       images: [
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_1.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_2.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_3.jpg",
-        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_4.jpg"
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_1.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_2.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_3.webp",
+        "/Fashion/Kids/Boy/Sets/Products/sbkfp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const SetBoyKidsFashion = () => {
             src="/Fashion/Kids/Boy/Sets"
             alt="Boys Sets Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Kids/Boy/Sets/sbkfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Kids/Boy/Sets/sbkfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

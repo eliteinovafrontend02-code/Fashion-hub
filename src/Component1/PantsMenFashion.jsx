@@ -26,7 +26,7 @@ const PantsMenFashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Men/Pants/pmfbanner1.png",
+      image: "/Fashion/Men/Pants/pmfbanner1.webp",
       titlePart1: "Everyday Comfort",
       titlePart2: "Premium Jeans",
       subtitle: "MEN • JEANS • COMFORT",
@@ -35,7 +35,7 @@ const PantsMenFashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/Men/Pants/pmfbanner2.png",
+      image: "/Fashion/Men/Pants/pmfbanner2.webp",
       titlePart1: "Sharp & Sleek",
       titlePart2: "Formal Trousers",
       subtitle: "MEN • FORMAL • ELEGANCE",
@@ -50,14 +50,14 @@ const PantsMenFashion = () => {
       id: 1,
       title: "Jeans",
       tag: "COMFORT",
-      image: "/Fashion/Men/Pants/jean.png",
+      image: "/Fashion/Men/Pants/jean.webp",
       link: "/fashion/men/pants/jean"
     },
     {
       id: 2,
       title: "Formal",
       tag: "ELEGANCE",
-      image: "/Fashion/Men/Pants/formal.png",
+      image: "/Fashion/Men/Pants/formal.webp",
       link: "/fashion/men/pants/formal"
     }
   ];
@@ -71,7 +71,7 @@ const PantsMenFashion = () => {
       sub: "Pants • Jeans", 
       price: 1799, 
       oldPrice: 3499, 
-      images: ["/Fashion/Men/Pants/Products/pmfp1.png", "/Fashion/Men/Pants/Products/pmfp1_1.png", "/Fashion/Men/Pants/Products/pmfp1_2.png", "/Fashion/Men/Pants/Products/pmfp1_3.png", "/Fashion/Men/Pants/Products/pmfp1_4.png"],
+      images: ["/Fashion/Men/Pants/Products/pmfp1.webp", "/Fashion/Men/Pants/Products/pmfp1_1.webp", "/Fashion/Men/Pants/Products/pmfp1_2.webp", "/Fashion/Men/Pants/Products/pmfp1_3.webp", "/Fashion/Men/Pants/Products/pmfp1_4.webp"],
       tag: "Essential", 
       color: "Light Blue", 
       rating: "4.6", 
@@ -85,7 +85,7 @@ const PantsMenFashion = () => {
       sub: "Pants • Formal", 
       price: 1999, 
       oldPrice: 3999, 
-      images: ["/Fashion/Men/Pants/Products/pmfp2.png", "/Fashion/Men/Pants/Products/pmfp2_1.png", "/Fashion/Men/Pants/Products/pmfp2_2.png", "/Fashion/Men/Pants/Products/pmfp2_3.png", "/Fashion/Men/Pants/Products/pmfp2_4.png"],
+      images: ["/Fashion/Men/Pants/Products/pmfp2.webp", "/Fashion/Men/Pants/Products/pmfp2_1.webp", "/Fashion/Men/Pants/Products/pmfp2_2.webp", "/Fashion/Men/Pants/Products/pmfp2_3.webp", "/Fashion/Men/Pants/Products/pmfp2_4.webp"],
       tag: "New Arrival", 
       color: "green", 
       rating: "4.9", 
@@ -99,7 +99,7 @@ const PantsMenFashion = () => {
       sub: "Pants • Jeans", 
       price: 1699, 
       oldPrice: 3299, 
-      images: ["/Fashion/Men/Pants/Products/pmfp3.png", "/Fashion/Men/Pants/Products/pmfp3_1.png", "/Fashion/Men/Pants/Products/pmfp3_2.png", "/Fashion/Men/Pants/Products/pmfp3_3.png", "/Fashion/Men/Pants/Products/pmfp3_4.png"],
+      images: ["/Fashion/Men/Pants/Products/pmfp3.webp", "/Fashion/Men/Pants/Products/pmfp3_1.webp", "/Fashion/Men/Pants/Products/pmfp3_2.webp", "/Fashion/Men/Pants/Products/pmfp3_3.webp", "/Fashion/Men/Pants/Products/pmfp3_4.webp"],
       tag: "Best Seller", 
       color: " Black", 
       rating: "4.7", 
@@ -113,7 +113,7 @@ const PantsMenFashion = () => {
       sub: "Pants • Formal", 
       price: 2299, 
       oldPrice: 4499, 
-      images: ["/Fashion/Men/Pants/Products/pmfp4.png", "/Fashion/Men/Pants/Products/pmfp4_1.png", "/Fashion/Men/Pants/Products/pmfp4_2.png", "/Fashion/Men/Pants/Products/pmfp4_3.png", "/Fashion/Men/Pants/Products/pmfp4_4.png"],
+      images: ["/Fashion/Men/Pants/Products/pmfp4.webp", "/Fashion/Men/Pants/Products/pmfp4_1.webp", "/Fashion/Men/Pants/Products/pmfp4_2.webp", "/Fashion/Men/Pants/Products/pmfp4_3.webp", "/Fashion/Men/Pants/Products/pmfp4_4.webp"],
       tag: "Premium", 
       color: "white", 
       rating: "4.8", 
@@ -331,7 +331,7 @@ const PantsMenFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Men/Pants/pmfbanner.png"
+                  src="/Fashion/Men/Pants/pmfbanner.webp"
                   alt="Men's Pants Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

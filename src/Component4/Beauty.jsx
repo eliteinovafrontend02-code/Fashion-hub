@@ -25,7 +25,7 @@ const Beauty = () => {
   const banners = [
     {
       id: 1,
-      image: "/Beauty/bbanner1.png",
+      image: "/Beauty/bbanner1.webp",
       titlePart1: "Unveil Your",
       titlePart2: "Natural Glow",
       subtitle: "CLEAN • CRUELTY-FREE • SUSTAINABLE",
@@ -34,7 +34,7 @@ const Beauty = () => {
     },
     {
       id: 2,
-      image: "/Beauty/bbanner2.png",
+      image: "/Beauty/bbanner2.webp",
       titlePart1: "Radiance",
       titlePart2: "From Within",
       subtitle: "PREMIUM SKINCARE",
@@ -43,7 +43,7 @@ const Beauty = () => {
     },
     {
       id: 3,
-      image: "/Beauty/bbanner3.png",
+      image: "/Beauty/bbanner3.webp",
       titlePart1: "Luxurious",
       titlePart2: "Hair Rituals",
       subtitle: "PROFESSIONAL HAIRCARE",
@@ -57,21 +57,21 @@ const Beauty = () => {
       id: 1,
       title: "Makeup",
       tag: "FACE • LIPS • EYES",
-      image: "/Beauty/bmakeup.png",
+      image: "/Beauty/bmakeup.webp",
       link: "/beauty/makeup"
     },
     {
       id: 2,
       title: "Skincare",
       tag: "GLOW • HYDRATE • RENEW",
-      image: "/Beauty/bskincare.png",
+      image: "/Beauty/bskincare.webp",
       link: "/beauty/skincare"
     },
     {
       id: 3,
       title: "Haircare",
       tag: "NOURISH • STRENGTH • SHINE",
-      image: "/Beauty/bhaircare.png",
+      image: "/Beauty/bhaircare.webp",
       link: "/beauty/haircare"
     }
   ];
@@ -85,7 +85,7 @@ const Beauty = () => {
       sub: "Makeup • Lips", 
       price: 899, 
       oldPrice: 1499, 
-      images: ["/Beauty/Products/bp1.png", "/Beauty/Products/bp1_1.png", "/Beauty/Products/bp1_2.png","/Beauty/Products/bp1_3.png","/Beauty/Products/bp1_4.png"],
+      images: ["/Beauty/Products/bp1.webp", "/Beauty/Products/bp1_1.webp", "/Beauty/Products/bp1_2.webp","/Beauty/Products/bp1_3.webp","/Beauty/Products/bp1_4.webp"],
       tag: "Trending", 
       color: "Red Velvet", 
       rating: "4.7", 
@@ -100,7 +100,7 @@ const Beauty = () => {
       sub: "Skincare • Moisturizer", 
       price: 1299, 
       oldPrice: 2299, 
-      images: ["/Beauty/Products/bp2.png", "/Beauty/Products/bp2_1.png", "/Beauty/Products/bp2_2.png","/Beauty/Products/bp2_3.png","/Beauty/Products/bp2_4.png"],
+      images: ["/Beauty/Products/bp2.webp", "/Beauty/Products/bp2_1.webp", "/Beauty/Products/bp2_2.webp","/Beauty/Products/bp2_3.webp","/Beauty/Products/bp2_4.webp"],
       tag: "Best Seller", 
       color: "White", 
       rating: "4.9", 
@@ -115,7 +115,7 @@ const Beauty = () => {
       sub: "Haircare • Oil", 
       price: 699, 
       oldPrice: 1199, 
-      images: ["/Beauty/Products/bp3.png", "/Beauty/Products/bp3_1.png", "/Beauty/Products/bp3_2.png","/Beauty/Products/bp3_3.png","/Beauty/Products/bp3_4.png"],
+      images: ["/Beauty/Products/bp3.webp", "/Beauty/Products/bp3_1.webp", "/Beauty/Products/bp3_2.webp","/Beauty/Products/bp3_3.webp","/Beauty/Products/bp3_4.webp"],
       tag: "Essential", 
       color: "Golden Amber", 
       rating: "4.6", 
@@ -130,7 +130,7 @@ const Beauty = () => {
       sub: "Skincare • Sunscreen", 
       price: 799, 
       oldPrice: 1299, 
-      images: ["/Beauty/Products/bp4.png", "/Beauty/Products/bp4_1.png", "/Beauty/Products/bp4_2.png","/Beauty/Products/bp4_3.png","/Beauty/Products/bp4_4.png"],
+      images: ["/Beauty/Products/bp4.webp", "/Beauty/Products/bp4_1.webp", "/Beauty/Products/bp4_2.webp","/Beauty/Products/bp4_3.webp","/Beauty/Products/bp4_4.webp"],
       tag: "New Arrival", 
       color: "White", 
       rating: "4.8", 
@@ -339,7 +339,7 @@ const Beauty = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Beauty/bbanner.png"
+                  src="/Beauty/bbanner.webp"
                   alt="Beauty Products Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

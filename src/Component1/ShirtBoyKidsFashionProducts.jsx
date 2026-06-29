@@ -40,11 +40,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Pure Cotton", "Regular Fit", "Button-down collar", "Machine washable", "Comfortable wear"],
       color: "White",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Relaxed Fit", "Classic collar", "Summer essential", "Breathable fabric"],
       color: "Blue",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Regular Fit", "Button front", "Durable fabric", "Machine washable"],
       color: "Blue Denim",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Cotton", "Regular Fit", "Button-down collar", "Checkered pattern", "Machine washable"],
       color: "Red",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Relaxed Fit", "Classic collar", "Lightweight", "Breathable"],
       color: "Grey",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Premium Cotton", "Regular Fit", "Polo collar", "Button placket", "Versatile wear"],
       color: "Navy",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp6_4.webp"
       ]
     },
     {
@@ -166,11 +166,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Regular Fit", "Button front", "Modern style", "Machine washable"],
       color: "Black",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp7_4.webp"
       ]
     },
     {
@@ -187,11 +187,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Slim Fit", "Spread collar", "Summer essential", "Dry clean recommended"],
       color: "pink",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp8_4.webp"
       ]
     },
     {
@@ -208,11 +208,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Cotton", "Regular Fit", "Button-down collar", "Plaid pattern", "Machine washable"],
       color: "Green",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp9_4.webp"
       ]
     },
     {
@@ -229,11 +229,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Cotton Denim", "Relaxed Fit", "Button front", "Light wash", "Durable fabric"],
       color: "Grey",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp10_4.webp"
       ]
     },
     {
@@ -250,11 +250,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Pure Linen", "Relaxed Fit", "Classic collar", "Striped pattern", "Summer essential"],
       color: "Blue & White",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp11_4.webp"
       ]
     },
     {
@@ -271,11 +271,11 @@ const ShirtBoyKidsFashion = () => {
       features: ["100% Oxford Cotton", "Regular Fit", "Button-down collar", "Durable fabric", "Machine washable"],
       color: "Light Brown",
       images: [
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_1.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_2.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_3.png",
-        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_4.png"
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_1.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_2.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_3.webp",
+        "/Fashion/Kids/Boy/Shirts/Products/sbkfp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const ShirtBoyKidsFashion = () => {
             src="/Fashion/Kids/Boy/Shirts"
             alt="Boys Shirts Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Kids/Boy/Shirts/sbkfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Kids/Boy/Shirts/sbkfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

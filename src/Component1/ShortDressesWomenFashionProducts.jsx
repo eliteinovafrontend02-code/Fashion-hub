@@ -40,11 +40,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Pure Silk", "All-over sequins", "Mini length", "Sleeveless", "Lined interior"],
       color: "Silver",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp1_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp1_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp1_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp1_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp1_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp1_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp1_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Velvet", "Bodycon fit", "Knee length", "Back zipper", "Stretch comfort"],
       color: "Burgundy",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp2_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp2_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp2_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp2_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp2_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp2_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp2_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Tulle", "Flared skirt", "Mini length", "Lined", "Lightweight"],
       color: "Blush Pink",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp3_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp3_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp3_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp3_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp3_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp3_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp3_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Silk", "Bead & crystal work", "Mini length", "Sleeveless", "Dry clean only"],
       color: "Gold",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp4.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp4_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp4_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp4_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp4_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp4.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp4_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp4_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp4_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Velvet", "Cape detail", "Mini length", "Button closure", "Elegant design"],
       color: "Navy Blue",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp5.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp5_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp5_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp5_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp5_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp5.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp5_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp5_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp5_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Tulle", "Flared skirt", "Mini length", "Elastic waist", "Easy care"],
       color: "Lavender",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp6.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp6_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp6_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp6_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp6_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp6.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp6_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp6_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp6_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp6_4.webp"
       ]
     },
     {
@@ -166,11 +166,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Silk", "All-over sequins", "Mini length", "Sleeveless", "Lined"],
       color: "Rose Gold",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp7.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp7_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp7_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp7_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp7_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp7.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp7_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp7_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp7_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp7_4.webp"
       ]
     },
     {
@@ -187,11 +187,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Velvet", "Off-shoulder style", "Mini length", "Elastic neckline", "Elegant fit"],
       color: "Emerald Green",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp8.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp8_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp8_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp8_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp8_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp8.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp8_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp8_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp8_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp8_4.webp"
       ]
     },
     {
@@ -208,11 +208,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Tulle", "Crystal embellishments", "Mini length", "Full skirt", "Lined"],
       color: "Champagne",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp9.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp9_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp9_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp9_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp9_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp9.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp9_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp9_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp9_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp9_4.webp"
       ]
     },
     {
@@ -229,11 +229,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Silk", "Slip style", "Mini length", "Adjustable straps", "Luxurious shine"],
       color: "Champagne",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp10.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp10_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp10_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp10_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp10_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp10.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp10_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp10_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp10_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp10_4.webp"
       ]
     },
     {
@@ -250,11 +250,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Velvet", "A-line silhouette", "Mini length", "Back zipper", "Timeless design"],
       color: "Black",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp11.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp11_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp11_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp11_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp11_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp11.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp11_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp11_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp11_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp11_4.webp"
       ]
     },
     {
@@ -271,11 +271,11 @@ const ShortDressesWomenFashion = () => {
       features: ["100% Tulle", "Flared skirt", "Mini length", "Elastic waist", "Party essential"],
       color: "Coral",
       images: [
-        "/Fashion/Women/Dresses/Short/Products/sdwfp12.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp12_1.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp12_2.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp12_3.png",
-        "/Fashion/Women/Dresses/Short/Products/sdwfp12_4.png"
+        "/Fashion/Women/Dresses/Short/Products/sdwfp12.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp12_1.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp12_2.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp12_3.webp",
+        "/Fashion/Women/Dresses/Short/Products/sdwfp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const ShortDressesWomenFashion = () => {
             src="/Fashion/Women/Dresses/Short"
             alt="Short Dresses Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Women/Dresses/Short/sdwfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Women/Dresses/Short/sdwfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

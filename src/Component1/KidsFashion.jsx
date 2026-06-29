@@ -26,7 +26,7 @@ const KidsFashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Kids/kfbanner1.png",
+      image: "/Fashion/Kids/kfbanner1.webp",
       titlePart1: "Little Gentleman",
       titlePart2: "Boys Collection",
       subtitle: "KIDS • BOYS • STYLISH",
@@ -35,7 +35,7 @@ const KidsFashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/Kids/kfbanner2.png",
+      image: "/Fashion/Kids/kfbanner2.webp",
       titlePart1: "Tiny Princess",
       titlePart2: "Girls Collection",
       subtitle: "KIDS • GIRLS • CUTE",
@@ -50,7 +50,7 @@ const KidsFashion = () => {
       id: 1,
       title: "Boys",
       tag: "STYLISH",
-      image: "/Fashion/Kids/boy.png",
+      image: "/Fashion/Kids/boy.webp",
       link: "/fashion/kids/boy",
       
     },
@@ -58,7 +58,7 @@ const KidsFashion = () => {
       id: 2,
       title: "Girls",
       tag: "CUTE",
-      image: "/Fashion/Kids/girl.png",
+      image: "/Fashion/Kids/girl.webp",
       link: "/fashion/kids/girl",
      
     }
@@ -73,7 +73,7 @@ const KidsFashion = () => {
       sub: "Boys • Shirts", 
       price: 899, 
       oldPrice: 1799, 
-      images: ["/Fashion/Kids/Products/kfp1.png", "/Fashion/Kids/Products/kfp1_1.png", "/Fashion/Kids/Products/kfp1_2.png", "/Fashion/Kids/Products/kfp1_3.png", "/Fashion/Kids/Products/kfp1_4.png"],
+      images: ["/Fashion/Kids/Products/kfp1.webp", "/Fashion/Kids/Products/kfp1_1.webp", "/Fashion/Kids/Products/kfp1_2.webp", "/Fashion/Kids/Products/kfp1_3.webp", "/Fashion/Kids/Products/kfp1_4.webp"],
       tag: "Best Seller", 
       color: "Blue", 
       rating: "4.8", 
@@ -87,7 +87,7 @@ const KidsFashion = () => {
       sub: "Girls • Frocks", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Fashion/Kids/Products/kfp2.png", "/Fashion/Kids/Products/kfp2_1.png", "/Fashion/Kids/Products/kfp2_2.png", "/Fashion/Kids/Products/kfp2_3.png", "/Fashion/Kids/Products/kfp2_4.png"],
+      images: ["/Fashion/Kids/Products/kfp2.webp", "/Fashion/Kids/Products/kfp2_1.webp", "/Fashion/Kids/Products/kfp2_2.webp", "/Fashion/Kids/Products/kfp2_3.webp", "/Fashion/Kids/Products/kfp2_4.webp"],
       tag: "Trending", 
       color: "Pink", 
       rating: "4.9", 
@@ -101,7 +101,7 @@ const KidsFashion = () => {
       sub: "Boys • Sets", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Fashion/Kids/Products/kfp3.png", "/Fashion/Kids/Products/kfp3_1.png", "/Fashion/Kids/Products/kfp3_2.png", "/Fashion/Kids/Products/kfp3_3.png", "/Fashion/Kids/Products/kfp3_4.png"],
+      images: ["/Fashion/Kids/Products/kfp3.webp", "/Fashion/Kids/Products/kfp3_1.webp", "/Fashion/Kids/Products/kfp3_2.webp", "/Fashion/Kids/Products/kfp3_3.webp", "/Fashion/Kids/Products/kfp3_4.webp"],
       tag: "Essential", 
       color: "Navy & Red", 
       rating: "4.7", 
@@ -115,7 +115,7 @@ const KidsFashion = () => {
       sub: "Girls • Sets", 
       price: 1599, 
       oldPrice: 3199, 
-      images: ["/Fashion/Kids/Products/kfp4.png", "/Fashion/Kids/Products/kfp4_1.png", "/Fashion/Kids/Products/kfp4_2.png", "/Fashion/Kids/Products/kfp4_3.png", "/Fashion/Kids/Products/kfp4_4.png"],
+      images: ["/Fashion/Kids/Products/kfp4.webp", "/Fashion/Kids/Products/kfp4_1.webp", "/Fashion/Kids/Products/kfp4_2.webp", "/Fashion/Kids/Products/kfp4_3.webp", "/Fashion/Kids/Products/kfp4_4.webp"],
       tag: "New Arrival", 
       color: "Purple", 
       rating: "4.8", 
@@ -333,7 +333,7 @@ const KidsFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Kids/kfbanner.png"
+                  src="/Fashion/Kids/kfbanner.webp"
                   alt="Kids' Fashion Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

@@ -26,7 +26,7 @@ const GirlKidsFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Kids/Girl/gkfbanner1.png",
+      image: "/Footwear/Kids/Girl/gkfbanner1.webp",
       titlePart1: "Pretty Little",
       titlePart2: "Girl Shoes",
       subtitle: "GIRL • SHOES • STYLE",
@@ -35,7 +35,7 @@ const GirlKidsFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Kids/Girl/gkfbanner2.png",
+      image: "/Footwear/Kids/Girl/gkfbanner2.webp",
       titlePart1: "Cute & Comfy",
       titlePart2: "Girl Sandals",
       subtitle: "GIRL • SANDALS • COMFORT",
@@ -50,14 +50,14 @@ const GirlKidsFootwear = () => {
       id: 1,
       title: "Shoes",
       tag: "STYLE",
-      image: "/Footwear/Kids/Girl/shoes.png",
+      image: "/Footwear/Kids/Girl/shoes.webp",
       link: "/footwear/kids/girl/shoes"
     },
     {
       id: 2,
       title: "Sandals",
       tag: "COMFORT",
-      image: "/Footwear/Kids/Girl/sandals.png",
+      image: "/Footwear/Kids/Girl/sandals.webp",
       link: "/footwear/kids/girl/sandals"
     }
   ];
@@ -71,7 +71,7 @@ const GirlKidsFootwear = () => {
       sub: "Girl • Shoes", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Footwear/Kids/Girl/Products/gkfp1.png", "/Footwear/Kids/Girl/Products/gkfp1_1.png", "/Footwear/Kids/Girl/Products/gkfp1_2.png", "/Footwear/Kids/Girl/Products/gkfp1_3.png", "/Footwear/Kids/Girl/Products/gkfp1_4.png"],
+      images: ["/Footwear/Kids/Girl/Products/gkfp1.webp", "/Footwear/Kids/Girl/Products/gkfp1_1.webp", "/Footwear/Kids/Girl/Products/gkfp1_2.webp", "/Footwear/Kids/Girl/Products/gkfp1_3.webp", "/Footwear/Kids/Girl/Products/gkfp1_4.webp"],
       tag: "Trending", 
       color: "Pink/Glitter", 
       rating: "4.7", 
@@ -85,7 +85,7 @@ const GirlKidsFootwear = () => {
       sub: "Girl • Sandals", 
       price: 1099, 
       oldPrice: 2199, 
-      images: ["/Footwear/Kids/Girl/Products/gkfp2.png", "/Footwear/Kids/Girl/Products/gkfp2_1.png", "/Footwear/Kids/Girl/Products/gkfp2_2.png", "/Footwear/Kids/Girl/Products/gkfp2_3.png", "/Footwear/Kids/Girl/Products/gkfp2_4.png"],
+      images: ["/Footwear/Kids/Girl/Products/gkfp2.webp", "/Footwear/Kids/Girl/Products/gkfp2_1.webp", "/Footwear/Kids/Girl/Products/gkfp2_2.webp", "/Footwear/Kids/Girl/Products/gkfp2_3.webp", "/Footwear/Kids/Girl/Products/gkfp2_4.webp"],
       tag: "Cute Collection", 
       color: "Lavender", 
       rating: "4.9", 
@@ -99,7 +99,7 @@ const GirlKidsFootwear = () => {
       sub: "Girl • Shoes", 
       price: 1599, 
       oldPrice: 3199, 
-      images: ["/Footwear/Kids/Girl/Products/gkfp3.png", "/Footwear/Kids/Girl/Products/gkfp3_1.png", "/Footwear/Kids/Girl/Products/gkfp3_2.png", "/Footwear/Kids/Girl/Products/gkfp3_3.png", "/Footwear/Kids/Girl/Products/gkfp3_4.png"],
+      images: ["/Footwear/Kids/Girl/Products/gkfp3.webp", "/Footwear/Kids/Girl/Products/gkfp3_1.webp", "/Footwear/Kids/Girl/Products/gkfp3_2.webp", "/Footwear/Kids/Girl/Products/gkfp3_3.webp", "/Footwear/Kids/Girl/Products/gkfp3_4.webp"],
       tag: "Fantasy", 
       color: "Pastel Rainbow", 
       rating: "4.9", 
@@ -113,7 +113,7 @@ const GirlKidsFootwear = () => {
       sub: "Girl • Sandals", 
       price: 899, 
       oldPrice: 1799, 
-      images: ["/Footwear/Kids/Girl/Products/gkfp4.png", "/Footwear/Kids/Girl/Products/gkfp4_1.png", "/Footwear/Kids/Girl/Products/gkfp4_2.png", "/Footwear/Kids/Girl/Products/gkfp4_3.png", "/Footwear/Kids/Girl/Products/gkfp4_4.png"],
+      images: ["/Footwear/Kids/Girl/Products/gkfp4.webp", "/Footwear/Kids/Girl/Products/gkfp4_1.webp", "/Footwear/Kids/Girl/Products/gkfp4_2.webp", "/Footwear/Kids/Girl/Products/gkfp4_3.webp", "/Footwear/Kids/Girl/Products/gkfp4_4.webp"],
       tag: "Bow Collection", 
       color: "White/Gold", 
       rating: "4.8", 
@@ -315,7 +315,7 @@ const GirlKidsFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Kids/Girl/gkfbanner.png"
+                  src="/Footwear/Kids/Girl/gkfbanner.webp"
                   alt="Girl's Footwear Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

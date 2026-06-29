@@ -41,11 +41,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Polarized Lenses", "Lightweight", "Classic Design"],
       color: "Gold",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap1_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap1_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap1_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap1_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap1_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap1_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap1_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Tortoise Pattern", "Comfortable Fit", "Durable"],
       color: "Tortoise",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap2_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap2_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap2_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap2_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap2_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap2_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap2_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Polarized Lenses", "Polished Finish", "Classic Style"],
       color: "Silver",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap3_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap3_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap3_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap3_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap3_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap3_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap3_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Black Finish", "Comfortable Fit", "Durable"],
       color: "Black",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap4.png",
-        "/Accessories/Sunglasses/Square/Products/ssap4_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap4_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap4_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap4_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap4.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap4_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap4_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap4_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Rose Gold Finish", "Polarized Lenses", "Luxury Design"],
       color: "Rose Gold",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap5.png",
-        "/Accessories/Sunglasses/Square/Products/ssap5_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap5_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap5_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap5_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap5.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap5_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap5_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap5_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Crystal Clear", "Lightweight", "Modern Design"],
       color: "Clear",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap6.png",
-        "/Accessories/Sunglasses/Square/Products/ssap6_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap6_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap6_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap6_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap6.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap6_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap6_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap6_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Vintage Design", "Polarized Lenses", "Classic Style"],
       color: "Gold",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap7.png",
-        "/Accessories/Sunglasses/Square/Products/ssap7_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap7_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap7_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap7_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap7.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap7_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap7_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap7_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Marble Pattern", "Comfortable Fit", "Unique Design"],
       color: "Marble",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap8.png",
-        "/Accessories/Sunglasses/Square/Products/ssap8_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap8_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap8_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap8_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap8.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap8_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap8_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap8_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Minimalist Design", "Lightweight", "Everyday Essential"],
       color: "Black",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap9.png",
-        "/Accessories/Sunglasses/Square/Products/ssap9_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap9_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap9_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap9_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap9.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap9_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap9_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap9_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Patterned Design", "Comfortable Fit", "Unique Style"],
       color: "Multi",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap10.png",
-        "/Accessories/Sunglasses/Square/Products/ssap10_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap10_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap10_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap10_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap10.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap10_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap10_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap10_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Gold Rim", "Polarized Lenses", "Vintage Charm"],
       color: "Gold",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap11.png",
-        "/Accessories/Sunglasses/Square/Products/ssap11_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap11_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap11_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap11_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap11.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap11_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap11_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap11_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const SquareSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Wood Grain Pattern", "Comfortable Fit", "Nature Inspired"],
       color: "Wood",
       images: [
-        "/Accessories/Sunglasses/Square/Products/ssap12.png",
-        "/Accessories/Sunglasses/Square/Products/ssap12_1.png",
-        "/Accessories/Sunglasses/Square/Products/ssap12_2.png",
-        "/Accessories/Sunglasses/Square/Products/ssap12_3.png",
-        "/Accessories/Sunglasses/Square/Products/ssap12_4.png"
+        "/Accessories/Sunglasses/Square/Products/ssap12.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap12_1.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap12_2.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap12_3.webp",
+        "/Accessories/Sunglasses/Square/Products/ssap12_4.webp"
       ]
     }
   ];
@@ -401,7 +401,7 @@ const SquareSunglassesAccessories = () => {
             src="/Accessories/Sunglasses/Square"
             alt="Square Sunglasses Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Accessories/Sunglasses/Square/ssabanner.png"; }}
+            onError={(e) => { e.target.src = "/Accessories/Sunglasses/Square/ssabanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

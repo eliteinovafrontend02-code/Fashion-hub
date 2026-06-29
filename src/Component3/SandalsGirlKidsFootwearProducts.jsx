@@ -27,257 +27,257 @@ const SandalsGirlKidsFootwear = () => {
 
   const sandalsGirlProducts = [
     {
-      id: 1,
-      name: "Classic Leather Sandals",
-      fabric: "Leather",
-      price: 1199,
-      oldPrice: 1899,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Classic leather sandals for girls with a comfortable fit. The premium leather construction and cushioned footbed make them perfect for summer, casual outings, and everyday wear.",
-      features: ["Premium Leather", "Cushioned Footbed", "Adjustable Straps", "Durable", "Comfortable Fit"],
-      color: "Brown",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp1_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp1_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp1_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Canvas Bow Sandals",
-      fabric: "Canvas",
-      price: 799,
-      oldPrice: 1299,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Soft Canvas",
-      description: "Adorable canvas bow sandals for girls with a feminine touch. The soft canvas material and cute bow detail make them perfect for summer parties, outings, and casual wear.",
-      features: ["Soft Canvas", "Bow Detail", "Adjustable Straps", "Cushioned Footbed", "Feminine Design"],
-      color: "Pink",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp2_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp2_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp2_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Synthetic Glitter Sandals",
-      fabric: "Synthetic",
-      price: 999,
-      oldPrice: 1599,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Fun Synthetic",
-      description: "Sparkly synthetic glitter sandals that every girl will love. The glittery material and comfortable design make them perfect for parties, celebrations, and special occasions.",
-      features: ["Fun Synthetic", "Glitter Finish", "Adjustable Straps", "Cushioned Footbed", "Party Ready"],
-      color: "Silver",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp3_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp3_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp3_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Leather Flower Sandals",
-      fabric: "Leather",
-      price: 1499,
-      oldPrice: 2399,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Elegant leather flower sandals for girls with a beautiful design. The premium leather and floral embellishments make them perfect for weddings, parties, and special occasions.",
-      features: ["Premium Leather", "Flower Embellishments", "Adjustable Straps", "Cushioned Insole", "Elegant Design"],
-      color: "White",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp4.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp4_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp4_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp4_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Canvas Print Sandals",
-      fabric: "Canvas",
-      price: 699,
-      oldPrice: 1199,
-      rating: 4.4,
-      reviews: 987,
-      tag: "Essential",
-      sub: "Colorful Canvas",
-      description: "Colorful canvas print sandals with fun designs. The vibrant prints and comfortable canvas material make them perfect for playdates, beach trips, and summer outings.",
-      features: ["Colorful Canvas", "Fun Prints", "Adjustable Straps", "Comfortable Fit", "Playful Design"],
-      color: "Multicolor",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp5.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp5_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp5_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp5_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Synthetic Slides",
-      fabric: "Synthetic",
-      price: 599,
-      oldPrice: 999,
-      rating: 4.3,
-      reviews: 876,
-      tag: "Sale",
-      sub: "Comfort Synthetic",
-      description: "Comfortable synthetic slides for easy wear. The lightweight material and slip-on design make them perfect for poolside, beach, and casual summer days.",
-      features: ["Comfort Synthetic", "Slip-on Style", "Lightweight", "Cushioned Footbed", "Easy Wear"],
-      color: "Lilac",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp6.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp6_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp6_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp6_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Leather Ankle Strap Sandals",
-      fabric: "Leather",
-      price: 1599,
-      oldPrice: 2499,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Elegant leather ankle strap sandals for girls with a sophisticated look. The premium leather and stylish ankle strap make them perfect for parties, outings, and special occasions.",
-      features: ["Premium Leather", "Ankle Strap", "Adjustable Fit", "Cushioned Insole", "Elegant Design"],
-      color: "Tan",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp7.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp7_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp7_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp7_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Canvas Flip Flops",
-      fabric: "Canvas",
-      price: 499,
-      oldPrice: 799,
-      rating: 4.2,
-      reviews: 654,
-      tag: "Essential",
-      sub: "Soft Canvas",
-      description: "Soft canvas flip flops for easy summer wear. The lightweight material and simple design make them perfect for beach, pool, and casual days.",
-      features: ["Soft Canvas", "Flip Flop Style", "Lightweight", "Comfortable Fit", "Summer Essential"],
-      color: "Yellow",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp8.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp8_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp8_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp8_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Synthetic Pearl Sandals",
-      fabric: "Synthetic",
-      price: 1299,
-      oldPrice: 1999,
-      rating: 4.5,
-      reviews: 789,
-      tag: "Trending",
-      sub: "Premium Synthetic",
-      description: "Elegant synthetic pearl sandals for girls with a sophisticated design. The pearl embellishments and comfortable fit make them perfect for weddings, parties, and special occasions.",
-      features: ["Premium Synthetic", "Pearl Embellishments", "Adjustable Straps", "Cushioned Footbed", "Elegant Design"],
-      color: "Ivory",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp9.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp9_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp9_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp9_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Leather T-Strap Sandals",
-      fabric: "Leather",
-      price: 1399,
-      oldPrice: 2199,
-      rating: 4.6,
-      reviews: 1345,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Classic leather T-strap sandals for girls with a timeless design. The premium leather and T-strap style make them perfect for school, parties, and everyday wear.",
-      features: ["Premium Leather", "T-Strap Style", "Adjustable Buckle", "Cushioned Insole", "Classic Design"],
-      color: "Black",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp10.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp10_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp10_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp10_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Canvas Embellished Sandals",
-      fabric: "Canvas",
-      price: 899,
-      oldPrice: 1499,
-      rating: 4.4,
-      reviews: 567,
-      tag: "New",
-      sub: "Colorful Canvas",
-      description: "Colorful canvas embellished sandals with sparkly details. The vibrant material and fun embellishments make them perfect for parties, celebrations, and festive occasions.",
-      features: ["Colorful Canvas", "Embellished Detail", "Adjustable Straps", "Cushioned Footbed", "Festive Design"],
-      color: "Coral",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp11.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp11_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp11_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp11_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Synthetic Light-up Sandals",
-      fabric: "Synthetic",
-      price: 1199,
-      oldPrice: 1899,
-      rating: 4.3,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Fun Synthetic",
-      description: "Fun synthetic light-up sandals that girls will love. The colorful lights and comfortable design make them perfect for parties, playdates, and summer evenings.",
-      features: ["Fun Synthetic", "Light-up Feature", "Adjustable Straps", "Comfortable Fit", "Playful Design"],
-      color: "Purple",
-      images: [
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp12.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp12_1.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp12_2.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp12_3.png",
-        "/Footwear/Kids/Girl/Sandals/Products/sgkfp12_4.png"
-      ]
-    }
+    id: 1,
+    name: "Classic Leather Baby Sandals",
+    fabric: "Leather",
+    price: 449,
+    oldPrice: 749,
+    rating: 4.9,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Premium Soft Leather",
+    description: "Classic leather baby sandals with a luxurious feel. The soft leather construction and cushioned footbed make them perfect for summer outings, parties, and elegant everyday wear.",
+    features: ["Premium Soft Leather", "Cushioned Footbed", "Adjustable Straps", "Durable", "Luxurious Finish"],
+    color: "Red",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp1_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp1_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp1_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp1_4.webp"
+    ]
+  },
+  {
+    id: 2,
+    name: "Elegant Canvas Baby Bow Sandals",
+    fabric: "Canvas",
+    price: 299,
+    oldPrice: 499,
+    rating: 4.8,
+    reviews: 1876,
+    tag: "Trending",
+    sub: "Premium Canvas",
+    description: "Elegant canvas bow sandals for babies with a luxury feminine touch. The premium soft canvas and beautiful bow detail make them perfect for parties, outings, and stylish summer wear.",
+    features: ["Premium Canvas", "Elegant Bow Detail", "Adjustable Straps", "Cushioned Footbed", "Luxury Feminine Design"],
+    color: "Pink",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp2_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp2_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp2_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp2_4.webp"
+    ]
+  },
+  {
+    id: 3,
+    name: "Luxury Synthetic Baby Glitter Sandals",
+    fabric: "Synthetic",
+    price: 399,
+    oldPrice: 649,
+    rating: 4.7,
+    reviews: 1567,
+    tag: "Popular",
+    sub: "Premium Synthetic",
+    description: "Luxury synthetic glitter sandals for babies that sparkle with elegance. The premium glitter material and comfortable design make them perfect for parties, celebrations, and special occasions.",
+    features: ["Premium Synthetic", "Luxury Glitter Finish", "Adjustable Straps", "Cushioned Footbed", "Party Ready"],
+    color: "Silver",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp3_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp3_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp3_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp3_4.webp"
+    ]
+  },
+  {
+    id: 4,
+    name: "Designer Leather Baby Flower Sandals",
+    fabric: "Leather",
+    price: 549,
+    oldPrice: 899,
+    rating: 4.6,
+    reviews: 1234,
+    tag: "Classic",
+    sub: "Premium Soft Leather",
+    description: "Designer leather flower sandals for babies with a beautiful luxury design. The premium soft leather and elegant floral embellishments make them perfect for weddings, parties, and special occasions.",
+    features: ["Premium Soft Leather", "Elegant Flower Embellishments", "Adjustable Straps", "Cushioned Insole", "Luxury Design"],
+    color: "Yellow",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp4.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp4_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp4_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp4_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp4_4.webp"
+    ]
+  },
+  {
+    id: 5,
+    name: "Colorful Canvas Baby Print Sandals",
+    fabric: "Canvas",
+    price: 249,
+    oldPrice: 399,
+    rating: 4.5,
+    reviews: 987,
+    tag: "Essential",
+    sub: "Premium Canvas",
+    description: "Colorful canvas print sandals for babies with fun luxury designs. The premium canvas and vibrant prints make them perfect for playdates, beach trips, and stylish summer outings.",
+    features: ["Premium Canvas", "Fun Prints", "Adjustable Straps", "Comfortable Fit", "Luxury Playful Design"],
+    color: "Multicolor",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp5.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp5_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp5_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp5_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp5_4.webp"
+    ]
+  },
+  {
+    id: 6,
+    name: "Premium Synthetic Baby Slides",
+    fabric: "Synthetic",
+    price: 199,
+    oldPrice: 349,
+    rating: 4.4,
+    reviews: 876,
+    tag: "Sale",
+    sub: "Premium Synthetic",
+    description: "Premium synthetic baby slides for easy elegant wear. The lightweight material and slip-on design make them perfect for poolside, beach, and luxury casual summer days.",
+    features: ["Premium Synthetic", "Slip-on Style", "Lightweight", "Cushioned Footbed", "Luxury Easy Wear"],
+    color: "Lilac",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp6.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp6_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp6_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp6_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp6_4.webp"
+    ]
+  },
+  {
+    id: 7,
+    name: "Chic Leather Baby Ankle Strap Sandals",
+    fabric: "Leather",
+    price: 599,
+    oldPrice: 999,
+    rating: 4.8,
+    reviews: 1123,
+    tag: "Bestseller",
+    sub: "Premium Soft Leather",
+    description: "Chic leather ankle strap sandals for babies with a sophisticated luxury look. The premium soft leather and stylish ankle strap make them perfect for parties, outings, and special occasions.",
+    features: ["Premium Soft Leather", "Elegant Ankle Strap", "Adjustable Fit", "Cushioned Insole", "Luxury Chic Design"],
+    color: "Tan",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp7.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp7_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp7_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp7_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp7_4.webp"
+    ]
+  },
+  {
+    id: 8,
+    name: "Soft Canvas Baby Flip Flops",
+    fabric: "Canvas",
+    price: 179,
+    oldPrice: 299,
+    rating: 4.3,
+    reviews: 654,
+    tag: "Essential",
+    sub: "Premium Canvas",
+    description: "Soft canvas baby flip flops for easy luxury summer wear. The lightweight premium material and simple design make them perfect for beach, pool, and casual stylish days.",
+    features: ["Premium Canvas", "Flip Flop Style", "Lightweight", "Comfortable Fit", "Luxury Summer Essential"],
+    color: "Yellow",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp8.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp8_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp8_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp8_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp8_4.webp"
+    ]
+  },
+  {
+    id: 9,
+    name: "Luxury Synthetic Baby Pearl Sandals",
+    fabric: "Synthetic",
+    price: 449,
+    oldPrice: 749,
+    rating: 4.6,
+    reviews: 789,
+    tag: "Trending",
+    sub: "Premium Synthetic",
+    description: "Luxury synthetic pearl sandals for babies with an elegant sophisticated design. The premium material and beautiful pearl embellishments make them perfect for weddings, parties, and special occasions.",
+    features: ["Premium Synthetic", "Elegant Pearl Embellishments", "Adjustable Straps", "Cushioned Footbed", "Luxury Elegant Design"],
+    color: "Ivory",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp9.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp9_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp9_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp9_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp9_4.webp"
+    ]
+  },
+  {
+    id: 10,
+    name: "Classic Leather Baby T-Strap Sandals",
+    fabric: "Leather",
+    price: 499,
+    oldPrice: 799,
+    rating: 4.7,
+    reviews: 1345,
+    tag: "Classic",
+    sub: "Premium Soft Leather",
+    description: "Classic leather T-strap sandals for babies with a timeless luxury design. The premium soft leather and elegant T-strap style make them perfect for parties, outings, and everyday luxury wear.",
+    features: ["Premium Soft Leather", "Elegant T-Strap Style", "Adjustable Buckle", "Cushioned Insole", "Luxury Classic Design"],
+    color: "Black",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp10.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp10_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp10_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp10_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp10_4.webp"
+    ]
+  },
+  {
+    id: 11,
+    name: "Elegant Canvas Baby Embellished Sandals",
+    fabric: "Canvas",
+    price: 349,
+    oldPrice: 549,
+    rating: 4.5,
+    reviews: 567,
+    tag: "New",
+    sub: "Premium Canvas",
+    description: "Elegant canvas embellished sandals for babies with sparkly luxury details. The premium canvas and beautiful embellishments make them perfect for parties, celebrations, and festive occasions.",
+    features: ["Premium Canvas", "Elegant Embellished Detail", "Adjustable Straps", "Cushioned Footbed", "Luxury Festive Design"],
+    color: "Coral",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp11.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp11_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp11_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp11_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp11_4.webp"
+    ]
+  },
+  {
+    id: 12,
+    name: "Glowing Synthetic Baby Light-up Sandals",
+    fabric: "Synthetic",
+    price: 399,
+    oldPrice: 649,
+    rating: 4.4,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Premium Synthetic",
+    description: "Glowing light-up sandals with a luxury touch that babies will adore. The elegant lights and premium comfortable design make them perfect for parties, playdates, and magical evenings.",
+    features: ["Premium Synthetic", "Elegant Light-up Feature", "Adjustable Straps", "Comfortable Fit", "Luxury Playful Design"],
+    color: "Purple",
+    images: [
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp12.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp12_1.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp12_2.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp12_3.webp",
+      "/Footwear/Kids/Girl/Sandals/Products/sgkfp12_4.webp"
+    ]
+  }
   ];
 
   const filters = ['all', 'Leather', 'Canvas', 'Synthetic'];
@@ -400,7 +400,7 @@ const SandalsGirlKidsFootwear = () => {
             src="/Footwear/Kids/Girl/Sandals"
             alt="Girls Sandals Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Kids/Girl/Sandals/sgkfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Kids/Girl/Sandals/sgkfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

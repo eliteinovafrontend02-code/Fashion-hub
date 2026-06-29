@@ -28,84 +28,84 @@ useEffect(() => {
     // Earrings - Jhumka
     { 
       id: 601, name: 'Traditional Silk Thread Jhumkas', category: "Jewellery", sub: "Earrings • Jhumka", price: 2499, oldPrice: 4999, 
-      images: ["/Jewellery/Products/jp1.png", "/Jewellery/Products/jp1_1.png", "/Jewellery/Products/jp1_2.png","/Jewellery/Products/jp1_3.png","/Jewellery/Products/jp1_4.png"],
+      images: ["/Jewellery/Products/jp1.webp", "/Jewellery/Products/jp1_1.webp", "/Jewellery/Products/jp1_2.webp","/Jewellery/Products/jp1_3.webp","/Jewellery/Products/jp1_4.webp"],
       tag: "Trending", color: "Emerald Green & Gold", rating: "4.8", reviews: "2.1k",
       details: { "Material": "Silk Thread & Alloy", "Plating": "Gold Plated", "Stone": "Emerald & Kundan", "Weight": "25g", "Closure": "Push Back" }
     },
     // Necklace - Choker
     { 
       id: 602, name: 'Temple Jewellery Choker Set', category: "Jewellery", sub: "Necklace • Choker", price: 5999, oldPrice: 9999, 
-      images: ["/Jewellery/Products/jp2.png", "/Jewellery/Products/jp2_1.png", "/Jewellery/Products/jp2_2.png","/Jewellery/Products/jp2_3.png","/Jewellery/Products/jp2_4.png"],
+      images: ["/Jewellery/Products/jp2.webp", "/Jewellery/Products/jp2_1.webp", "/Jewellery/Products/jp2_2.webp","/Jewellery/Products/jp2_3.webp","/Jewellery/Products/jp2_4.webp"],
       tag: "Premium", color: "Ruby Red & Antique Gold", rating: "4.9", reviews: "850",
       details: { "Material": "Brass & Copper", "Plating": "Antique Gold Polish", "Stone": "Ruby & Pearls", "Length": "14 inches", "Includes": "Earrings + Necklace" }
     },
     // Bangles - Traditional
     { 
       id: 603, name: 'Lacquer Handcrafted Bangles', category: "Jewellery", sub: "Bangles • Traditional", price: 3499, oldPrice: 5999, 
-      images: ["/Jewellery/Products/jp3.png", "/Jewellery/Products/jp3_1.png", "/Jewellery/Products/jp3_2.png","/Jewellery/Products/jp3_3.png","/Jewellery/Products/jp3_4.png"],
+      images: ["/Jewellery/Products/jp3.webp", "/Jewellery/Products/jp3_1.webp", "/Jewellery/Products/jp3_2.webp","/Jewellery/Products/jp3_3.webp","/Jewellery/Products/jp3_4.webp"],
       tag: "Best Seller", color: "Sapphire Blue & Lacquer", rating: "4.7", reviews: "3.4k",
       details: { "Material": "Lacquer & Alloy", "Plating": "Enamel Finish", "Set": "6 Pieces", "Width": "8mm", "Design": "Handpainted Lacquer Art" }
     },
     // Earrings - Stud
     { 
       id: 604, name: 'Pearl & Crystal Studs', category: "Jewellery", sub: "Earrings • Stud", price: 4999, oldPrice: 7999, 
-      images: ["/Jewellery/Products/jp4.png", "/Jewellery/Products/jp4_1.png", "/Jewellery/Products/jp4_2.png","/Jewellery/Products/jp4_3.png","/Jewellery/Products/jp4_4.png"],
+      images: ["/Jewellery/Products/jp4.webp", "/Jewellery/Products/jp4_1.webp", "/Jewellery/Products/jp4_2.webp","/Jewellery/Products/jp4_3.webp","/Jewellery/Products/jp4_4.webp"],
       tag: "Luxury", color: "White Pearl & Silver", rating: "4.9", reviews: "1.2k",
       details: { "Material": "Sterling Silver", "Stone": "Freshwater Pearls & CZ", "Plating": "Rhodium", "Weight": "3g", "Closure": "Screw Back" }
     },
     // Necklace - Chain
     { 
       id: 605, name: 'Oxidised Silver Chain Necklace', category: "Jewellery", sub: "Necklace • Chain", price: 3999, oldPrice: 6999, 
-      images: ["/Jewellery/Products/jp5.png", "/Jewellery/Products/jp5_1.png", "/Jewellery/Products/jp5_2.png","/Jewellery/Products/jp5_3.png","/Jewellery/Products/jp5_4.png"],
+      images: ["/Jewellery/Products/jp5.webp", "/Jewellery/Products/jp5_1.webp", "/Jewellery/Products/jp5_2.webp","/Jewellery/Products/jp5_3.webp","/Jewellery/Products/jp5_4.webp"],
       tag: "Essential", color: "Oxidised Silver & Turquoise", rating: "4.6", reviews: "1.8k",
       details: { "Material": "Silver Alloy", "Plating": "Oxidised Finish", "Length": "18 inches", "Width": "3mm", "Closure": "Lobster Clasp" }
     },
     // Earrings - Drops
     { 
       id: 606, name: 'Meenakari Drop Earrings', category: "Jewellery", sub: "Earrings • Drops", price: 2999, oldPrice: 4999, 
-      images: ["/Jewellery/Products/jp6.png", "/Jewellery/Products/jp6_1.png", "/Jewellery/Products/jp6_2.png","/Jewellery/Products/jp6_3.png","/Jewellery/Products/jp6_4.png"],
+      images: ["/Jewellery/Products/jp6.webp", "/Jewellery/Products/jp6_1.webp", "/Jewellery/Products/jp6_2.webp","/Jewellery/Products/jp6_3.webp","/Jewellery/Products/jp6_4.webp"],
       tag: "Trending", color: "Multicolor Meenakari", rating: "4.8", reviews: "1.5k",
       details: { "Material": "Brass", "Stone": "Enamel & Kundan", "Length": "2 inches", "Weight": "8g", "Closure": "Push Back", "Art": "Meenakari Enamel Work" }
     },
     // Bangles - Modern
     { 
       id: 607, name: 'Acrylic Designer Bangles', category: "Jewellery", sub: "Bangles • Modern", price: 1999, oldPrice: 3499, 
-      images: ["/Jewellery/Products/jp7.png", "/Jewellery/Products/jp7_1.png", "/Jewellery/Products/jp7_2.png","/Jewellery/Products/jp7_3.png","/Jewellery/Products/jp7_4.png"],
+      images: ["/Jewellery/Products/jp7.webp", "/Jewellery/Products/jp7_1.webp", "/Jewellery/Products/jp7_2.webp","/Jewellery/Products/jp7_3.webp","/Jewellery/Products/jp7_4.webp"],
       tag: "Essential", color: "Crystal Clear & Rose Gold", rating: "4.5", reviews: "2.2k",
       details: { "Material": "Acrylic & Metal", "Plating": "Rose Gold Accent", "Set": "4 Pieces", "Style": "Contemporary Transparent", "Adjustable": "Yes" }
     },
     // Necklace - Pendant
     { 
       id: 608, name: 'Navratna Pendant Necklace', category: "Jewellery", sub: "Necklace • Pendant", price: 2499, oldPrice: 4499, 
-      images: ["/Jewellery/Products/jp8.png", "/Jewellery/Products/jp8_1.png", "/Jewellery/Products/jp8_2.png","/Jewellery/Products/jp8_3.png","/Jewellery/Products/jp8_4.png"],
+      images: ["/Jewellery/Products/jp8.webp", "/Jewellery/Products/jp8_1.webp", "/Jewellery/Products/jp8_2.webp","/Jewellery/Products/jp8_3.webp","/Jewellery/Products/jp8_4.webp"],
       tag: "Best Seller", color: "Nine Gemstones & Gold", rating: "4.7", reviews: "1.9k",
       details: { "Material": "Stainless Steel", "Stone": "Navratna (9 Auspicious Gems)", "Chain Length": "16 inches", "Pendant Size": "15mm", "Closure": "Lobster Clasp" }
     },
     // Earrings - Hoops
     { 
       id: 609, name: 'Diamond Hoop Earrings', category: "Jewellery", sub: "Earrings • Hoops", price: 1799, oldPrice: 2999, 
-      images: ["/Jewellery/Products/jp9.png", "/Jewellery/Products/jp9_1.png", "/Jewellery/Products/jp9_2.png","/Jewellery/Products/jp9_3.png","/Jewellery/Products/jp9_4.png"],
+      images: ["/Jewellery/Products/jp9.webp", "/Jewellery/Products/jp9_1.webp", "/Jewellery/Products/jp9_2.webp","/Jewellery/Products/jp9_3.webp","/Jewellery/Products/jp9_4.webp"],
       tag: "Trending", color: "Silver & Diamond", rating: "4.6", reviews: "2.8k",
       details: { "Material": "Brass", "Plating": "Silver Plated", "Diameter": "25mm", "Weight": "6g", "Closure": "Hinge Back" }
     },
     // Necklace - Fashion
     { 
       id: 610, name: 'Bohemian Beaded Layered Necklace', category: "Jewellery", sub: "Necklace • Fashion", price: 3499, oldPrice: 5999, 
-      images: ["/Jewellery/Products/jp10.png", "/Jewellery/Products/jp10_1.png", "/Jewellery/Products/jp10_2.png","/Jewellery/Products/jp10_3.png","/Jewellery/Products/jp10_4.png"],
+      images: ["/Jewellery/Products/jp10.webp", "/Jewellery/Products/jp10_1.webp", "/Jewellery/Products/jp10_2.webp","/Jewellery/Products/jp10_3.webp","/Jewellery/Products/jp10_4.webp"],
       tag: "Premium", color: "Ruby & Bohemian Beads", rating: "4.8", reviews: "980",
       details: { "Material": "Wooden Beads & Alloy", "Plating": "Antique Brass", "Layers": "3", "Length": "16+18 inches", "Style": "Bohemian with Ruby Accents" }
     },
     // Bangles - Kada
     { 
       id: 611, name: 'Tibetan Silver Kada', category: "Jewellery", sub: "Bangles • Traditional", price: 4499, oldPrice: 7499, 
-      images: ["/Jewellery/Products/jp11.png", "/Jewellery/Products/jp11_1.png", "/Jewellery/Products/jp11_2.png","/Jewellery/Products/jp11_3.png","/Jewellery/Products/jp11_4.png"],
+      images: ["/Jewellery/Products/jp11.webp", "/Jewellery/Products/jp11_1.webp", "/Jewellery/Products/jp11_2.webp","/Jewellery/Products/jp11_3.webp","/Jewellery/Products/jp11_4.webp"],
       tag: "Premium", color: "Silver & Turquoise", rating: "4.9", reviews: "650",
       details: { "Material": "Tibetan Silver", "Plating": "Oxidised Finish", "Width": "12mm", "Weight": "35g", "Design": "Buddhist Engravings with Turquoise" }
     },
     // Earrings - Chandbali
     { 
       id: 612, name: 'Mughal Inspired Chandbalis', category: "Jewellery", sub: "Earrings • Traditional", price: 3999, oldPrice: 6499, 
-      images: ["/Jewellery/Products/jp12.png", "/Jewellery/Products/jp12_1.png", "/Jewellery/Products/jp12_2.png","/Jewellery/Products/jp12_3.png","/Jewellery/Products/jp12_4.png"],
+      images: ["/Jewellery/Products/jp12.webp", "/Jewellery/Products/jp12_1.webp", "/Jewellery/Products/jp12_2.webp","/Jewellery/Products/jp12_3.webp","/Jewellery/Products/jp12_4.webp"],
       tag: "Luxury", color: "Pearl, Emerald & Gold", rating: "4.9", reviews: "520",
       details: { "Material": "Copper & Alloy", "Plating": "Gold Plated", "Stone": "Emerald, Pearls & Kundan", "Length": "3 inches", "Weight": "18g", "Art": "Mughal Minakari" }
     }

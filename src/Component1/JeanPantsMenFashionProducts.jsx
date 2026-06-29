@@ -40,11 +40,11 @@ const JeanPantsMenFashion = () => {
       features: ["98% Cotton 2% Elastane", "Regular Fit", "Mid-rise", "5-pocket styling", "Machine washable"],
       color: "Blue",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp1_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp1_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp1_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp1_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp1_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp1_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp1_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const JeanPantsMenFashion = () => {
       features: ["98% Cotton 2% Spandex", "Slim Fit", "Mid-rise", "5-pocket styling", "Premium stretch"],
       color: "Black",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp2_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp2_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp2_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp2_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp2_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp2_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp2_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const JeanPantsMenFashion = () => {
       features: ["100% Cotton", "Relaxed Fit", "Low-rise", "Distressed details", "Faded wash"],
       color: "Light Blue",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp3_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp3_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp3_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp3_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp3_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp3_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp3_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const JeanPantsMenFashion = () => {
       features: ["98% Cotton 2% Elastane", "Tapered Fit", "Mid-rise", "5-pocket styling", "Versatile grey color"],
       color: "Grey",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp4.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp4_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp4_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp4_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp4_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp4.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp4_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp4_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp4_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const JeanPantsMenFashion = () => {
       features: ["96% Cotton 4% Spandex", "Skinny Fit", "Low-rise", "5-pocket styling", "Maximum stretch"],
       color: "Navy",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp5.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp5_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp5_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp5_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp5_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp5.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp5_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp5_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp5_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const JeanPantsMenFashion = () => {
       features: ["100% Cotton", "Regular Fit", "Mid-rise", "Classic styling", "Versatile khaki color"],
       color: "Khaki",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp6.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp6_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp6_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp6_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp6_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp6.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp6_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp6_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp6_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp6_4.webp"
       ]
     },
     {
@@ -166,11 +166,11 @@ const JeanPantsMenFashion = () => {
       features: ["98% Cotton 2% Elastane", "Slim Fit", "Mid-rise", "Ripped details", "Destroyed finish"],
       color: "Black",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp7.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp7_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp7_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp7_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp7_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp7.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp7_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp7_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp7_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp7_4.webp"
       ]
     },
     {
@@ -187,11 +187,11 @@ const JeanPantsMenFashion = () => {
       features: ["100% Premium Cotton", "Straight Fit", "Mid-rise", "Classic styling", "Summer essential"],
       color: "White",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp8.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp8_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp8_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp8_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp8_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp8.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp8_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp8_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp8_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp8_4.webp"
       ]
     },
     {
@@ -208,11 +208,11 @@ const JeanPantsMenFashion = () => {
       features: ["100% Cotton", "Bootcut Fit", "Mid-rise", "5-pocket styling", "Dark wash finish"],
       color: "Dark Blue",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp9.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp9_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp9_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp9_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp9_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp9.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp9_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp9_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp9_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp9_4.webp"
       ]
     },
     {
@@ -229,11 +229,11 @@ const JeanPantsMenFashion = () => {
       features: ["100% Durable Cotton", "Relaxed Fit", "Mid-rise", "Multiple cargo pockets", "Rugged styling"],
       color: "Olive",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp10.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp10_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp10_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp10_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp10_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp10.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp10_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp10_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp10_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp10_4.webp"
       ]
     },
     {
@@ -250,11 +250,11 @@ const JeanPantsMenFashion = () => {
       features: ["100% Japanese Selvedge Denim", "Regular Fit", "Mid-rise", "Selvedge construction", "Premium quality"],
       color: "Indigo",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp11.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp11_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp11_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp11_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp11_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp11.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp11_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp11_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp11_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp11_4.webp"
       ]
     },
     {
@@ -271,11 +271,11 @@ const JeanPantsMenFashion = () => {
       features: ["100% Cotton Twill", "Tailored Fit", "Mid-rise", "Classic chino styling", "Versatile beige"],
       color: "Beige",
       images: [
-        "/Fashion/Men/Pants/Jean/Products/jpmfp12.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp12_1.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp12_2.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp12_3.png",
-        "/Fashion/Men/Pants/Jean/Products/jpmfp12_4.png"
+        "/Fashion/Men/Pants/Jean/Products/jpmfp12.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp12_1.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp12_2.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp12_3.webp",
+        "/Fashion/Men/Pants/Jean/Products/jpmfp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const JeanPantsMenFashion = () => {
             src="/Fashion/Men/Pants/Jean"
             alt="Men's Jeans Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Men/Pants/Jean/jpmfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Men/Pants/Jean/jpmfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

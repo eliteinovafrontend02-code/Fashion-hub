@@ -101,7 +101,7 @@ const OrderConfirmation = () => {
                       src={item.image} 
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded-lg"
-                      onError={(e) => { e.target.src = '/placeholder.png'; }}
+                      onError={(e) => { e.target.src = '/placeholder.webp'; }}
                     />
                     <div className="flex-1">
                       <p className="font-semibold text-gray-800">{item.name}</p>

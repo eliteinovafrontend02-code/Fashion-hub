@@ -25,7 +25,7 @@ const OilHaircareBeauty = () => {
   }, []);
 
   const oilProducts = [
-    {
+     {
       id: 1,
       name: "Pure Coconut Hair Oil",
       fabric: "Coconut Oil",
@@ -37,13 +37,13 @@ const OilHaircareBeauty = () => {
       sub: "Pure Coconut",
       description: "Pure coconut hair oil that deeply nourishes and conditions hair. The natural formula penetrates deep into hair shafts, reducing protein loss and promoting healthy, shiny hair.",
       features: ["Pure Coconut", "Deep Nourishment", "Reduces Protein Loss", "Healthy Shine", "Natural Formula"],
-      color: "White",
+      color: "Cream",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp1_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp1_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp1_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp1_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp1_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp1_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp1_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp1_4.webp"
       ]
     },
     {
@@ -58,13 +58,13 @@ const OilHaircareBeauty = () => {
       sub: "Pure Argan",
       description: "Pure argan oil hair treatment that restores and rejuvenates damaged hair. Rich in vitamin E and essential fatty acids, it nourishes hair and adds brilliant shine.",
       features: ["Pure Argan", "Vitamin E Rich", "Restores Damage", "Adds Shine", "Essential Fatty Acids"],
-      color: "Amber",
+      color: "Honey Amber",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp2_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp2_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp2_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp2_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp2_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp2_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp2_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp2_4.webp"
       ]
     },
     {
@@ -79,13 +79,13 @@ const OilHaircareBeauty = () => {
       sub: "Pure Castor",
       description: "Pure castor oil that promotes hair growth and thickness. The nutrient-rich formula stimulates hair follicles and strengthens roots for fuller, healthier hair.",
       features: ["Pure Castor", "Promotes Growth", "Strengthens Roots", "Thicker Hair", "Nutrient-Rich"],
-      color: "Yellow",
+      color: "Golden Yellow",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp3_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp3_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp3_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp3_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp3_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp3_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp3_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp3_4.webp"
       ]
     },
     {
@@ -100,13 +100,13 @@ const OilHaircareBeauty = () => {
       sub: "Coconut Blend",
       description: "Coconut and almond hair oil blend that nourishes and strengthens hair. The combination of natural oils provides deep conditioning and promotes soft, manageable hair.",
       features: ["Coconut Blend", "Almond Enriched", "Deep Conditioning", "Soft Hair", "Manageable"],
-      color: "White",
+      color: "Milk White",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp4.png",
-        "/Beauty/Haircare/Oil/Products/ohbp4_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp4_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp4_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp4_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp4.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp4_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp4_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp4_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp4_4.webp"
       ]
     },
     {
@@ -121,13 +121,13 @@ const OilHaircareBeauty = () => {
       sub: "Luxury Argan",
       description: "Luxury argan oil hair serum that tames frizz and adds instant shine. The lightweight formula smooths hair cuticles and protects from heat damage and environmental stressors.",
       features: ["Luxury Argan", "Frizz Control", "Adds Shine", "Heat Protection", "Smooths Cuticles"],
-      color: "Gold",
+      color: "Champagne Gold",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp5.png",
-        "/Beauty/Haircare/Oil/Products/ohbp5_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp5_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp5_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp5_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp5.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp5_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp5_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp5_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp5_4.webp"
       ]
     },
     {
@@ -142,13 +142,13 @@ const OilHaircareBeauty = () => {
       sub: "Castor Blend",
       description: "Castor oil and rosemary blend that stimulates hair growth. The natural formula improves circulation to the scalp and strengthens hair from the roots.",
       features: ["Castor Blend", "Rosemary Enriched", "Stimulates Growth", "Strengthens Roots", "Scalp Health"],
-      color: "Green",
+      color: "Herbal Green",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp6.png",
-        "/Beauty/Haircare/Oil/Products/ohbp6_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp6_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp6_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp6_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp6.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp6_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp6_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp6_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp6_4.webp"
       ]
     },
     {
@@ -163,13 +163,13 @@ const OilHaircareBeauty = () => {
       sub: "Virgin Coconut",
       description: "Virgin coconut hair oil made from cold-pressed coconuts. The pure, unrefined formula provides intense hydration and helps repair damaged hair for a healthy look.",
       features: ["Virgin Coconut", "Cold-Pressed", "Intense Hydration", "Repairs Damage", "Pure Formula"],
-      color: "White",
+      color: "Coconut Cream",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp7.png",
-        "/Beauty/Haircare/Oil/Products/ohbp7_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp7_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp7_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp7_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp7.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp7_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp7_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp7_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp7_4.webp"
       ]
     },
     {
@@ -184,13 +184,13 @@ const OilHaircareBeauty = () => {
       sub: "Argan Blend",
       description: "Argan and jojoba hair oil blend that nourishes and protects. The lightweight formula absorbs quickly, adding shine and softness without weighing hair down.",
       features: ["Argan Blend", "Jojoba Enriched", "Lightweight", "Adds Shine", "Quick Absorbing"],
-      color: "Amber",
+      color: "Sunset Amber",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp8.png",
-        "/Beauty/Haircare/Oil/Products/ohbp8_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp8_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp8_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp8_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp8.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp8_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp8_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp8_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp8_4.webp"
       ]
     },
     {
@@ -205,13 +205,13 @@ const OilHaircareBeauty = () => {
       sub: "Scalp Care",
       description: "Castor oil specially formulated for hair and scalp health. The nourishing formula promotes healthy hair growth and helps combat dandruff and dry scalp issues.",
       features: ["Scalp Care", "Promotes Growth", "Anti-Dandruff", "Moisturizes Scalp", "Healthy Hair"],
-      color: "Yellow",
+      color: "Butter Yellow",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp9.png",
-        "/Beauty/Haircare/Oil/Products/ohbp9_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp9_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp9_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp9_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp9.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp9_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp9_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp9_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp9_4.webp"
       ]
     },
     {
@@ -226,13 +226,13 @@ const OilHaircareBeauty = () => {
       sub: "Hair Elixir",
       description: "Coconut oil hair elixir that provides daily nourishment and shine. The lightweight formula is perfect for daily use and helps protect hair from environmental damage.",
       features: ["Hair Elixir", "Lightweight", "Daily Nourishment", "Adds Shine", "Protects Hair"],
-      color: "White",
+      color: "Vanilla",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp10.png",
-        "/Beauty/Haircare/Oil/Products/ohbp10_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp10_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp10_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp10_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp10.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp10_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp10_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp10_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp10_4.webp"
       ]
     },
     {
@@ -247,13 +247,13 @@ const OilHaircareBeauty = () => {
       sub: "Organic Argan",
       description: "Organic argan oil from Morocco for ultimate hair care. The pure, organic formula is rich in antioxidants and nourishes hair deeply for a healthy, radiant look.",
       features: ["Organic Argan", "Antioxidant Rich", "Deep Nourishment", "Radiant Hair", "Pure Formula"],
-      color: "Gold",
+      color: "Rich Gold",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp11.png",
-        "/Beauty/Haircare/Oil/Products/ohbp11_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp11_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp11_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp11_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp11.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp11_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp11_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp11_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp11_4.webp"
       ]
     },
     {
@@ -268,15 +268,16 @@ const OilHaircareBeauty = () => {
       sub: "Growth Serum",
       description: "Castor oil hair growth serum that accelerates hair growth. The potent formula with added vitamins and nutrients stimulates hair follicles for faster, thicker hair growth.",
       features: ["Growth Serum", "Accelerates Growth", "Thicker Hair", "Stimulates Follicles", "Nutrient-Rich"],
-      color: "Yellow",
+      color: "Sunflower Yellow",
       images: [
-        "/Beauty/Haircare/Oil/Products/ohbp12.png",
-        "/Beauty/Haircare/Oil/Products/ohbp12_1.png",
-        "/Beauty/Haircare/Oil/Products/ohbp12_2.png",
-        "/Beauty/Haircare/Oil/Products/ohbp12_3.png",
-        "/Beauty/Haircare/Oil/Products/ohbp12_4.png"
+        "/Beauty/Haircare/Oil/Products/ohbp12.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp12_1.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp12_2.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp12_3.webp",
+        "/Beauty/Haircare/Oil/Products/ohbp12_4.webp"
       ]
     }
+
   ];
 
   const filters = ['all', 'Coconut Oil', 'Argan Oil', 'Castor Oil'];
@@ -399,7 +400,7 @@ const OilHaircareBeauty = () => {
             src="/Beauty/Haircare/Oil"
             alt="Hair Oil Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Beauty/Haircare/Oil/ohbbanner.png"; }}
+            onError={(e) => { e.target.src = "/Beauty/Haircare/Oil/ohbbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

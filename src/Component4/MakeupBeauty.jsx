@@ -26,7 +26,7 @@ const MakeupBeauty = () => {
   const banners = [
     {
       id: 1,
-      image: "/Beauty/Makeup/mbbanner1.png",
+      image: "/Beauty/Makeup/mbbanner1.webp",
       titlePart1: "Flawless Canvas",
       titlePart2: "Face Makeup",
       subtitle: "BEAUTY • FACE • FOUNDATION",
@@ -35,7 +35,7 @@ const MakeupBeauty = () => {
     },
     {
       id: 2,
-      image: "/Beauty/Makeup/mbbanner2.png",
+      image: "/Beauty/Makeup/mbbanner2.webp",
       titlePart1: "Bold Expression",
       titlePart2: "Lips Makeup",
       subtitle: "BEAUTY • LIPS • LIPSTICK",
@@ -50,14 +50,14 @@ const MakeupBeauty = () => {
       id: 1,
       title: "Face Makeup",
       tag: "FLAWLESS",
-      image: "/Beauty/Makeup/face.png",
+      image: "/Beauty/Makeup/face.webp",
       link: "/beauty/makeup/face"
     },
     {
       id: 2,
       title: "Lips Makeup",
       tag: "BOLD",
-      image: "/Beauty/Makeup/lips.png",
+      image: "/Beauty/Makeup/lips.webp",
       link: "/beauty/makeup/lips"
     }
   ];
@@ -71,7 +71,7 @@ const MakeupBeauty = () => {
       sub: "Makeup • Face", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Beauty/Makeup/Products/mbp1.png", "/Beauty/Makeup/Products/mbp1_1.png", "/Beauty/Makeup/Products/mbp1_2.png", "/Beauty/Makeup/Products/mbp1_3.png", "/Beauty/Makeup/Products/mbp1_4.png"],
+      images: ["/Beauty/Makeup/Products/mbp1.webp", "/Beauty/Makeup/Products/mbp1_1.webp", "/Beauty/Makeup/Products/mbp1_2.webp", "/Beauty/Makeup/Products/mbp1_3.webp", "/Beauty/Makeup/Products/mbp1_4.webp"],
       tag: "Best Seller", 
       color: "Natural Beige", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const MakeupBeauty = () => {
       sub: "Makeup • Lips", 
       price: 899, 
       oldPrice: 1799, 
-      images: ["/Beauty/Makeup/Products/mbp2.png", "/Beauty/Makeup/Products/mbp2_1.png", "/Beauty/Makeup/Products/mbp2_2.png", "/Beauty/Makeup/Products/mbp2_3.png", "/Beauty/Makeup/Products/mbp2_4.png"],
+      images: ["/Beauty/Makeup/Products/mbp2.webp", "/Beauty/Makeup/Products/mbp2_1.webp", "/Beauty/Makeup/Products/mbp2_2.webp", "/Beauty/Makeup/Products/mbp2_3.webp", "/Beauty/Makeup/Products/mbp2_4.webp"],
       tag: "Trending", 
       color: "Red Velvet", 
       rating: "4.9", 
@@ -99,7 +99,7 @@ const MakeupBeauty = () => {
       sub: "Makeup • Face", 
       price: 699, 
       oldPrice: 1399, 
-      images: ["/Beauty/Makeup/Products/mbp3.png", "/Beauty/Makeup/Products/mbp3_1.png", "/Beauty/Makeup/Products/mbp3_2.png", "/Beauty/Makeup/Products/mbp3_3.png", "/Beauty/Makeup/Products/mbp3_4.png"],
+      images: ["/Beauty/Makeup/Products/mbp3.webp", "/Beauty/Makeup/Products/mbp3_1.webp", "/Beauty/Makeup/Products/mbp3_2.webp", "/Beauty/Makeup/Products/mbp3_3.webp", "/Beauty/Makeup/Products/mbp3_4.webp"],
       tag: "Best Seller", 
       color: "Medium", 
       rating: "4.7", 
@@ -113,7 +113,7 @@ const MakeupBeauty = () => {
       sub: "Makeup • Lips", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Beauty/Makeup/Products/mbp4.png", "/Beauty/Makeup/Products/mbp4_1.png", "/Beauty/Makeup/Products/mbp4_2.png", "/Beauty/Makeup/Products/mbp4_3.png", "/Beauty/Makeup/Products/mbp4_4.png"],
+      images: ["/Beauty/Makeup/Products/mbp4.webp", "/Beauty/Makeup/Products/mbp4_1.webp", "/Beauty/Makeup/Products/mbp4_2.webp", "/Beauty/Makeup/Products/mbp4_3.webp", "/Beauty/Makeup/Products/mbp4_4.webp"],
       tag: "Luxury", 
       color: "Berry Wine", 
       rating: "4.8", 
@@ -331,7 +331,7 @@ const MakeupBeauty = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Beauty/Makeup/mbbanner.png"
+                  src="/Beauty/Makeup/mbbanner.webp"
                   alt="Makeup Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

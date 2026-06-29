@@ -28,257 +28,257 @@ const BallerinaFlatWomenFootwear = () => {
 
   const ballerinaFlatProducts = [
     {
-      id: 1,
-      name: "Classic Leather Ballerinas",
-      fabric: "Leather",
-      price: 1999,
-      oldPrice: 3199,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Timeless classic leather ballerina flats with a comfortable design. The premium leather and cushioned insole make them perfect for office wear, casual outings, and everyday elegance.",
-      features: ["Premium Leather", "Cushioned Insole", "Slip-on Style", "Round Toe", "Everyday Wear"],
-      color: "Black",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp1_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp1_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp1_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Suede Ballet Flats",
-      fabric: "Suede",
-      price: 2499,
-      oldPrice: 3999,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Premium Suede",
-      description: "Elegant suede ballet flats with a sophisticated design. The premium suede and comfortable fit make them perfect for casual outings, office wear, and weekend brunches.",
-      features: ["Premium Suede", "Cushioned Insole", "Slip-on Style", "Pointed Toe", "Elegant Style"],
-      color: "Tan",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp2_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp2_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp2_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Synthetic Bow Flats",
-      fabric: "Synthetic",
-      price: 1499,
-      oldPrice: 2399,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Durable Synthetic",
-      description: "Charming synthetic bow flats with a feminine design. The lightweight material and adorable bow detail make them perfect for casual outings, shopping, and everyday wear.",
-      features: ["Durable Synthetic", "Bow Detail", "Slip-on Style", "Cushioned Insole", "Feminine Design"],
-      color: "Blush",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp3_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp3_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp3_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Leather Pointed Toe Flats",
-      fabric: "Leather",
-      price: 2299,
-      oldPrice: 3699,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Sophisticated leather pointed toe flats with a refined design. The premium leather and elegant silhouette make them perfect for office wear, formal events, and smart-casual occasions.",
-      features: ["Premium Leather", "Pointed Toe", "Slip-on Style", "Cushioned Insole", "Refined Look"],
-      color: "Navy",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp4.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp4_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp4_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp4_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Suede Tassel Flats",
-      fabric: "Suede",
-      price: 2699,
-      oldPrice: 4299,
-      rating: 4.8,
-      reviews: 987,
-      tag: "Premium",
-      sub: "Luxury Suede",
-      description: "Elegant suede tassel flats with a bohemian-inspired design. The premium suede and stylish tassel detail make them perfect for casual parties, brunches, and special occasions.",
-      features: ["Luxury Suede", "Tassel Detail", "Slip-on Style", "Cushioned Insole", "Boho Style"],
-      color: "Brown",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp5.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp5_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp5_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp5_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Synthetic Perforated Flats",
-      fabric: "Synthetic",
-      price: 1699,
-      oldPrice: 2699,
-      rating: 4.4,
-      reviews: 876,
-      tag: "Essential",
-      sub: "Comfort Synthetic",
-      description: "Stylish synthetic perforated flats with a modern design. The breathable material and chic cutouts make them perfect for summer outings, shopping, and everyday wear.",
-      features: ["Comfort Synthetic", "Perforated Design", "Slip-on Style", "Cushioned Insole", "Summer Essential"],
-      color: "White",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp6.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp6_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp6_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp6_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Leather Ankle Strap Flats",
-      fabric: "Leather",
-      price: 2599,
-      oldPrice: 4199,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Elegant leather ankle strap flats with a sophisticated design. The premium leather and delicate ankle strap make them perfect for casual parties, date nights, and special events.",
-      features: ["Premium Leather", "Ankle Strap", "Slip-on Style", "Cushioned Insole", "Elegant Design"],
-      color: "Black",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp7.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp7_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp7_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp7_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Suede Cap Toe Flats",
-      fabric: "Suede",
-      price: 2399,
-      oldPrice: 3899,
-      rating: 4.6,
-      reviews: 654,
-      tag: "New",
-      sub: "Premium Suede",
-      description: "Chic suede cap toe flats with a stylish contrast design. The premium suede and cap toe detail make them perfect for office wear, casual outings, and smart-casual events.",
-      features: ["Premium Suede", "Cap Toe Design", "Slip-on Style", "Cushioned Insole", "Chic Style"],
-      color: "Grey",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp8.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp8_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp8_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp8_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Synthetic Embellished Flats",
-      fabric: "Synthetic",
-      price: 1899,
-      oldPrice: 2999,
-      rating: 4.5,
-      reviews: 789,
-      tag: "Essential",
-      sub: "Durable Synthetic",
-      description: "Stylish synthetic embellished flats with sparkling details. The lightweight material and glamorous embellishments make them perfect for parties, events, and special occasions.",
-      features: ["Durable Synthetic", "Embellished Detail", "Slip-on Style", "Cushioned Insole", "Party Ready"],
-      color: "Gold",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp9.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp9_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp9_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp9_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Leather Moccasin Flats",
-      fabric: "Leather",
-      price: 2199,
-      oldPrice: 3499,
-      rating: 4.4,
-      reviews: 1345,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Classic leather moccasin flats with a comfortable design. The premium leather and soft sole make them perfect for everyday wear, casual outings, and relaxation.",
-      features: ["Premium Leather", "Moccasin Style", "Slip-on", "Cushioned Insole", "Comfortable Fit"],
-      color: "Tan",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp10.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp10_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp10_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp10_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Suede Peep Toe Flats",
-      fabric: "Suede",
-      price: 2599,
-      oldPrice: 4199,
-      rating: 4.7,
-      reviews: 567,
-      tag: "Premium",
-      sub: "Luxury Suede",
-      description: "Elegant suede peep toe flats with a sophisticated design. The premium suede and stylish peep toe make them perfect for casual parties, brunches, and special occasions.",
-      features: ["Luxury Suede", "Peep Toe", "Slip-on Style", "Cushioned Insole", "Sophisticated Design"],
-      color: "Nude",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp11.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp11_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp11_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp11_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Synthetic Foldable Flats",
-      fabric: "Synthetic",
-      price: 1299,
-      oldPrice: 2099,
-      rating: 4.3,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Comfort Synthetic",
-      description: "Practical synthetic foldable flats perfect for on-the-go comfort. The lightweight material and portable design make them ideal for travel, office, and everyday emergencies.",
-      features: ["Comfort Synthetic", "Foldable Design", "Slip-on Style", "Cushioned Insole", "Travel Essential"],
-      color: "Pink",
-      images: [
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp12.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp12_1.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp12_2.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp12_3.png",
-        "/Footwear/Women/Flats/Ballerina/Products/bfwfp12_4.png"
-      ]
-    }
+    id: 1,
+    name: "Luxurious Leather Classic Ballerinas",
+    fabric: "Leather",
+    price: 2999,
+    oldPrice: 4999,
+    rating: 4.9,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Premium Italian Leather",
+    description: "Exquisite Italian leather ballerina flats crafted for timeless elegance. The premium leather and memory foam insole make them perfect for sophisticated office wear, luxury casual outings, and refined everyday style.",
+    features: ["Premium Italian Leather", "Memory Foam Insole", "Slip-on Style", "Elegant Round Toe", "Luxury Everyday Wear"],
+    color: " Gold",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp1_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp1_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp1_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp1_4.webp"
+    ]
+  },
+  {
+    id: 2,
+    name: "Exquisite Suede Velvet Ballet Flats",
+    fabric: "Suede",
+    price: 3499,
+    oldPrice: 5499,
+    rating: 4.8,
+    reviews: 1876,
+    tag: "Trending",
+    sub: "Luxury Italian Suede",
+    description: "Opulent Italian suede ballet flats with a velvet-soft finish. The luxurious suede and ergonomic design make them perfect for upscale brunches, gallery openings, and sophisticated social events.",
+    features: ["Luxury Italian Suede", "Velvet Finish", "Slip-on Style", "Elegant Pointed Toe", "Refined Style"],
+    color: "Blue",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp2_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp2_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp2_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp2_4.webp"
+    ]
+  },
+  {
+    id: 3,
+    name: "Crystal Embellished Satin Bow Flats",
+    fabric: "Satin",
+    price: 3999,
+    oldPrice: 5999,
+    rating: 4.7,
+    reviews: 1567,
+    tag: "Popular",
+    sub: "Luxury Satin",
+    description: "Gorgeous satin bow flats adorned with Swarovski crystal embellishments. The luxurious satin and exquisite bow detail make them perfect for red carpet events, weddings, and glamorous celebrations.",
+    features: ["Luxury Satin", "Swarovski Crystal Embellishments", "Elegant Bow Detail", "Slip-on Style", "Cushioned Insole"],
+    color: "Rose Gold",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp3_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp3_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp3_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp3_4.webp"
+    ]
+  },
+  {
+    id: 4,
+    name: "Elegant Patent Leather Pointed Toe Flats",
+    fabric: "Leather",
+    price: 3199,
+    oldPrice: 5299,
+    rating: 4.6,
+    reviews: 1234,
+    tag: "Classic",
+    sub: "Premium Patent Leather",
+    description: "Sophisticated patent leather pointed toe flats with a high-gloss finish. The premium patent leather and elegant silhouette make them perfect for boardroom meetings, formal events, and power dressing.",
+    features: ["Premium Patent Leather", "High Gloss Finish", "Pointed Toe", "Slip-on Style", "Cushioned Insole"],
+    color: "Burgundy Wine",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp4.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp4_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp4_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp4_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp4_4.webp"
+    ]
+  },
+  {
+    id: 5,
+    name: "Suede Tassel Artisan Flats",
+    fabric: "Suede",
+    price: 3799,
+    oldPrice: 5999,
+    rating: 4.9,
+    reviews: 987,
+    tag: "Premium",
+    sub: "Luxury Artisan Suede",
+    description: "Exquisite artisan suede flats with handcrafted tassel details. The premium suede and bohemian-inspired design make them perfect for luxury resort wear, beach clubs, and elegant summer soirees.",
+    features: ["Luxury Artisan Suede", "Handcrafted Tassel Detail", "Slip-on Style", "Memory Foam Insole", "Boho-Chic Elegance"],
+    color: "Mocha Mousse",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp5.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp5_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp5_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp5_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp5_4.webp"
+    ]
+  },
+  {
+    id: 6,
+    name: "Laser-Cut Leather Lace Flats",
+    fabric: "Leather",
+    price: 3399,
+    oldPrice: 5499,
+    rating: 4.5,
+    reviews: 876,
+    tag: "Essential",
+    sub: "Premium Laser-Cut Leather",
+    description: "Exquisite laser-cut leather lace flats with intricate detailing. The premium leather and artistic cutwork make them perfect for luxury garden parties, bridal showers, and elegant daytime events.",
+    features: ["Premium Laser-Cut Leather", "Intricate Lace Design", "Slip-on Style", "Cushioned Insole", "Artistic Elegance"],
+    color: "Pearl White",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp6.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp6_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp6_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp6_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp6_4.webp"
+    ]
+  },
+  {
+    id: 7,
+    name: "Gold Embellished Ankle Strap Flats",
+    fabric: "Leather",
+    price: 4499,
+    oldPrice: 6999,
+    rating: 4.8,
+    reviews: 1123,
+    tag: "Bestseller",
+    sub: "Luxury Embellished Leather",
+    description: "Stunning leather ankle strap flats with 24K gold-plated embellishments. The premium leather and opulent gold detailing make them perfect for luxury weddings, galas, and exclusive evening events.",
+    features: ["Luxury Embellished Leather", "24K Gold-Plated Details", "Elegant Ankle Strap", "Cushioned Insole", "Red Carpet Ready"],
+    color: "Onyx Black",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp7.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp7_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp7_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp7_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp7_4.webp"
+    ]
+  },
+  {
+    id: 8,
+    name: "Suede Cap Toe Couture Flats",
+    fabric: "Suede",
+    price: 3599,
+    oldPrice: 5699,
+    rating: 4.7,
+    reviews: 654,
+    tag: "New",
+    sub: "Luxury Couture Suede",
+    description: "Chic suede cap toe couture flats with a sophisticated contrast design. The premium suede and tailored cap toe make them perfect for fashion week, luxury office wear, and haute couture events.",
+    features: ["Luxury Couture Suede", "Contrast Cap Toe", "Slip-on Style", "Memory Foam Insole", "Couture Style"],
+    color: "Purple",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp8.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp8_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp8_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp8_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp8_4.webp"
+    ]
+  },
+  {
+    id: 9,
+    name: "Pearl Embellished Silk Flats",
+    fabric: "Silk",
+    price: 4999,
+    oldPrice: 7999,
+    rating: 4.6,
+    reviews: 789,
+    tag: "Premium",
+    sub: "Luxurious Silk",
+    description: "Exquisite silk flats adorned with genuine pearl embellishments. The luxurious silk and hand-sewn pearls make them perfect for royal weddings, black-tie events, and the most sophisticated occasions.",
+    features: ["Luxurious Silk", "Genuine Pearl Embellishments", "Slip-on Style", "Silk Cushioned Insole", "Royal Elegance"],
+    color: "Ivory Cream",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp9.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp9_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp9_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp9_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp9_4.webp"
+    ]
+  },
+  {
+    id: 10,
+    name: "Italian Leather Moccasin Flats",
+    fabric: "Leather",
+    price: 2799,
+    oldPrice: 4599,
+    rating: 4.5,
+    reviews: 1345,
+    tag: "Classic",
+    sub: "Premium Italian Leather",
+    description: "Classic Italian leather moccasin flats with impeccable craftsmanship. The premium leather and soft sole make them perfect for luxury travel, exclusive country clubs, and sophisticated leisure.",
+    features: ["Premium Italian Leather", "Hand-stitched Moccasin Style", "Slip-on", "Memory Foam Insole", "Impeccable Craftsmanship"],
+    color: "Red",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp10.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp10_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp10_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp10_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp10_4.webp"
+    ]
+  },
+  {
+    id: 11,
+    name: "Suede Peep Toe Glamour Flats",
+    fabric: "Suede",
+    price: 3999,
+    oldPrice: 6299,
+    rating: 4.8,
+    reviews: 567,
+    tag: "Premium",
+    sub: "Luxury Glamour Suede",
+    description: "Glamorous suede peep toe flats with a sophisticated open-toe design. The luxury suede and elegant peep toe make them perfect for glamorous parties, luxury cruises, and upscale resort wear.",
+    features: ["Luxury Glamour Suede", "Elegant Peep Toe", "Slip-on Style", "Cushioned Insole", "Glamorous Design"],
+    color: "Dusty Rose",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp11.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp11_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp11_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp11_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp11_4.webp"
+    ]
+  },
+  {
+    id: 12,
+    name: "Travel-Ready Luxury Foldable Flats",
+    fabric: "Satin",
+    price: 2499,
+    oldPrice: 3999,
+    rating: 4.4,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Luxury Satin",
+    description: "Exquisite luxury foldable satin flats designed for the sophisticated traveler. The premium satin and portable design make them ideal for first-class travel, luxury getaways, and elegant convenience.",
+    features: ["Luxury Satin", "Foldable Design", "Slip-on Style", "Memory Foam Insole", "Travel Elegance"],
+    color: "Sage Green",
+    images: [
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp12.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp12_1.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp12_2.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp12_3.webp",
+      "/Footwear/Women/Flats/Ballerina/Products/bfwfp12_4.webp"
+    ]
+  }
   ];
 
   const filters = ['all', 'Leather', 'Suede', 'Synthetic'];
@@ -401,7 +401,7 @@ const BallerinaFlatWomenFootwear = () => {
             src="/Footwear/Women/Flats/Ballerina/"
             alt="Women's Ballerina Flats Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Women/Flats/Ballerina/bfwfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Women/Flats/Ballerina/bfwfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

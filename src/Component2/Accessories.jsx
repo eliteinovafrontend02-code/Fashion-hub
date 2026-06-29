@@ -25,7 +25,7 @@ const Accessories = () => {
   const banners = [
     {
       id: 1,
-      image: "/Accessories/abanner1.png",
+      image: "/Accessories/abanner1.webp",
       titlePart1: "Timeless",
       titlePart2: "Timepieces",
       subtitle: "PRECISION • ELEGANCE • HERITAGE",
@@ -34,7 +34,7 @@ const Accessories = () => {
     },
     {
       id: 2,
-      image: "/Accessories/abanner2.png",
+      image: "/Accessories/abanner2.webp",
       titlePart1: "Carry Your",
       titlePart2: "Statement",
       subtitle: "LUXURY BAGS COLLECTION",
@@ -43,7 +43,7 @@ const Accessories = () => {
     },
     {
       id: 3,
-      image: "/Accessories/abanner3.png",
+      image: "/Accessories/abanner3.webp",
       titlePart1: "See The World",
       titlePart2: "In Style",
       subtitle: "PREMIUM SUNGLASSES",
@@ -57,21 +57,21 @@ const Accessories = () => {
       id: 1,
       title: "Watches",
       tag: "TIMEPIECES",
-      image: "/Accessories/awatch.png",
+      image: "/Accessories/awatch.webp",
       link: "/accessories/watches"
     },
     {
       id: 2,
       title: "Bags",
       tag: "CARRY IN STYLE",
-      image: "/Accessories/abag.png",
+      image: "/Accessories/abag.webp",
       link: "/accessories/bags"
     },
     {
       id: 3,
       title: "Sunglasses",
       tag: "EYEWEAR",
-      image: "/Accessories/asunglass.png",
+      image: "/Accessories/asunglass.webp",
       link: "/accessories/sunglasses"
     }
   ];
@@ -261,7 +261,7 @@ const Accessories = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[20px]">
                 <img
-                  src="/Accessories/abanner.png"
+                  src="/Accessories/abanner.webp"
                   alt="Luxury Accessories Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />
@@ -303,7 +303,7 @@ const Accessories = () => {
           price: '3,499', 
           oldPrice: '5,499', 
           tag: 'Trending',
-          image: '/Accessories/Products/ap1.png' 
+          image: '/Accessories/Products/ap1.webp' 
         },
         { 
           id: 303, 
@@ -313,7 +313,7 @@ const Accessories = () => {
           price: '5,999', 
           oldPrice: '8,999', 
           tag: 'Premium',
-          image: '/Accessories/Products/ap3.png' 
+          image: '/Accessories/Products/ap3.webp' 
         },
         { 
           id: 305, 
@@ -323,7 +323,7 @@ const Accessories = () => {
           price: '4,999', 
           oldPrice: '7,999', 
           tag: 'Signature',
-          image: '/Accessories/Products/ap5.png' 
+          image: '/Accessories/Products/ap5.webp' 
         },
         { 
           id: 311, 
@@ -333,7 +333,7 @@ const Accessories = () => {
           price: '2,599', 
           oldPrice: '3,999', 
           tag: 'Premium',
-          image: '/Accessories/Products/ap11.png' 
+          image: '/Accessories/Products/ap11.webp' 
         }
       ].map((product) => (
         <div key={product.id} className="group flex flex-col">

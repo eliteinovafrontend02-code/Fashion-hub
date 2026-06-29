@@ -40,11 +40,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["22K Gold Finish", "Temple Motif Design", "Grand Wedding Set", "Intricate Craftsmanship", "Traditional Elegance"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp1_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp1_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp1_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp1_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp1_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp1_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp1_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["22K Gold Finish", "Kundan Work", "Bridal Collection", "Intricate Detailing", "Grand Statement Piece"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp2_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp2_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp2_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp2_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp2_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp2_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp2_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["22K Gold Finish", "Genuine Pearls", "Bridal Collection", "Elegant Design", "Sophisticated Look"],
       color: "Gold/White",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp3_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp3_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp3_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp3_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp3_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp3_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp3_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["Diamond Studded", "22K Gold Finish", "Bridal Collection", "Luxurious Design", "Grand Statement"],
       color: "Diamond/Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp4.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp4_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp4_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp4_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp4_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp4.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp4_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp4_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp4_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["22K Gold Finish", "Floral Motif Design", "Bridal Collection", "Romantic Style", "Intricate Craftsmanship"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp5.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp5_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp5_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp5_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp5_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp5.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp5_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp5_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp5_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["22K Gold Finish", "Temple Design", "Bridal Collection", "Traditional Craftsmanship", "Festive Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp6.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp6_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp6_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp6_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp6_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp6.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp6_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp6_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp6_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp6_4.webp"
       ]
     },
     // Regular Traditional Bangles
@@ -167,11 +167,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["Premium Gold Finish", "Classic Design", "Lightweight", "Hypoallergenic", "Everyday Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp7.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp7_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp7_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp7_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp7_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp7.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp7_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp7_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp7_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["Premium Silver Finish", "Filigree Work", "Intricate Craftsmanship", "Hypoallergenic", "Versatile Style"],
       color: "Silver",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp8.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp8_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp8_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp8_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp8_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp8.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp8_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp8_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp8_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["Diamond Cut Design", "Premium Gold Finish", "Sparkling Facets", "Hypoallergenic", "Luxury Quality"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp9.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp9_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp9_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp9_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp9_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp9.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp9_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp9_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp9_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["Silver Finish", "Meenakari Work", "Colorful Enamel", "Hypoallergenic", "Festive Wear"],
       color: "Silver/Colorful",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp10.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp10_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp10_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp10_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp10_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp10.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp10_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp10_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp10_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["Premium Gold Finish", "Minimalist Design", "Lightweight", "Hypoallergenic", "Modern Style"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp11.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp11_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp11_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp11_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp11_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp11.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp11_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp11_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp11_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const TraditionalBanglesJewellery = () => {
       features: ["Diamond Studded", "Gold Finish", "Elegant Design", "Hypoallergenic", "Statement Piece"],
       color: "Diamond/Gold",
       images: [
-        "/Jewellery/Bangles/Traditional/Products/tbjp12.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp12_1.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp12_2.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp12_3.png",
-        "/Jewellery/Bangles/Traditional/Products/tbjp12_4.png"
+        "/Jewellery/Bangles/Traditional/Products/tbjp12.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp12_1.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp12_2.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp12_3.webp",
+        "/Jewellery/Bangles/Traditional/Products/tbjp12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const TraditionalBanglesJewellery = () => {
             src="/Jewellery/Bangles/Traditional"
             alt="Traditional Bangles Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Jewellery/Bangles/Traditional/tbjbanner.png"; }}
+            onError={(e) => { e.target.src = "/Jewellery/Bangles/Traditional/tbjbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

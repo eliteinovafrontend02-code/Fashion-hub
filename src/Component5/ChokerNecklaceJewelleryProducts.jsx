@@ -40,11 +40,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["22K Gold Finish", "Temple Motif Design", "Grand Wedding Piece", "Intricate Craftsmanship", "Traditional Elegance"],
       color: "Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp1_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp1_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp1_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp1_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp1_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp1_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp1_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["22K Gold Finish", "Kundan Work", "Bridal Collection", "Intricate Detailing", "Grand Statement Piece"],
       color: "Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp2_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp2_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp2_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp2_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp2_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp2_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp2_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["22K Gold Finish", "Genuine Pearls", "Bridal Collection", "Elegant Design", "Sophisticated Look"],
       color: "Gold/White",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp3_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp3_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp3_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp3_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp3_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp3_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp3_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["Diamond Studded", "22K Gold Finish", "Bridal Collection", "Luxurious Design", "Grand Statement"],
       color: "Diamond/Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp4.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp4_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp4_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp4_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp4_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp4.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp4_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp4_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp4_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["22K Gold Finish", "Temple Design", "Bridal Collection", "Traditional Craftsmanship", "Festive Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp5.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp5_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp5_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp5_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp5_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp5.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp5_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp5_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp5_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["22K Gold Finish", "Floral Motif Design", "Bridal Collection", "Romantic Style", "Intricate Craftsmanship"],
       color: "Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp6.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp6_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp6_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp6_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp6_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp6.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp6_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp6_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp6_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp6_4.webp"
       ]
     },
     // Regular Choker Models
@@ -167,11 +167,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["Premium Gold Finish", "Classic Design", "Lightweight", "Hypoallergenic", "Everyday Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp7.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp7_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp7_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp7_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp7_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp7.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp7_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp7_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp7_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["Premium Silver Finish", "Filigree Work", "Intricate Craftsmanship", "Hypoallergenic", "Versatile Style"],
       color: "Silver",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp8.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp8_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp8_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp8_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp8_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp8.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp8_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp8_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp8_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["Diamond Cut Design", "Premium Gold Finish", "Sparkling Facets", "Hypoallergenic", "Luxury Quality"],
       color: "Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp9.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp9_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp9_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp9_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp9_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp9.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp9_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp9_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp9_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["Premium Silver Finish", "Genuine Pearls", "Elegant Design", "Hypoallergenic", "Special Occasion"],
       color: "Silver/White",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp10.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp10_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp10_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp10_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp10_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp10.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp10_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp10_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp10_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["Premium Gold Finish", "Minimalist Design", "Lightweight", "Hypoallergenic", "Modern Style"],
       color: "Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp11.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp11_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp11_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp11_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp11_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp11.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp11_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp11_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp11_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const ChokerNecklaceJewellery = () => {
       features: ["Diamond Studded", "Gold Finish", "Elegant Design", "Hypoallergenic", "Statement Piece"],
       color: "Diamond/Gold",
       images: [
-        "/Jewellery/Necklace/Choker/Products/cnjp12.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp12_1.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp12_2.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp12_3.png",
-        "/Jewellery/Necklace/Choker/Products/cnjp12_4.png"
+        "/Jewellery/Necklace/Choker/Products/cnjp12.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp12_1.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp12_2.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp12_3.webp",
+        "/Jewellery/Necklace/Choker/Products/cnjp12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const ChokerNecklaceJewellery = () => {
             src="/Jewellery/Necklace/Choker"
             alt="Choker Necklace Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Jewellery/Necklace/Choker/cnjbanner.png"; }}
+            onError={(e) => { e.target.src = "/Jewellery/Necklace/Choker/cnjbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

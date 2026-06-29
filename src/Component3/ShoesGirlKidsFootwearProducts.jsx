@@ -27,257 +27,257 @@ const ShoesGirlKidsFootwear = () => {
 
   const shoesGirlProducts = [
     {
-      id: 1,
-      name: "Classic Leather School Shoes",
-      fabric: "Leather",
-      price: 1499,
-      oldPrice: 2399,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Classic leather school shoes for girls with a comfortable fit. The premium leather construction and cushioned sole make them perfect for school, formal events, and everyday wear.",
-      features: ["Premium Leather", "Cushioned Sole", "Lace-up Closure", "Breathable Lining", "Durable"],
-      color: "Black",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp1_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp1_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp1_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Canvas Casual Sneakers",
-      fabric: "Canvas",
-      price: 899,
-      oldPrice: 1499,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Durable Canvas",
-      description: "Lightweight canvas casual sneakers for active girls. The breathable canvas material and flexible sole make them perfect for play, sports, and everyday adventures.",
-      features: ["Durable Canvas", "Lightweight", "Lace-up Closure", "Flexible Sole", "Breathable"],
-      color: "Pink",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp2_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp2_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp2_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Synthetic Sports Shoes",
-      fabric: "Synthetic",
-      price: 1199,
-      oldPrice: 1899,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Durable Synthetic",
-      description: "Stylish synthetic sports shoes designed for active girls. The durable synthetic material and cushioned sole make them perfect for sports, gym, and outdoor activities.",
-      features: ["Durable Synthetic", "Cushioned Sole", "Lace-up Closure", "Breathable", "Sporty Design"],
-      color: "Purple",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp3_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp3_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp3_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Leather Mary Janes",
-      fabric: "Leather",
-      price: 1699,
-      oldPrice: 2699,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Classic leather Mary Jane shoes for girls with a timeless design. The premium leather and elegant strap make them perfect for parties, school, and special occasions.",
-      features: ["Premium Leather", "Mary Jane Style", "Adjustable Strap", "Cushioned Insole", "Classic Design"],
-      color: "Black",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp4.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp4_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp4_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp4_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Canvas Ballet Flats",
-      fabric: "Canvas",
-      price: 799,
-      oldPrice: 1299,
-      rating: 4.4,
-      reviews: 987,
-      tag: "Essential",
-      sub: "Soft Canvas",
-      description: "Adorable canvas ballet flats for girls with a comfortable fit. The soft canvas and classic ballet style make them perfect for school, parties, and everyday wear.",
-      features: ["Soft Canvas", "Ballet Style", "Slip-on", "Cushioned Insole", "Everyday Wear"],
-      color: "White",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp5.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp5_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp5_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp5_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Synthetic Slip-ons",
-      fabric: "Synthetic",
-      price: 799,
-      oldPrice: 1299,
-      rating: 4.3,
-      reviews: 876,
-      tag: "Sale",
-      sub: "Comfort Synthetic",
-      description: "Comfortable synthetic slip-on shoes for easy wear. The lightweight material and slip-on design make them perfect for school, casual outings, and everyday use.",
-      features: ["Comfort Synthetic", "Slip-on Style", "Lightweight", "Cushioned Insole", "Easy Wear"],
-      color: "Navy",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp6.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp6_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp6_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp6_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Leather Party Shoes",
-      fabric: "Leather",
-      price: 1899,
-      oldPrice: 2999,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Elegant leather party shoes for girls with a sophisticated look. The premium leather and stylish design make them perfect for weddings, parties, and formal occasions.",
-      features: ["Premium Leather", "Party Style", "Adjustable Strap", "Cushioned Insole", "Elegant Design"],
-      color: "Gold",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp7.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp7_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp7_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp7_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Canvas Print Sneakers",
-      fabric: "Canvas",
-      price: 999,
-      oldPrice: 1599,
-      rating: 4.6,
-      reviews: 654,
-      tag: "New",
-      sub: "Colorful Canvas",
-      description: "Colorful canvas print sneakers with fun designs. The vibrant prints and comfortable canvas material make them perfect for playdates, parties, and casual outings.",
-      features: ["Colorful Canvas", "Fun Prints", "Lace-up Closure", "Comfortable Sole", "Playful Design"],
-      color: "Multicolor",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp8.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp8_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp8_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp8_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Synthetic Running Shoes",
-      fabric: "Synthetic",
-      price: 1399,
-      oldPrice: 2199,
-      rating: 4.5,
-      reviews: 789,
-      tag: "Trending",
-      sub: "Sport Synthetic",
-      description: "Lightweight synthetic running shoes for active girls. The breathable material and cushioned sole make them perfect for running, sports, and outdoor activities.",
-      features: ["Sport Synthetic", "Lightweight", "Lace-up Closure", "Cushioned Sole", "Breathable"],
-      color: "Teal",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp9.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp9_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp9_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp9_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Leather Ankle Boots",
-      fabric: "Leather",
-      price: 2199,
-      oldPrice: 3499,
-      rating: 4.8,
-      reviews: 1345,
-      tag: "Premium",
-      sub: "Premium Leather",
-      description: "Stylish leather ankle boots for girls with a chic look. The premium leather and stylish design make them perfect for winter, parties, and special occasions.",
-      features: ["Premium Leather", "Ankle Boot Style", "Side Zipper", "Cushioned Insole", "Chic Design"],
-      color: "Brown",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp10.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp10_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp10_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp10_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Canvas Bow Flats",
-      fabric: "Canvas",
-      price: 749,
-      oldPrice: 1199,
-      rating: 4.3,
-      reviews: 567,
-      tag: "Essential",
-      sub: "Soft Canvas",
-      description: "Adorable canvas bow flats for girls with a feminine touch. The soft canvas and cute bow detail make them perfect for school, parties, and everyday wear.",
-      features: ["Soft Canvas", "Bow Detail", "Slip-on", "Cushioned Insole", "Feminine Design"],
-      color: "Blush",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp11.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp11_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp11_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp11_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Synthetic Light-up Shoes",
-      fabric: "Synthetic",
-      price: 1299,
-      oldPrice: 1999,
-      rating: 4.4,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Fun Synthetic",
-      description: "Fun synthetic light-up shoes that girls will love. The colorful lights and comfortable design make them perfect for parties, playdates, and making every step exciting.",
-      features: ["Fun Synthetic", "Light-up Feature", "Lace-up Closure", "Comfortable Fit", "Playful Design"],
-      color: "Pink",
-      images: [
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp12.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp12_1.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp12_2.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp12_3.png",
-        "/Footwear/Kids/Girl/Shoes/Products/sgkfp12_4.png"
-      ]
-    }
+    id: 1,
+    name: "Premium Leather Baby First Walkers",
+    fabric: "Leather",
+    price: 599,
+    oldPrice: 999,
+    rating: 4.9,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Premium Soft Leather",
+    description: "Premium leather first walker shoes for babies with a luxurious feel. The soft leather construction and cushioned sole make them perfect for those precious first steps and special occasions.",
+    features: ["Premium Soft Leather", "Cushioned Sole", "Easy Velcro Closure", "Breathable Lining", "Luxurious Finish"],
+    color: "Black",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp1_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp1_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp1_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp1_4.webp"
+    ]
+  },
+  {
+    id: 2,
+    name: "Soft Canvas Baby Sneakers",
+    fabric: "Canvas",
+    price: 349,
+    oldPrice: 599,
+    rating: 4.8,
+    reviews: 1876,
+    tag: "Trending",
+    sub: "Premium Canvas",
+    description: "Soft canvas baby sneakers with a luxury touch. The breathable premium canvas material and flexible sole make them perfect for playdates, outings, and stylish everyday wear.",
+    features: ["Premium Canvas", "Lightweight", "Easy Velcro Closure", "Flexible Sole", "Luxury Finish"],
+    color: "Pink",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp2_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp2_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp2_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp2_4.webp"
+    ]
+  },
+  {
+    id: 3,
+    name: "Luxury Synthetic Baby Sports",
+    fabric: "Synthetic",
+    price: 449,
+    oldPrice: 749,
+    rating: 4.7,
+    reviews: 1567,
+    tag: "Popular",
+    sub: "Premium Synthetic",
+    description: "Luxury synthetic sports shoes for active babies. The premium material and cushioned sole make them perfect for active play, gym time, and stylish outdoor adventures.",
+    features: ["Premium Synthetic", "Cushioned Sole", "Easy Velcro Closure", "Breathable", "Luxury Sporty Design"],
+    color: "Purple",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp3_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp3_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp3_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp3_4.webp"
+    ]
+  },
+  {
+    id: 4,
+    name: "Elegant Leather Baby Mary Janes",
+    fabric: "Leather",
+    price: 699,
+    oldPrice: 1099,
+    rating: 4.6,
+    reviews: 1234,
+    tag: "Classic",
+    sub: "Premium Soft Leather",
+    description: "Elegant leather Mary Jane shoes for babies with a timeless luxury design. The premium soft leather and beautiful strap make them perfect for weddings, parties, and special occasions.",
+    features: ["Premium Soft Leather", "Mary Jane Style", "Adjustable Strap", "Cushioned Insole", "Luxury Classic Design"],
+    color: "Black",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp4.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp4_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp4_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp4_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp4_4.webp"
+    ]
+  },
+  {
+    id: 5,
+    name: "Luxury Canvas Baby Ballet Flats",
+    fabric: "Canvas",
+    price: 299,
+    oldPrice: 499,
+    rating: 4.5,
+    reviews: 987,
+    tag: "Essential",
+    sub: "Premium Canvas",
+    description: "Luxury canvas ballet flats for babies with a comfortable elegant fit. The premium soft canvas and classic ballet style make them perfect for parties, outings, and everyday luxury.",
+    features: ["Premium Canvas", "Ballet Style", "Easy Slip-on", "Cushioned Insole", "Luxury Everyday Wear"],
+    color: "White",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp5.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp5_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp5_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp5_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp5_4.webp"
+    ]
+  },
+  {
+    id: 6,
+    name: "Premium Synthetic Baby Slip-ons",
+    fabric: "Synthetic",
+    price: 299,
+    oldPrice: 499,
+    rating: 4.4,
+    reviews: 876,
+    tag: "Sale",
+    sub: "Premium Synthetic",
+    description: "Premium synthetic slip-on shoes for babies for easy elegant wear. The lightweight material and slip-on design make them perfect for stylish outings and everyday luxury comfort.",
+    features: ["Premium Synthetic", "Slip-on Style", "Lightweight", "Cushioned Insole", "Luxury Easy Wear"],
+    color: "Navy",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp6.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp6_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp6_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp6_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp6_4.webp"
+    ]
+  },
+  {
+    id: 7,
+    name: "Designer Leather Baby Party Shoes",
+    fabric: "Leather",
+    price: 799,
+    oldPrice: 1299,
+    rating: 4.8,
+    reviews: 1123,
+    tag: "Bestseller",
+    sub: "Premium Soft Leather",
+    description: "Designer leather party shoes for babies with a sophisticated luxury look. The premium soft leather and elegant design make them perfect for weddings, parties, and formal celebrations.",
+    features: ["Premium Soft Leather", "Party Style", "Adjustable Strap", "Cushioned Insole", "Luxury Elegant Design"],
+    color: "Gold",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp7.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp7_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp7_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp7_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp7_4.webp"
+    ]
+  },
+  {
+    id: 8,
+    name: "Colorful Canvas Baby Print Sneakers",
+    fabric: "Canvas",
+    price: 399,
+    oldPrice: 649,
+    rating: 4.7,
+    reviews: 654,
+    tag: "New",
+    sub: "Premium Canvas",
+    description: "Colorful canvas print sneakers for babies with fun elegant designs. The premium canvas and vibrant prints make them perfect for stylish playdates, parties, and luxury casual outings.",
+    features: ["Premium Canvas", "Elegant Prints", "Easy Velcro Closure", "Comfortable Sole", "Luxury Playful Design"],
+    color: "Multicolor",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp8.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp8_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp8_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp8_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp8_4.webp"
+    ]
+  },
+  {
+    id: 9,
+    name: "Luxury Synthetic Baby Runners",
+    fabric: "Synthetic",
+    price: 549,
+    oldPrice: 899,
+    rating: 4.6,
+    reviews: 789,
+    tag: "Trending",
+    sub: "Premium Synthetic",
+    description: "Luxury synthetic running shoes for active babies with a sporty elegant look. The premium breathable material and cushioned sole make them perfect for stylish active play and outdoor fun.",
+    features: ["Premium Synthetic", "Lightweight", "Easy Velcro Closure", "Cushioned Sole", "Luxury Sporty Design"],
+    color: "Teal",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp9.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp9_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp9_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp9_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp9_4.webp"
+    ]
+  },
+  {
+    id: 10,
+    name: "Chic Leather Baby Ankle Boots",
+    fabric: "Leather",
+    price: 899,
+    oldPrice: 1499,
+    rating: 4.9,
+    reviews: 1345,
+    tag: "Premium",
+    sub: "Premium Soft Leather",
+    description: "Chic leather ankle boots for babies with a luxury fashion look. The premium soft leather and elegant design make them perfect for winter, parties, and special occasion styling.",
+    features: ["Premium Soft Leather", "Ankle Boot Style", "Easy Velcro", "Cushioned Insole", "Luxury Chic Design"],
+    color: "Brown",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp10.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp10_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp10_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp10_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp10_4.webp"
+    ]
+  },
+  {
+    id: 11,
+    name: "Elegant Canvas Baby Bow Flats",
+    fabric: "Canvas",
+    price: 279,
+    oldPrice: 449,
+    rating: 4.4,
+    reviews: 567,
+    tag: "Essential",
+    sub: "Premium Canvas",
+    description: "Elegant canvas bow flats for babies with a luxury feminine touch. The premium soft canvas and beautiful bow detail make them perfect for parties, outings, and everyday luxury styling.",
+    features: ["Premium Canvas", "Elegant Bow Detail", "Easy Slip-on", "Cushioned Insole", "Luxury Feminine Design"],
+    color: "Blush",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp11.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp11_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp11_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp11_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp11_4.webp"
+    ]
+  },
+  {
+    id: 12,
+    name: "Glowing Synthetic Baby Light-up Shoes",
+    fabric: "Synthetic",
+    price: 499,
+    oldPrice: 799,
+    rating: 4.5,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Premium Synthetic",
+    description: "Glowing light-up shoes with a luxury touch that babies will adore. The elegant lights and premium comfortable design make them perfect for parties, playdates, and magical evenings.",
+    features: ["Premium Synthetic", "Elegant Light-up Feature", "Easy Velcro Closure", "Comfortable Fit", "Luxury Playful Design"],
+    color: "Pink",
+    images: [
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp12.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp12_1.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp12_2.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp12_3.webp",
+      "/Footwear/Kids/Girl/Shoes/Products/sgkfp12_4.webp"
+    ]
+  }
   ];
 
   const filters = ['all', 'Leather', 'Canvas', 'Synthetic'];
@@ -400,7 +400,7 @@ const ShoesGirlKidsFootwear = () => {
             src="/Footwear/Kids/Girl/Shoes"
             alt="Girls Shoes Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Kids/Girl/Shoes/sgkfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Kids/Girl/Shoes/sgkfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

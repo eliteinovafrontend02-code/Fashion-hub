@@ -26,7 +26,7 @@ const BoyKidsFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Kids/Boy/bkfbanner1.png",
+      image: "/Footwear/Kids/Boy/bkfbanner1.webp",
       titlePart1: "Little Feet,",
       titlePart2: "Big Adventures",
       subtitle: "BOY • SHOES • COMFORT",
@@ -35,7 +35,7 @@ const BoyKidsFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Kids/Boy/bkfbanner2.png",
+      image: "/Footwear/Kids/Boy/bkfbanner2.webp",
       titlePart1: "Playful Steps,",
       titlePart2: "Cool Sandals",
       subtitle: "BOY • SANDALS • CASUAL",
@@ -50,14 +50,14 @@ const BoyKidsFootwear = () => {
       id: 1,
       title: "Shoes",
       tag: "ACTIVE",
-      image: "/Footwear/Kids/Boy/shoes.png",
+      image: "/Footwear/Kids/Boy/shoes.webp",
       link: "/footwear/kids/boy/shoes"
     },
     {
       id: 2,
       title: "Sandals",
       tag: "PLAYFUL",
-      image: "/Footwear/Kids/Boy/sandals.png",
+      image: "/Footwear/Kids/Boy/sandals.webp",
       link: "/footwear/kids/boy/sandals"
     }
   ];
@@ -71,7 +71,7 @@ const BoyKidsFootwear = () => {
       sub: "Boy • Shoes", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Footwear/Kids/Boy/Products/bkfp1.png", "/Footwear/Kids/Boy/Products/bkfp1_1.png", "/Footwear/Kids/Boy/Products/bkfp1_2.png", "/Footwear/Kids/Boy/Products/bkfp1_3.png", "/Footwear/Kids/Boy/Products/bkfp1_4.png"],
+      images: ["/Footwear/Kids/Boy/Products/bkfp1.webp", "/Footwear/Kids/Boy/Products/bkfp1_1.webp", "/Footwear/Kids/Boy/Products/bkfp1_2.webp", "/Footwear/Kids/Boy/Products/bkfp1_3.webp", "/Footwear/Kids/Boy/Products/bkfp1_4.webp"],
       tag: "Best Seller", 
       color: "Blue/Red", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const BoyKidsFootwear = () => {
       sub: "Boy • Sandals", 
       price: 999, 
       oldPrice: 1999, 
-      images: ["/Footwear/Kids/Boy/Products/bkfp2.png", "/Footwear/Kids/Boy/Products/bkfp2_1.png", "/Footwear/Kids/Boy/Products/bkfp2_2.png", "/Footwear/Kids/Boy/Products/bkfp2_3.png", "/Footwear/Kids/Boy/Products/bkfp2_4.png"],
+      images: ["/Footwear/Kids/Boy/Products/bkfp2.webp", "/Footwear/Kids/Boy/Products/bkfp2_1.webp", "/Footwear/Kids/Boy/Products/bkfp2_2.webp", "/Footwear/Kids/Boy/Products/bkfp2_3.webp", "/Footwear/Kids/Boy/Products/bkfp2_4.webp"],
       tag: "Summer Edit", 
       color: "Navy/Orange", 
       rating: "4.6", 
@@ -99,7 +99,7 @@ const BoyKidsFootwear = () => {
       sub: "Boy • Shoes", 
       price: 1799, 
       oldPrice: 3599, 
-      images: ["/Footwear/Kids/Boy/Products/bkfp3.png", "/Footwear/Kids/Boy/Products/bkfp3_1.png", "/Footwear/Kids/Boy/Products/bkfp3_2.png", "/Footwear/Kids/Boy/Products/bkfp3_3.png", "/Footwear/Kids/Boy/Products/bkfp3_4.png"],
+      images: ["/Footwear/Kids/Boy/Products/bkfp3.webp", "/Footwear/Kids/Boy/Products/bkfp3_1.webp", "/Footwear/Kids/Boy/Products/bkfp3_2.webp", "/Footwear/Kids/Boy/Products/bkfp3_3.webp", "/Footwear/Kids/Boy/Products/bkfp3_4.webp"],
       tag: "Fun Lights", 
       color: "Black/Green", 
       rating: "4.9", 
@@ -113,7 +113,7 @@ const BoyKidsFootwear = () => {
       sub: "Boy • Sandals", 
       price: 1199, 
       oldPrice: 2399, 
-      images: ["/Footwear/Kids/Boy/Products/bkfp4.png", "/Footwear/Kids/Boy/Products/bkfp4_1.png", "/Footwear/Kids/Boy/Products/bkfp4_2.png", "/Footwear/Kids/Boy/Products/bkfp4_3.png", "/Footwear/Kids/Boy/Products/bkfp4_4.png"],
+      images: ["/Footwear/Kids/Boy/Products/bkfp4.webp", "/Footwear/Kids/Boy/Products/bkfp4_1.webp", "/Footwear/Kids/Boy/Products/bkfp4_2.webp", "/Footwear/Kids/Boy/Products/bkfp4_3.webp", "/Footwear/Kids/Boy/Products/bkfp4_4.webp"],
       tag: "Outdoor", 
       color: "Camo Green", 
       rating: "4.8", 
@@ -315,7 +315,7 @@ const BoyKidsFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Kids/Boy/bkfbanner.png"
+                  src="/Footwear/Kids/Boy/bkfbanner.webp"
                   alt="Boy's Footwear Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

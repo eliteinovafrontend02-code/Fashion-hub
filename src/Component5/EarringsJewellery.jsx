@@ -26,7 +26,7 @@ const EarringsJewellery = () => {
   const banners = [
     {
       id: 1,
-      image: "/Jewellery/Earrings/ejbanner1.png",
+      image: "/Jewellery/Earrings/ejbanner1.webp",
       titlePart1: "Everyday Elegance",
       titlePart2: "Stud Earrings",
       subtitle: "JEWELLERY • STUDS • CLASSIC",
@@ -35,7 +35,7 @@ const EarringsJewellery = () => {
     },
     {
       id: 2,
-      image: "/Jewellery/Earrings/ejbanner2.png",
+      image: "/Jewellery/Earrings/ejbanner2.webp",
       titlePart1: "Traditional Charm",
       titlePart2: "Jhumka Earrings",
       subtitle: "JEWELLERY • JHUMKA • TRADITIONAL",
@@ -50,14 +50,14 @@ const EarringsJewellery = () => {
       id: 1,
       title: "Stud Earrings",
       tag: "CLASSIC",
-      image: "/Jewellery/Earrings/stud.png",
+      image: "/Jewellery/Earrings/stud.webp",
       link: "/jewellery/earrings/stud"
     },
     {
       id: 2,
       title: "Jhumka Earrings",
       tag: "TRADITIONAL",
-      image: "/Jewellery/Earrings/jhumka.png",
+      image: "/Jewellery/Earrings/jhumka.webp",
       link: "/jewellery/earrings/jhumka"
     }
   ];
@@ -71,7 +71,7 @@ const EarringsJewellery = () => {
       sub: "Earrings • Stud", 
       price: 2999, 
       oldPrice: 5999, 
-      images: ["/Jewellery/Earrings/Products/ejp1.png", "/Jewellery/Earrings/Products/ejp1_1.png", "/Jewellery/Earrings/Products/ejp1_2.png", "/Jewellery/Earrings/Products/ejp1_3.png", "/Jewellery/Earrings/Products/ejp1_4.png"],
+      images: ["/Jewellery/Earrings/Products/ejp1.webp", "/Jewellery/Earrings/Products/ejp1_1.webp", "/Jewellery/Earrings/Products/ejp1_2.webp", "/Jewellery/Earrings/Products/ejp1_3.webp", "/Jewellery/Earrings/Products/ejp1_4.webp"],
       tag: "Best Seller", 
       color: "Silver", 
       rating: "4.9", 
@@ -85,7 +85,7 @@ const EarringsJewellery = () => {
       sub: "Earrings • Jhumka", 
       price: 3999, 
       oldPrice: 7999, 
-      images: ["/Jewellery/Earrings/Products/ejp2.png", "/Jewellery/Earrings/Products/ejp2_1.png", "/Jewellery/Earrings/Products/ejp2_2.png", "/Jewellery/Earrings/Products/ejp2_3.png", "/Jewellery/Earrings/Products/ejp2_4.png"],
+      images: ["/Jewellery/Earrings/Products/ejp2.webp", "/Jewellery/Earrings/Products/ejp2_1.webp", "/Jewellery/Earrings/Products/ejp2_2.webp", "/Jewellery/Earrings/Products/ejp2_3.webp", "/Jewellery/Earrings/Products/ejp2_4.webp"],
       tag: "Trending", 
       color: "Gold", 
       rating: "4.8", 
@@ -99,7 +99,7 @@ const EarringsJewellery = () => {
       sub: "Earrings • Stud", 
       price: 1799, 
       oldPrice: 3599, 
-      images: ["/Jewellery/Earrings/Products/ejp3.png", "/Jewellery/Earrings/Products/ejp3_1.png", "/Jewellery/Earrings/Products/ejp3_2.png", "/Jewellery/Earrings/Products/ejp3_3.png", "/Jewellery/Earrings/Products/ejp3_4.png"],
+      images: ["/Jewellery/Earrings/Products/ejp3.webp", "/Jewellery/Earrings/Products/ejp3_1.webp", "/Jewellery/Earrings/Products/ejp3_2.webp", "/Jewellery/Earrings/Products/ejp3_3.webp", "/Jewellery/Earrings/Products/ejp3_4.webp"],
       tag: "Best Seller", 
       color: "White Pearl", 
       rating: "4.7", 
@@ -113,7 +113,7 @@ const EarringsJewellery = () => {
       sub: "Earrings • Jhumka", 
       price: 5499, 
       oldPrice: 10999, 
-      images: ["/Jewellery/Earrings/Products/ejp4.png", "/Jewellery/Earrings/Products/ejp4_1.png", "/Jewellery/Earrings/Products/ejp4_2.png", "/Jewellery/Earrings/Products/ejp4_3.png", "/Jewellery/Earrings/Products/ejp4_4.png"],
+      images: ["/Jewellery/Earrings/Products/ejp4.webp", "/Jewellery/Earrings/Products/ejp4_1.webp", "/Jewellery/Earrings/Products/ejp4_2.webp", "/Jewellery/Earrings/Products/ejp4_3.webp", "/Jewellery/Earrings/Products/ejp4_4.webp"],
       tag: "Luxury", 
       color: "Antique Gold", 
       rating: "4.9", 
@@ -331,7 +331,7 @@ const EarringsJewellery = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Jewellery/Earrings/ejbanner.png"
+                  src="/Jewellery/Earrings/ejbanner.webp"
                   alt="Earrings Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

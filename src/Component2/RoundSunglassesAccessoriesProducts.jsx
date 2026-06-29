@@ -41,11 +41,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Polarized Lenses", "Lightweight", "Classic Design"],
       color: "Gold",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap1_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap1_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap1_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap1_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap1_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap1_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap1_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Tortoise Pattern", "Comfortable Fit", "Durable"],
       color: "Tortoise",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap2_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap2_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap2_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap2_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap2_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap2_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap2_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Polarized Lenses", "Polished Finish", "Classic Style"],
       color: "Silver",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap3_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap3_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap3_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap3_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap3_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap3_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap3_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Black Finish", "Comfortable Fit", "Durable"],
       color: "Black",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap4.png",
-        "/Accessories/Sunglasses/Round/Products/rsap4_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap4_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap4_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap4_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap4.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap4_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap4_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap4_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Rose Gold Finish", "Polarized Lenses", "Luxury Design"],
       color: "Rose Gold",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap5.png",
-        "/Accessories/Sunglasses/Round/Products/rsap5_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap5_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap5_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap5_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap5.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap5_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap5_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap5_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Crystal Clear", "Lightweight", "Modern Design"],
       color: "Clear",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap6.png",
-        "/Accessories/Sunglasses/Round/Products/rsap6_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap6_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap6_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap6_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap6.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap6_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap6_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap6_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Vintage Design", "Polarized Lenses", "Classic Style"],
       color: "Gold",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap7.png",
-        "/Accessories/Sunglasses/Round/Products/rsap7_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap7_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap7_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap7_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap7.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap7_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap7_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap7_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Marble Pattern", "Comfortable Fit", "Unique Design"],
       color: "Marble",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap8.png",
-        "/Accessories/Sunglasses/Round/Products/rsap8_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap8_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap8_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap8_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap8.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap8_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap8_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap8_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Minimalist Design", "Lightweight", "Everyday Essential"],
       color: "Black",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap9.png",
-        "/Accessories/Sunglasses/Round/Products/rsap9_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap9_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap9_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap9_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap9.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap9_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap9_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap9_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Patterned Design", "Comfortable Fit", "Unique Style"],
       color: "Multi",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap10.png",
-        "/Accessories/Sunglasses/Round/Products/rsap10_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap10_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap10_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap10_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap10.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap10_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap10_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap10_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Metal Frame", "UV Protection", "Gold Rim", "Polarized Lenses", "Vintage Charm"],
       color: "Gold",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap11.png",
-        "/Accessories/Sunglasses/Round/Products/rsap11_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap11_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap11_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap11_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap11.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap11_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap11_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap11_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const RoundSunglassesAccessories = () => {
       features: ["Premium Acetate Frame", "UV Protection", "Wood Grain Pattern", "Comfortable Fit", "Nature Inspired"],
       color: "Wood",
       images: [
-        "/Accessories/Sunglasses/Round/Products/rsap12.png",
-        "/Accessories/Sunglasses/Round/Products/rsap12_1.png",
-        "/Accessories/Sunglasses/Round/Products/rsap12_2.png",
-        "/Accessories/Sunglasses/Round/Products/rsap12_3.png",
-        "/Accessories/Sunglasses/Round/Products/rsap12_4.png"
+        "/Accessories/Sunglasses/Round/Products/rsap12.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap12_1.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap12_2.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap12_3.webp",
+        "/Accessories/Sunglasses/Round/Products/rsap12_4.webp"
       ]
     }
   ];
@@ -401,7 +401,7 @@ const RoundSunglassesAccessories = () => {
             src="/Accessories/Sunglasses/Round"
             alt="Round Sunglasses Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Accessories/Sunglasses/Round/rsabanner.png"; }}
+            onError={(e) => { e.target.src = "/Accessories/Sunglasses/Round/rsabanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

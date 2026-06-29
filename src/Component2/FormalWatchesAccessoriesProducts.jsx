@@ -41,11 +41,11 @@ const FormalWatchesAccessories = () => {
       features: ["Premium Leather Strap", "Gold Plated Case", "Analog Display", "Water Resistant", "Mineral Glass"],
       color: "Gold",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap1.png",
-        "/Accessories/Watches/Formal/Products/fwap1_1.png",
-        "/Accessories/Watches/Formal/Products/fwap1_2.png",
-        "/Accessories/Watches/Formal/Products/fwap1_3.png",
-        "/Accessories/Watches/Formal/Products/fwap1_4.png"
+        "/Accessories/Watches/Formal/Products/fwap1.webp",
+        "/Accessories/Watches/Formal/Products/fwap1_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap1_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap1_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const FormalWatchesAccessories = () => {
       features: ["Stainless Steel Bracelet", "Executive Design", "Date Display", "Water Resistant", "Scratch Resistant"],
       color: "Silver",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap2.png",
-        "/Accessories/Watches/Formal/Products/fwap2_1.png",
-        "/Accessories/Watches/Formal/Products/fwap2_2.png",
-        "/Accessories/Watches/Formal/Products/fwap2_3.png",
-        "/Accessories/Watches/Formal/Products/fwap2_4.png"
+        "/Accessories/Watches/Formal/Products/fwap2.webp",
+        "/Accessories/Watches/Formal/Products/fwap2_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap2_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap2_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const FormalWatchesAccessories = () => {
       features: ["Genuine Leather Strap", "Minimalist Design", "Analog Display", "Water Resistant", "Battery Included"],
       color: "Black",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap3.png",
-        "/Accessories/Watches/Formal/Products/fwap3_1.png",
-        "/Accessories/Watches/Formal/Products/fwap3_2.png",
-        "/Accessories/Watches/Formal/Products/fwap3_3.png",
-        "/Accessories/Watches/Formal/Products/fwap3_4.png"
+        "/Accessories/Watches/Formal/Products/fwap3.webp",
+        "/Accessories/Watches/Formal/Products/fwap3_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap3_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap3_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const FormalWatchesAccessories = () => {
       features: ["Stainless Steel Mesh", "Elegant Design", "Analog Display", "Water Resistant", "Adjustable Clasp"],
       color: "Silver",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap4.png",
-        "/Accessories/Watches/Formal/Products/fwap4_1.png",
-        "/Accessories/Watches/Formal/Products/fwap4_2.png",
-        "/Accessories/Watches/Formal/Products/fwap4_3.png",
-        "/Accessories/Watches/Formal/Products/fwap4_4.png"
+        "/Accessories/Watches/Formal/Products/fwap4.webp",
+        "/Accessories/Watches/Formal/Products/fwap4_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap4_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap4_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const FormalWatchesAccessories = () => {
       features: ["Premium Leather Strap", "Rose Gold Plated", "Analog Display", "Water Resistant", "Sapphire Glass"],
       color: "Rose Gold",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap5.png",
-        "/Accessories/Watches/Formal/Products/fwap5_1.png",
-        "/Accessories/Watches/Formal/Products/fwap5_2.png",
-        "/Accessories/Watches/Formal/Products/fwap5_3.png",
-        "/Accessories/Watches/Formal/Products/fwap5_4.png"
+        "/Accessories/Watches/Formal/Products/fwap5.webp",
+        "/Accessories/Watches/Formal/Products/fwap5_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap5_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap5_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const FormalWatchesAccessories = () => {
       features: ["Stainless Steel Bracelet", "Chronograph Movement", "Date Display", "Water Resistant", "Scratch Resistant"],
       color: "Silver",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap6.png",
-        "/Accessories/Watches/Formal/Products/fwap6_1.png",
-        "/Accessories/Watches/Formal/Products/fwap6_2.png",
-        "/Accessories/Watches/Formal/Products/fwap6_3.png",
-        "/Accessories/Watches/Formal/Products/fwap6_4.png"
+        "/Accessories/Watches/Formal/Products/fwap6.webp",
+        "/Accessories/Watches/Formal/Products/fwap6_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap6_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap6_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const FormalWatchesAccessories = () => {
       features: ["Genuine Leather Strap", "Vintage Design", "Analog Display", "Water Resistant", "Battery Included"],
       color: "Brown",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap7.png",
-        "/Accessories/Watches/Formal/Products/fwap7_1.png",
-        "/Accessories/Watches/Formal/Products/fwap7_2.png",
-        "/Accessories/Watches/Formal/Products/fwap7_3.png",
-        "/Accessories/Watches/Formal/Products/fwap7_4.png"
+        "/Accessories/Watches/Formal/Products/fwap7.webp",
+        "/Accessories/Watches/Formal/Products/fwap7_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap7_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap7_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const FormalWatchesAccessories = () => {
       features: ["Two-Tone Steel Bracelet", "Gold & Silver Accents", "Analog Display", "Water Resistant", "Sapphire Glass"],
       color: "Gold & Silver",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap8.png",
-        "/Accessories/Watches/Formal/Products/fwap8_1.png",
-        "/Accessories/Watches/Formal/Products/fwap8_2.png",
-        "/Accessories/Watches/Formal/Products/fwap8_3.png",
-        "/Accessories/Watches/Formal/Products/fwap8_4.png"
+        "/Accessories/Watches/Formal/Products/fwap8.webp",
+        "/Accessories/Watches/Formal/Products/fwap8_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap8_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap8_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const FormalWatchesAccessories = () => {
       features: ["Premium Leather Strap", "Minimalist Design", "Analog Display", "Water Resistant", "Battery Included"],
       color: "White",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap9.png",
-        "/Accessories/Watches/Formal/Products/fwap9_1.png",
-        "/Accessories/Watches/Formal/Products/fwap9_2.png",
-        "/Accessories/Watches/Formal/Products/fwap9_3.png",
-        "/Accessories/Watches/Formal/Products/fwap9_4.png"
+        "/Accessories/Watches/Formal/Products/fwap9.webp",
+        "/Accessories/Watches/Formal/Products/fwap9_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap9_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap9_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const FormalWatchesAccessories = () => {
       features: ["Stainless Steel Bracelet", "Skeleton Dial", "Automatic Movement", "Water Resistant", "Sapphire Glass"],
       color: "Silver",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap10.png",
-        "/Accessories/Watches/Formal/Products/fwap10_1.png",
-        "/Accessories/Watches/Formal/Products/fwap10_2.png",
-        "/Accessories/Watches/Formal/Products/fwap10_3.png",
-        "/Accessories/Watches/Formal/Products/fwap10_4.png"
+        "/Accessories/Watches/Formal/Products/fwap10.webp",
+        "/Accessories/Watches/Formal/Products/fwap10_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap10_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap10_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const FormalWatchesAccessories = () => {
       features: ["Gold Mesh Bracelet", "Elegant Design", "Analog Display", "Water Resistant", "Adjustable Clasp"],
       color: "Gold",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap11.png",
-        "/Accessories/Watches/Formal/Products/fwap11_1.png",
-        "/Accessories/Watches/Formal/Products/fwap11_2.png",
-        "/Accessories/Watches/Formal/Products/fwap11_3.png",
-        "/Accessories/Watches/Formal/Products/fwap11_4.png"
+        "/Accessories/Watches/Formal/Products/fwap11.webp",
+        "/Accessories/Watches/Formal/Products/fwap11_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap11_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap11_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const FormalWatchesAccessories = () => {
       features: ["Stainless Steel Bracelet", "Chronograph Movement", "Date Display", "Water Resistant", "Scratch Resistant"],
       color: "Silver & Black",
       images: [
-        "/Accessories/Watches/Formal/Products/fwap12.png",
-        "/Accessories/Watches/Formal/Products/fwap12_1.png",
-        "/Accessories/Watches/Formal/Products/fwap12_2.png",
-        "/Accessories/Watches/Formal/Products/fwap12_3.png",
-        "/Accessories/Watches/Formal/Products/fwap12_4.png"
+        "/Accessories/Watches/Formal/Products/fwap12.webp",
+        "/Accessories/Watches/Formal/Products/fwap12_1.webp",
+        "/Accessories/Watches/Formal/Products/fwap12_2.webp",
+        "/Accessories/Watches/Formal/Products/fwap12_3.webp",
+        "/Accessories/Watches/Formal/Products/fwap12_4.webp"
       ]
     }
   ];
@@ -401,7 +401,7 @@ const FormalWatchesAccessories = () => {
             src="/Accessories/Watches/Formal"
             alt="Formal Watches Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Accessories/Watches/Formal/fwabanner.png"; }}
+            onError={(e) => { e.target.src = "/Accessories/Watches/Formal/fwabanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

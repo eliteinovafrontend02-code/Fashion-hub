@@ -28,257 +28,257 @@ const ShoesBoyKidsFootwear = () => {
 
   const shoesBoyProducts = [
     {
-      id: 1,
-      name: "Classic Leather School Shoes",
-      fabric: "Leather",
-      price: 1599,
-      oldPrice: 2599,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Classic leather school shoes for boys with a comfortable fit. The premium leather construction and cushioned sole make them perfect for school, formal events, and everyday wear.",
-      features: ["Premium Leather", "Cushioned Sole", "Lace-up Closure", "Breathable Lining", "Durable"],
-      color: "Black",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp1_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp1_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp1_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Canvas Casual Sneakers",
-      fabric: "Canvas",
-      price: 999,
-      oldPrice: 1599,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Durable Canvas",
-      description: "Lightweight canvas casual sneakers for active boys. The breathable canvas material and flexible sole make them perfect for play, sports, and everyday adventures.",
-      features: ["Durable Canvas", "Lightweight", "Lace-up Closure", "Flexible Sole", "Breathable"],
-      color: "Blue",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp2_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp2_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp2_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Synthetic Sports Shoes",
-      fabric: "Synthetic",
-      price: 1299,
-      oldPrice: 2099,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Durable Synthetic",
-      description: "Stylish synthetic sports shoes designed for active kids. The durable synthetic material and cushioned sole make them perfect for sports, gym, and outdoor activities.",
-      features: ["Durable Synthetic", "Cushioned Sole", "Lace-up Closure", "Breathable", "Sporty Design"],
-      color: "Red",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp3_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp3_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp3_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Leather Boots",
-      fabric: "Leather",
-      price: 2299,
-      oldPrice: 3699,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Stylish leather boots for boys with a rugged design. The premium leather and sturdy construction make them perfect for winter, outdoor adventures, and special occasions.",
-      features: ["Premium Leather", "Sturdy Construction", "Lace-up Closure", "Cushioned Insole", "Durable"],
-      color: "Brown",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp4.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp4_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp4_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp4_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Canvas High Tops",
-      fabric: "Canvas",
-      price: 1199,
-      oldPrice: 1899,
-      rating: 4.8,
-      reviews: 987,
-      tag: "Premium",
-      sub: "Soft Canvas",
-      description: "Trendy canvas high-top sneakers for fashion-forward boys. The soft canvas and high-top design make them perfect for streetwear, casual outings, and making a style statement.",
-      features: ["Soft Canvas", "High-top Style", "Lace-up Closure", "Comfortable Sole", "Streetwear"],
-      color: "Black",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp5.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp5_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp5_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp5_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Synthetic Slip-ons",
-      fabric: "Synthetic",
-      price: 899,
-      oldPrice: 1499,
-      rating: 4.4,
-      reviews: 876,
-      tag: "Essential",
-      sub: "Comfort Synthetic",
-      description: "Comfortable synthetic slip-on shoes for easy wear. The lightweight material and slip-on design make them perfect for school, casual outings, and everyday use.",
-      features: ["Comfort Synthetic", "Slip-on Style", "Lightweight", "Cushioned Insole", "Easy Wear"],
-      color: "Grey",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp6.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp6_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp6_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp6_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Leather Formal Shoes",
-      fabric: "Leather",
-      price: 1999,
-      oldPrice: 3199,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Elegant leather formal shoes for boys with a sophisticated look. The premium leather and refined design make them perfect for weddings, parties, and formal occasions.",
-      features: ["Premium Leather", "Formal Style", "Lace-up Closure", "Cushioned Insole", "Elegant Design"],
-      color: "Black",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp7.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp7_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp7_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp7_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Canvas Print Sneakers",
-      fabric: "Canvas",
-      price: 1099,
-      oldPrice: 1799,
-      rating: 4.6,
-      reviews: 654,
-      tag: "New",
-      sub: "Colorful Canvas",
-      description: "Colorful canvas print sneakers with fun designs. The vibrant prints and comfortable canvas material make them perfect for playdates, parties, and casual outings.",
-      features: ["Colorful Canvas", "Fun Prints", "Lace-up Closure", "Comfortable Sole", "Playful Design"],
-      color: "Multicolor",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp8.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp8_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp8_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp8_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Synthetic Running Shoes",
-      fabric: "Synthetic",
-      price: 1499,
-      oldPrice: 2399,
-      rating: 4.5,
-      reviews: 789,
-      tag: "Trending",
-      sub: "Sport Synthetic",
-      description: "Lightweight synthetic running shoes for active boys. The breathable material and cushioned sole make them perfect for running, sports, and outdoor activities.",
-      features: ["Sport Synthetic", "Lightweight", "Lace-up Closure", "Cushioned Sole", "Breathable"],
-      color: "Green",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp9.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp9_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp9_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp9_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Leather Lace-up Boots",
-      fabric: "Leather",
-      price: 2499,
-      oldPrice: 3999,
-      rating: 4.8,
-      reviews: 1345,
-      tag: "Premium",
-      sub: "Premium Leather",
-      description: "Stylish leather lace-up boots for boys with a rugged look. The premium leather and durable construction make them perfect for winter, outdoor adventures, and special occasions.",
-      features: ["Premium Leather", "Lace-up Style", "Sturdy Sole", "Cushioned Insole", "Durable"],
-      color: "Tan",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp10.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp10_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp10_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp10_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Canvas Slip-on Sneakers",
-      fabric: "Canvas",
-      price: 799,
-      oldPrice: 1299,
-      rating: 4.3,
-      reviews: 567,
-      tag: "Essential",
-      sub: "Soft Canvas",
-      description: "Comfortable canvas slip-on sneakers for easy everyday wear. The soft canvas and slip-on design make them perfect for school, play, and casual outings.",
-      features: ["Soft Canvas", "Slip-on Style", "Lightweight", "Comfortable Fit", "Everyday Wear"],
-      color: "White",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp11.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp11_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp11_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp11_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Synthetic Light-up Shoes",
-      fabric: "Synthetic",
-      price: 1399,
-      oldPrice: 2199,
-      rating: 4.4,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Fun Synthetic",
-      description: "Fun synthetic light-up shoes that kids will love. The colorful lights and comfortable design make them perfect for parties, playdates, and making every step exciting.",
-      features: ["Fun Synthetic", "Light-up Feature", "Lace-up Closure", "Comfortable Fit", "Playful Design"],
-      color: "Blue",
-      images: [
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp12.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp12_1.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp12_2.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp12_3.png",
-        "/Footwear/Kids/Boy/Shoes/Products/sbkfp12_4.png"
-      ]
-    }
+    id: 1,
+    name: "Soft Leather Baby First Shoes",
+    fabric: "Leather",
+    price: 499,
+    oldPrice: 799,
+    rating: 4.9,
+    reviews: 3456,
+    tag: "Bestseller",
+    sub: "Premium Soft Leather",
+    description: "Soft leather baby shoes designed for tiny feet. The premium leather and flexible sole make them perfect for babies learning to walk, with comfort and protection for delicate feet.",
+    features: ["Soft Leather", "Flexible Sole", "Easy Velcro Closure", "Breathable Lining", "Non-slip"],
+    color: "White",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp1_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp1_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp1_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp1_4.webp"
+    ]
+  },
+  {
+    id: 2,
+    name: "Canvas Baby Booties",
+    fabric: "Canvas",
+    price: 299,
+    oldPrice: 499,
+    rating: 4.8,
+    reviews: 2876,
+    tag: "Trending",
+    sub: "Soft Canvas",
+    description: "Cozy canvas booties for newborns and babies. The soft canvas material and gentle fit keep tiny feet warm and comfortable, perfect for indoor use and early crawling days.",
+    features: ["Soft Canvas", "Warm Lining", "Elastic Ankle", "Machine Washable", "Gentle on Skin"],
+    color: "Pink",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp2_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp2_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp2_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp2_4.webp"
+    ]
+  },
+  {
+    id: 3,
+    name: "Synthetic First Walker Shoes",
+    fabric: "Synthetic",
+    price: 399,
+    oldPrice: 649,
+    rating: 4.7,
+    reviews: 2567,
+    tag: "Popular",
+    sub: "Durable Synthetic",
+    description: "Durable first walker shoes for babies taking their first steps. The synthetic material and supportive sole provide stability and protection for developing feet.",
+    features: ["Durable Synthetic", "Supportive Sole", "Velcro Closure", "Cushioned Insole", "Non-slip"],
+    color: "Blue",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp3_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp3_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp3_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp3_4.webp"
+    ]
+  },
+  {
+    id: 4,
+    name: "Mesh Baby Socks Shoes",
+    fabric: "Mesh",
+    price: 299,
+    oldPrice: 449,
+    rating: 4.6,
+    reviews: 2234,
+    tag: "Classic",
+    sub: "Breathable Mesh",
+    description: "Cute mesh baby sock shoes that feel like socks but protect like shoes. The breathable mesh fabric and flexible sole make them perfect for crawling and early walking.",
+    features: ["Breathable Mesh", "Flexible Sole", "Stretchable Fit", "Non-slip", "Machine Washable"],
+    color: "Yellow",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp4.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp4_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp4_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp4_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp4_4.webp"
+    ]
+  },
+  {
+    id: 5,
+    name: "Leather Pre-walker Shoes",
+    fabric: "Leather",
+    price: 649,
+    oldPrice: 999,
+    rating: 4.8,
+    reviews: 1987,
+    tag: "Premium",
+    sub: "Premium Soft Leather",
+    description: "Premium leather pre-walker shoes for babies learning to stand. The soft leather and flexible construction support natural foot development and movement.",
+    features: ["Premium Leather", "Flexible Construction", "Velcro Closure", "Breathable Lining", "Natural Movement"],
+    color: "Tan",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp5.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp5_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp5_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp5_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp5_4.webp"
+    ]
+  },
+  {
+    id: 6,
+    name: "Synthetic Light-up Baby Shoes",
+    fabric: "Synthetic",
+    price: 449,
+    oldPrice: 699,
+    rating: 4.4,
+    reviews: 1876,
+    tag: "Essential",
+    sub: "Fun Synthetic",
+    description: "Fun light-up baby shoes that make walking exciting. The colorful lights and comfortable design encourage babies to take more steps and explore the world.",
+    features: ["Fun Synthetic", "Light-up Feature", "Velcro Closure", "Comfortable Fit", "Playful Design"],
+    color: "Green",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp6.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp6_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp6_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp6_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp6_4.webp"
+    ]
+  },
+  {
+    id: 7,
+    name: "Canvas Lined Baby Boots",
+    fabric: "Canvas",
+    price: 549,
+    oldPrice: 899,
+    rating: 4.7,
+    reviews: 2123,
+    tag: "Bestseller",
+    sub: "Warm Canvas",
+    description: "Warm lined canvas boots for babies in cold weather. The cozy canvas material and soft lining keep tiny feet warm and comfortable during winter outings.",
+    features: ["Warm Canvas", "Soft Lining", "Easy Velcro", "Non-slip Sole", "Cold Weather"],
+    color: "Brown",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp7.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp7_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp7_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp7_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp7_4.webp"
+    ]
+  },
+  {
+    id: 8,
+    name: "Synthetic Sports Running Shoes",
+    fabric: "Synthetic",
+    price: 449,
+    oldPrice: 749,
+    rating: 4.7,
+    reviews: 1854,
+    tag: "New",
+    sub: "Lightweight Sports Design",
+    description: "Durable and lightweight sports running shoes for active babies. Designed with a supportive structure and non-slip sole to ensure safety and comfort during playtime and running.",
+    features: ["Breathable Mesh Panels", "Supportive Sole", "Velcro Closure", "Non-slip Grip", "Lightweight"],
+    color: "Red/Black",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp8.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp8_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp8_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp8_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp8_4.webp"
+    ]
+  },
+  {
+    id: 9,
+    name: "Synthetic Baby Shoes with Ankle Support",
+    fabric: "Synthetic",
+    price: 349,
+    oldPrice: 599,
+    rating: 4.5,
+    reviews: 1789,
+    tag: "Trending",
+    sub: "Durable Synthetic",
+    description: "Synthetic baby shoes with extra ankle support for early walkers. The durable construction and supportive design provide stability and comfort for developing feet.",
+    features: ["Durable Synthetic", "Ankle Support", "Velcro Closure", "Cushioned Sole", "Breathable"],
+    color: "Navy",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp9.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp9_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp9_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp9_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp9_4.webp"
+    ]
+  },
+  {
+    id: 10,
+    name: "Leather Baby Moccasins",
+    fabric: "Leather",
+    price: 749,
+    oldPrice: 1199,
+    rating: 4.8,
+    reviews: 2345,
+    tag: "Premium",
+    sub: "Premium Soft Leather",
+    description: "Soft leather baby moccasins with a classic style. The premium soft leather and flexible sole make them perfect for delicate feet, combining comfort with timeless design.",
+    features: ["Premium Leather", "Flexible Sole", "Slip-on Style", "Breathable Lining", "Classic Design"],
+    color: "Cognac",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp10.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp10_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp10_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp10_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp10_4.webp"
+    ]
+  },
+  {
+    id: 11,
+    name: "Canvas Baby Sneakers",
+    fabric: "Canvas",
+    price: 399,
+    oldPrice: 649,
+    rating: 4.3,
+    reviews: 1567,
+    tag: "Essential",
+    sub: "Soft Canvas",
+    description: "Cute canvas sneakers for baby's casual style. The soft canvas material and comfortable design make them perfect for playdates, outings, and everyday adventures.",
+    features: ["Soft Canvas", "Lightweight", "Velcro Closure", "Comfortable Sole", "Everyday Style"],
+    color: "White",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp11.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp11_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp11_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp11_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp11_4.webp"
+    ]
+  },
+  {
+    id: 12,
+    name: "Mesh Print Baby Shoes",
+    fabric: "Mesh",
+    price: 449,
+    oldPrice: 699,
+    rating: 4.4,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Fun Mesh",
+    description: "Adorable mesh print baby shoes that kids will love. The fun designs and breathable mesh material make them perfect for playtime and special occasions.",
+    features: ["Fun Mesh", "Colorful Prints", "Velcro Closure", "Comfortable Fit", "Playful Design"],
+    color: "Multicolor",
+    images: [
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp12.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp12_1.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp12_2.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp12_3.webp",
+      "/Footwear/Kids/Boy/Shoes/Products/sbkfp12_4.webp"
+    ]
+  }
   ];
 
   const filters = ['all', 'Leather', 'Canvas', 'Synthetic'];
@@ -401,7 +401,7 @@ const ShoesBoyKidsFootwear = () => {
             src="/Footwear/Kids/Boy/Shoes"
             alt="Boys Shoes Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Kids/Boy/Shoes/sbkfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Kids/Boy/Shoes/sbkfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

@@ -26,7 +26,7 @@ const SareeWomenFashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Women/Saree/swfbanner1.png",
+      image: "/Fashion/Women/Saree/swfbanner1.webp",
       titlePart1: "Everyday Elegance",
       titlePart2: "Casual Sarees",
       subtitle: "WOMEN • CASUAL • COMFORT",
@@ -35,7 +35,7 @@ const SareeWomenFashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/Women/Saree/swfbanner2.png",
+      image: "/Fashion/Women/Saree/swfbanner2.webp",
       titlePart1: "Glamorous Look",
       titlePart2: "Party Sarees",
       subtitle: "WOMEN • PARTY • GLAMOUR",
@@ -50,14 +50,14 @@ const SareeWomenFashion = () => {
       id: 1,
       title: "Casual Sarees",
       tag: "COMFORT",
-      image: "/Fashion/Women/Saree/casual.png",
+      image: "/Fashion/Women/Saree/casual.webp",
       link: "/fashion/women/saree/casual"
     },
     {
       id: 2,
       title: "Party Sarees",
       tag: "GLAMOUR",
-      image: "/Fashion/Women/Saree/party.png",
+      image: "/Fashion/Women/Saree/party.webp",
       link: "/fashion/women/saree/party"
     }
   ];
@@ -71,7 +71,7 @@ const SareeWomenFashion = () => {
       sub: "Sarees • Party", 
       price: 2599, 
       oldPrice: 3999, 
-      images: ["/Fashion/Women/Saree/Products/swfp1.png", "/Fashion/Women/Saree/Products/swfp1_1.png", "/Fashion/Women/Saree/Products/swfp1_2.png", "/Fashion/Women/Saree/Products/swfp1_3.png", "/Fashion/Women/Saree/Products/swfp1_4.png"],
+      images: ["/Fashion/Women/Saree/Products/swfp1.webp", "/Fashion/Women/Saree/Products/swfp1_1.webp", "/Fashion/Women/Saree/Products/swfp1_2.webp", "/Fashion/Women/Saree/Products/swfp1_3.webp", "/Fashion/Women/Saree/Products/swfp1_4.webp"],
       tag: "Trending", 
       color: "Rose Gold", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const SareeWomenFashion = () => {
       sub: "Sarees • Casual", 
       price: 2899, 
       oldPrice: 5799, 
-      images: ["/Fashion/Women/Saree/Products/swfp2.png", "/Fashion/Women/Saree/Prodcucts/swfp2_1.png", "/Fashion/Women/Saree/Products/swfp2_2.png", "/Fashion/Women/Saree/Products/swfp2_3.png", "/Fashion/Women/Saree/Products/swfp2_4.png"],
+      images: ["/Fashion/Women/Saree/Products/swfp2.webp", "/Fashion/Women/Saree/Prodcucts/swfp2_1.webp", "/Fashion/Women/Saree/Products/swfp2_2.webp", "/Fashion/Women/Saree/Products/swfp2_3.webp", "/Fashion/Women/Saree/Products/swfp2_4.webp"],
       tag: "Essential", 
       color: "Cream & Gold", 
       rating: "4.6", 
@@ -99,7 +99,7 @@ const SareeWomenFashion = () => {
       sub: "Sarees • Party", 
       price: 3299, 
       oldPrice: 4599, 
-      images: ["/Fashion/Women/Saree/Products/swfp3.png", "/Fashion/Women/Saree/Products/swfp3_1.png", "/Fashion/Women/Saree/Products/swfp3_2.png", "/Fashion/Women/Saree/Products/swfp3_3.png", "/Fashion/Women/Saree/Products/swfp3_4.png"],
+      images: ["/Fashion/Women/Saree/Products/swfp3.webp", "/Fashion/Women/Saree/Products/swfp3_1.webp", "/Fashion/Women/Saree/Products/swfp3_2.webp", "/Fashion/Women/Saree/Products/swfp3_3.webp", "/Fashion/Women/Saree/Products/swfp3_4.webp"],
       tag: "Trending", 
       color: "Dusty Pink", 
       rating: "4.9", 
@@ -113,7 +113,7 @@ const SareeWomenFashion = () => {
       sub: "Sarees • Casual", 
       price: 1599, 
       oldPrice: 4399, 
-      images: ["/Fashion/Women/Saree/Products/swfp4.png", "/Fashion/Women/Saree/Products/swfp4_1.png", "/Fashion/Women/Saree/Products/swfp4_2.png", "/Fashion/Women/Saree/Products/swfp4_3.png", "/Fashion/Women/Saree/Products/swfp4_4.png"],
+      images: ["/Fashion/Women/Saree/Products/swfp4.webp", "/Fashion/Women/Saree/Products/swfp4_1.webp", "/Fashion/Women/Saree/Products/swfp4_2.webp", "/Fashion/Women/Saree/Products/swfp4_3.webp", "/Fashion/Women/Saree/Products/swfp4_4.webp"],
       tag: "Handloom", 
       color: "Rust & Cream", 
       rating: "4.5", 
@@ -332,7 +332,7 @@ const SareeWomenFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Women/Saree/swfbanner.png"
+                  src="/Fashion/Women/Saree/swfbanner.webp"
                   alt="Women's Sarees Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

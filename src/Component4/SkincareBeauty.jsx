@@ -26,7 +26,7 @@ const SkincareBeauty = () => {
   const banners = [
     {
       id: 1,
-      image: "/Beauty/Skincare/sbbanner1.png",
+      image: "/Beauty/Skincare/sbbanner1.webp",
       titlePart1: "Protect Your Skin",
       titlePart2: "Sunscreen",
       subtitle: "BEAUTY • SUNSCREEN • SPF",
@@ -35,7 +35,7 @@ const SkincareBeauty = () => {
     },
     {
       id: 2,
-      image: "/Beauty/Skincare/sbbanner2.png",
+      image: "/Beauty/Skincare/sbbanner2.webp",
       titlePart1: "Deep Hydration",
       titlePart2: "Moisturizer",
       subtitle: "BEAUTY • MOISTURIZER • HYDRATE",
@@ -50,14 +50,14 @@ const SkincareBeauty = () => {
       id: 1,
       title: "Sunscreen",
       tag: "PROTECT",
-      image: "/Beauty/Skincare/sunscreen.png",
+      image: "/Beauty/Skincare/sunscreen.webp",
       link: "/beauty/skincare/sunscreen"
     },
     {
       id: 2,
       title: "Moisturizer",
       tag: "HYDRATE",
-      image: "/Beauty/Skincare/moisturizer.png",
+      image: "/Beauty/Skincare/moisturizer.webp",
       link: "/beauty/skincare/moisturizer"
     }
   ];
@@ -71,7 +71,7 @@ const SkincareBeauty = () => {
       sub: "Skincare • Sunscreen", 
       price: 799, 
       oldPrice: 1599, 
-      images: ["/Beauty/Skincare/Products/sbp1.png", "/Beauty/Skincare/Products/sbp1_1.png", "/Beauty/Skincare/Products/sbp1_2.png", "/Beauty/Skincare/Products/sbp1_3.png", "/Beauty/Skincare/Products/sbp1_4.png"],
+      images: ["/Beauty/Skincare/Products/sbp1.webp", "/Beauty/Skincare/Products/sbp1_1.webp", "/Beauty/Skincare/Products/sbp1_2.webp", "/Beauty/Skincare/Products/sbp1_3.webp", "/Beauty/Skincare/Products/sbp1_4.webp"],
       tag: "Best Seller", 
       color: "White", 
       rating: "4.9", 
@@ -85,7 +85,7 @@ const SkincareBeauty = () => {
       sub: "Skincare • Moisturizer", 
       price: 649, 
       oldPrice: 1299, 
-      images: ["/Beauty/Skincare/Products/sbp2.png", "/Beauty/Skincare/Products/sbp2_1.png", "/Beauty/Skincare/Products/sbp2_2.png", "/Beauty/Skincare/Products/sbp2_3.png", "/Beauty/Skincare/Products/sbp2_4.png"],
+      images: ["/Beauty/Skincare/Products/sbp2.webp", "/Beauty/Skincare/Products/sbp2_1.webp", "/Beauty/Skincare/Products/sbp2_2.webp", "/Beauty/Skincare/Products/sbp2_3.webp", "/Beauty/Skincare/Products/sbp2_4.webp"],
       tag: "Trending", 
       color: "Green", 
       rating: "4.8", 
@@ -99,7 +99,7 @@ const SkincareBeauty = () => {
       sub: "Skincare • Sunscreen", 
       price: 1199, 
       oldPrice: 2399, 
-      images: ["/Beauty/Skincare/Products/sbp3.png", "/Beauty/Skincare/Products/sbp3_1.png", "/Beauty/Skincare/Products/sbp3_2.png", "/Beauty/Skincare/Products/sbp3_3.png", "/Beauty/Skincare/Products/sbp3_4.png"],
+      images: ["/Beauty/Skincare/Products/sbp3.webp", "/Beauty/Skincare/Products/sbp3_1.webp", "/Beauty/Skincare/Products/sbp3_2.webp", "/Beauty/Skincare/Products/sbp3_3.webp", "/Beauty/Skincare/Products/sbp3_4.webp"],
       tag: "Best Seller", 
       color: "Orange", 
       rating: "4.9", 
@@ -113,7 +113,7 @@ const SkincareBeauty = () => {
       sub: "Skincare • Moisturizer", 
       price: 899, 
       oldPrice: 1799, 
-      images: ["/Beauty/Skincare/Products/sbp4.png", "/Beauty/Skincare/Products/sbp4_1.png", "/Beauty/Skincare/Products/sbp4_2.png", "/Beauty/Skincare/Products/sbp4_3.png", "/Beauty/Skincare/Products/sbp4_4.png"],
+      images: ["/Beauty/Skincare/Products/sbp4.webp", "/Beauty/Skincare/Products/sbp4_1.webp", "/Beauty/Skincare/Products/sbp4_2.webp", "/Beauty/Skincare/Products/sbp4_3.webp", "/Beauty/Skincare/Products/sbp4_4.webp"],
       tag: "Luxury", 
       color: "White", 
       rating: "4.8", 
@@ -331,7 +331,7 @@ const SkincareBeauty = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Beauty/Skincare/sbbanner.png"
+                  src="/Beauty/Skincare/sbbanner.webp"
                   alt="Skincare Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

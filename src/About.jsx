@@ -17,7 +17,7 @@ const About = () => {
           {/* Background Image with Overlay */}
           <div className="absolute inset-0">
             <img 
-              src="/aboutbanner.png" 
+              src="/aboutbanner.webp" 
               alt="Fashion Hub Hero" 
               className="w-full h-full object-cover object-center"
             />
@@ -86,7 +86,7 @@ const About = () => {
               <div className="relative animate-fadeInUp order-1 md:order-2">
                 <div className="bg-[#e9dccb] p-2 sm:p-3 md:p-4 rounded-2xl sm:rounded-3xl shadow-2xl hover:shadow-3xl transition-shadow duration-300">
                   <img 
-                    src="/abanner.png" 
+                    src="/abanner.webp" 
                     alt="Our Story" 
                     className="w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] object-cover rounded-xl sm:rounded-2xl hover:scale-105 transition-transform duration-500"
                   />
@@ -211,7 +211,7 @@ const About = () => {
         {/* 🎯 CTA SECTION - Mobile Optimized */}
         <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-20 overflow-hidden">
           <div className="absolute inset-0">
-            <img src="/about.png" alt="CTA Background" className="w-full h-full object-cover" />
+            <img src="/about.webp" alt="CTA Background" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-orange-900/80 to-orange-800/70"></div>
           </div>
           <div className="relative z-10 max-w-4xl mx-auto text-center animate-fadeInUp">

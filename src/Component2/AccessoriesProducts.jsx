@@ -27,73 +27,73 @@ useEffect(() => {
   const products = [
     { 
       id: 301, name: 'Casual Chronograph Watch', category: "Accessories", sub: "Watches • Casual", price: 3499, oldPrice: 5499, 
-      images: ["/Accessories/Products/ap1.png", "/Accessories/Products/ap1_1.png", "/Accessories/Products/ap1_2.png","/Accessories/Products/ap1_3.png","/Accessories/Products/ap1_4.png"],
+      images: ["/Accessories/Products/ap1.webp", "/Accessories/Products/ap1_1.webp", "/Accessories/Products/ap1_2.webp","/Accessories/Products/ap1_3.webp","/Accessories/Products/ap1_4.webp"],
       tag: "Trending", color: "Silver Dial", rating: "4.6", reviews: "2.3k",
       details: { "Movement": "Japanese Quartz", "Strap": "Genuine Leather", "Water Resistant": "50M", "Warranty": "2 Years", "Glass": "Mineral Crystal" }
     },
     { 
       id: 302, name: 'Casual Minimalist Watch', category: "Accessories", sub: "Watches • Casual", price: 2899, oldPrice: 4299, 
-      images: ["/Accessories/Products/ap2.png", "/Accessories/Products/ap2_1.png", "/Accessories/Products/ap2_2.png","/Accessories/Products/ap2_3.png","/Accessories/Products/ap2_4.png"],
+      images: ["/Accessories/Products/ap2.webp", "/Accessories/Products/ap2_1.webp", "/Accessories/Products/ap2_2.webp","/Accessories/Products/ap2_3.webp","/Accessories/Products/ap2_4.webp"],
       tag: "Best Seller", color: "Rose Gold", rating: "4.8", reviews: "1.8k",
       details: { "Movement": "Automatic", "Strap": "Milanese Mesh", "Water Resistant": "30M", "Warranty": "3 Years", "Glass": "Sapphire Crystal" }
     },
     { 
       id: 303, name: 'Formal Executive Watch', category: "Accessories", sub: "Watches • Formal", price: 5999, oldPrice: 8999, 
-      images: ["/Accessories/Products/ap3.png", "/Accessories/Products/ap3_1.png", "/Accessories/Products/ap3_2.png","/Accessories/Products/ap3_3.png","/Accessories/Products/ap3_4.png"],
+      images: ["/Accessories/Products/ap3.webp", "/Accessories/Products/ap3_1.webp", "/Accessories/Products/ap3_2.webp","/Accessories/Products/ap3_3.webp","/Accessories/Products/ap3_4.webp"],
       tag: "Premium", color: "Gold Plated", rating: "4.9", reviews: "950",
       details: { "Movement": "Swiss Quartz", "Strap": "Italian Leather", "Water Resistant": "100M", "Warranty": "5 Years", "Glass": "Sapphire Crystal" }
     },
     { 
       id: 304, name: 'Formal Classic Watch', category: "Accessories", sub: "Watches • Formal", price: 4499, oldPrice: 6999, 
-      images: ["/Accessories/Products/ap4.png", "/Accessories/Products/ap4_1.png", "/Accessories/Products/ap4_2.png","/Accessories/Products/ap4_3.png","/Accessories/Products/ap4_4.png"],
+      images: ["/Accessories/Products/ap4.webp", "/Accessories/Products/ap4_1.webp", "/Accessories/Products/ap4_2.webp","/Accessories/Products/ap4_3.webp","/Accessories/Products/ap4_4.webp"],
       tag: "Classic", color: "Black Dial", rating: "4.7", reviews: "1.2k",
       details: { "Movement": "Mechanical", "Strap": "Crocodile Pattern", "Water Resistant": "50M", "Warranty": "2 Years", "Glass": "Mineral Crystal" }
     },
     { 
       id: 305, name: 'Premium Leather Handbag', category: "Accessories", sub: "Bags • Handbag", price: 4999, oldPrice: 7999, 
-      images: ["/Accessories/Products/ap5.png", "/Accessories/Products/ap5_1.png", "/Accessories/Products/ap5_2.png","/Accessories/Products/ap5_3.png","/Accessories/Products/ap5_4.png"],
+      images: ["/Accessories/Products/ap5.webp", "/Accessories/Products/ap5_1.webp", "/Accessories/Products/ap5_2.webp","/Accessories/Products/ap5_3.webp","/Accessories/Products/ap5_4.webp"],
       tag: "Signature", color: "Tan Brown", rating: "4.8", reviews: "1.5k",
       details: { "Material": "Genuine Leather", "Compartments": "3 Main + 2 Zip", "Closure": "Magnetic Flap", "Strap": "Adjustable", "Size": "Medium" }
     },
     { 
       id: 306, name: 'Designer Tote Handbag', category: "Accessories", sub: "Bags • Handbag", price: 6999, oldPrice: 10999, 
-      images: ["/Accessories/Products/ap6.png", "/Accessories/Products/ap6_1.png", "/Accessories/Products/ap6_2.png","/Accessories/Products/ap6_3.png","/Accessories/Products/ap6_4.png"],
+      images: ["/Accessories/Products/ap6.webp", "/Accessories/Products/ap6_1.webp", "/Accessories/Products/ap6_2.webp","/Accessories/Products/ap6_3.webp","/Accessories/Products/ap6_4.webp"],
       tag: "Luxury", color: "Cognac", rating: "4.9", reviews: "820",
       details: { "Material": "Premium Vegan Leather", "Compartments": "4 Spacious", "Closure": "Zipper Top", "Strap": "Double Handle", "Size": "Large" }
     },
     { 
       id: 307, name: 'Crossbody Sling Bag', category: "Accessories", sub: "Bags • Sling", price: 2499, oldPrice: 3999, 
-      images: ["/Accessories/Products/ap7.png", "/Accessories/Products/ap7_1.png", "/Accessories/Products/ap7_2.png","/Accessories/Products/ap7_3.png","/Accessories/Products/ap7_4.png"],
+      images: ["/Accessories/Products/ap7.webp", "/Accessories/Products/ap7_1.webp", "/Accessories/Products/ap7_2.webp","/Accessories/Products/ap7_3.webp","/Accessories/Products/ap7_4.webp"],
       tag: "Trending", color: "Black", rating: "4.6", reviews: "2.1k",
       details: { "Material": "Faux Leather", "Compartments": "2 Main", "Closure": "Zip + Flap", "Strap": "Chain & Leather", "Size": "Compact" }
     },
     { 
       id: 308, name: 'Mini Sling Pouch', category: "Accessories", sub: "Bags • Sling", price: 1899, oldPrice: 2999, 
-      images: ["/Accessories/Products/ap8.png", "/Accessories/Products/ap8_1.png", "/Accessories/Products/ap8_2.png","/Accessories/Products/ap8_3.png","/Accessories/Products/ap8_4.png"],
+      images: ["/Accessories/Products/ap8.webp", "/Accessories/Products/ap8_1.webp", "/Accessories/Products/ap8_2.webp","/Accessories/Products/ap8_3.webp","/Accessories/Products/ap8_4.webp"],
       tag: "Essential", color: "Blush Pink", rating: "4.5", reviews: "1.4k",
       details: { "Material": "Soft PU Leather", "Compartments": "1 Main + Card Slots", "Closure": "Magnetic Button", "Strap": "Adjustable", "Size": "Mini" }
     },
     { 
       id: 309, name: 'Round Metal Sunglasses', category: "Accessories", sub: "Sunglasses • Round", price: 2199, oldPrice: 3499, 
-      images: ["/Accessories/Products/ap9.png", "/Accessories/Products/ap9_1.png", "/Accessories/Products/ap9_2.png","/Accessories/Products/ap9_3.png","/Accessories/Products/ap9_4.png"],
+      images: ["/Accessories/Products/ap9.webp", "/Accessories/Products/ap9_1.webp", "/Accessories/Products/ap9_2.webp","/Accessories/Products/ap9_3.webp","/Accessories/Products/ap9_4.webp"],
       tag: "Trending", color: "Gold Frame", rating: "4.7", reviews: "1.1k",
       details: { "Lens": "Polarized UV400", "Frame": "Metal Alloy", "Shape": "Round", "Gender": "Unisex", "Protection": "100% UV" }
     },
     { 
       id: 310, name: 'Round Retro Sunglasses', category: "Accessories", sub: "Sunglasses • Round", price: 1899, oldPrice: 2999, 
-      images: ["/Accessories/Products/ap10.png", "/Accessories/Products/ap10_1.png", "/Accessories/Products/ap10_2.png","/Accessories/Products/ap10_3.png","/Accessories/Products/ap10_4.png"],
+      images: ["/Accessories/Products/ap10.webp", "/Accessories/Products/ap10_1.webp", "/Accessories/Products/ap10_2.webp","/Accessories/Products/ap10_3.webp","/Accessories/Products/ap10_4.webp"],
       tag: "Vintage", color: "Silver Frame", rating: "4.6", reviews: "980",
       details: { "Lens": "Gradient Tint", "Frame": "Stainless Steel", "Shape": "Round", "Gender": "Women", "Protection": "UV400" }
     },
     { 
       id: 311, name: 'Square Aviator Sunglasses', category: "Accessories", sub: "Sunglasses • Square", price: 2599, oldPrice: 3999, 
-      images: ["/Accessories/Products/ap11.png", "/Accessories/Products/ap11_1.png", "/Accessories/Products/ap11_2.png","/Accessories/Products/ap11_3.png","/Accessories/Products/ap11_4.png"],
+      images: ["/Accessories/Products/ap11.webp", "/Accessories/Products/ap11_1.webp", "/Accessories/Products/ap11_2.webp","/Accessories/Products/ap11_3.webp","/Accessories/Products/ap11_4.webp"],
       tag: "Premium", color: "Black Frame", rating: "4.8", reviews: "2.3k",
       details: { "Lens": "Polarized", "Frame": "TR90", "Shape": "Square", "Gender": "Men", "Protection": "UV400" }
     },
     { 
       id: 312, name: 'Square Designer Sunglasses', category: "Accessories", sub: "Sunglasses • Square", price: 2999, oldPrice: 4999, 
-      images: ["/Accessories/Products/ap12.png", "/Accessories/Products/ap12_1.png", "/Accessories/Products/ap12_2.png","/Accessories/Products/ap12_3.png","/Accessories/Products/ap12_4.png"],
+      images: ["/Accessories/Products/ap12.webp", "/Accessories/Products/ap12_1.webp", "/Accessories/Products/ap12_2.webp","/Accessories/Products/ap12_3.webp","/Accessories/Products/ap12_4.webp"],
       tag: "Luxury", color: "Tortoise Shell", rating: "4.9", reviews: "650",
       details: { "Lens": "Mirrored", "Frame": "Acetate", "Shape": "Square", "Gender": "Unisex", "Protection": "100% UV" }
     }

@@ -26,7 +26,7 @@ const ShoesMenFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Men/Shoes/smfbanner1.png",
+      image: "/Footwear/Men/Shoes/smfbanner1.webp",
       titlePart1: "Everyday Comfort",
       titlePart2: "Casual Shoes",
       subtitle: "MEN • CASUAL • COMFORT",
@@ -35,7 +35,7 @@ const ShoesMenFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Men/Shoes/smfbanner2.png",
+      image: "/Footwear/Men/Shoes/smfbanner2.webp",
       titlePart1: "Step Up",
       titlePart2: "Formal Shoes",
       subtitle: "MEN • FORMAL • ELEGANCE",
@@ -50,14 +50,14 @@ const ShoesMenFootwear = () => {
       id: 1,
       title: "Casual",
       tag: "COMFORT",
-      image: "/Footwear/Men/Shoes/casual.png",
+      image: "/Footwear/Men/Shoes/casual.webp",
       link: "/footwear/men/shoes/casual"
     },
     {
       id: 2,
       title: "Formal",
       tag: "ELEGANCE",
-      image: "/Footwear/Men/Shoes/formal.png",
+      image: "/Footwear/Men/Shoes/formal.webp",
       link: "/footwear/men/shoes/formal"
     }
   ];
@@ -72,7 +72,7 @@ const ShoesMenFootwear = () => {
       sub: "Shoes • Formal", 
       price: 1499, 
       oldPrice: 3999, 
-      images: ["/Footwear/Men/Shoes/Products/smfp1.png", "/Footwear/Men/Shoes/Products/smfp1_1.png", "/Footwear/Men/Shoes/Products/smfp1_2.png", "/Footwear/Men/Shoes/Products/smfp1_3.png", "/Footwear/Men/Shoes/Products/smfp1_4.png"],
+      images: ["/Footwear/Men/Shoes/Products/smfp1.webp", "/Footwear/Men/Shoes/Products/smfp1_1.webp", "/Footwear/Men/Shoes/Products/smfp1_2.webp", "/Footwear/Men/Shoes/Products/smfp1_3.webp", "/Footwear/Men/Shoes/Products/smfp1_4.webp"],
       tag: "Best Seller", 
       color: "Black", 
       rating: "4.9", 
@@ -88,7 +88,7 @@ const ShoesMenFootwear = () => {
       sub: "Shoes • Casual", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Footwear/Men/Shoes/Products/smfp2.png", "/Footwear/Men/Shoes/Products/smfp2_1.png", "/Footwear/Men/Shoes/Products/smfp2_2.png", "/Footwear/Men/Shoes/Products/smfp2_3.png", "/Footwear/Men/Shoes/Products/smfp2_4.png"],
+      images: ["/Footwear/Men/Shoes/Products/smfp2.webp", "/Footwear/Men/Shoes/Products/smfp2_1.webp", "/Footwear/Men/Shoes/Products/smfp2_2.webp", "/Footwear/Men/Shoes/Products/smfp2_3.webp", "/Footwear/Men/Shoes/Products/smfp2_4.webp"],
       tag: "Trending", 
       color: "White", 
       rating: "4.7", 
@@ -104,7 +104,7 @@ const ShoesMenFootwear = () => {
       sub: "Shoes • Formal", 
       price: 1999, 
       oldPrice: 2999, 
-      images: ["/Footwear/Men/Shoes/Products/smfp3.png", "/Footwear/Men/Shoes/Products/smfp3_1.png", "/Footwear/Men/Shoes/Products/smfp3_2.png", "/Footwear/Men/Shoes/Products/smfp3_3.png", "/Footwear/Men/Shoes/Products/smfp3_4.png"],
+      images: ["/Footwear/Men/Shoes/Products/smfp3.webp", "/Footwear/Men/Shoes/Products/smfp3_1.webp", "/Footwear/Men/Shoes/Products/smfp3_2.webp", "/Footwear/Men/Shoes/Products/smfp3_3.webp", "/Footwear/Men/Shoes/Products/smfp3_4.webp"],
       tag: "Luxury", 
       color: "Brown", 
       rating: "4.8", 
@@ -120,7 +120,7 @@ const ShoesMenFootwear = () => {
       sub: "Shoes • Casual", 
       price: 1749, 
       oldPrice: 3499, 
-      images: ["/Footwear/Men/Shoes/Products/smfp4.png", "/Footwear/Men/Shoes/Products/smfp4_1.png", "/Footwear/Men/Shoes/Products/smfp4_2.png", "/Footwear/Men/Shoes/Products/smfp4_3.png", "/Footwear/Men/Shoes/Products/smfp4_4.png"],
+      images: ["/Footwear/Men/Shoes/Products/smfp4.webp", "/Footwear/Men/Shoes/Products/smfp4_1.webp", "/Footwear/Men/Shoes/Products/smfp4_2.webp", "/Footwear/Men/Shoes/Products/smfp4_3.webp", "/Footwear/Men/Shoes/Products/smfp4_4.webp"],
       tag: "Best Seller", 
       color: "Tan", 
       rating: "4.6", 
@@ -322,7 +322,7 @@ const ShoesMenFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Men/Shoes/smfbanner.png"
+                  src="/Footwear/Men/Shoes/smfbanner.webp"
                   alt="Men's Shoes Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

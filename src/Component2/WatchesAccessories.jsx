@@ -26,7 +26,7 @@ const WatchesAccessories = () => {
   const banners = [
     {
       id: 1,
-      image: "/Accessories/Watches/wabanner1.png",
+      image: "/Accessories/Watches/wabanner1.webp",
       titlePart1: "Everyday Style",
       titlePart2: "Casual Watches",
       subtitle: "ACCESSORIES • CASUAL • COMFORT",
@@ -35,7 +35,7 @@ const WatchesAccessories = () => {
     },
     {
       id: 2,
-      image: "/Accessories/Watches/wabanner2.png",
+      image: "/Accessories/Watches/wabanner2.webp",
       titlePart1: "Timeless Elegance",
       titlePart2: "Formal Watches",
       subtitle: "ACCESSORIES • FORMAL • LUXURY",
@@ -50,14 +50,14 @@ const WatchesAccessories = () => {
       id: 1,
       title: "Casual Watches",
       tag: "TRENDY",
-      image: "/Accessories/Watches/casual.png",
+      image: "/Accessories/Watches/casual.webp",
       link: "/accessories/watches/casual"
     },
     {
       id: 2,
       title: "Formal Watches",
       tag: "ELEGANT",
-      image: "/Accessories/Watches/formal.png",
+      image: "/Accessories/Watches/formal.webp",
       link: "/accessories/watches/formal"
     }
   ];
@@ -71,7 +71,7 @@ const WatchesAccessories = () => {
       sub: "Watches • Casual", 
       price: 3499, 
       oldPrice: 6999, 
-      images: ["/Accessories/Watches/Products/wap1.png", "/Accessories/Watches/Products/wap1_1.png", "/Accessories/Watches/Products/wap1_2.png", "/Accessories/Watches/Products/wap1_3.png", "/Accessories/Watches/Products/wap1_4.png"],
+      images: ["/Accessories/Watches/Products/wap1.webp", "/Accessories/Watches/Products/wap1_1.webp", "/Accessories/Watches/Products/wap1_2.webp", "/Accessories/Watches/Products/wap1_3.webp", "/Accessories/Watches/Products/wap1_4.webp"],
       tag: "Best Seller", 
       color: "Black & Silver", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const WatchesAccessories = () => {
       sub: "Watches • Formal", 
       price: 4999, 
       oldPrice: 9999, 
-      images: ["/Accessories/Watches/Products/wap2.png", "/Accessories/Watches/Products/wap2_1.png", "/Accessories/Watches/Products/wap2_2.png", "/Accessories/Watches/Products/wap2_3.png", "/Accessories/Watches/Products/wap2_4.png"],
+      images: ["/Accessories/Watches/Products/wap2.webp", "/Accessories/Watches/Products/wap2_1.webp", "/Accessories/Watches/Products/wap2_2.webp", "/Accessories/Watches/Products/wap2_3.webp", "/Accessories/Watches/Products/wap2_4.webp"],
       tag: "Premium", 
       color: "Brown Leather", 
       rating: "4.9", 
@@ -99,7 +99,7 @@ const WatchesAccessories = () => {
       sub: "Watches • Casual", 
       price: 2799, 
       oldPrice: 5599, 
-      images: ["/Accessories/Watches/Products/wap3.png", "/Accessories/Watches/Products/wap3_1.png", "/Accessories/Watches/Products/wap3_2.png", "/Accessories/Watches/Products/wap3_3.png", "/Accessories/Watches/Products/wap3_4.png"],
+      images: ["/Accessories/Watches/Products/wap3.webp", "/Accessories/Watches/Products/wap3_1.webp", "/Accessories/Watches/Products/wap3_2.webp", "/Accessories/Watches/Products/wap3_3.webp", "/Accessories/Watches/Products/wap3_4.webp"],
       tag: "Trending", 
       color: "Blue & Black", 
       rating: "4.7", 
@@ -113,7 +113,7 @@ const WatchesAccessories = () => {
       sub: "Watches • Formal", 
       price: 6999, 
       oldPrice: 13999, 
-      images: ["/Accessories/Watches/Products/wap4.png", "/Accessories/Watches/Products/wap4_1.png", "/Accessories/Watches/Products/wap4_2.png", "/Accessories/Watches/Products/wap4_3.png", "/Accessories/Watches/Products/wap4_4.png"],
+      images: ["/Accessories/Watches/Products/wap4.webp", "/Accessories/Watches/Products/wap4_1.webp", "/Accessories/Watches/Products/wap4_2.webp", "/Accessories/Watches/Products/wap4_3.webp", "/Accessories/Watches/Products/wap4_4.webp"],
       tag: "Luxury", 
       color: "Gold", 
       rating: "4.9", 
@@ -331,7 +331,7 @@ const WatchesAccessories = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Accessories/Watches/wabanner.png"
+                  src="/Accessories/Watches/wabanner.webp"
                   alt="Watches Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

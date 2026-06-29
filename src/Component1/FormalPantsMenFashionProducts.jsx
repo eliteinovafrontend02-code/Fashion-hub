@@ -41,11 +41,11 @@ const FormalPantsMenFashion = () => {
       features: ["70% Wool 30% Polyester", "Tailored Fit", "Mid-rise", "Pleat front", "Dry clean only"],
       color: "Black",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp1_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp1_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp1_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp1_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp1_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp1_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp1_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const FormalPantsMenFashion = () => {
       features: ["75% Wool 25% Polyester", "Slim Fit", "Mid-rise", "Flat front", "Premium quality"],
       color: "Charcoal",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp2_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp2_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp2_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp2_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp2_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp2_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp2_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const FormalPantsMenFashion = () => {
       features: ["65% Cotton 35% Polyester", "Regular Fit", "Mid-rise", "Flat front", "Machine washable"],
       color: "Navy",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp3_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp3_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp3_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp3_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp3_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp3_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp3_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const FormalPantsMenFashion = () => {
       features: ["100% Pure Linen", "Relaxed Fit", "Mid-rise", "Pleat front", "Lightweight"],
       color: "Beige",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp4.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp4_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp4_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp4_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp4_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp4.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp4_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp4_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp4_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const FormalPantsMenFashion = () => {
       features: ["70% Wool 30% Polyester", "Slim Fit", "Mid-rise", "Flat front", "Patterned fabric"],
       color: "Grey",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp5.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp5_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp5_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp5_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp5_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp5.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp5_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp5_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp5_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const FormalPantsMenFashion = () => {
       features: ["63% Cotton 34% Polyester 3% Elastane", "Tapered Fit", "Mid-rise", "Flat front", "Stretch comfort"],
       color: "Black",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp6.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp6_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp6_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp6_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp6_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp6.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp6_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp6_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp6_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const FormalPantsMenFashion = () => {
       features: ["75% Wool 25% Polyester", "Regular Fit", "Mid-rise", "Pleat front", "Herringbone pattern"],
       color: "Brown",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp7.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp7_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp7_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp7_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp7_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp7.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp7_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp7_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp7_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const FormalPantsMenFashion = () => {
       features: ["100% Pure Linen", "Relaxed Fit", "Mid-rise", "Flat front", "Summer essential"],
       color: "White",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp8.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp8_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp8_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp8_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp8_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp8.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp8_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp8_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp8_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const FormalPantsMenFashion = () => {
       features: ["70% Wool 30% Polyester", "Tailored Fit", "Mid-rise", "Flat front", "Pinstripe pattern"],
       color: "Navy",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp9.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp9_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp9_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp9_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp9_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp9.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp9_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp9_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp9_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const FormalPantsMenFashion = () => {
       features: ["70% Cotton 30% Polyester", "Regular Fit", "Mid-rise", "Flat front", "Easy care"],
       color: "Khaki",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp10.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp10_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp10_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp10_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp10_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp10.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp10_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp10_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp10_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const FormalPantsMenFashion = () => {
       features: ["80% Wool 20% Polyester", "Slim Fit", "Mid-rise", "Flat front", "Windowpane pattern"],
       color: "Charcoal",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp11.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp11_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp11_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp11_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp11_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp11.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp11_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp11_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp11_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const FormalPantsMenFashion = () => {
       features: ["68% Cotton 29% Polyester 3% Elastane", "Slim Fit", "Mid-rise", "Flat front", "Maximum comfort"],
       color: "Navy",
       images: [
-        "/Fashion/Men/Pants/Formal/Products/fpmfp12.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp12_1.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp12_2.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp12_3.png",
-        "/Fashion/Men/Pants/Formal/Products/fpmfp12_4.png"
+        "/Fashion/Men/Pants/Formal/Products/fpmfp12.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp12_1.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp12_2.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp12_3.webp",
+        "/Fashion/Men/Pants/Formal/Products/fpmfp12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const FormalPantsMenFashion = () => {
             src="/Fashion/Men/Pants/Formal"
             alt="Formal Pants Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Men/Pants/Formal/fpmfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Men/Pants/Formal/fpmfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

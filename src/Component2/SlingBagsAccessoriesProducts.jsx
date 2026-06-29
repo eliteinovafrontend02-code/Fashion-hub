@@ -41,11 +41,11 @@ const SlingBagsAccessories = () => {
       features: ["Premium Leather", "Adjustable Strap", "Compact Design", "Zipper Closure", "Durable"],
       color: "Brown",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap1.png",
-        "/Accessories/Bags/Sling/Products/sbap1_1.png",
-        "/Accessories/Bags/Sling/Products/sbap1_2.png",
-        "/Accessories/Bags/Sling/Products/sbap1_3.png",
-        "/Accessories/Bags/Sling/Products/sbap1_4.png"
+        "/Accessories/Bags/Sling/Products/sbap1.webp",
+        "/Accessories/Bags/Sling/Products/sbap1_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap1_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap1_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const SlingBagsAccessories = () => {
       features: ["Faux Leather", "Adjustable Strap", "Lightweight", "Multiple Pockets", "Zipper Closure"],
       color: "Black",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap2.png",
-        "/Accessories/Bags/Sling/Products/sbap2_1.png",
-        "/Accessories/Bags/Sling/Products/sbap2_2.png",
-        "/Accessories/Bags/Sling/Products/sbap2_3.png",
-        "/Accessories/Bags/Sling/Products/sbap2_4.png"
+        "/Accessories/Bags/Sling/Products/sbap2.webp",
+        "/Accessories/Bags/Sling/Products/sbap2_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap2_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap2_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const SlingBagsAccessories = () => {
       features: ["Durable Canvas", "Adjustable Strap", "Compact Design", "Front Pocket", "Casual Style"],
       color: "Beige",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap3.png",
-        "/Accessories/Bags/Sling/Products/sbap3_1.png",
-        "/Accessories/Bags/Sling/Products/sbap3_2.png",
-        "/Accessories/Bags/Sling/Products/sbap3_3.png",
-        "/Accessories/Bags/Sling/Products/sbap3_4.png"
+        "/Accessories/Bags/Sling/Products/sbap3.webp",
+        "/Accessories/Bags/Sling/Products/sbap3_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap3_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap3_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const SlingBagsAccessories = () => {
       features: ["Genuine Leather", "Drawstring Closure", "Adjustable Strap", "Compact Design", "Modern Style"],
       color: "Tan",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap4.png",
-        "/Accessories/Bags/Sling/Products/sbap4_1.png",
-        "/Accessories/Bags/Sling/Products/sbap4_2.png",
-        "/Accessories/Bags/Sling/Products/sbap4_3.png",
-        "/Accessories/Bags/Sling/Products/sbap4_4.png"
+        "/Accessories/Bags/Sling/Products/sbap4.webp",
+        "/Accessories/Bags/Sling/Products/sbap4_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap4_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap4_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const SlingBagsAccessories = () => {
       features: ["Faux Leather", "Boho Design", "Adjustable Strap", "Compact Size", "Party Essential"],
       color: "Gold",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap5.png",
-        "/Accessories/Bags/Sling/Products/sbap5_1.png",
-        "/Accessories/Bags/Sling/Products/sbap5_2.png",
-        "/Accessories/Bags/Sling/Products/sbap5_3.png",
-        "/Accessories/Bags/Sling/Products/sbap5_4.png"
+        "/Accessories/Bags/Sling/Products/sbap5.webp",
+        "/Accessories/Bags/Sling/Products/sbap5_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap5_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap5_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const SlingBagsAccessories = () => {
       features: ["Soft Canvas", "Vibrant Prints", "Adjustable Strap", "Compact Design", "Casual Style"],
       color: "Multicolor",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap6.png",
-        "/Accessories/Bags/Sling/Products/sbap6_1.png",
-        "/Accessories/Bags/Sling/Products/sbap6_2.png",
-        "/Accessories/Bags/Sling/Products/sbap6_3.png",
-        "/Accessories/Bags/Sling/Products/sbap6_4.png"
+        "/Accessories/Bags/Sling/Products/sbap6.webp",
+        "/Accessories/Bags/Sling/Products/sbap6_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap6_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap6_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const SlingBagsAccessories = () => {
       features: ["Premium Leather", "Phone Size", "Adjustable Strap", "Front Pocket", "Everyday Use"],
       color: "Black",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap7.png",
-        "/Accessories/Bags/Sling/Products/sbap7_1.png",
-        "/Accessories/Bags/Sling/Products/sbap7_2.png",
-        "/Accessories/Bags/Sling/Products/sbap7_3.png",
-        "/Accessories/Bags/Sling/Products/sbap7_4.png"
+        "/Accessories/Bags/Sling/Products/sbap7.webp",
+        "/Accessories/Bags/Sling/Products/sbap7_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap7_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap7_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const SlingBagsAccessories = () => {
       features: ["Faux Leather", "Crescent Shape", "Adjustable Strap", "Compact Design", "Fashion Forward"],
       color: "Pink",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap8.png",
-        "/Accessories/Bags/Sling/Products/sbap8_1.png",
-        "/Accessories/Bags/Sling/Products/sbap8_2.png",
-        "/Accessories/Bags/Sling/Products/sbap8_3.png",
-        "/Accessories/Bags/Sling/Products/sbap8_4.png"
+        "/Accessories/Bags/Sling/Products/sbap8.webp",
+        "/Accessories/Bags/Sling/Products/sbap8_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap8_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap8_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const SlingBagsAccessories = () => {
       features: ["Canvas", "Tassel Details", "Adjustable Strap", "Boho Design", "Lightweight"],
       color: "Navy",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap9.png",
-        "/Accessories/Bags/Sling/Products/sbap9_1.png",
-        "/Accessories/Bags/Sling/Products/sbap9_2.png",
-        "/Accessories/Bags/Sling/Products/sbap9_3.png",
-        "/Accessories/Bags/Sling/Products/sbap9_4.png"
+        "/Accessories/Bags/Sling/Products/sbap9.webp",
+        "/Accessories/Bags/Sling/Products/sbap9_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap9_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap9_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const SlingBagsAccessories = () => {
       features: ["Premium Leather", "Envelope Design", "Adjustable Strap", "Compact Size", "Elegant Style"],
       color: "Red",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap10.png",
-        "/Accessories/Bags/Sling/Products/sbap10_1.png",
-        "/Accessories/Bags/Sling/Products/sbap10_2.png",
-        "/Accessories/Bags/Sling/Products/sbap10_3.png",
-        "/Accessories/Bags/Sling/Products/sbap10_4.png"
+        "/Accessories/Bags/Sling/Products/sbap10.webp",
+        "/Accessories/Bags/Sling/Products/sbap10_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap10_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap10_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const SlingBagsAccessories = () => {
       features: ["Faux Leather", "Multiple Compartments", "Adjustable Strap", "Zipper Closure", "Organized Design"],
       color: "Black",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap11.png",
-        "/Accessories/Bags/Sling/Products/sbap11_1.png",
-        "/Accessories/Bags/Sling/Products/sbap11_2.png",
-        "/Accessories/Bags/Sling/Products/sbap11_3.png",
-        "/Accessories/Bags/Sling/Products/sbap11_4.png"
+        "/Accessories/Bags/Sling/Products/sbap11.webp",
+        "/Accessories/Bags/Sling/Products/sbap11_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap11_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap11_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const SlingBagsAccessories = () => {
       features: ["Heavy Duty Canvas", "Roomy Interior", "Adjustable Strap", "Multiple Pockets", "Travel Essential"],
       color: "Olive",
       images: [
-        "/Accessories/Bags/Sling/Products/sbap12.png",
-        "/Accessories/Bags/Sling/Products/sbap12_1.png",
-        "/Accessories/Bags/Sling/Products/sbap12_2.png",
-        "/Accessories/Bags/Sling/Products/sbap12_3.png",
-        "/Accessories/Bags/Sling/Products/sbap12_4.png"
+        "/Accessories/Bags/Sling/Products/sbap12.webp",
+        "/Accessories/Bags/Sling/Products/sbap12_1.webp",
+        "/Accessories/Bags/Sling/Products/sbap12_2.webp",
+        "/Accessories/Bags/Sling/Products/sbap12_3.webp",
+        "/Accessories/Bags/Sling/Products/sbap12_4.webp"
       ]
     }
   ];
@@ -401,7 +401,7 @@ const SlingBagsAccessories = () => {
             src="/Accessories/Bags/Sling"
             alt="Sling Bags Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Accessories/Bags/Sling/sbabanner.png"; }}
+            onError={(e) => { e.target.src = "/Accessories/Bags/Sling/sbabanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

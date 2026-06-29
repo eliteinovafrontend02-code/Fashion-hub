@@ -26,7 +26,7 @@ const BagsAccessories = () => {
   const banners = [
     {
       id: 1,
-      image: "/Accessories/Bags/babanner1.png",
+      image: "/Accessories/Bags/babanner1.webp",
       titlePart1: "Everyday Elegance",
       titlePart2: "Handbags",
       subtitle: "ACCESSORIES • HANDBAGS • STYLE",
@@ -35,7 +35,7 @@ const BagsAccessories = () => {
     },
     {
       id: 2,
-      image: "/Accessories/Bags/babanner2.png",
+      image: "/Accessories/Bags/babanner2.webp",
       titlePart1: "Chic & Compact",
       titlePart2: "Sling Bags",
       subtitle: "ACCESSORIES • SLING • TRENDY",
@@ -50,14 +50,14 @@ const BagsAccessories = () => {
       id: 1,
       title: "Handbags",
       tag: "ELEGANT",
-      image: "/Accessories/Bags/handbag.png",
+      image: "/Accessories/Bags/handbag.webp",
       link: "/accessories/bags/handbag"
     },
     {
       id: 2,
       title: "Sling Bags",
       tag: "TRENDY",
-      image: "/Accessories/Bags/sling.png",
+      image: "/Accessories/Bags/sling.webp",
       link: "/accessories/bags/sling"
     }
   ];
@@ -71,7 +71,7 @@ const BagsAccessories = () => {
       sub: "Bags • Handbag", 
       price: 2499, 
       oldPrice: 4999, 
-      images: ["/Accessories/Bags/Products/bap1.png", "/Accessories/Bags/Products/bap1_1.png", "/Accessories/Bags/Products/bap1_2.png", "/Accessories/Bags/Products/bap1_3.png", "/Accessories/Bags/Products/bap1_4.png"],
+      images: ["/Accessories/Bags/Products/bap1.webp", "/Accessories/Bags/Products/bap1_1.webp", "/Accessories/Bags/Products/bap1_2.webp", "/Accessories/Bags/Products/bap1_3.webp", "/Accessories/Bags/Products/bap1_4.webp"],
       tag: "Best Seller", 
       color: "Brown", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const BagsAccessories = () => {
       sub: "Bags • Sling", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Accessories/Bags/Products/bap2.png", "/Accessories/Bags/Products/bap2_1.png", "/Accessories/Bags/Products/bap2_2.png", "/Accessories/Bags/Products/bap2_3.png", "/Accessories/Bags/Products/bap2_4.png"],
+      images: ["/Accessories/Bags/Products/bap2.webp", "/Accessories/Bags/Products/bap2_1.webp", "/Accessories/Bags/Products/bap2_2.webp", "/Accessories/Bags/Products/bap2_3.webp", "/Accessories/Bags/Products/bap2_4.webp"],
       tag: "Trending", 
       color: "Black & Gold", 
       rating: "4.7", 
@@ -99,7 +99,7 @@ const BagsAccessories = () => {
       sub: "Bags • Handbag", 
       price: 2999, 
       oldPrice: 5999, 
-      images: ["/Accessories/Bags/Products/bap3.png", "/Accessories/Bags/Products/bap3_1.png", "/Accessories/Bags/Products/bap3_2.png", "/Accessories/Bags/Products/bap3_3.png", "/Accessories/Bags/Products/bap3_4.png"],
+      images: ["/Accessories/Bags/Products/bap3.webp", "/Accessories/Bags/Products/bap3_1.webp", "/Accessories/Bags/Products/bap3_2.webp", "/Accessories/Bags/Products/bap3_3.webp", "/Accessories/Bags/Products/bap3_4.webp"],
       tag: "Premium", 
       color: "Navy Blue", 
       rating: "4.9", 
@@ -113,7 +113,7 @@ const BagsAccessories = () => {
       sub: "Bags • Sling", 
       price: 899, 
       oldPrice: 1799, 
-      images: ["/Accessories/Bags/Products/bap4.png", "/Accessories/Bags/Products/bap4_1.png", "/Accessories/Bags/Products/bap4_2.png", "/Accessories/Bags/Products/bap4_3.png", "/Accessories/Bags/Products/bap4_4.png"],
+      images: ["/Accessories/Bags/Products/bap4.webp", "/Accessories/Bags/Products/bap4_1.webp", "/Accessories/Bags/Products/bap4_2.webp", "/Accessories/Bags/Products/bap4_3.webp", "/Accessories/Bags/Products/bap4_4.webp"],
       tag: "Best Seller", 
       color: "Pink", 
       rating: "4.6", 
@@ -332,7 +332,7 @@ const BagsAccessories = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Accessories/Bags/babanner.png"
+                  src="/Accessories/Bags/babanner.webp"
                   alt="Bags Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

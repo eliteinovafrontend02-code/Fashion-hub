@@ -27,257 +27,257 @@ const SandalsBoyKidsFootwear = () => {
 
   const sandalsBoyProducts = [
     {
-      id: 1,
-      name: "Classic Leather Sandals",
-      fabric: "Leather",
-      price: 1299,
-      oldPrice: 2099,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Classic leather sandals for boys with a comfortable fit. The premium leather construction and cushioned footbed make them perfect for summer, casual outings, and everyday wear.",
-      features: ["Premium Leather", "Cushioned Footbed", "Adjustable Straps", "Durable", "Comfortable Fit"],
-      color: "Brown",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp1_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp1_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp1_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Canvas Casual Sandals",
-      fabric: "Canvas",
-      price: 899,
-      oldPrice: 1499,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Durable Canvas",
-      description: "Lightweight canvas casual sandals for active boys. The breathable canvas material and flexible sole make them perfect for play, beach, and summer adventures.",
-      features: ["Durable Canvas", "Lightweight", "Adjustable Straps", "Flexible Sole", "Breathable"],
-      color: "Blue",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp2_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp2_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp2_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Synthetic Sport Sandals",
-      fabric: "Synthetic",
-      price: 1099,
-      oldPrice: 1799,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Durable Synthetic",
-      description: "Stylish synthetic sport sandals designed for active kids. The durable synthetic material and cushioned sole make them perfect for outdoor activities, sports, and summer fun.",
-      features: ["Durable Synthetic", "Cushioned Sole", "Adjustable Straps", "Breathable", "Sporty Design"],
-      color: "Red",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp3_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp3_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp3_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Leather Strap Sandals",
-      fabric: "Leather",
-      price: 1499,
-      oldPrice: 2399,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Stylish leather strap sandals for boys with a rugged design. The premium leather and sturdy construction make them perfect for summer, outdoor adventures, and casual wear.",
-      features: ["Premium Leather", "Sturdy Construction", "Adjustable Straps", "Cushioned Insole", "Durable"],
-      color: "Tan",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp4.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp4_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp4_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp4_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Canvas Print Sandals",
-      fabric: "Canvas",
-      price: 799,
-      oldPrice: 1299,
-      rating: 4.4,
-      reviews: 987,
-      tag: "Essential",
-      sub: "Colorful Canvas",
-      description: "Colorful canvas print sandals with fun designs. The vibrant prints and comfortable canvas material make them perfect for playdates, beach trips, and summer outings.",
-      features: ["Colorful Canvas", "Fun Prints", "Adjustable Straps", "Comfortable Fit", "Playful Design"],
-      color: "Multicolor",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp5.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp5_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp5_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp5_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Synthetic Slides",
-      fabric: "Synthetic",
-      price: 699,
-      oldPrice: 1199,
-      rating: 4.3,
-      reviews: 876,
-      tag: "Sale",
-      sub: "Comfort Synthetic",
-      description: "Comfortable synthetic slides for easy wear. The lightweight material and slip-on design make them perfect for poolside, beach, and casual summer days.",
-      features: ["Comfort Synthetic", "Slip-on Style", "Lightweight", "Cushioned Footbed", "Easy Wear"],
-      color: "Black",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp6.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp6_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp6_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp6_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Leather Ankle Strap Sandals",
-      fabric: "Leather",
-      price: 1699,
-      oldPrice: 2699,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Elegant leather ankle strap sandals for boys with a sophisticated look. The premium leather and stylish ankle strap make them perfect for parties, outings, and special occasions.",
-      features: ["Premium Leather", "Ankle Strap", "Adjustable Fit", "Cushioned Insole", "Elegant Design"],
-      color: "Black",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp7.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp7_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp7_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp7_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Canvas Flip Flops",
-      fabric: "Canvas",
-      price: 599,
-      oldPrice: 999,
-      rating: 4.2,
-      reviews: 654,
-      tag: "Essential",
-      sub: "Soft Canvas",
-      description: "Soft canvas flip flops for easy summer wear. The lightweight material and simple design make them perfect for beach, pool, and casual days.",
-      features: ["Soft Canvas", "Flip Flop Style", "Lightweight", "Comfortable Fit", "Summer Essential"],
-      color: "Navy",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp8.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp8_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp8_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp8_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Synthetic Outdoor Sandals",
-      fabric: "Synthetic",
-      price: 1199,
-      oldPrice: 1899,
-      rating: 4.5,
-      reviews: 789,
-      tag: "Trending",
-      sub: "Sport Synthetic",
-      description: "Durable synthetic outdoor sandals for adventurous boys. The sturdy material and rugged sole make them perfect for hiking, camping, and outdoor exploration.",
-      features: ["Sport Synthetic", "Rugged Sole", "Adjustable Straps", "Durable", "Outdoor Ready"],
-      color: "Green",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp9.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp9_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp9_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp9_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Leather Buckle Sandals",
-      fabric: "Leather",
-      price: 1599,
-      oldPrice: 2499,
-      rating: 4.6,
-      reviews: 1345,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Stylish leather buckle sandals for boys with a classic design. The premium leather and buckle closure make them perfect for summer, outings, and casual wear.",
-      features: ["Premium Leather", "Buckle Closure", "Adjustable Fit", "Cushioned Insole", "Classic Design"],
-      color: "Brown",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp10.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp10_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp10_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp10_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Canvas Sport Sandals",
-      fabric: "Canvas",
-      price: 999,
-      oldPrice: 1599,
-      rating: 4.4,
-      reviews: 567,
-      tag: "New",
-      sub: "Durable Canvas",
-      description: "Comfortable canvas sport sandals for active boys. The breathable canvas and sporty design make them perfect for play, sports, and summer activities.",
-      features: ["Durable Canvas", "Sporty Design", "Adjustable Straps", "Comfortable Fit", "Summer Fun"],
-      color: "Grey",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp11.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp11_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp11_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp11_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Synthetic Light-up Sandals",
-      fabric: "Synthetic",
-      price: 1299,
-      oldPrice: 1999,
-      rating: 4.3,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Fun Synthetic",
-      description: "Fun synthetic light-up sandals that kids will love. The colorful lights and comfortable design make them perfect for parties, playdates, and summer evenings.",
-      features: ["Fun Synthetic", "Light-up Feature", "Adjustable Straps", "Comfortable Fit", "Playful Design"],
-      color: "Blue",
-      images: [
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp12.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp12_1.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp12_2.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp12_3.png",
-        "/Footwear/Kids/Boy/Sandals/Products/sbkfp12_4.png"
-      ]
-    }
+    id: 1,
+    name: "Classic Leather Sandals",
+    fabric: "Leather",
+    price: 449,
+    oldPrice: 749,
+    rating: 4.8,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Premium Soft Leather",
+    description: "Soft leather baby sandals designed for tiny feet. The premium leather and cushioned footbed make them perfect for summer, casual outings, and keeping little feet comfortable.",
+    features: ["Soft Leather", "Cushioned Footbed", "Adjustable Straps", "Durable", "Comfortable Fit"],
+    color: "Brown",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp1_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp1_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp1_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp1_4.webp"
+    ]
+  },
+  {
+    id: 2,
+    name: "Canvas Casual Sandals",
+    fabric: "Canvas",
+    price: 299,
+    oldPrice: 499,
+    rating: 4.7,
+    reviews: 1876,
+    tag: "Trending",
+    sub: "Soft Canvas",
+    description: "Lightweight canvas baby sandals for active little ones. The breathable canvas material and flexible sole make them perfect for play, beach, and summer adventures.",
+    features: ["Soft Canvas", "Lightweight", "Adjustable Straps", "Flexible Sole", "Breathable"],
+    color: "Blue",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp2_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp2_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp2_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp2_4.webp"
+    ]
+  },
+  {
+    id: 3,
+    name: "Synthetic Sport Sandals",
+    fabric: "Synthetic",
+    price: 399,
+    oldPrice: 649,
+    rating: 4.6,
+    reviews: 1567,
+    tag: "Popular",
+    sub: "Durable Synthetic",
+    description: "Stylish synthetic sport sandals designed for active babies. The durable synthetic material and cushioned sole make them perfect for outdoor activities and summer fun.",
+    features: ["Durable Synthetic", "Cushioned Sole", "Adjustable Straps", "Breathable", "Sporty Design"],
+    color: "Red",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp3_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp3_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp3_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp3_4.webp"
+    ]
+  },
+  {
+    id: 4,
+    name: "Leather Strap Sandals",
+    fabric: "Leather",
+    price: 499,
+    oldPrice: 799,
+    rating: 4.5,
+    reviews: 1234,
+    tag: "Classic",
+    sub: "Premium Soft Leather",
+    description: "Breathable leather strap baby sandals for summer comfort. The soft leather and lightweight design keep little feet cool and comfortable during warm weather.",
+    features: ["Soft Leather", "Lightweight", "Adjustable Straps", "Cushioned Insole", "Summer Ready"],
+    color: "Tan",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp4.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp4_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp4_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp4_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp4_4.webp"
+    ]
+  },
+  {
+    id: 5,
+    name: "Canvas Print Sandals",
+    fabric: "Canvas",
+    price: 249,
+    oldPrice: 399,
+    rating: 4.4,
+    reviews: 987,
+    tag: "Essential",
+    sub: "Colorful Canvas",
+    description: "Colorful canvas print baby sandals with fun designs. The vibrant prints and comfortable canvas material make them perfect for playdates, beach trips, and summer outings.",
+    features: ["Colorful Canvas", "Fun Prints", "Adjustable Straps", "Comfortable Fit", "Playful Design"],
+    color: "Multicolor",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp5.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp5_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp5_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp5_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp5_4.webp"
+    ]
+  },
+  {
+    id: 6,
+    name: "Synthetic Slides",
+    fabric: "Synthetic",
+    price: 199,
+    oldPrice: 349,
+    rating: 4.3,
+    reviews: 876,
+    tag: "Sale",
+    sub: "Comfort Synthetic",
+    description: "Comfortable synthetic baby slides for easy wear. The lightweight material and slip-on design make them perfect for poolside, beach, and casual summer days.",
+    features: ["Comfort Synthetic", "Slip-on Style", "Lightweight", "Cushioned Footbed", "Easy Wear"],
+    color: "Black",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp6.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp6_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp6_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp6_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp6_4.webp"
+    ]
+  },
+  {
+    id: 7,
+    name: "Leather Ankle Strap Sandals",
+    fabric: "Leather",
+    price: 549,
+    oldPrice: 899,
+    rating: 4.7,
+    reviews: 1123,
+    tag: "Bestseller",
+    sub: "Premium Soft Leather",
+    description: "Soft leather baby ankle strap sandals with a cute look. The premium leather and adjustable ankle strap make them perfect for parties, outings, and special occasions.",
+    features: ["Premium Leather", "Ankle Strap", "Adjustable Fit", "Cushioned Insole", "Cute Design"],
+    color: "Black",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp7.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp7_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp7_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp7_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp7_4.webp"
+    ]
+  },
+  {
+    id: 8,
+    name: "Canvas Flip Flops",
+    fabric: "Canvas",
+    price: 179,
+    oldPrice: 299,
+    rating: 4.2,
+    reviews: 654,
+    tag: "Essential",
+    sub: "Soft Canvas",
+    description: "Soft canvas baby flip flops for easy summer wear. The lightweight material and simple design make them perfect for beach, pool, and casual days.",
+    features: ["Soft Canvas", "Flip Flop Style", "Lightweight", "Comfortable Fit", "Summer Essential"],
+    color: "Navy",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp8.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp8_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp8_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp8_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp8_4.webp"
+    ]
+  },
+  {
+    id: 9,
+    name: "Synthetic Outdoor Sandals",
+    fabric: "Synthetic",
+    price: 449,
+    oldPrice: 699,
+    rating: 4.5,
+    reviews: 789,
+    tag: "Trending",
+    sub: "Durable Synthetic",
+    description: "Durable synthetic outdoor baby sandals for adventurous little ones. The sturdy material and comfortable sole make them perfect for outdoor exploration and summer adventures.",
+    features: ["Durable Synthetic", "Comfortable Sole", "Adjustable Straps", "Breathable", "Outdoor Ready"],
+    color: "Green",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp9.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp9_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp9_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp9_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp9_4.webp"
+    ]
+  },
+  {
+    id: 10,
+    name: "Synthetic Slides",
+    fabric: "Synthetic",
+     price: 249,
+    oldPrice: 389,
+    rating: 4.3,
+    reviews: 1876,
+    tag: "Sale",
+    sub: "Comfort Synthetic",
+    description: "Comfortable synthetic baby slides for easy wear. The lightweight material and slip-on design make them perfect for poolside, beach, and casual summer days.",
+    features: ["Comfort Synthetic", "Slip-on Style", "Lightweight", "Cushioned Footbed", "Easy Wear"],
+    color: "Red",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp10.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp10_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp10_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp10_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp10_4.webp"
+    ]
+  },
+  {
+    id: 11,
+    name: "Canvas Sport Sandals",
+    fabric: "Canvas",
+    price: 349,
+    oldPrice: 549,
+    rating: 4.4,
+    reviews: 567,
+    tag: "New",
+    sub: "Soft Canvas",
+    description: "Comfortable canvas sport baby sandals for active little ones. The breathable canvas and sporty design make them perfect for play, outings, and summer activities.",
+    features: ["Soft Canvas", "Sporty Design", "Adjustable Straps", "Comfortable Fit", "Summer Fun"],
+    color: "Grey",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp11.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp11_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp11_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp11_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp11_4.webp"
+    ]
+  },
+  {
+    id: 12,
+    name: "Synthetic Light-up Sandals",
+    fabric: "Synthetic",
+    price: 399,
+    oldPrice: 649,
+    rating: 4.3,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Fun Synthetic",
+    description: "Fun synthetic light-up baby sandals that kids will love. The colorful lights and comfortable design make them perfect for parties, playdates, and summer evenings.",
+    features: ["Fun Synthetic", "Light-up Feature", "Adjustable Straps", "Comfortable Fit", "Playful Design"],
+    color: "Blue",
+    images: [
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp12.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp12_1.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp12_2.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp12_3.webp",
+      "/Footwear/Kids/Boy/Sandals/Products/sbkfp12_4.webp"
+    ]
+  }
   ];
 
   const filters = ['all', 'Leather', 'Canvas', 'Synthetic'];
@@ -400,7 +400,7 @@ const SandalsBoyKidsFootwear = () => {
             src="/Footwear/Kids/Boy/Sandals"
             alt="Boys Sandals Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Kids/Boy/Sandals/sbkfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Kids/Boy/Sandals/sbkfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

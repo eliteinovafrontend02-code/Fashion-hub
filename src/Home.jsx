@@ -9,21 +9,21 @@ const Home = () => {
   const banners = [
     {
       id: 1,
-      image: "/hbanner1.png",
+      image: "/hbanner1.webp",
       title: "Flat 50% OFF 🔥",
       subtitle: "On all fashion collections",
       button: "Shop Now"
     },
     {
       id: 2,
-      image: "/hbanner2.png",
+      image: "/hbanner2.webp",
       title: "Redefining Everyday Fashion ✨",
       subtitle: "Step into a world of fashion where style meets comfort. Explore our latest arrivals crafted with attention to detail and modern trends. Whether you're dressing up or keeping it casual, find pieces that express your personality and make every moment stylish.",
       button: "Explore"
     },
     {
       id: 3,
-      image: "/hbanner3.png",
+      image: "/hbanner3.webp",
       title: "Trendy Accessories✨",
       button: "Shop Now"
     }
@@ -80,7 +80,7 @@ const Home = () => {
       category: "Fashion",
       price: 1499,
       oldPrice: 2499,
-      image: "hproduct1.png",
+      image: "hproduct1.webp",
       tag: "Trending"
     },
     {
@@ -89,7 +89,7 @@ const Home = () => {
       category: "Accessories",
       price: 999,
       oldPrice: 1599,
-      image: "hproduct2.png",
+      image: "hproduct2.webp",
       tag: "Best Seller"
     },
     {
@@ -98,7 +98,7 @@ const Home = () => {
       category: "Footwear",
       price: 1299,
       oldPrice: 1999,
-      image: "/hproduct3.png",
+      image: "/hproduct3.webp",
       tag: "Hot"
     },
     {
@@ -107,7 +107,7 @@ const Home = () => {
       category: "Beauty",
       price: 699,
       oldPrice: 999,
-      image: "hproduct4.png",
+      image: "hproduct4.webp",
       tag: "New"
     }
   ]
@@ -259,11 +259,11 @@ const Home = () => {
         <div className="flex justify-center gap-14 flex-wrap">
 
           {[
-            { name: "Fashion", path: "/fashion", image: "/cfashion.png" },
-            { name: "Accessories", path: "/accessories", image: "caccessories.png" },
-            { name: "Footwear", path: "/footwear", image: "cfootwear.png" },
-            { name: "Beauty", path: "/beauty", image: "cbeauty.png" },
-            { name: "Jewellery", path: "/jewellery", image: "cjewellery.png" }
+            { name: "Fashion", path: "/fashion", image: "/cfashion.webp" },
+            { name: "Accessories", path: "/accessories", image: "caccessories.webp" },
+            { name: "Footwear", path: "/footwear", image: "cfootwear.webp" },
+            { name: "Beauty", path: "/beauty", image: "cbeauty.webp" },
+            { name: "Jewellery", path: "/jewellery", image: "cjewellery.webp" }
           ].map((item, index) => (
 
             <Link to={item.path} key={index} className="group text-center">
@@ -349,7 +349,7 @@ const Home = () => {
             <div className="bg-[#e9dccb] p-6 rounded-3xl shadow-xl overflow-hidden group transition duration-500 hover:shadow-2xl hover:-translate-y-2">
 
               <img
-                src="/abanner.png"
+                src="/abanner.webp"
                 alt="about"
                 className="w-[420px] md:w-[580px] h-[420px] md:h-[520px] object-cover rounded-2xl transition duration-500 group-hover:scale-110"
               />
@@ -470,7 +470,7 @@ const Home = () => {
     <div className="w-full md:w-1/2 relative group">
       <div className="absolute -inset-4 bg-gradient-to-r from-orange-200 to-pink-200 rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition duration-500"></div>
       <img 
-        src="/sbanner.png"
+        src="/sbanner.webp"
         alt="Our Services" 
         className="relative rounded-2xl shadow-2xl w-full h-[400px] object-cover transform transition duration-500 group-hover:scale-[1.02]"
       />
@@ -641,7 +641,7 @@ const Home = () => {
     {/* 📸 RIGHT SIDE: BRAND IMAGE */}
     <div className="w-full lg:w-1/2 h-[400px] lg:h-auto relative">
       <img 
-        src="/cbanner.png" 
+        src="/cbanner.webp" 
         alt="Customer Support" 
         className="w-full h-full object-cover"
       />

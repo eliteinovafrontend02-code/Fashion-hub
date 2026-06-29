@@ -26,7 +26,7 @@ const MenFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Men/mfbanner1.png",
+      image: "/Footwear/Men/mfbanner1.webp",
       titlePart1: "Step Into",
       titlePart2: "Premium Shoes",
       subtitle: "MEN • SHOES • COMFORT",
@@ -35,7 +35,7 @@ const MenFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Men/mfbanner2.png",
+      image: "/Footwear/Men/mfbanner2.webp",
       titlePart1: "Summer Ready",
       titlePart2: "Trendy Sandals",
       subtitle: "MEN • SANDALS • CASUAL",
@@ -50,14 +50,14 @@ const MenFootwear = () => {
       id: 1,
       title: "Shoes",
       tag: "ESSENTIALS",
-      image: "/Footwear/Men/shoe.png",
+      image: "/Footwear/Men/shoe.webp",
       link: "/footwear/men/shoes"
     },
     {
       id: 2,
       title: "Sandals",
       tag: "COMFORT",
-      image: "/Footwear/Men/sandal.png",
+      image: "/Footwear/Men/sandal.webp",
       link: "/footwear/men/sandals"
     }
   ];
@@ -71,7 +71,7 @@ const MenFootwear = () => {
       sub: "Shoes • Casual", 
       price: 2499, 
       oldPrice: 4999, 
-      images: ["/Footwear/Men/Products/mfp1.png", "/Footwear/Men/Products/mfp1_1.png", "/Footwear/Men/Products/mfp1_2.png", "/Footwear/Men/Products/mfp1_3.png", "/Footwear/Men/Products/mfp1_4.png"],
+      images: ["/Footwear/Men/Products/mfp1.webp", "/Footwear/Men/Products/mfp1_1.webp", "/Footwear/Men/Products/mfp1_2.webp", "/Footwear/Men/Products/mfp1_3.webp", "/Footwear/Men/Products/mfp1_4.webp"],
       tag: "Best Seller", 
       color: "White/Tan", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const MenFootwear = () => {
       sub: "Shoes • Sports", 
       price: 2999, 
       oldPrice: 5999, 
-      images: ["/Footwear/Men/Products/mfp2.png", "/Footwear/Men/Products/mfp2_1.png", "/Footwear/Men/Products/mfp2_2.png", "/Footwear/Men/Products/mfp2_3.png", "/Footwear/Men/Products/mfp2_4.png"],
+      images: ["/Footwear/Men/Products/mfp2.webp", "/Footwear/Men/Products/mfp2_1.webp", "/Footwear/Men/Products/mfp2_2.webp", "/Footwear/Men/Products/mfp2_3.webp", "/Footwear/Men/Products/mfp2_4.webp"],
       tag: "Essential", 
       color: "Black/Red", 
       rating: "4.6", 
@@ -99,7 +99,7 @@ const MenFootwear = () => {
       sub: "Shoes • Formal", 
       price: 3499, 
       oldPrice: 6999, 
-      images: ["/Footwear/Men/Products/mfp3.png", "/Footwear/Men/Products/mfp3_1.png", "/Footwear/Men/Products/mfp3_2.png", "/Footwear/Men/Products/mfp3_3.png", "/Footwear/Men/Products/mfp3_4.png"],
+      images: ["/Footwear/Men/Products/mfp3.webp", "/Footwear/Men/Products/mfp3_1.webp", "/Footwear/Men/Products/mfp3_2.webp", "/Footwear/Men/Products/mfp3_3.webp", "/Footwear/Men/Products/mfp3_4.webp"],
       tag: "Premium", 
       color: "Brown", 
       rating: "4.9", 
@@ -113,7 +113,7 @@ const MenFootwear = () => {
       sub: "Sandals • Casual", 
       price: 999, 
       oldPrice: 1999, 
-      images: ["/Footwear/Men/Products/mfp4.png", "/Footwear/Men/Products/mfp4_1.png", "/Footwear/Men/Products/mfp4_2.png", "/Footwear/Men/Products/mfp4_3.png", "/Footwear/Men/Products/mfp4_4.png"],
+      images: ["/Footwear/Men/Products/mfp4.webp", "/Footwear/Men/Products/mfp4_1.webp", "/Footwear/Men/Products/mfp4_2.webp", "/Footwear/Men/Products/mfp4_3.webp", "/Footwear/Men/Products/mfp4_4.webp"],
       tag: "Summer Edit", 
       color: "Black", 
       rating: "4.7", 
@@ -315,7 +315,7 @@ const MenFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Men/mfbanner.png"
+                  src="/Footwear/Men/mfbanner.webp"
                   alt="Men's Footwear Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

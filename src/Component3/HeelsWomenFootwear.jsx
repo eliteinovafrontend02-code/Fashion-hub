@@ -26,7 +26,7 @@ const HeelsWomenFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Women/Heels/hwfbanner1.png",
+      image: "/Footwear/Women/Heels/hwfbanner1.webp",
       titlePart1: "Dazzle the Night",
       titlePart2: "Party Heels",
       subtitle: "WOMEN • PARTY • GLAMOUR",
@@ -35,7 +35,7 @@ const HeelsWomenFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Women/Heels/hwfbanner2.png",
+      image: "/Footwear/Women/Heels/hwfbanner2.webp",
       titlePart1: "Everyday Elegance",
       titlePart2: "Casual Heels",
       subtitle: "WOMEN • CASUAL • COMFORT",
@@ -50,14 +50,14 @@ const HeelsWomenFootwear = () => {
       id: 1,
       title: "Party",
       tag: "GLAMOUR",
-      image: "/Footwear/Women/Heels/party.png",
+      image: "/Footwear/Women/Heels/party.webp",
       link: "/footwear/women/heels/party"
     },
     {
       id: 2,
       title: "Casual",
       tag: "COMFORT",
-      image: "/Footwear/Women/Heels/casual.png",
+      image: "/Footwear/Women/Heels/casual.webp",
       link: "/footwear/women/heels/casual"
     }
   ];
@@ -72,7 +72,7 @@ const HeelsWomenFootwear = () => {
       sub: "Heels • Party", 
       price: 2499, 
       oldPrice: 4999, 
-      images: ["/Footwear/Women/Heels/Products/hwfp1.png", "/Footwear/Women/Heels/Products/hwfp1_1.png", "/Footwear/Women/Heels/Products/hwfp1_2.png", "/Footwear/Women/Heels/Products/hwfp1_3.png", "/Footwear/Women/Heels/Products/hwfp1_4.png"],
+      images: ["/Footwear/Women/Heels/Products/hwfp1.webp", "/Footwear/Women/Heels/Products/hwfp1_1.webp", "/Footwear/Women/Heels/Products/hwfp1_2.webp", "/Footwear/Women/Heels/Products/hwfp1_3.webp", "/Footwear/Women/Heels/Products/hwfp1_4.webp"],
       tag: "Luxury", 
       color: "Silver", 
       rating: "4.9", 
@@ -88,7 +88,7 @@ const HeelsWomenFootwear = () => {
       sub: "Heels • Casual", 
       price: 1249, 
       oldPrice: 2499, 
-      images: ["/Footwear/Women/Heels/Products/hwfp2.png", "/Footwear/Women/Heels/Products/hwfp2_1.png", "/Footwear/Women/Heels/Products/hwfp2_2.png", "/Footwear/Women/Heels/Products/hwfp2_3.png", "/Footwear/Women/Heels/Products/hwfp2_4.png"],
+      images: ["/Footwear/Women/Heels/Products/hwfp2.webp", "/Footwear/Women/Heels/Products/hwfp2_1.webp", "/Footwear/Women/Heels/Products/hwfp2_2.webp", "/Footwear/Women/Heels/Products/hwfp2_3.webp", "/Footwear/Women/Heels/Products/hwfp2_4.webp"],
       tag: "Best Seller", 
       color: "Nude", 
       rating: "4.7", 
@@ -104,7 +104,7 @@ const HeelsWomenFootwear = () => {
       sub: "Heels • Party", 
       price: 2999, 
       oldPrice: 5999, 
-      images: ["/Footwear/Women/Heels/Products/hwfp3.png", "/Footwear/Women/Heels/Products/hwfp3_1.png", "/Footwear/Women/Heels/Products/hwfp3_2.png", "/Footwear/Women/Heels/Products/hwfp3_3.png", "/Footwear/Women/Heels/Products/hwfp3_4.png"],
+      images: ["/Footwear/Women/Heels/Products/hwfp3.webp", "/Footwear/Women/Heels/Products/hwfp3_1.webp", "/Footwear/Women/Heels/Products/hwfp3_2.webp", "/Footwear/Women/Heels/Products/hwfp3_3.webp", "/Footwear/Women/Heels/Products/hwfp3_4.webp"],
       tag: "Luxury", 
       color: "Rose Gold", 
       rating: "4.9", 
@@ -120,7 +120,7 @@ const HeelsWomenFootwear = () => {
       sub: "Heels • Casual", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Footwear/Women/Heels/Products/hwfp4.png", "/Footwear/Women/Heels/Products/hwfp4_1.png", "/Footwear/Women/Heels/Products/hwfp4_2.png", "/Footwear/Women/Heels/Products/hwfp4_3.png", "/Footwear/Women/Heels/Products/hwfp4_4.png"],
+      images: ["/Footwear/Women/Heels/Products/hwfp4.webp", "/Footwear/Women/Heels/Products/hwfp4_1.webp", "/Footwear/Women/Heels/Products/hwfp4_2.webp", "/Footwear/Women/Heels/Products/hwfp4_3.webp", "/Footwear/Women/Heels/Products/hwfp4_4.webp"],
       tag: "Trending", 
       color: "Tan", 
       rating: "4.6", 
@@ -322,7 +322,7 @@ const HeelsWomenFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Women/Heels/hwfbanner.png"
+                  src="/Footwear/Women/Heels/hwfbanner.webp"
                   alt="Women's Heels Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

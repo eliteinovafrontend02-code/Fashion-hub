@@ -27,258 +27,258 @@ const EthnicFlatWomenFootwear = () => {
   }, []);
 
   const ethnicFlatProducts = [
-    {
-      id: 1,
-      name: "Traditional Leather Juttis",
-      fabric: "Leather",
-      price: 2499,
-      oldPrice: 3999,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Beautiful traditional leather juttis with intricate embroidery. The premium leather and ethnic design make them perfect for weddings, festivals, and cultural celebrations.",
-      features: ["Premium Leather", "Intricate Embroidery", "Flat Sole", "Cushioned Insole", "Ethnic Design"],
-      color: "Gold",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp1_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp1_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp1_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Suede Mojari Shoes",
-      fabric: "Suede",
-      price: 2999,
-      oldPrice: 4699,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Premium Suede",
-      description: "Elegant suede mojari shoes with traditional craftsmanship. The premium suede and ethnic detailing make them perfect for festive occasions, weddings, and cultural events.",
-      features: ["Premium Suede", "Traditional Mojari Style", "Flat Sole", "Cushioned Insole", "Artisan Crafted"],
-      color: "Brown",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp2_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp2_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp2_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Synthetic Embellished Flats",
-      fabric: "Synthetic",
-      price: 1799,
-      oldPrice: 2899,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Durable Synthetic",
-      description: "Stylish synthetic embellished flats with sparkling details. The lightweight material and ethnic embellishments make them perfect for festive parties, gatherings, and celebrations.",
-      features: ["Durable Synthetic", "Embellished Design", "Flat Sole", "Cushioned Insole", "Party Ready"],
-      color: "Silver",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp3_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp3_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp3_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Leather Kolhapuri Chappals",
-      fabric: "Leather",
-      price: 2199,
-      oldPrice: 3499,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Authentic leather Kolhapuri chappals with a rustic design. The premium leather and traditional craftsmanship make them perfect for everyday ethnic wear and casual occasions.",
-      features: ["Premium Leather", "Kolhapuri Style", "Flat Sole", "Comfortable Fit", "Ethnic Essential"],
-      color: "Tan",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp4.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp4_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp4_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp4_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Suede Embroidered Juttis",
-      fabric: "Suede",
-      price: 3299,
-      oldPrice: 5199,
-      rating: 4.8,
-      reviews: 987,
-      tag: "Premium",
-      sub: "Luxury Suede",
-      description: "Exquisite suede embroidered juttis with intricate thread work. The luxury suede and detailed embroidery make them perfect for weddings, receptions, and grand celebrations.",
-      features: ["Luxury Suede", "Intricate Embroidery", "Flat Sole", "Cushioned Insole", "Bridal Collection"],
-      color: "Maroon",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp5.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp5_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp5_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp5_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Synthetic Printed Flats",
-      fabric: "Synthetic",
-      price: 1499,
-      oldPrice: 2399,
-      rating: 4.4,
-      reviews: 876,
-      tag: "Essential",
-      sub: "Comfort Synthetic",
-      description: "Colorful synthetic printed flats with vibrant ethnic patterns. The lightweight material and artistic prints make them perfect for casual ethnic wear and festive outings.",
-      features: ["Comfort Synthetic", "Vibrant Prints", "Flat Sole", "Cushioned Insole", "Colorful Design"],
-      color: "Multicolor",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp6.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp6_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp6_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp6_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Leather Ankle Strap Juttis",
-      fabric: "Leather",
-      price: 2699,
-      oldPrice: 4299,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Elegant leather ankle strap juttis with a modern ethnic twist. The premium leather and stylish ankle strap make them perfect for festive parties, weddings, and cultural events.",
-      features: ["Premium Leather", "Ankle Strap", "Flat Sole", "Cushioned Insole", "Modern Ethnic"],
-      color: "Black",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp7.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp7_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp7_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp7_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Suede Pearl Juttis",
-      fabric: "Suede",
-      price: 3499,
-      oldPrice: 5499,
-      rating: 4.9,
-      reviews: 654,
-      tag: "Premium",
-      sub: "Luxury Suede",
-      description: "Stunning suede pearl juttis with elegant pearl detailing. The luxury suede and sophisticated pearls make them perfect for weddings, receptions, and grand celebrations.",
-      features: ["Luxury Suede", "Pearl Detailing", "Flat Sole", "Cushioned Insole", "Bridal Collection"],
-      color: "Ivory",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp8.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp8_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp8_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp8_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Synthetic Festival Flats",
-      fabric: "Synthetic",
-      price: 1699,
-      oldPrice: 2699,
-      rating: 4.5,
-      reviews: 789,
-      tag: "New",
-      sub: "Durable Synthetic",
-      description: "Vibrant synthetic festival flats with a festive design. The colorful material and ethnic patterns make them perfect for festivals, celebrations, and cultural events.",
-      features: ["Durable Synthetic", "Festival Design", "Flat Sole", "Cushioned Insole", "Celebration Ready"],
-      color: "Red",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp9.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp9_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp9_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp9_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Leather Block Heel Juttis",
-      fabric: "Leather",
-      price: 2899,
-      oldPrice: 4599,
-      rating: 4.6,
-      reviews: 1345,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Stylish leather block heel juttis with a contemporary ethnic design. The premium leather and comfortable block heel make them perfect for festive parties and cultural events.",
-      features: ["Premium Leather", "Block Heel", "Ethnic Design", "Cushioned Insole", "Comfortable Wear"],
-      color: "Blue",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp10.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp10_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp10_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp10_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Suede Tassel Flats",
-      fabric: "Suede",
-      price: 2799,
-      oldPrice: 4499,
-      rating: 4.7,
-      reviews: 567,
-      tag: "Trending",
-      sub: "Premium Suede",
-      description: "Elegant suede tassel flats with a bohemian ethnic vibe. The premium suede and stylish tassels make them perfect for festive gatherings, casual ethnic wear, and cultural events.",
-      features: ["Premium Suede", "Tassel Detail", "Flat Sole", "Cushioned Insole", "Boho Ethnic"],
-      color: "Olive",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp11.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp11_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp11_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp11_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Synthetic Mirror Work Flats",
-      fabric: "Synthetic",
-      price: 1999,
-      oldPrice: 3199,
-      rating: 4.4,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Durable Synthetic",
-      description: "Gorgeous synthetic mirror work flats with traditional Indian craftsmanship. The mirror embellishments and colorful design make them perfect for festive celebrations and cultural events.",
-      features: ["Durable Synthetic", "Mirror Work", "Flat Sole", "Cushioned Insole", "Traditional Design"],
-      color: "Pink",
-      images: [
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp12.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp12_1.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp12_2.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp12_3.png",
-        "/Footwear/Women/Flats/Ethnic/Products/efwfp12_4.png"
-      ]
-    }
+   {
+    id: 1,
+    name: "Royal Velvet Embroidered Juttis",
+    fabric: "Velvet",
+    price: 2999,
+    oldPrice: 4999,
+    rating: 4.9,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Luxury Velvet",
+    description: "Royal velvet embroidered juttis with intricate zardozi work. The luxurious velvet and handcrafted embroidery make them perfect for royal weddings, grand celebrations, and cultural festivities.",
+    features: ["Luxury Velvet", "Zardozi Embroidery", "Flat Sole", "Cushioned Insole", "Royal Collection"],
+    color: "Ruby Red",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp1_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp1_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp1_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp1_4.webp"
+    ]
+  },
+  {
+    id: 2,
+    name: "Luxury Suede Mojari Shoes",
+    fabric: "Suede",
+    price: 3299,
+    oldPrice: 5499,
+    rating: 4.8,
+    reviews: 1876,
+    tag: "Trending",
+    sub: "Luxury Italian Suede",
+    description: "Exquisite Italian suede mojari shoes with handcrafted detailing. The premium suede and traditional craftsmanship make them perfect for luxury weddings, receptions, and cultural celebrations.",
+    features: ["Luxury Italian Suede", "Handcrafted Mojari Style", "Flat Sole", "Memory Foam Insole", "Artisan Luxury"],
+    color: "Champagne Gold",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp2_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp2_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp2_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp2_4.webp"
+    ]
+  },
+  {
+    id: 3,
+    name: "Crystal Embellished Silk Flats",
+    fabric: "Silk",
+    price: 3499,
+    oldPrice: 5799,
+    rating: 4.7,
+    reviews: 1567,
+    tag: "Popular",
+    sub: "Luxurious Silk",
+    description: "Gorgeous silk flats adorned with Swarovski crystal embellishments. The luxurious silk and exquisite crystals make them perfect for red carpet events, glamorous parties, and upscale celebrations.",
+    features: ["Luxurious Silk", "Swarovski Crystal Embellishments", "Flat Sole", "Silk Cushioned Insole", "Glamorous Design"],
+    color: "Rose Gold",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp3_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp3_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp3_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp3_4.webp"
+    ]
+  },
+  {
+    id: 4,
+    name: "Exquisite Leather Kolhapuri Chappals",
+    fabric: "Leather",
+    price: 2799,
+    oldPrice: 4599,
+    rating: 4.6,
+    reviews: 1234,
+    tag: "Classic",
+    sub: "Premium Italian Leather",
+    description: "Exquisite Italian leather Kolhapuri chappals with a refined rustic design. The premium leather and traditional craftsmanship make them perfect for luxury ethnic wear and sophisticated casual occasions.",
+    features: ["Premium Italian Leather", "Kolhapuri Style", "Flat Sole", "Cushioned Insole", "Refined Luxury"],
+    color: "Cognac Brown",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp4.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp4_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp4_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp4_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp4_4.webp"
+    ]
+  },
+  {
+    id: 5,
+    name: "Pearl Embellished Suede Juttis",
+    fabric: "Suede",
+    price: 3999,
+    oldPrice: 6499,
+    rating: 4.9,
+    reviews: 987,
+    tag: "Premium",
+    sub: "Luxury Artisan Suede",
+    description: "Stunning suede juttis adorned with genuine pearl embellishments. The luxury suede and hand-sewn pearls make them perfect for royal weddings, bridal collections, and grand celebrations.",
+    features: ["Luxury Artisan Suede", "Genuine Pearl Embellishments", "Flat Sole", "Memory Foam Insole", "Bridal Luxury"],
+    color: "Ivory Cream",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp5.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp5_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp5_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp5_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp5_4.webp"
+    ]
+  },
+  {
+    id: 6,
+    name: "Kundan Work Artisan Flats",
+    fabric: "Silk",
+    price: 3199,
+    oldPrice: 5299,
+    rating: 4.5,
+    reviews: 876,
+    tag: "Essential",
+    sub: "Luxury Artisan Silk",
+    description: "Exquisite artisan silk flats with intricate Kundan work detailing. The luxurious silk and traditional Kundan embellishments make them perfect for festive celebrations, weddings, and cultural events.",
+    features: ["Luxury Artisan Silk", "Kundan Work", "Flat Sole", "Cushioned Insole", "Traditional Royalty"],
+    color: "Sapphire Blue",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp6.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp6_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp6_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp6_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp6_4.webp"
+    ]
+  },
+  {
+    id: 7,
+    name: "Gold Embellished Ankle Strap Juttis",
+    fabric: "Leather",
+    price: 3699,
+    oldPrice: 5999,
+    rating: 4.8,
+    reviews: 1123,
+    tag: "Bestseller",
+    sub: "Luxury Embellished Leather",
+    description: "Stunning leather ankle strap juttis with 24K gold-plated embellishments. The premium leather and opulent gold detailing make them perfect for luxury weddings, galas, and exclusive celebrations.",
+    features: ["Luxury Embellished Leather", "24K Gold-Plated Details", "Ankle Strap", "Cushioned Insole", "Red Carpet Ready"],
+    color: "Onyx Black",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp7.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp7_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp7_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp7_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp7_4.webp"
+    ]
+  },
+  {
+    id: 8,
+    name: "Jewel Embellished Velvet Juttis",
+    fabric: "Velvet",
+    price: 4499,
+    oldPrice: 6999,
+    rating: 4.9,
+    reviews: 654,
+    tag: "Premium",
+    sub: "Luxury Velvet",
+    description: "Gorgeous velvet juttis adorned with jewel embellishments. The luxurious velvet and stunning jewel detailing make them perfect for royal weddings, grand receptions, and opulent celebrations.",
+    features: ["Luxury Velvet", "Jewel Embellishments", "Flat Sole", "Memory Foam Insole", "Royal Collection"],
+    color: "Emerald Green",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp8.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp8_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp8_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp8_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp8_4.webp"
+    ]
+  },
+  {
+    id: 9,
+    name: "Festival Silk Printed Flats",
+    fabric: "Silk",
+    price: 2699,
+    oldPrice: 4499,
+    rating: 4.6,
+    reviews: 789,
+    tag: "New",
+    sub: "Luxury Artisan Silk",
+    description: "Vibrant artisan silk printed flats with a festive luxury design. The premium silk and artistic patterns make them perfect for festivals, celebrations, and sophisticated cultural events.",
+    features: ["Luxury Artisan Silk", "Artistic Prints", "Flat Sole", "Cushioned Insole", "Festival Luxury"],
+    color: "Orange Saffron",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp9.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp9_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp9_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp9_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp9_4.webp"
+    ]
+  },
+  {
+    id: 10,
+    name: "Designer Block Heel Juttis",
+    fabric: "Leather",
+    price: 2999,
+    oldPrice: 4999,
+    rating: 4.7,
+    reviews: 1345,
+    tag: "Classic",
+    sub: "Premium Italian Leather",
+    description: "Designer Italian leather block heel juttis with a contemporary luxury ethnic design. The premium leather and elegant block heel make them perfect for festive parties, luxury events, and cultural gatherings.",
+    features: ["Premium Italian Leather", "Elegant Block Heel", "Ethnic Luxury Design", "Memory Foam Insole", "Comfortable Elegance"],
+    color: "Platinum Silver",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp10.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp10_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp10_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp10_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp10_4.webp"
+    ]
+  },
+  {
+    id: 11,
+    name: "Suede Tassel Artisan Flats",
+    fabric: "Suede",
+    price: 3499,
+    oldPrice: 5999,
+    rating: 4.8,
+    reviews: 567,
+    tag: "Trending",
+    sub: "Luxury Artisan Suede",
+    description: "Elegant suede tassel flats with a bohemian luxury ethnic vibe. The premium suede and stylish handcrafted tassels make them perfect for festive gatherings, luxury resort wear, and cultural events.",
+    features: ["Luxury Artisan Suede", "Handcrafted Tassel Detail", "Flat Sole", "Memory Foam Insole", "Boho Luxury"],
+    color: "Dusty Rose",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp11.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp11_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp11_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp11_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp11_4.webp"
+    ]
+  },
+  {
+    id: 12,
+    name: "Mirror Work Royal Flats",
+    fabric: "Silk",
+    price: 2899,
+    oldPrice: 4799,
+    rating: 4.5,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Luxury Artisan Silk",
+    description: "Royal silk flats with traditional mirror work craftsmanship. The luxurious silk and beautiful mirror embellishments make them perfect for festive celebrations, grand weddings, and cultural royalty.",
+    features: ["Luxury Artisan Silk", "Traditional Mirror Work", "Flat Sole", "Cushioned Insole", "Royal Craftsmanship"],
+    color: "Royal Purple",
+    images: [
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp12.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp12_1.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp12_2.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp12_3.webp",
+      "/Footwear/Women/Flats/Ethnic/Products/efwfp12_4.webp"
+    ]
+  }
   ];
 
   const filters = ['all', 'Leather', 'Suede', 'Synthetic'];
@@ -401,7 +401,7 @@ const EthnicFlatWomenFootwear = () => {
             src="/Footwear/Women/Flats/Ethnic"
             alt="Women's Ethnic Flats Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Women/Flats/Ethnic/efwfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Women/Flats/Ethnic/efwfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

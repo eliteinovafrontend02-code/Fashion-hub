@@ -47,7 +47,7 @@ const Contact = () => {
         <section className="relative w-full h-[30vh] sm:h-[55vh] md:h-[70vh] lg:h-[80vh] overflow-hidden mt-5">
           <div className="absolute inset-0">
             <img 
-              src="/contactbanner.png" 
+              src="/contactbanner.webp" 
               alt="Contact Us" 
               className="w-full h-full object-cover object-center"
             />
@@ -236,7 +236,7 @@ const Contact = () => {
         {/* 🎯 LUXURY CTA SECTION - Mobile Optimized */}
         <section className="relative py-16 sm:py-20 md:py-24 lg:py-28 px-4 sm:px-6 md:px-20 overflow-hidden">
           <div className="absolute inset-0">
-            <img src="/contact.png" alt="CTA Background" className="w-full h-full object-cover" />
+            <img src="/contact.webp" alt="CTA Background" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-orange-900/90 to-black/80"></div>
             {/* Decorative Gold Overlay */}
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,200,100,0.05),transparent)]"></div>

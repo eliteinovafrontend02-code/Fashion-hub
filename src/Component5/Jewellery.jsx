@@ -25,7 +25,7 @@ const Jewellery = () => {
   const banners = [
     {
       id: 1,
-      image: "/Jewellery/jbanner1.png",
+      image: "/Jewellery/jbanner1.webp",
       titlePart1: "Timeless",
       titlePart2: "Elegance",
       subtitle: "HANDCRAFTED • HEIRLOOM • HERITAGE",
@@ -34,7 +34,7 @@ const Jewellery = () => {
     },
     {
       id: 2,
-      image: "/Jewellery/jbanner2.png",
+      image: "/Jewellery/jbanner2.webp",
       titlePart1: "Adorn Your",
       titlePart2: "Neckline",
       subtitle: "PREMIUM NECKLACE COLLECTION",
@@ -43,7 +43,7 @@ const Jewellery = () => {
     },
     {
       id: 3,
-      image: "/Jewellery/jbanner3.png",
+      image: "/Jewellery/jbanner3.webp",
       titlePart1: "Embrace",
       titlePart2: "Tradition",
       subtitle: "ETHNIC BANGLES & BRACELETS",
@@ -57,21 +57,21 @@ const Jewellery = () => {
       id: 1,
       title: "Earrings",
       tag: "STUDS • JUMKAS • DROPS",
-      image: "/Jewellery/jearrings.png",
+      image: "/Jewellery/jearrings.webp",
       link: "/jewellery/earrings"
     },
     {
       id: 2,
       title: "Necklace",
       tag: "CHAINS • CHOKERS • PENDANTS",
-      image: "/Jewellery/jnecklace.png",
+      image: "/Jewellery/jnecklace.webp",
       link: "/jewellery/necklace"
     },
     {
       id: 3,
       title: "Bangles",
       tag: "TRADITIONAL • MODERN",
-      image: "/Jewellery/jbangles.png",
+      image: "/Jewellery/jbangles.webp",
       link: "/jewellery/bangles"
     }
   ];
@@ -85,7 +85,7 @@ const Jewellery = () => {
       sub: "Earrings • Jhumka", 
       price: 2499, 
       oldPrice: 4999, 
-      images: ["/Jewellery/Products/jp1.png", "/Jewellery/Products/jp1_1.png", "/Jewellery/Products/jp1_2.png","/Jewellery/Products/jp1_3.png","/Jewellery/Products/jp1_4.png"],
+      images: ["/Jewellery/Products/jp1.webp", "/Jewellery/Products/jp1_1.webp", "/Jewellery/Products/jp1_2.webp","/Jewellery/Products/jp1_3.webp","/Jewellery/Products/jp1_4.webp"],
       tag: "Trending", 
       color: "Gold", 
       rating: "4.8", 
@@ -100,7 +100,7 @@ const Jewellery = () => {
       sub: "Necklace • Choker", 
       price: 5999, 
       oldPrice: 9999, 
-      images: ["/Jewellery/Products/jp2.png", "/Jewellery/Products/jp2_1.png", "/Jewellery/Products/jp2_2.png","/Jewellery/Products/jp2_3.png","/Jewellery/Products/jp2_4.png"],
+      images: ["/Jewellery/Products/jp2.webp", "/Jewellery/Products/jp2_1.webp", "/Jewellery/Products/jp2_2.webp","/Jewellery/Products/jp2_3.webp","/Jewellery/Products/jp2_4.webp"],
       tag: "Premium", 
       color: "Antique Gold", 
       rating: "4.9", 
@@ -115,7 +115,7 @@ const Jewellery = () => {
       sub: "Bangles • Traditional", 
       price: 3499, 
       oldPrice: 5999, 
-      images: ["/Jewellery/Products/jp3.png", "/Jewellery/Products/jp3_1.png", "/Jewellery/Products/jp3_2.png","/Jewellery/Products/jp3_3.png","/Jewellery/Products/jp3_4.png"],
+      images: ["/Jewellery/Products/jp3.webp", "/Jewellery/Products/jp3_1.webp", "/Jewellery/Products/jp3_2.webp","/Jewellery/Products/jp3_3.webp","/Jewellery/Products/jp3_4.webp"],
       tag: "Best Seller", 
       color: "Yellow Gold", 
       rating: "4.7", 
@@ -130,7 +130,7 @@ const Jewellery = () => {
       sub: "Earrings • Stud", 
       price: 4999, 
       oldPrice: 7999, 
-      images: ["/Jewellery/Products/jp4.png", "/Jewellery/Products/jp4_1.png", "/Jewellery/Products/jp4_2.png","/Jewellery/Products/jp4_3.png","/Jewellery/Products/jp4_4.png"],
+      images: ["/Jewellery/Products/jp4.webp", "/Jewellery/Products/jp4_1.webp", "/Jewellery/Products/jp4_2.webp","/Jewellery/Products/jp4_3.webp","/Jewellery/Products/jp4_4.webp"],
       tag: "Luxury", 
       color: "White Gold", 
       rating: "4.9", 
@@ -338,7 +338,7 @@ const Jewellery = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Jewellery/jbanner.png"
+                  src="/Jewellery/jbanner.webp"
                   alt="Luxury Jewellery Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

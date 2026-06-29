@@ -41,11 +41,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Pure Cotton", "Handloom weave", "6.5 meters length", "Natural breathability", "Easy to drape"],
       color: "Off-White",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp1_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp1_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp1_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp1_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp1_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp1_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp1_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Cotton", "Block print design", "6.3 meters length", "Machine washable", "Available in multiple colors"],
       color: "Multicolor",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp2_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp2_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp2_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp2_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp2_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp2_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp2_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const CasualSareeWomenFashion = () => {
       features: ["55% Linen 45% Cotton", "Natural texture", "6.5 meters length", "Wrinkle-resistant", "Premium quality"],
       color: "Beige",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp3_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp3_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp3_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp3_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp3_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp3_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp3_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Tussar Silk", "Handloom weave", "6.3 meters length", "Natural gold sheen", "Dry clean only"],
       color: "Gold",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp4.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp4_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp4_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp4_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp4_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp4.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp4_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp4_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp4_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Chanderi Cotton", "Gold zari border", "6.4 meters length", "Lightweight", "Handwash recommended"],
       color: "Ivory",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp5.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp5_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp5_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp5_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp5_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp5.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp5_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp5_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp5_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Mulmul Cotton", "Fine muslin weave", "6.2 meters length", "Extremely lightweight", "Easy care"],
       color: "Pink",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp6.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp6_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp6_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp6_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp6_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp6.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp6_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp6_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp6_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Cotton", "Hand Kantha embroidery", "6.5 meters length", "Artisan-made", "Dry clean recommended"],
       color: "Blue",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp7.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp7_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp7_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp7_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp7_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp7.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp7_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp7_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp7_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const CasualSareeWomenFashion = () => {
       features: ["40% Jute 60% Silk", "Textured weave", "6.3 meters length", "Eco-friendly", "Premium blend"],
       color: "Mustard",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp8.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp8_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp8_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp8_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp8_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp8.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp8_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp8_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp8_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Cotton", "Batik wax-print", "6.4 meters length", "Hand-dyed", "Machine washable"],
       color: "Orange",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp9.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp9_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp9_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp9_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp9_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp9.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp9_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp9_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp9_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Cotton", "Traditional Ikat", "6.5 meters length", "Handloom product", "Colorfast"],
       color: "Red",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp10.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp10_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp10_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp10_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp10_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp10.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp10_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp10_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp10_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Matka Silk", "Natural texture", "6.3 meters length", "Rich drape", "Dry clean only"],
       color: "Teal",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp11.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp11_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp11_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp11_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp11_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp11.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp11_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp11_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp11_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const CasualSareeWomenFashion = () => {
       features: ["100% Handloom Cotton", "Simple weave", "6.4 meters length", "Everyday wear", "Machine washable"],
       color: "White",
       images: [
-        "/Fashion/Women/Saree/Casual/Products/cswfp12.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp12_1.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp12_2.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp12_3.png",
-        "/Fashion/Women/Saree/Casual/Products/cswfp12_4.png"
+        "/Fashion/Women/Saree/Casual/Products/cswfp12.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp12_1.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp12_2.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp12_3.webp",
+        "/Fashion/Women/Saree/Casual/Products/cswfp12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const CasualSareeWomenFashion = () => {
             src="/Fashion/Women/Saree/Casual"
             alt="Casual Sarees Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Women/Saree/Casual/cswfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Women/Saree/Casual/cswfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

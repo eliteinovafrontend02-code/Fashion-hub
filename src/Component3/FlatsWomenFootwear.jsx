@@ -26,7 +26,7 @@ const FlatsWomenFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Women/Flats/fwfbanner1.png",
+      image: "/Footwear/Women/Flats/fwfbanner1.webp",
       titlePart1: "Walk in Comfort",
       titlePart2: "Ballerina Flats",
       subtitle: "WOMEN • BALLERINA • COMFORT",
@@ -35,7 +35,7 @@ const FlatsWomenFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Women/Flats/fwfbanner2.png",
+      image: "/Footwear/Women/Flats/fwfbanner2.webp",
       titlePart1: "Tradition Meets",
       titlePart2: "Ethnic Flats",
       subtitle: "WOMEN • ETHNIC • TRADITION",
@@ -50,14 +50,14 @@ const FlatsWomenFootwear = () => {
       id: 1,
       title: "Ballerina",
       tag: "COMFORT",
-      image: "/Footwear/Women/Flats/ballerina.png",
+      image: "/Footwear/Women/Flats/ballerina.webp",
       link: "/footwear/women/flats/ballerina"
     },
     {
       id: 2,
       title: "Ethnic",
       tag: "TRADITION",
-      image: "/Footwear/Women/Flats/ethnic.png",
+      image: "/Footwear/Women/Flats/ethnic.webp",
       link: "/footwear/women/flats/ethnic"
     }
   ];
@@ -71,7 +71,7 @@ const FlatsWomenFootwear = () => {
       sub: "Flats • Ballerina", 
       price: 1999, 
       oldPrice: 3999, 
-      images: ["/Footwear/Women/Flats/Products/fwfp1.png", "/Footwear/Women/Flats/Products/fwfp1_1.png", "/Footwear/Women/Flats/Products/fwfp1_2.png", "/Footwear/Women/Flats/Products/fwfp1_3.png", "/Footwear/Women/Flats/Products/fwfp1_4.png"],
+      images: ["/Footwear/Women/Flats/Products/fwfp1.webp", "/Footwear/Women/Flats/Products/fwfp1_1.webp", "/Footwear/Women/Flats/Products/fwfp1_2.webp", "/Footwear/Women/Flats/Products/fwfp1_3.webp", "/Footwear/Women/Flats/Products/fwfp1_4.webp"],
       tag: "Best Seller", 
       color: "Nude Pink", 
       rating: "4.7", 
@@ -85,7 +85,7 @@ const FlatsWomenFootwear = () => {
       sub: "Flats • Ethnic", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Footwear/Women/Flats/Products/fwfp2.png", "/Footwear/Women/Flats/Products/fwfp2_1.png", "/Footwear/Women/Flats/Products/fwfp2_2.png", "/Footwear/Women/Flats/Products/fwfp2_3.png", "/Footwear/Women/Flats/Products/fwfp2_4.png"],
+      images: ["/Footwear/Women/Flats/Products/fwfp2.webp", "/Footwear/Women/Flats/Products/fwfp2_1.webp", "/Footwear/Women/Flats/Products/fwfp2_2.webp", "/Footwear/Women/Flats/Products/fwfp2_3.webp", "/Footwear/Women/Flats/Products/fwfp2_4.webp"],
       tag: "Festival Edit", 
       color: "Gold/Red", 
       rating: "4.8", 
@@ -99,7 +99,7 @@ const FlatsWomenFootwear = () => {
       sub: "Flats • Ballerina", 
       price: 2499, 
       oldPrice: 4999, 
-      images: ["/Footwear/Women/Flats/Products/fwfp3.png", "/Footwear/Women/Flats/Products/fwfp3_1.png", "/Footwear/Women/Flats/Products/fwfp3_2.png", "/Footwear/Women/Flats/Products/fwfp3_3.png", "/Footwear/Women/Flats/Products/fwfp3_4.png"],
+      images: ["/Footwear/Women/Flats/Products/fwfp3.webp", "/Footwear/Women/Flats/Products/fwfp3_1.webp", "/Footwear/Women/Flats/Products/fwfp3_2.webp", "/Footwear/Women/Flats/Products/fwfp3_3.webp", "/Footwear/Women/Flats/Products/fwfp3_4.webp"],
       tag: "Premium", 
       color: "Tan", 
       rating: "4.9", 
@@ -113,7 +113,7 @@ const FlatsWomenFootwear = () => {
       sub: "Flats • Ethnic", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Footwear/Women/Flats/Products/fwfp4.png", "/Footwear/Women/Flats/Products/fwfp4_1.png", "/Footwear/Women/Flats/Products/fwfp4_2.png", "/Footwear/Women/Flats/Products/fwfp4_3.png", "/Footwear/Women/Flats/Products/fwfp4_4.png"],
+      images: ["/Footwear/Women/Flats/Products/fwfp4.webp", "/Footwear/Women/Flats/Products/fwfp4_1.webp", "/Footwear/Women/Flats/Products/fwfp4_2.webp", "/Footwear/Women/Flats/Products/fwfp4_3.webp", "/Footwear/Women/Flats/Products/fwfp4_4.webp"],
       tag: "Handcrafted", 
       color: "Brown", 
       rating: "4.8", 
@@ -315,7 +315,7 @@ const FlatsWomenFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Women/Flats/fwfbanner.png"
+                  src="/Footwear/Women/Flats/fwfbanner.webp"
                   alt="Women's Flats Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

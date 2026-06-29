@@ -41,11 +41,11 @@ const partyHeelsProducts = [
     features: ["Italian Metallic Calfskin", "Sculptural Stiletto Heel", "Luxe Ankle Strap", "Memory Foam Insole", "Red Carpet Ready"],
     color: "Gold Gilded",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp1_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp1_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp1_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp1_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp1_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp1_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp1_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp1_4.webp"
     ]
   },
   {
@@ -62,11 +62,11 @@ const partyHeelsProducts = [
     features: ["Luxury Silk Satin", "Swarovski Crystal Embellishments", "Sculptural Pointed Toe", "Plush Cushioned Insole", "Black-Tie Ready"],
     color: "Iridescent Rose Gold",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp2_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp2_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp2_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp2_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp2_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp2_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp2_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp2_4.webp"
     ]
   },
   {
@@ -83,11 +83,11 @@ const partyHeelsProducts = [
     features: ["Premium Italian Velvet", "Sculptural Block Heel", "Luxe Ankle Strap", "Ultra-Cushioned Insole", "Grand Occasion Wear"],
     color: "Regal Burgundy",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp3_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp3_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp3_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp3_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp3_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp3_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp3_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp3_4.webp"
     ]
   },
   {
@@ -104,11 +104,11 @@ const partyHeelsProducts = [
     features: ["Premium Full-Grain Leather", "Sculptural Peep Toe", "Elegant Stiletto Heel", "Luxe Ankle Strap", "Timeless Elegance"],
     color: "Obsidian Black",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp4.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp4_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp4_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp4_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp4_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp4.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp4_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp4_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp4_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp4_4.webp"
     ]
   },
   {
@@ -125,11 +125,11 @@ const partyHeelsProducts = [
     features: ["Luxury Duchess Satin", "Artisanal Bow Detail", "Sculptural Stiletto Heel", "Elegant Pointed Toe", "Grand Wedding Ready"],
     color: "Champagne Pearl",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp5.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp5_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp5_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp5_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp5_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp5.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp5_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp5_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp5_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp5_4.webp"
     ]
   },
   {
@@ -146,11 +146,11 @@ const partyHeelsProducts = [
     features: ["Premium Luxury Velvet", "Artistic Strappy Design", "Sculptural Block Heel", "Luxe Ankle Strap", "Modern Statement"],
     color: "Midnight Sapphire",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp6.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp6_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp6_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp6_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp6_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp6.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp6_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp6_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp6_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp6_4.webp"
     ]
   },
   {
@@ -167,11 +167,11 @@ const partyHeelsProducts = [
     features: ["Premium Italian Leather", "Architectural Platform Sole", "Sculptural Stiletto Heel", "Luxe Ankle Strap", "Fashion Statement"],
     color: "Crimson Velvet",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp7.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp7_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp7_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp7_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp7_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp7.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp7_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp7_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp7_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp7_4.webp"
     ]
   },
   {
@@ -188,11 +188,11 @@ const partyHeelsProducts = [
     features: ["Premium Luxury Satin", "Swarovski Crystal Masterpiece", "Sculptural Stiletto Heel", "Elegant Pointed Toe", "Red Carpet Royalty"],
     color: "Platinum Silver",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp8.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp8_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp8_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp8_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp8_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp8.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp8_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp8_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp8_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp8_4.webp"
     ]
   },
   {
@@ -209,11 +209,11 @@ const partyHeelsProducts = [
     features: ["Premium Luxury Velvet", "Elegant Ankle Strap", "Sculptural Block Heel", "Luxe Cushioned Insole", "Refined Elegance"],
     color: "Deep Emerald",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp9.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp9_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp9_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp9_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp9_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp9.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp9_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp9_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp9_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp9_4.webp"
     ]
   },
   {
@@ -230,11 +230,11 @@ const partyHeelsProducts = [
     features: ["Premium Full-Grain Leather", "Sculptural Stiletto Heel", "Sophisticated Pointed Toe", "Luxe Cushioned Insole", "Timeless Luxury"],
     color: "Blush Nude",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp10.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp10_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp10_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp10_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp10_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp10.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp10_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp10_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp10_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp10_4.webp"
     ]
   },
   {
@@ -251,11 +251,11 @@ const partyHeelsProducts = [
     features: ["Premium Duchess Satin", "Artful T-Strap Design", "Sculptural Stiletto Heel", "Luxe Cushioned Insole", "Grand Vintage Style"],
     color: "Champagne Gold",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp11.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp11_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp11_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp11_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp11_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp11.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp11_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp11_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp11_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp11_4.webp"
     ]
   },
   {
@@ -272,11 +272,11 @@ const partyHeelsProducts = [
     features: ["Premium Luxury Velvet", "Elegant Mule Silhouette", "Sculptural Block Heel", "Effortless Slip-on", "Refined Modern Design"],
     color: "Royal Amethyst",
     images: [
-      "/Footwear/Women/Heels/Party/Products/phwfp12.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp12_1.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp12_2.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp12_3.png",
-      "/Footwear/Women/Heels/Party/Products/phwfp12_4.png"
+      "/Footwear/Women/Heels/Party/Products/phwfp12.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp12_1.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp12_2.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp12_3.webp",
+      "/Footwear/Women/Heels/Party/Products/phwfp12_4.webp"
     ]
   }
 ];
@@ -401,7 +401,7 @@ const partyHeelsProducts = [
             src="/Footwear/Women/Heels/Party/"
             alt="Women's Party Heels Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Women/Heels/Party/phwfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Women/Heels/Party/phwfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

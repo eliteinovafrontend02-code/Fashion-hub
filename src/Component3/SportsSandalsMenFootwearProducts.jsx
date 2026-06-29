@@ -41,11 +41,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Premium Leather", "Cushioned Sole", "Adjustable Straps", "Durable", "Comfortable Fit"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp1_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp1_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp1_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp1_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp1_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp1_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp1_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Durable Synthetic", "Lightweight", "Adjustable Straps", "Cushioned Sole", "Outdoor Ready"],
       color: "Black",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp2_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp2_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp2_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp2_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp2_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp2_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp2_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Premium Rubber", "Slip-resistant Sole", "Water-friendly", "Lightweight", "Durable"],
       color: "Blue",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp3_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp3_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp3_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp3_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp3_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp3_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp3_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Premium Leather", "Sturdy Construction", "Adjustable Straps", "Cushioned Sole", "Hiking Ready"],
       color: "Tan",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp4.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp4_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp4_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp4_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp4_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp4.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp4_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp4_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp4_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Performance Synthetic", "Breathable", "Adjustable Straps", "Cushioned Sole", "Athletic Design"],
       color: "Grey",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp5.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp5_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp5_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp5_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp5_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp5.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp5_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp5_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp5_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Durable Rubber", "Quick-drying", "Water-friendly", "Slip-resistant", "Lightweight"],
       color: "Green",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp6.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp6_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp6_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp6_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp6_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp6.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp6_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp6_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp6_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Premium Leather", "Rugged Design", "Adjustable Straps", "Cushioned Sole", "Outdoor Ready"],
       color: "Black",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp7.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp7_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp7_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp7_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp7_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp7.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp7_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp7_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp7_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Durable Synthetic", "Rugged Construction", "Adjustable Straps", "Trail-ready Sole", "Comfortable"],
       color: "Black",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp8.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp8_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp8_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp8_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp8_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp8.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp8_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp8_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp8_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Comfort Rubber", "Cushioned Footbed", "Slip-on Style", "Lightweight", "Casual Wear"],
       color: "Black",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp9.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp9_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp9_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp9_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp9_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp9.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp9_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp9_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp9_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Luxury Leather", "Adventure Ready", "Adjustable Straps", "Cushioned Sole", "Premium Quality"],
       color: "Tan",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp10.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp10_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp10_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp10_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp10_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp10.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp10_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp10_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp10_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Sport Synthetic", "Lightweight", "Adjustable Straps", "Cushioned Sole", "Modern Design"],
       color: "Red",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp11.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp11_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp11_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp11_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp11_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp11.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp11_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp11_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp11_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const SportsSandalsMenFootwear = () => {
       features: ["Soft Rubber", "Ergonomic Design", "Slip-on Style", "Lightweight", "Everyday Comfort"],
       color: "Navy",
       images: [
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp12.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp12_1.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp12_2.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp12_3.jpg",
-        "/Footwear/Men/Sandals/Sports/Products/ssmfp12_4.jpg"
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp12.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp12_1.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp12_2.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp12_3.webp",
+        "/Footwear/Men/Sandals/Sports/Products/ssmfp12_4.webp"
       ]
     }
   ];
@@ -401,7 +401,7 @@ const SportsSandalsMenFootwear = () => {
             src="/Footwear/Men/Sandals/Sports"
             alt="Men's Sports Sandals Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Men/Sandals/Sports/ssmfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Men/Sandals/Sports/ssmfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

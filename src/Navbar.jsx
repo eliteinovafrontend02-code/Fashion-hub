@@ -238,7 +238,7 @@ const Navbar = () => {
         {/* Header */}
         <div className="bg-orange-200 border-b border-orange-300 px-4 py-3 flex items-center justify-between flex-shrink-0">
           <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="logo" className="w-9 h-9 object-contain" />
+            <img src="/logo.webp" alt="logo" className="w-9 h-9 object-contain" />
             <span style={{ fontFamily: 'Cookie, cursive' }} className="text-2xl text-orange-600">fashion hub</span>
           </div>
           <button
@@ -466,7 +466,7 @@ const Navbar = () => {
 
           {/* Logo center */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
-            <img src="/logo.png" className="w-10 h-10 object-contain" alt="logo" />
+            <img src="/logo.webp" className="w-10 h-10 object-contain" alt="logo" />
             <div className="flex flex-col">
               <h1 style={{ fontFamily: 'Cookie, cursive' }}
                 className="text-2xl font-bold tracking-wide bg-gradient-to-r from-red-500 via-yellow-400 to-red-400 bg-clip-text text-transparent capitalize leading-tight">
@@ -492,7 +492,7 @@ const Navbar = () => {
 
         {/* ── DESKTOP LOGO ROW ── */}
         <div className="desktop-logo-row flex-col md:flex-row items-center gap-2 justify-center mt-2">
-          <img src="/logo.png" className="logo-img w-24 h-24 object-contain" alt="logo" />
+          <img src="/logo.webp" className="logo-img w-24 h-24 object-contain" alt="logo" />
           <div className="flex flex-col">
             <h1 style={{ fontFamily: 'Cookie, cursive' }}
               className="logo-title text-3xl md:text-5xl font-bold tracking-wide bg-gradient-to-r from-red-500 via-yellow-400 to-red-400 bg-clip-text text-transparent capitalize">

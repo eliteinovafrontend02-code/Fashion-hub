@@ -40,11 +40,11 @@ const LipsMakeupBeauty = () => {
       features: ["Matte Finish", "Long-lasting", "Creamy Texture", "Highly Pigmented", "Comfortable Wear"],
       color: "Red",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp1_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp1_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp1_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp1_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp1_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp1_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp1_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const LipsMakeupBeauty = () => {
       features: ["High Shine", "Non-sticky", "Hydrating", "Plumping Effect", "Glossy Finish"],
       color: "Pink",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp2_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp2_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp2_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp2_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp2_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp2_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp2_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const LipsMakeupBeauty = () => {
       features: ["Precision Tip", "Long-lasting", "Creamy Texture", "Prevents Feathering", "Defines Lips"],
       color: "Nude",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp3_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp3_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp3_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp3_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp3_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp3_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp3_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const LipsMakeupBeauty = () => {
       features: ["Satin Finish", "Creamy Formula", "Medium to Full Coverage", "Hydrating", "Long-lasting"],
       color: "Rose",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp4.png",
-        "/Beauty/Makeup/Lips/Products/lmbp4_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp4_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp4_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp4_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp4.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp4_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp4_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp4_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const LipsMakeupBeauty = () => {
       features: ["Plumping Effect", "Hyaluronic Acid", "Hydrating", "Glossy Shine", "Cooling Sensation"],
       color: "Coral",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp5.png",
-        "/Beauty/Makeup/Lips/Products/lmbp5_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp5_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp5_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp5_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp5.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp5_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp5_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp5_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const LipsMakeupBeauty = () => {
       features: ["Retractable Tip", "Long-lasting", "Creamy Texture", "Smudge-proof", "Easy Application"],
       color: "Mauve",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp6.png",
-        "/Beauty/Makeup/Lips/Products/lmbp6_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp6_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp6_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp6_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp6.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp6_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp6_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp6_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp6_4.webp"
       ]
     },
     {
@@ -166,11 +166,11 @@ const LipsMakeupBeauty = () => {
       features: ["Velvet Matte", "Highly Pigmented", "Budge-proof", "Long-lasting", "Comfortable Wear"],
       color: "Burgundy",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp7.png",
-        "/Beauty/Makeup/Lips/Products/lmbp7_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp7_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp7_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp7_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp7.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp7_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp7_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp7_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp7_4.webp"
       ]
     },
     {
@@ -187,11 +187,11 @@ const LipsMakeupBeauty = () => {
       features: ["Shimmer Finish", "Non-sticky", "Sparkling Effect", "Hydrating", "Glossy Shine"],
       color: "Gold",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp8.png",
-        "/Beauty/Makeup/Lips/Products/lmbp8_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp8_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp8_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp8_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp8.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp8_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp8_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp8_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp8_4.webp"
       ]
     },
     {
@@ -208,11 +208,11 @@ const LipsMakeupBeauty = () => {
       features: ["Dual Tip", "Two Shades", "Long-lasting", "Creamy Texture", "Versatile"],
       color: "Pink/Nude",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp9.png",
-        "/Beauty/Makeup/Lips/Products/lmbp9_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp9_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp9_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp9_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp9.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp9_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp9_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp9_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp9_4.webp"
       ]
     },
     {
@@ -229,11 +229,11 @@ const LipsMakeupBeauty = () => {
       features: ["Matte Finish", "Long-lasting", "Creamy Texture", "Everyday Wear", "Comfortable"],
       color: "Nude",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp10.png",
-        "/Beauty/Makeup/Lips/Products/lmbp10_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp10_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp10_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp10_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp10.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp10_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp10_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp10_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp10_4.webp"
       ]
     },
     {
@@ -250,11 +250,11 @@ const LipsMakeupBeauty = () => {
       features: ["Clear Shine", "Non-sticky", "Hydrating", "Versatile", "Glossy Finish"],
       color: "Clear",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp11.png",
-        "/Beauty/Makeup/Lips/Products/lmbp11_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp11_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp11_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp11_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp11.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp11_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp11_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp11_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp11_4.webp"
       ]
     },
     {
@@ -271,11 +271,11 @@ const LipsMakeupBeauty = () => {
       features: ["Precision Tip", "Long-lasting", "Creamy Texture", "Prevents Feathering", "Dramatic Color"],
       color: "Berry",
       images: [
-        "/Beauty/Makeup/Lips/Products/lmbp12.png",
-        "/Beauty/Makeup/Lips/Products/lmbp12_1.png",
-        "/Beauty/Makeup/Lips/Products/lmbp12_2.png",
-        "/Beauty/Makeup/Lips/Products/lmbp12_3.png",
-        "/Beauty/Makeup/Lips/Products/lmbp12_4.png"
+        "/Beauty/Makeup/Lips/Products/lmbp12.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp12_1.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp12_2.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp12_3.webp",
+        "/Beauty/Makeup/Lips/Products/lmbp12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const LipsMakeupBeauty = () => {
             src="/Beauty/Makeup/Lips"
             alt="Lips Makeup Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Beauty/Makeup/Lips/lmbbanner.png"; }}
+            onError={(e) => { e.target.src = "/Beauty/Makeup/Lips/lmbbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

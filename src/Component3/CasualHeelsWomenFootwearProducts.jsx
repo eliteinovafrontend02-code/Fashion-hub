@@ -28,257 +28,257 @@ const CasualHeelsWomenFootwear = () => {
 
   const casualHeelsProducts = [
     {
-      id: 1,
-      name: "Classic Leather Kitten Heels",
-      fabric: "Leather",
-      price: 2499,
-      oldPrice: 3999,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Timeless classic leather kitten heels with a comfortable design. The premium leather and modest heel height make them perfect for office wear, casual outings, and everyday elegance.",
-      features: ["Premium Leather", "Kitten Heel", "Pointed Toe", "Cushioned Insole", "Everyday Wear"],
-      color: "Black",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp1_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp1_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp1_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Suede Block Heels",
-      fabric: "Suede",
-      price: 2999,
-      oldPrice: 4699,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Premium Suede",
-      description: "Stylish suede block heels with a modern design. The premium suede and comfortable block heel make them perfect for casual outings, shopping, and weekend brunches.",
-      features: ["Premium Suede", "Block Heel", "Round Toe", "Cushioned Insole", "Comfortable Wear"],
-      color: "Tan",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp2_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp2_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp2_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Synthetic Strappy Heels",
-      fabric: "Synthetic",
-      price: 1999,
-      oldPrice: 3199,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Durable Synthetic",
-      description: "Trendy synthetic strappy heels with a chic design. The lightweight synthetic material and stylish straps make them perfect for parties, date nights, and casual events.",
-      features: ["Durable Synthetic", "Strappy Design", "Block Heel", "Ankle Strap", "Party Ready"],
-      color: "Nude",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp3_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp3_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp3_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "Leather Mary Janes",
-      fabric: "Leather",
-      price: 2699,
-      oldPrice: 4299,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Classic leather Mary Jane heels with a vintage-inspired design. The premium leather and elegant strap make them perfect for office wear, casual outings, and smart-casual events.",
-      features: ["Premium Leather", "Mary Jane Style", "Block Heel", "Ankle Strap", "Vintage Look"],
-      color: "Brown",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp4.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp4_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp4_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp4_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Suede Peep Toe Heels",
-      fabric: "Suede",
-      price: 2799,
-      oldPrice: 4499,
-      rating: 4.8,
-      reviews: 987,
-      tag: "Premium",
-      sub: "Luxury Suede",
-      description: "Elegant suede peep toe heels with a sophisticated design. The premium suede and stylish peep toe make them perfect for casual parties, brunches, and special occasions.",
-      features: ["Luxury Suede", "Peep Toe", "Stiletto Heel", "Ankle Strap", "Elegant Style"],
-      color: "Blush",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp5.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp5_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp5_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp5_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Synthetic Wedge Heels",
-      fabric: "Synthetic",
-      price: 2299,
-      oldPrice: 3699,
-      rating: 4.4,
-      reviews: 876,
-      tag: "Essential",
-      sub: "Comfort Synthetic",
-      description: "Comfortable synthetic wedge heels with a casual design. The lightweight material and wedge sole make them perfect for shopping, travel, and everyday wear.",
-      features: ["Comfort Synthetic", "Wedge Heel", "Slip-on Style", "Cushioned Insole", "Casual Wear"],
-      color: "Grey",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp6.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp6_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp6_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp6_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Leather Mule Heels",
-      fabric: "Leather",
-      price: 2399,
-      oldPrice: 3899,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Premium Leather",
-      description: "Stylish leather mule heels with a modern design. The premium leather and easy slip-on style make them perfect for casual outings, office wear, and weekend brunches.",
-      features: ["Premium Leather", "Mule Style", "Block Heel", "Slip-on", "Modern Design"],
-      color: "Black",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp7.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp7_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp7_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp7_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Suede Ankle Strap Heels",
-      fabric: "Suede",
-      price: 3199,
-      oldPrice: 4999,
-      rating: 4.6,
-      reviews: 654,
-      tag: "New",
-      sub: "Premium Suede",
-      description: "Elegant suede ankle strap heels with a sophisticated design. The premium suede and delicate ankle strap make them perfect for casual parties, date nights, and special events.",
-      features: ["Premium Suede", "Ankle Strap", "Block Heel", "Pointed Toe", "Elegant Style"],
-      color: "Navy",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp8.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp8_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp8_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp8_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Synthetic Slingback Heels",
-      fabric: "Synthetic",
-      price: 1899,
-      oldPrice: 2999,
-      rating: 4.5,
-      reviews: 789,
-      tag: "Essential",
-      sub: "Durable Synthetic",
-      description: "Trendy synthetic slingback heels with a chic design. The lightweight material and stylish slingback make them perfect for casual outings, shopping, and everyday wear.",
-      features: ["Durable Synthetic", "Slingback Style", "Kitten Heel", "Adjustable Strap", "Casual Chic"],
-      color: "Beige",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp9.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp9_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp9_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp9_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Leather Pumps",
-      fabric: "Leather",
-      price: 2599,
-      oldPrice: 4199,
-      rating: 4.4,
-      reviews: 1345,
-      tag: "Classic",
-      sub: "Premium Leather",
-      description: "Classic leather pumps with a timeless design. The premium leather and comfortable fit make them perfect for office wear, formal events, and everyday elegance.",
-      features: ["Premium Leather", "Pump Style", "Block Heel", "Pointed Toe", "Timeless Design"],
-      color: "Nude",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp10.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp10_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp10_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp10_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Suede T-Strap Heels",
-      fabric: "Suede",
-      price: 2899,
-      oldPrice: 4599,
-      rating: 4.7,
-      reviews: 567,
-      tag: "Premium",
-      sub: "Luxury Suede",
-      description: "Elegant suede T-strap heels with a vintage-inspired design. The premium suede and T-strap detailing make them perfect for casual parties, brunches, and special occasions.",
-      features: ["Luxury Suede", "T-Strap Design", "Block Heel", "Cushioned Insole", "Vintage Style"],
-      color: "Mint",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp11.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp11_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp11_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp11_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Synthetic Chunky Heels",
-      fabric: "Synthetic",
-      price: 1699,
-      oldPrice: 2699,
-      rating: 4.3,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Comfort Synthetic",
-      description: "Comfortable synthetic chunky heels with a modern design. The lightweight material and chunky heel make them perfect for everyday wear, shopping, and casual outings.",
-      features: ["Comfort Synthetic", "Chunky Heel", "Slip-on Style", "Cushioned Insole", "Casual Wear"],
-      color: "Coral",
-      images: [
-        "/Footwear/Women/Heels/Casual/Products/chwfp12.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp12_1.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp12_2.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp12_3.png",
-        "/Footwear/Women/Heels/Casual/Products/chwfp12_4.png"
-      ]
-    }
+    id: 1,
+    name: "Luxurious Leather Kitten Heels",
+    fabric: "Leather",
+    price: 2999,
+    oldPrice: 4999,
+    rating: 4.9,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Premium Italian Leather",
+    description: "Exquisite Italian leather kitten heels crafted for timeless elegance. The premium leather and modest heel height make them perfect for luxury office wear, sophisticated outings, and refined everyday style.",
+    features: ["Premium Italian Leather", "Elegant Kitten Heel", "Pointed Toe", "Memory Foam Insole", "Luxury Everyday Wear"],
+    color: "Champagne Gold",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp1_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp1_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp1_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp1_4.webp"
+    ]
+  },
+  {
+    id: 2,
+    name: "Suede Artisan Block Heels",
+    fabric: "Suede",
+    price: 3499,
+    oldPrice: 5699,
+    rating: 4.8,
+    reviews: 1876,
+    tag: "Trending",
+    sub: "Luxury Italian Suede",
+    description: "Opulent Italian suede block heels with a modern artisan design. The premium suede and comfortable block heel make them perfect for upscale brunches, gallery openings, and sophisticated social events.",
+    features: ["Luxury Italian Suede", "Artisan Block Heel", "Elegant Round Toe", "Memory Foam Insole", "Refined Style"],
+    color: "Platinum Silver",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp2_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp2_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp2_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp2_4.webp"
+    ]
+  },
+  {
+    id: 3,
+    name: "Crystal Embellished Strappy Heels",
+    fabric: "Satin",
+    price: 3999,
+    oldPrice: 6499,
+    rating: 4.7,
+    reviews: 1567,
+    tag: "Popular",
+    sub: "Luxurious Satin",
+    description: "Gorgeous satin strappy heels adorned with Swarovski crystal embellishments. The luxurious satin and exquisite crystals make them perfect for red carpet events, glamorous parties, and upscale celebrations.",
+    features: ["Luxurious Satin", "Swarovski Crystal Embellishments", "Elegant Strappy Design", "Block Heel", "Glamorous Style"],
+    color: "Rose Gold",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp3_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp3_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp3_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp3_4.webp"
+    ]
+  },
+  {
+    id: 4,
+    name: "Designer Leather Mary Janes",
+    fabric: "Leather",
+    price: 3199,
+    oldPrice: 5299,
+    rating: 4.6,
+    reviews: 1234,
+    tag: "Classic",
+    sub: "Premium Italian Leather",
+    description: "Designer Italian leather Mary Jane heels with a vintage-inspired luxury design. The premium leather and elegant strap make them perfect for sophisticated office wear, luxury outings, and refined events.",
+    features: ["Premium Italian Leather", "Luxury Mary Jane Style", "Elegant Block Heel", "Ankle Strap", "Vintage Luxury"],
+    color: "Burgundy Wine",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp4.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp4_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp4_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp4_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp4_4.webp"
+    ]
+  },
+  {
+    id: 5,
+    name: "Suede Peep Toe Glamour Heels",
+    fabric: "Suede",
+    price: 3799,
+    oldPrice: 5999,
+    rating: 4.9,
+    reviews: 987,
+    tag: "Premium",
+    sub: "Luxury Artisan Suede",
+    description: "Exquisite suede peep toe heels with a glamorous sophisticated design. The luxury suede and stylish peep toe make them perfect for luxury parties, exclusive brunches, and upscale events.",
+    features: ["Luxury Artisan Suede", "Elegant Peep Toe", "Stiletto Heel", "Ankle Strap", "Glamorous Style"],
+    color: "Ruby Red",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp5.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp5_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp5_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp5_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp5_4.webp"
+    ]
+  },
+  {
+    id: 6,
+    name: "Luxury Wedge Artisan Heels",
+    fabric: "Leather",
+    price: 3299,
+    oldPrice: 5399,
+    rating: 4.5,
+    reviews: 876,
+    tag: "Essential",
+    sub: "Premium Italian Leather",
+    description: "Exquisite Italian leather wedge heels with a luxury casual design. The premium leather and comfortable wedge sole make them perfect for luxury travel, exclusive shopping, and sophisticated leisure.",
+    features: ["Premium Italian Leather", "Luxury Wedge Heel", "Slip-on Style", "Memory Foam Insole", "Refined Casual"],
+    color: "Cognac Brown",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp6.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp6_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp6_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp6_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp6_4.webp"
+    ]
+  },
+  {
+    id: 7,
+    name: "Gold Embellished Mule Heels",
+    fabric: "Leather",
+    price: 4199,
+    oldPrice: 6799,
+    rating: 4.8,
+    reviews: 1123,
+    tag: "Bestseller",
+    sub: "Luxury Embellished Leather",
+    description: "Stunning leather mule heels with 24K gold-plated embellishments. The premium leather and opulent gold detailing make them perfect for luxury galas, exclusive parties, and red carpet events.",
+    features: ["Luxury Embellished Leather", "24K Gold-Plated Details", "Elegant Mule Style", "Block Heel", "Red Carpet Ready"],
+    color: "Onyx Black",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp7.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp7_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp7_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp7_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp7_4.webp"
+    ]
+  },
+  {
+    id: 8,
+    name: "Suede Ankle Strap Couture Heels",
+    fabric: "Suede",
+    price: 3899,
+    oldPrice: 6199,
+    rating: 4.7,
+    reviews: 654,
+    tag: "New",
+    sub: "Luxury Couture Suede",
+    description: "Chic suede ankle strap couture heels with a sophisticated luxury design. The premium suede and delicate ankle strap make them perfect for fashion week, luxury parties, and haute couture events.",
+    features: ["Luxury Couture Suede", "Elegant Ankle Strap", "Block Heel", "Pointed Toe", "Couture Style"],
+    color: "Slate Grey",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp8.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp8_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp8_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp8_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp8_4.webp"
+    ]
+  },
+  {
+    id: 9,
+    name: "Satin Slingback Artisan Heels",
+    fabric: "Satin",
+    price: 3599,
+    oldPrice: 5799,
+    rating: 4.6,
+    reviews: 789,
+    tag: "Essential",
+    sub: "Luxurious Satin",
+    description: "Exquisite satin slingback heels with a chic artisan design. The luxurious satin and stylish slingback make them perfect for luxury outings, exclusive events, and sophisticated everyday wear.",
+    features: ["Luxurious Satin", "Elegant Slingback Style", "Kitten Heel", "Adjustable Strap", "Chic Luxury"],
+    color: "Ivory Cream",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp9.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp9_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp9_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp9_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp9_4.webp"
+    ]
+  },
+  {
+    id: 10,
+    name: "Italian Leather Luxe Pumps",
+    fabric: "Leather",
+    price: 3099,
+    oldPrice: 5099,
+    rating: 4.5,
+    reviews: 1345,
+    tag: "Classic",
+    sub: "Premium Italian Leather",
+    description: "Classic Italian leather luxe pumps with a timeless refined design. The premium leather and comfortable fit make them perfect for luxury office wear, formal events, and sophisticated elegance.",
+    features: ["Premium Italian Leather", "Luxury Pump Style", "Block Heel", "Pointed Toe", "Timeless Luxury"],
+    color: "Crimson Red",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp10.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp10_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp10_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp10_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp10_4.webp"
+    ]
+  },
+  {
+    id: 11,
+    name: "Suede T-Strap Vintage Heels",
+    fabric: "Suede",
+    price: 3699,
+    oldPrice: 5899,
+    rating: 4.8,
+    reviews: 567,
+    tag: "Premium",
+    sub: "Luxury Artisan Suede",
+    description: "Elegant suede T-strap heels with a vintage-inspired luxury design. The premium suede and T-strap detailing make them perfect for luxury parties, exclusive brunches, and sophisticated occasions.",
+    features: ["Luxury Artisan Suede", "Elegant T-Strap Design", "Block Heel", "Memory Foam Insole", "Vintage Luxury"],
+    color: "Sage Green",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp11.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp11_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp11_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp11_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp11_4.webp"
+    ]
+  },
+  {
+    id: 12,
+    name: "Chunky Heel Luxe Flats",
+    fabric: "Satin",
+    price: 2799,
+    oldPrice: 4599,
+    rating: 4.4,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Luxurious Satin",
+    description: "Gorgeous satin chunky heel luxe flats with a modern refined design. The luxurious satin and comfortable chunky heel make them perfect for luxury shopping, casual outings, and sophisticated everyday wear.",
+    features: ["Luxurious Satin", "Chunky Heel", "Slip-on Style", "Memory Foam Insole", "Modern Luxury"],
+    color: "Royal Purple",
+    images: [
+      "/Footwear/Women/Heels/Casual/Products/chwfp12.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp12_1.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp12_2.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp12_3.webp",
+      "/Footwear/Women/Heels/Casual/Products/chwfp12_4.webp"
+    ]
+  }
   ];
 
   const filters = ['all', 'Leather', 'Suede', 'Synthetic'];
@@ -401,7 +401,7 @@ const CasualHeelsWomenFootwear = () => {
             src="/Footwear/Women/Heels/Casual"
             alt="Women's Casual Heels Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Women/Heels/Casual/chwfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Women/Heels/Casual/chwfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

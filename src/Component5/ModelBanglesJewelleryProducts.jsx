@@ -40,11 +40,11 @@ const ModelBanglesJewellery = () => {
       features: ["22K Gold Finish", "Royal Peacock Motif", "Grand Wedding Set", "Intricate Feather Work", "Regal Design"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp1_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp1_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp1_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp1_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp1_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp1_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp1_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const ModelBanglesJewellery = () => {
       features: ["22K Gold Finish", "Polki Diamond Work", "Bridal Collection", "Royal Craftsmanship", "Heritage Design"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp2_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp2_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp2_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp2_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp2_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp2_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp2_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const ModelBanglesJewellery = () => {
       features: ["22K Gold Finish", "Ruby Stones", "Enamel Work", "Meenakari Art", "Bridal Elegance"],
       color: "Gold/Red",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp3_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp3_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp3_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp3_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp3_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp3_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp3_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const ModelBanglesJewellery = () => {
       features: ["Premium Emerald Stones", "22K Gold Finish", "Royal Collection", "Grand Design", "Timeless Elegance"],
       color: "Gold/Green",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp4.png",
-        "/Jewellery/Bangles/Model/Products/mbjp4_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp4_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp4_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp4_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp4.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp4_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp4_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp4_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const ModelBanglesJewellery = () => {
       features: ["22K Gold Finish", "Lotus Temple Motif", "Divine Collection", "Sacred Design", "Intricate Craftsmanship"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp5.png",
-        "/Jewellery/Bangles/Model/Products/mbjp5_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp5_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp5_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp5_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp5.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp5_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp5_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp5_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const ModelBanglesJewellery = () => {
       features: ["22K Gold Finish", "Floral Filigree Work", "Traditional Collection", "Intricate Craftsmanship", "Elegant Design"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp6.png",
-        "/Jewellery/Bangles/Model/Products/mbjp6_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp6_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp6_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp6_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp6.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp6_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp6_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp6_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp6_4.webp"
       ]
     },
     // Regular Model Bangles
@@ -167,11 +167,11 @@ const ModelBanglesJewellery = () => {
       features: ["Premium Gold Finish", "Sleek Modern Design", "Lightweight", "Hypoallergenic", "Versatile Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp7.png",
-        "/Jewellery/Bangles/Model/Products/mbjp7_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp7_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp7_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp7_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp7.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp7_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp7_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp7_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const ModelBanglesJewellery = () => {
       features: ["Premium Silver Finish", "Vintage Designer", "Antique Craftsmanship", "Hypoallergenic", "Traditional Style"],
       color: "Silver",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp8.png",
-        "/Jewellery/Bangles/Model/Products/mbjp8_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp8_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp8_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp8_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp8.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp8_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp8_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp8_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const ModelBanglesJewellery = () => {
       features: ["Radiant Cut Design", "Premium Gold Finish", "Sparkling Facets", "Hypoallergenic", "Festive Glamour"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp9.png",
-        "/Jewellery/Bangles/Model/Products/mbjp9_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp9_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp9_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp9_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp9.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp9_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp9_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp9_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const ModelBanglesJewellery = () => {
       features: ["Silver Finish", "Enamel Flower Work", "Colorful Enamel", "Hypoallergenic", "Festive Collection"],
       color: "Silver/Multi",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp10.png",
-        "/Jewellery/Bangles/Model/Products/mbjp10_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp10_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp10_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp10_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp10.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp10_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp10_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp10_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const ModelBanglesJewellery = () => {
       features: ["Premium Gold Finish", "Contemporary Minimal", "Ultra Lightweight", "Hypoallergenic", "Everyday Essential"],
       color: "Gold",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp11.png",
-        "/Jewellery/Bangles/Model/Products/mbjp11_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp11_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp11_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp11_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp11.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp11_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp11_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp11_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const ModelBanglesJewellery = () => {
       features: ["Precious Diamond Stones", "Gold Finish", "Designer Collection", "Hypoallergenic", "Modern Statement"],
       color: "Gold/Diamond",
       images: [
-        "/Jewellery/Bangles/Model/Products/mbjp12.png",
-        "/Jewellery/Bangles/Model/Products/mbjp12_1.png",
-        "/Jewellery/Bangles/Model/Products/mbjp12_2.png",
-        "/Jewellery/Bangles/Model/Products/mbjp12_3.png",
-        "/Jewellery/Bangles/Model/Products/mbjp12_4.png"
+        "/Jewellery/Bangles/Model/Products/mbjp12.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp12_1.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp12_2.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp12_3.webp",
+        "/Jewellery/Bangles/Model/Products/mbjp12_4.webp"
       ]
     }
   ];
@@ -401,7 +401,7 @@ const ModelBanglesJewellery = () => {
             src="/Jewellery/Bangles/Model"
             alt="Model Bangles Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Jewellery/Bangles/Model/mbjbanner.png"; }}
+            onError={(e) => { e.target.src = "/Jewellery/Bangles/Model/mbjbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

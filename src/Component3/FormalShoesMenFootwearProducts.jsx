@@ -41,11 +41,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Leather", "Oxford Style", "Lace-up Closure", "Cushioned Insole", "Formal Look"],
       color: "Black",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp1_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp1_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp1_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp1_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp1_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp1_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp1_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Suede", "Derby Style", "Lace-up Closure", "Cushioned Sole", "Versatile"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp2_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp2_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp2_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp2_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp2_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp2_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp2_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Leather", "Monk Strap Style", "Buckle Closure", "Cushioned Insole", "Formal Look"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp3_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp3_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp3_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp3_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp3_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp3_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp3_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Suede", "Tassel Loafer Style", "Slip-on", "Comfortable Fit", "Classic Look"],
       color: "Navy",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp4.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp4_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp4_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp4_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp4_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp4.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp4_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp4_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp4_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Leather", "Wingtip Style", "Lace-up Closure", "Cushioned Insole", "Intricate Detailing"],
       color: "Tan",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp5.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp5_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp5_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp5_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp5_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp5.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp5_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp5_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp5_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Suede", "Chelsea Style", "Elastic Side Panels", "Cushioned Sole", "Versatile"],
       color: "Black",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp6.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp6_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp6_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp6_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp6_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp6.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp6_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp6_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp6_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Leather", "Cap Toe Style", "Lace-up Closure", "Cushioned Insole", "Formal Look"],
       color: "Black",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp7.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp7_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp7_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp7_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp7_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp7.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp7_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp7_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp7_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Suede", "Penny Loafer Style", "Slip-on", "Comfortable Fit", "Classic Look"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp8.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp8_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp8_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp8_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp8_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp8.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp8_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp8_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp8_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Leather", "Double Monk Strap", "Buckle Closure", "Cushioned Insole", "Luxury Look"],
       color: "Brown",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp9.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp9_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp9_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp9_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp9_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp9.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp9_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp9_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp9_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Suede", "Wholecut Style", "Lace-up Closure", "Cushioned Insole", "Minimalist Design"],
       color: "Navy",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp10.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp10_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp10_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp10_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp10_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp10.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp10_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp10_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp10_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Leather", "Dress Boot Style", "Lace-up Closure", "Cushioned Insole", "Formal Look"],
       color: "Black",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp11.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp11_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp11_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp11_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp11_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp11.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp11_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp11_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp11_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const FormalShoesMenFootwear = () => {
       features: ["Premium Suede", "Opera Pump Style", "Slip-on", "Comfortable Fit", "Classic Look"],
       color: "Black",
       images: [
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp12.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp12_1.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp12_2.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp12_3.jpg",
-        "/Footwear/Men/Shoes/Formal/Products/fsmfp12_4.jpg"
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp12.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp12_1.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp12_2.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp12_3.webp",
+        "/Footwear/Men/Shoes/Formal/Products/fsmfp12_4.webp"
       ]
     }
   ];
@@ -401,7 +401,7 @@ const FormalShoesMenFootwear = () => {
             src="/Footwear/Men/Shoes/Formal"
             alt="Men's Formal Shoes Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Footwear/Men/Shoes/Formal/fsmfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Footwear/Men/Shoes/Formal/fsmfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

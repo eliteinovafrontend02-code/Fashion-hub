@@ -41,11 +41,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Premium Cotton", "Regular Fit", "Spread collar", "All-over floral print", "Available in 5 sizes"],
       color: "Blue",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp1_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp1_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp1_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp1_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp1_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp1_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp1_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Soft Cotton", "Slim Fit", "Point collar", "Geometric print", "Available in 5 sizes"],
       color: "Black",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp2_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp2_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp2_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp2_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp2_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp2_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp2_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Viscose", "Relaxed Fit", "Camp collar", "Tropical leaf print", "Available in 5 sizes"],
       color: "Green",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp3_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp3_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp3_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp3_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp3_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp3_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp3_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Cotton", "Regular Fit", "Classic collar", "Abstract print", "Available in 5 sizes"],
       color: "White",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp4.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp4_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp4_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp4_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp4_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp4.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp4_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp4_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp4_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Premium Cotton", "Regular Fit", "Spread collar", "Paisley print", "Available in 5 sizes"],
       color: "Maroon",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp5.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp5_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp5_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp5_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp5_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp5.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp5_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp5_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp5_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Cotton", "Slim Fit", "Button-down collar", "Color-block stripes", "Available in 5 sizes"],
       color: "Multi",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp6.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp6_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp6_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp6_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp6_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp6.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp6_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp6_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp6_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Viscose", "Relaxed Fit", "Camp collar", "Animal print", "Available in 5 sizes"],
       color: "Brown",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp7.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp7_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp7_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp7_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp7_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp7.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp7_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp7_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp7_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Soft Cotton", "Regular Fit", "Classic collar", "Polka dot print", "Available in 5 sizes"],
       color: "Navy",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp8.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp8_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp8_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp8_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp8_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp8.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp8_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp8_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp8_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Lightweight Cotton", "Regular Fit", "Spread collar", "Floral vine print", "Available in 5 sizes"],
       color: "Yellow",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp9.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp9_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp9_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp9_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp9_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp9.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp9_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp9_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp9_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Premium Cotton", "Regular Fit", "Point collar", "Tribal print", "Available in 5 sizes"],
       color: "Red",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp10.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp10_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp10_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp10_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp10_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp10.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp10_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp10_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp10_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Viscose", "Relaxed Fit", "Camp collar", "Watercolor print", "Available in 5 sizes"],
       color: "Blue",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp11.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp11_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp11_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp11_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp11_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp11.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp11_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp11_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp11_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const PrintedShirtMenFashion = () => {
       features: ["100% Durable Cotton", "Regular Fit", "Button-down collar", "Camo print", "Available in 5 sizes"],
       color: "Olive",
       images: [
-        "/Fashion/Men/Shirts/Printed/Products/psmfp12.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp12_1.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp12_2.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp12_3.png",
-        "/Fashion/Men/Shirts/Printed/Products/psmfp12_4.png"
+        "/Fashion/Men/Shirts/Printed/Products/psmfp12.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp12_1.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp12_2.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp12_3.webp",
+        "/Fashion/Men/Shirts/Printed/Products/psmfp12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const PrintedShirtMenFashion = () => {
             src="/Fashion/Men/Shirts/Printed"
             alt="Printed Shirts Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Men/Shirts/Printed/psmfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Men/Shirts/Printed/psmfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

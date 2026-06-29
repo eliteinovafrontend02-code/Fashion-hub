@@ -32,7 +32,7 @@ const Fashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/fbanner1.png", 
+      image: "/Fashion/fbanner1.webp", 
       titlePart1: "The Art of",
       titlePart2: "Modern Classics",
       subtitle: "ESTABLISHED • MMXXVI",
@@ -44,7 +44,7 @@ const Fashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/fbanner2.png",
+      image: "/Fashion/fbanner2.webp",
       titlePart1: "Ethereal",
       titlePart2: "Winter Silhouettes",
       subtitle: "PREMIUM HAUTE COUTURE",
@@ -56,7 +56,7 @@ const Fashion = () => {
     },
     {
       id: 3,
-      image: "/Fashion/fbanner3.png",
+      image: "/Fashion/fbanner3.webp",
       titlePart1: "Gentle",
       titlePart2: "Junior Beginnings",
       subtitle: "CURATED JUNIOR LINE",
@@ -73,21 +73,21 @@ const Fashion = () => {
       id: 1,
       title: "Men's Wear",
       tag: "TAILORED",
-      image: "/Fashion/fmen.png", // Change this to your image path
+      image: "/Fashion/fmen.webp", // Change this to your image path
       link: "/fashion/men"
     },
     {
       id: 2,
       title: "Women's Wear",
       tag: "ESSENTIALS",
-      image: "/Fashion/fwomen.png", // Change this to your image path
+      image: "/Fashion/fwomen.webp", // Change this to your image path
       link: "/fashion/women"
     },
     {
       id: 3,
       title: "Kids Wear",
       tag: "DISCOVER",
-      image: "/Fashion/fkids.png", // Change this to your image path
+      image: "/Fashion/fkids.webp", // Change this to your image path
       link: "/fashion/kids"
     }
   ];
@@ -291,7 +291,7 @@ const Fashion = () => {
 
         <div className="w-full h-full overflow-hidden rounded-[20px]">
           <img
-            src="/Fashion/fbanner.png" 
+            src="/Fashion/fbanner.webp" 
             alt="Luxury E-commerce Signature Look"
             className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
           />
@@ -338,7 +338,7 @@ const Fashion = () => {
           price: '2,499', 
           oldPrice: '3,999', 
           tag: 'Trending',
-          image: '/Fashion/Products/fp1.png' 
+          image: '/Fashion/Products/fp1.webp' 
         },
         { 
           id: 202, 
@@ -348,7 +348,7 @@ const Fashion = () => {
           price: '8,999', 
           oldPrice: '12,000', 
           tag: 'Signature',
-          image: '/Fashion/Products/fp2.png' 
+          image: '/Fashion/Products/fp2.webp' 
         },
         { 
           id: 203, 
@@ -358,7 +358,7 @@ const Fashion = () => {
           price: '3,299', 
           oldPrice: '4,500', 
           tag: 'New Arrival',
-          image: '/Fashion/Products/fp3.png' 
+          image: '/Fashion/Products/fp3.webp' 
         },
         { 
           id: 204, 
@@ -368,7 +368,7 @@ const Fashion = () => {
           price: '2,899', 
           oldPrice: '4,200', 
           tag: 'Bestseller',
-          image: '/Fashion/Products/fp4.png' 
+          image: '/Fashion/Products/fp4.webp' 
         }
       ].map((product) => (
         <div key={product.id} className="group flex flex-col">

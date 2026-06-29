@@ -26,7 +26,7 @@ const KidsFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Kids/kfbanner1.png",
+      image: "/Footwear/Kids/kfbanner1.webp",
       titlePart1: "Little Steps,",
       titlePart2: "Big Dreams",
       subtitle: "KIDS • BOY ",
@@ -35,7 +35,7 @@ const KidsFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Kids/kfbanner2.png",
+      image: "/Footwear/Kids/kfbanner2.webp",
       titlePart1: "Playful,",
       titlePart2: "Comfy & Cute",
       subtitle: "KIDS • GIRL",
@@ -50,14 +50,14 @@ const KidsFootwear = () => {
       id: 1,
       title: "Boy",
       tag: "ACTIVE",
-      image: "/Footwear/Kids/boy.png",
+      image: "/Footwear/Kids/boy.webp",
       link: "/footwear/kids/boy"
     },
     {
       id: 2,
       title: "Girl",
       tag: "PLAYFUL",
-      image: "/Footwear/Kids/girl.png",
+      image: "/Footwear/Kids/girl.webp",
       link: "/footwear/kids/girl"
     }
   ];
@@ -71,7 +71,7 @@ const KidsFootwear = () => {
       sub: "Boy • Shoes", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Footwear/Kids/Products/kfp1.png", "/Footwear/Kids/Products/kfp1_1.png", "/Footwear/Kids/Products/kfp1_2.png", "/Footwear/Kids/Products/kfp1_3.png", "/Footwear/Kids/Products/kfp1_4.png"],
+      images: ["/Footwear/Kids/Products/kfp1.webp", "/Footwear/Kids/Products/kfp1_1.webp", "/Footwear/Kids/Products/kfp1_2.webp", "/Footwear/Kids/Products/kfp1_3.webp", "/Footwear/Kids/Products/kfp1_4.webp"],
       tag: "Best Seller", 
       color: "Blue/Red", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const KidsFootwear = () => {
       sub: "Girl • Shoes", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Footwear/Kids/Products/kfp2.png", "/Footwear/Kids/Products/kfp2_1.png", "/Footwear/Kids/Products/kfp2_2.png", "/Footwear/Kids/Products/kfp2_3.png", "/Footwear/Kids/Products/kfp2_4.png"],
+      images: ["/Footwear/Kids/Products/kfp2.webp", "/Footwear/Kids/Products/kfp2_1.webp", "/Footwear/Kids/Products/kfp2_2.webp", "/Footwear/Kids/Products/kfp2_3.webp", "/Footwear/Kids/Products/kfp2_4.webp"],
       tag: "Trending", 
       color: "Pink/Glitter", 
       rating: "4.7", 
@@ -99,7 +99,7 @@ const KidsFootwear = () => {
       sub: "Boy • Sandals", 
       price: 999, 
       oldPrice: 1999, 
-      images: ["/Footwear/Kids/Products/kfp3.png", "/Footwear/Kids/Products/kfp3_1.png", "/Footwear/Kids/Products/kfp3_2.png", "/Footwear/Kids/Products/kfp3_3.png", "/Footwear/Kids/Products/kfp3_4.png"],
+      images: ["/Footwear/Kids/Products/kfp3.webp", "/Footwear/Kids/Products/kfp3_1.webp", "/Footwear/Kids/Products/kfp3_2.webp", "/Footwear/Kids/Products/kfp3_3.webp", "/Footwear/Kids/Products/kfp3_4.webp"],
       tag: "Summer Edit", 
       color: "Navy/Orange", 
       rating: "4.6", 
@@ -113,7 +113,7 @@ const KidsFootwear = () => {
       sub: "Girl • Sandals", 
       price: 1099, 
       oldPrice: 2199, 
-      images: ["/Footwear/Kids/Products/kfp4.png", "/Footwear/Kids/Products/kfp4_1.png", "/Footwear/Kids/Products/kfp4_2.png", "/Footwear/Kids/Products/kfp4_3.png", "/Footwear/Kids/Products/kfp4_4.png"],
+      images: ["/Footwear/Kids/Products/kfp4.webp", "/Footwear/Kids/Products/kfp4_1.webp", "/Footwear/Kids/Products/kfp4_2.webp", "/Footwear/Kids/Products/kfp4_3.webp", "/Footwear/Kids/Products/kfp4_4.webp"],
       tag: "Cute Collection", 
       color: "Lavender", 
       rating: "4.9", 
@@ -315,7 +315,7 @@ const KidsFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Kids/kfbanner.png"
+                  src="/Footwear/Kids/kfbanner.webp"
                   alt="Kids' Footwear Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

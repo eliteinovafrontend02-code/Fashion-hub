@@ -27,73 +27,73 @@ useEffect(() => {
   const products = [
     { 
       id: 201, name: 'Casual Printed Shirt', category: "Fashion", sub: "Men • Essential", price: 2499, oldPrice: 3999, 
-      images: ["/Fashion/Products/fp1.png", "/Fashion/Products/fp1_1.png", "/Fashion/Products/fp1_2.png","/Fashion/Products/fp1_3.png","/Fashion/Products/fp1_4.png"],
+      images: ["/Fashion/Products/fp1.webp", "/Fashion/Products/fp1_1.webp", "/Fashion/Products/fp1_2.webp","/Fashion/Products/fp1_3.webp","/Fashion/Products/fp1_4.webp"],
       tag: "Trending", color: "Vintage Print", rating: "4.7", reviews: "1.2k",
       details: { "Fabric": "Premium Cotton", "Fit": "Slim Fit", "Sleeve": "Full", "Occasion": "Casual", "Wash": "Machine Wash" }
     },
     { 
       id: 202, name: 'Party Wear Saree', category: "Fashion", sub: "Women • Heritage", price: 8999, oldPrice: 12000, 
-      images: ["/Fashion/Products/fp2.png", "/Fashion/Products/fp2_1.png", "/Fashion/Products/fp2_2.png","/Fashion/Products/fp2_3.png","/Fashion/Products/fp2_4.png"],
+      images: ["/Fashion/Products/fp2.webp", "/Fashion/Products/fp2_1.webp", "/Fashion/Products/fp2_2.webp","/Fashion/Products/fp2_3.webp","/Fashion/Products/fp2_4.webp"],
       tag: "Signature", color: "Royal Crimson", rating: "4.9", reviews: "850",
       details: { "Material": "Pure Silk Blend", "Work": "Zari Embroidery", "Length": "6.5 Meters", "Includes": "Unstitched Blouse", "Style": "Traditional" }
     },
     { 
       id: 203, name: 'Designer Girls Frock', category: "Fashion", sub: "Kids • Festive", price: 3299, oldPrice: 4500, 
-      images: ["/Fashion/Products/fp3.png", "/Fashion/Products/fp3_1.png", "/Fashion/Products/fp3_2.png","/Fashion/Products/fp3_3.png","/Fashion/Products/fp3_4.png"],
+      images: ["/Fashion/Products/fp3.webp", "/Fashion/Products/fp3_1.webp", "/Fashion/Products/fp3_2.webp","/Fashion/Products/fp3_3.webp","/Fashion/Products/fp3_4.webp"],
       tag: "New Arrival", color: "Pastel Pink", rating: "4.8", reviews: "420",
       details: { "Fabric": "Soft Tulle & Organza", "Lining": "100% Cotton", "Age": "5-12 Years", "Closure": "Back Zipper", "Feel": "Lightweight" }
     },
     { 
       id: 204, name: 'Slim Fit Formal Pants', category: "Fashion", sub: "Men • Professional", price: 2899, oldPrice: 4200, 
-      images: ["/Fashion/Products/fp4.png", "/Fashion/Products/fp4_1.png", "/Fashion/Products/fp4_2.png","/Fashion/Products/fp4_3.png","/Fashion/Products/fp4_4.png"],
+      images: ["/Fashion/Products/fp4.webp", "/Fashion/Products/fp4_1.webp", "/Fashion/Products/fp4_2.webp","/Fashion/Products/fp4_3.webp","/Fashion/Products/fp4_4.webp"],
       tag: "Bestseller", color: "Charcoal Grey", rating: "4.6", reviews: "2.1k",
       details: { "Material": "Poly-Viscose Stretch", "Fit": "Modern Slim", "Pockets": "4 Utility Pockets", "Rise": "Mid Rise", "Finish": "Crease Resistant" }
     },
     { 
       id: 205, name: 'Boys Shirt', category: "Fashion", sub: "Kids Boy • Essential", price: 15999, oldPrice: 22000, 
-      images: ["/Fashion/Products/fp5.png", "/Fashion/Products/fp5_1.png", "/Fashion/Products/fp5_2.png","/Fashion/Products/fp5_3.png","/Fashion/Products/fp5_4.png"],
+      images: ["/Fashion/Products/fp5.webp", "/Fashion/Products/fp5_1.webp", "/Fashion/Products/fp5_2.webp","/Fashion/Products/fp5_3.webp","/Fashion/Products/fp5_4.webp"],
       tag: "Premium", color: "Midnight Black", rating: "5.0", reviews: "150",
       details: { "Outer": "Italian Wool Blend", "Lapel": "Satin Peak Lapel", "Lining": "Silk Jacquard", "Fit": "Tailored", "Event": "Gala/Wedding" }
     },
     { 
       id: 206, name: 'Long Dress', category: "Fashion", sub: "Women • Haute Couture", price: 12499, oldPrice: 18000, 
-      images: ["/Fashion/Products/fp6.png", "/Fashion/Products/fp6_1.png", "/Fashion/Products/fp6_2.png","/Fashion/Products/fp6_3.png","/Fashion/Products/fp6_4.png"],
+      images: ["/Fashion/Products/fp6.webp", "/Fashion/Products/fp6_1.webp", "/Fashion/Products/fp6_2.webp","/Fashion/Products/fp6_3.webp","/Fashion/Products/fp6_4.webp"],
       tag: "Limited Edit", color: "Deep Emerald", rating: "4.9", reviews: "310",
       details: { "Fabric": "Micro Velvet", "Silhouette": "Floor Length", "Stretch": "Slight", "Neckline": "Sweetheart", "Care": "Dry Clean Only" }
     },
     { 
       id: 207, name: 'Boys Set', category: "Fashion", sub: "Kids Boy • Heritage", price: 24999, oldPrice: 35000, 
-      images: ["/Fashion/Products/fp7.png", "/Fashion/Products/fp7_1.png", "/Fashion/Products/fp7_2.png","/Fashion/Products/fp7_3.png","/Fashion/Products/fp7_4.png"],
+      images: ["/Fashion/Products/fp7.webp", "/Fashion/Products/fp7_1.webp", "/Fashion/Products/fp7_2.webp","/Fashion/Products/fp7_3.webp","/Fashion/Products/fp7_4.webp"],
       tag: "Exclusive", color: "Ivory Gold", rating: "4.9", reviews: "85",
       details: { "Work": "Hand-stitched Zardosi", "Fabric": "Banarasi Silk", "Includes": "Stole & Chudidar", "Feel": "Ultra Luxury", "Weight": "Heavy" }
     },
     { 
       id: 208, name: 'Short Dress', category: "Fashion", sub: "Women • Essentials", price: 4299, oldPrice: 6500, 
-      images: ["/Fashion/Products/fp8.png", "/Fashion/Products/fp8_1.png", "/Fashion/Products/fp8_2.png","/Fashion/Products/fp8_3.png","/Fashion/Products/fp8_4.png"],
+      images: ["/Fashion/Products/fp8.webp", "/Fashion/Products/fp8_1.webp", "/Fashion/Products/fp8_2.webp","/Fashion/Products/fp8_3.webp","/Fashion/Products/fp8_4.webp"],
       tag: "Trending", color: "Floral Peach", rating: "4.7", reviews: "900",
       details: { "Fabric": "Georgette Chiffon", "Pattern": "French Floral", "Lining": "Satin", "Length": "Midi", "Style": "Summer Chic" }
     },
     { 
       id: 209, name: 'Girls Set', category: "Fashion", sub: "Kids Girl • Festive", price: 4599, oldPrice: 6200, 
-      images: ["/Fashion/Products/fp9.png", "/Fashion/Products/fp9_1.png", "/Fashion/Products/fp9_2.png","/Fashion/Products/fp9_3.png","/Fashion/Products/fp9_4.png"],
+      images: ["/Fashion/Products/fp9.webp", "/Fashion/Products/fp9_1.webp", "/Fashion/Products/fp9_2.webp","/Fashion/Products/fp9_3.webp","/Fashion/Products/fp9_4.webp"],
       tag: "Junior Line", color: "Marigold Yellow", rating: "4.8", reviews: "200",
       details: { "Fabric": "Silk Taffeta", "Dupatta": "Net with Border", "Age": "4-10 Years", "Occasion": "Festive", "Comfort": "Cotton Lining" }
     },
     { 
       id: 210, name: 'Jean Pants', category: "Fashion", sub: "Kids • Discover", price: 1999, oldPrice: 2899, 
-      images: ["/Fashion/Products/fp10.png", "/Fashion/Products/fp10_1.png", "/Fashion/Products/fp10_2.png","/Fashion/Products/fp10_3.png","/Fashion/Products/fp10_4.png"],
+      images: ["/Fashion/Products/fp10.webp", "/Fashion/Products/fp10_1.webp", "/Fashion/Products/fp10_2.webp","/Fashion/Products/fp10_3.webp","/Fashion/Products/fp10_4.webp"],
       tag: "Essentials", color: "Acid Wash Blue", rating: "4.5", reviews: "1.1k",
       details: { "Fabric": "Heavy Denim", "Fit": "Regular", "Style": "Unisex", "Wash": "Fade Resistant", "Durability": "High" }
     },
     { 
       id: 211, name: 'Formal Pants', category: "Fashion", sub: "Men • Professional", price: 3499, oldPrice: 4999, 
-      images: ["/Fashion/Products/fp11.png", "/Fashion/Products/fp11_1.png", "/Fashion/Products/fp11_2.png","/Fashion/Products/fp11_3.png","/Fashion/Products/fp11_4.png"],
+      images: ["/Fashion/Products/fp11.webp", "/Fashion/Products/fp11_1.webp", "/Fashion/Products/fp11_2.webp","/Fashion/Products/fp11_3.webp","/Fashion/Products/fp11_4.webp"],
       tag: "Classic", color: "Navy Blue", rating: "4.7", reviews: "3.2k",
       details: { "Fabric": "Lycra Cotton Mix", "Fit": "Modern Straight", "Stretch": "Comfort Stretch", "Iron": "Low Heat", "Waist": "Mid-Rise" }
     },
     { 
       id: 212, name: 'Casual Saree', category: "Fashion", sub: "Women • Heritage", price: 3899, oldPrice: 5200, 
-      images: ["/Fashion/Products/fp12.png", "/Fashion/Products/fp12_1.png", "/Fashion/Products/fp12_2.png","/Fashion/Products/fp12_3.png","/Fashion/Products/fp12_4.png"],
+      images: ["/Fashion/Products/fp12.webp", "/Fashion/Products/fp12_1.webp", "/Fashion/Products/fp12_2.webp","/Fashion/Products/fp12_3.webp","/Fashion/Products/fp12_4.webp"],
       tag: "New Arrival", color: "Mustard Gold", rating: "4.8", reviews: "600",
       details: { "Fabric": "Chanderi Silk", "Emroidery": "Lucknowi Chikankari", "Length": "Calf Length", "Sleeve": "3/4th", "Pairing": "Leggings/Palazzos" }
     }

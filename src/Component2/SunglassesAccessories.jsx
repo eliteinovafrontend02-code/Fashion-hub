@@ -26,7 +26,7 @@ const SunglassesAccessories = () => {
   const banners = [
     {
       id: 1,
-      image: "/Accessories/Sunglasses/sabanner1.png",
+      image: "/Accessories/Sunglasses/sabanner1.webp",
       titlePart1: "Retro Vibes",
       titlePart2: "Round Sunglasses",
       subtitle: "ACCESSORIES • ROUND • TRENDY",
@@ -35,7 +35,7 @@ const SunglassesAccessories = () => {
     },
     {
       id: 2,
-      image: "/Accessories/Sunglasses/sabanner2.png",
+      image: "/Accessories/Sunglasses/sabanner2.webp",
       titlePart1: "Bold & Sharp",
       titlePart2: "Square Sunglasses",
       subtitle: "ACCESSORIES • SQUARE • STYLISH",
@@ -50,14 +50,14 @@ const SunglassesAccessories = () => {
       id: 1,
       title: "Round Sunglasses",
       tag: "RETRO",
-      image: "/Accessories/Sunglasses/round.png",
+      image: "/Accessories/Sunglasses/round.webp",
       link: "/accessories/sunglasses/round"
     },
     {
       id: 2,
       title: "Square Sunglasses",
       tag: "BOLD",
-      image: "/Accessories/Sunglasses/square.png",
+      image: "/Accessories/Sunglasses/square.webp",
       link: "/accessories/sunglasses/square"
     }
   ];
@@ -71,7 +71,7 @@ const SunglassesAccessories = () => {
       sub: "Sunglasses • Round", 
       price: 1299, 
       oldPrice: 2599, 
-      images: ["/Accessories/Sunglasses/Products/sap1.png", "/Accessories/Sunglasses/Products/sap1_1.png", "/Accessories/Sunglasses/Products/sap1_2.png", "/Accessories/Sunglasses/Products/sap1_3.png", "/Accessories/Sunglasses/Products/sap1_4.png"],
+      images: ["/Accessories/Sunglasses/Products/sap1.webp", "/Accessories/Sunglasses/Products/sap1_1.webp", "/Accessories/Sunglasses/Products/sap1_2.webp", "/Accessories/Sunglasses/Products/sap1_3.webp", "/Accessories/Sunglasses/Products/sap1_4.webp"],
       tag: "Best Seller", 
       color: "Black", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const SunglassesAccessories = () => {
       sub: "Sunglasses • Square", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Accessories/Sunglasses/Products/sap2.png", "/Accessories/Sunglasses/Products/sap2_1.png", "/Accessories/Sunglasses/Products/sap2_2.png", "/Accessories/Sunglasses/Products/sap2_3.png", "/Accessories/Sunglasses/Products/sap2_4.png"],
+      images: ["/Accessories/Sunglasses/Products/sap2.webp", "/Accessories/Sunglasses/Products/sap2_1.webp", "/Accessories/Sunglasses/Products/sap2_2.webp", "/Accessories/Sunglasses/Products/sap2_3.webp", "/Accessories/Sunglasses/Products/sap2_4.webp"],
       tag: "Trending", 
       color: "Gold & Black", 
       rating: "4.7", 
@@ -99,7 +99,7 @@ const SunglassesAccessories = () => {
       sub: "Sunglasses • Round", 
       price: 1599, 
       oldPrice: 3199, 
-      images: ["/Accessories/Sunglasses/Products/sap3.png", "/Accessories/Sunglasses/Products/sap3_1.png", "/Accessories/Sunglasses/Products/sap3_2.png", "/Accessories/Sunglasses/Products/sap3_3.png", "/Accessories/Sunglasses/Products/sap3_4.png"],
+      images: ["/Accessories/Sunglasses/Products/sap3.webp", "/Accessories/Sunglasses/Products/sap3_1.webp", "/Accessories/Sunglasses/Products/sap3_2.webp", "/Accessories/Sunglasses/Products/sap3_3.webp", "/Accessories/Sunglasses/Products/sap3_4.webp"],
       tag: "Premium", 
       color: "Silver Mirror", 
       rating: "4.9", 
@@ -113,7 +113,7 @@ const SunglassesAccessories = () => {
       sub: "Sunglasses • Square", 
       price: 999, 
       oldPrice: 1999, 
-      images: ["/Accessories/Sunglasses/Products/sap4.png", "/Accessories/Sunglasses/Products/sap4_1.png", "/Accessories/Sunglasses/Products/sap4_2.png", "/Accessories/Sunglasses/Products/sap4_3.png", "/Accessories/Sunglasses/Products/sap4_4.png"],
+      images: ["/Accessories/Sunglasses/Products/sap4.webp", "/Accessories/Sunglasses/Products/sap4_1.webp", "/Accessories/Sunglasses/Products/sap4_2.webp", "/Accessories/Sunglasses/Products/sap4_3.webp", "/Accessories/Sunglasses/Products/sap4_4.webp"],
       tag: "Essential", 
       color: "Tortoise Shell", 
       rating: "4.6", 
@@ -332,7 +332,7 @@ const SunglassesAccessories = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Accessories/Sunglasses/sabanner.png"
+                  src="/Accessories/Sunglasses/sabanner.webp"
                   alt="Sunglasses Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

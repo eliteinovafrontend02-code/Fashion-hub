@@ -25,7 +25,7 @@ const SunscreenSkincareBeauty = () => {
   }, []);
 
   const sunscreenProducts = [
-    {
+     {
       id: 1,
       name: "SPF 50 Sunscreen Lotion",
       fabric: "Sunscreen Lotion",
@@ -39,11 +39,11 @@ const SunscreenSkincareBeauty = () => {
       features: ["SPF 50 PA+++", "Non-greasy", "Lightweight", "Fast Absorbing", "Water Resistant"],
       color: "White",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp1_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp1_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp1_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp1_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp1_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp1_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp1_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp1_4.webp"
       ]
     },
     {
@@ -58,13 +58,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Easy Application",
       description: "Convenient SPF 30 sunscreen spray for quick and easy application. The fine mist formula provides broad-spectrum protection and is perfect for on-the-go use.",
       features: ["SPF 30 PA+++", "Fine Mist", "Easy Application", "Non-greasy", "Fast Absorbing"],
-      color: "White",
+      color: "Blue",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp2_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp2_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp2_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp2_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp2_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp2_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp2_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp2_4.webp"
       ]
     },
     {
@@ -79,13 +79,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Portable Protection",
       description: "Portable SPF 40 sunscreen stick for targeted application. The solid formula glides on smoothly and is perfect for sensitive areas like face, ears, and nose.",
       features: ["SPF 40 PA+++", "Portable", "Easy Application", "Non-greasy", "Water Resistant"],
-      color: "White",
+      color: "Green",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp3_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp3_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp3_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp3_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp3_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp3_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp3_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp3_4.webp"
       ]
     },
     {
@@ -100,13 +100,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Matte Finish",
       description: "SPF 50 matte sunscreen that controls shine while protecting your skin. The oil-free formula leaves a smooth, matte finish perfect for everyday wear.",
       features: ["SPF 50 PA+++", "Matte Finish", "Oil-free", "Non-comedogenic", "Broad Spectrum"],
-      color: "White",
+      color: "Black",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp4.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp4_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp4_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp4_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp4_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp4.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp4_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp4_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp4_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp4_4.webp"
       ]
     },
     {
@@ -121,13 +121,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Hydrating Formula",
       description: "SPF 30 hydrating sunscreen spray with added moisturizers. The refreshing mist provides sun protection while keeping your skin hydrated and dewy.",
       features: ["SPF 30 PA+++", "Hydrating", "Refreshing Mist", "Non-greasy", "Fast Absorbing"],
-      color: "White",
+      color: "Pink",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp5.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp5_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp5_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp5_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp5_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp5.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp5_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp5_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp5_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp5_4.webp"
       ]
     },
     {
@@ -142,13 +142,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Face Protection",
       description: "SPF 50 sunscreen stick specially formulated for the face. The compact size fits easily in your bag for convenient reapplication throughout the day.",
       features: ["SPF 50 PA+++", "Face Formula", "Portable", "Non-greasy", "Easy Application"],
-      color: "White",
+      color: "Purple",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp6.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp6_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp6_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp6_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp6_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp6.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp6_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp6_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp6_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp6_4.webp"
       ]
     },
     {
@@ -163,13 +163,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Water Resistant",
       description: "SPF 40 water-resistant sunscreen lotion ideal for outdoor activities. The long-lasting formula stays effective even during swimming and sweating.",
       features: ["SPF 40 PA+++", "Water Resistant", "Long-lasting", "Non-greasy", "Broad Spectrum"],
-      color: "White",
+      color: "Orange",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp7.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp7_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp7_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp7_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp7_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp7.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp7_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp7_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp7_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp7_4.webp"
       ]
     },
     {
@@ -184,13 +184,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Cooling Effect",
       description: "SPF 30 cooling sunscreen spray with a refreshing sensation. The fine mist formula provides instant cooling while protecting your skin from the sun.",
       features: ["SPF 30 PA+++", "Cooling Effect", "Refreshing", "Non-greasy", "Fast Absorbing"],
-      color: "White",
+      color: "Teal",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp8.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp8_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp8_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp8_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp8_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp8.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp8_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp8_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp8_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp8_4.webp"
       ]
     },
     {
@@ -207,11 +207,11 @@ const SunscreenSkincareBeauty = () => {
       features: ["SPF 50 PA+++", "Tinted", "Sheer Coverage", "Portable", "Non-greasy"],
       color: "Natural",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp9.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp9_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp9_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp9_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp9_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp9.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp9_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp9_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp9_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp9_4.webp"
       ]
     },
     {
@@ -226,13 +226,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Gel Formula",
       description: "SPF 40 gel sunscreen lotion with a lightweight, refreshing feel. The gel formula absorbs instantly without leaving any sticky residue.",
       features: ["SPF 40 PA+++", "Gel Formula", "Lightweight", "Non-sticky", "Fast Absorbing"],
-      color: "White",
+      color: "Silver",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp10.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp10_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp10_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp10_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp10_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp10.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp10_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp10_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp10_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp10_4.webp"
       ]
     },
     {
@@ -247,13 +247,13 @@ const SunscreenSkincareBeauty = () => {
       sub: "Sport Formula",
       description: "SPF 50 sport sunscreen spray designed for active lifestyles. The sweat-resistant formula stays on even during intense physical activities.",
       features: ["SPF 50 PA+++", "Sweat Resistant", "Sport Formula", "Non-greasy", "Long-lasting"],
-      color: "White",
+      color: "Red",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp11.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp11_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp11_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp11_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp11_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp11.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp11_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp11_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp11_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp11_4.webp"
       ]
     },
     {
@@ -268,15 +268,16 @@ const SunscreenSkincareBeauty = () => {
       sub: "Kids Formula",
       description: "SPF 30 sunscreen stick specially formulated for kids. The gentle, hypoallergenic formula provides safe sun protection for delicate skin.",
       features: ["SPF 30 PA+++", "Kids Formula", "Gentle", "Hypoallergenic", "Easy Application"],
-      color: "White",
+      color: "Yellow",
       images: [
-        "/Beauty/Skincare/Sunscreen/Products/ssbp12.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp12_1.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp12_2.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp12_3.png",
-        "/Beauty/Skincare/Sunscreen/Products/ssbp12_4.png"
+        "/Beauty/Skincare/Sunscreen/Products/ssbp12.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp12_1.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp12_2.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp12_3.webp",
+        "/Beauty/Skincare/Sunscreen/Products/ssbp12_4.webp"
       ]
     }
+
   ];
 
   const filters = ['all', 'Sunscreen Lotion', 'Sunscreen Spray', 'Sunscreen Stick'];
@@ -399,7 +400,7 @@ const SunscreenSkincareBeauty = () => {
             src="/Beauty/Skincare/Sunscreen"
             alt="Sunscreen Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Beauty/Skincare/Sunscreen/ssbbanner.png"; }}
+            onError={(e) => { e.target.src = "/Beauty/Skincare/Sunscreen/ssbbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

@@ -39,11 +39,11 @@ const StudEarringsJewellery = () => {
       features: ["Pure Gold Finish", "Hypoallergenic", "Lightweight", "Comfortable Fit", "Everyday Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp1_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp1_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp1_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp1_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp1_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp1_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp1_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp1_4.webp"
       ]
     },
     {
@@ -60,11 +60,11 @@ const StudEarringsJewellery = () => {
       features: ["Pure Silver Finish", "Crystal Embellishment", "Hypoallergenic", "Sparkling Design", "Party Wear"],
       color: "Silver",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp2_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp2_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp2_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp2_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp2_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp2_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp2_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp2_4.webp"
       ]
     },
     {
@@ -81,11 +81,11 @@ const StudEarringsJewellery = () => {
       features: ["Diamond Solitaire", "Brilliant Cut", "Elegant Design", "Hypoallergenic", "Timeless Piece"],
       color: "Diamond",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp3_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp3_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp3_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp3_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp3_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp3_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp3_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp3_4.webp"
       ]
     },
     {
@@ -102,11 +102,11 @@ const StudEarringsJewellery = () => {
       features: ["Gold Finish", "Genuine Pearl", "Elegant Design", "Hypoallergenic", "Special Occasion"],
       color: "Gold/White",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp4.png",
-        "/Jewellery/Earrings/Stud/Products/sejp4_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp4_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp4_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp4_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp4.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp4_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp4_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp4_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp4_4.webp"
       ]
     },
     {
@@ -123,11 +123,11 @@ const StudEarringsJewellery = () => {
       features: ["Silver Finish", "Cubic Zirconia", "Hypoallergenic", "Affordable Luxury", "Everyday Wear"],
       color: "Silver",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp5.png",
-        "/Jewellery/Earrings/Stud/Products/sejp5_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp5_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp5_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp5_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp5.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp5_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp5_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp5_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp5_4.webp"
       ]
     },
     {
@@ -144,11 +144,11 @@ const StudEarringsJewellery = () => {
       features: ["Diamond Halo", "Brilliant Cut", "Elegant Setting", "Hypoallergenic", "Special Occasion"],
       color: "Diamond",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp6.png",
-        "/Jewellery/Earrings/Stud/Products/sejp6_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp6_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp6_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp6_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp6.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp6_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp6_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp6_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp6_4.webp"
       ]
     },
     {
@@ -165,11 +165,11 @@ const StudEarringsJewellery = () => {
       features: ["Gold Finish", "Flower Design", "Intricate Craftsmanship", "Hypoallergenic", "Elegant Style"],
       color: "Gold",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp7.png",
-        "/Jewellery/Earrings/Stud/Products/sejp7_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp7_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp7_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp7_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp7.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp7_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp7_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp7_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp7_4.webp"
       ]
     },
     {
@@ -186,11 +186,11 @@ const StudEarringsJewellery = () => {
       features: ["Silver Finish", "Hoop Style", "Contemporary Design", "Hypoallergenic", "Versatile Wear"],
       color: "Silver",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp8.png",
-        "/Jewellery/Earrings/Stud/Products/sejp8_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp8_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp8_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp8_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp8.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp8_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp8_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp8_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp8_4.webp"
       ]
     },
     {
@@ -207,11 +207,11 @@ const StudEarringsJewellery = () => {
       features: ["Diamond Cluster", "Brilliant Cut", "Statement Piece", "Hypoallergenic", "Special Occasion"],
       color: "Diamond",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp9.png",
-        "/Jewellery/Earrings/Stud/Products/sejp9_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp9_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp9_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp9_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp9.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp9_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp9_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp9_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp9_4.webp"
       ]
     },
     {
@@ -228,11 +228,11 @@ const StudEarringsJewellery = () => {
       features: ["Gold Finish", "Heart Design", "Romantic Style", "Hypoallergenic", "Gift Ready"],
       color: "Gold",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp10.png",
-        "/Jewellery/Earrings/Stud/Products/sejp10_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp10_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp10_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp10_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp10.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp10_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp10_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp10_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp10_4.webp"
       ]
     },
     {
@@ -249,11 +249,11 @@ const StudEarringsJewellery = () => {
       features: ["Silver Finish", "Star Design", "Playful Style", "Hypoallergenic", "Everyday Sparkle"],
       color: "Silver",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp11.png",
-        "/Jewellery/Earrings/Stud/Products/sejp11_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp11_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp11_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp11_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp11.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp11_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp11_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp11_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp11_4.webp"
       ]
     },
     {
@@ -270,11 +270,11 @@ const StudEarringsJewellery = () => {
       features: ["Diamond 0.25ct", "Brilliant Cut", "Simple Elegance", "Hypoallergenic", "Essential Piece"],
       color: "Diamond",
       images: [
-        "/Jewellery/Earrings/Stud/Products/sejp12.png",
-        "/Jewellery/Earrings/Stud/Products/sejp12_1.png",
-        "/Jewellery/Earrings/Stud/Products/sejp12_2.png",
-        "/Jewellery/Earrings/Stud/Products/sejp12_3.png",
-        "/Jewellery/Earrings/Stud/Products/sejp12_4.png"
+        "/Jewellery/Earrings/Stud/Products/sejp12.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp12_1.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp12_2.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp12_3.webp",
+        "/Jewellery/Earrings/Stud/Products/sejp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const StudEarringsJewellery = () => {
             src="/Jewellery/Earrings/Stud"
             alt="Stud Earrings Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Jewellery/Earrings/Stud/sejbanner.png"; }}
+            onError={(e) => { e.target.src = "/Jewellery/Earrings/Stud/sejbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

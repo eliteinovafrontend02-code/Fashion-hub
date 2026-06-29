@@ -26,7 +26,7 @@ const NecklaceJewellery = () => {
   const banners = [
     {
       id: 1,
-      image: "/Jewellery/Necklace/njbanner1.png",
+      image: "/Jewellery/Necklace/njbanner1.webp",
       titlePart1: "Everyday Elegance",
       titlePart2: "Chain Necklace",
       subtitle: "JEWELLERY • CHAIN • CLASSIC",
@@ -35,7 +35,7 @@ const NecklaceJewellery = () => {
     },
     {
       id: 2,
-      image: "/Jewellery/Necklace/njbanner2.png",
+      image: "/Jewellery/Necklace/njbanner2.webp",
       titlePart1: "Bold Statement",
       titlePart2: "Choker Necklace",
       subtitle: "JEWELLERY • CHOKER • TRENDY",
@@ -50,14 +50,14 @@ const NecklaceJewellery = () => {
       id: 1,
       title: "Chain Necklace",
       tag: "CLASSIC",
-      image: "/Jewellery/Necklace/chain.png",
+      image: "/Jewellery/Necklace/chain.webp",
       link: "/jewellery/necklace/chain"
     },
     {
       id: 2,
       title: "Choker Necklace",
       tag: "TRENDY",
-      image: "/Jewellery/Necklace/choker.png",
+      image: "/Jewellery/Necklace/choker.webp",
       link: "/jewellery/necklace/choker"
     }
   ];
@@ -71,7 +71,7 @@ const NecklaceJewellery = () => {
       sub: "Necklace • Women's Chain", 
       price: 5999, 
       oldPrice: 7999, 
-      images: ["/Jewellery/Necklace/Products/njp1.png", "/Jewellery/Necklace/Products/njp1_1.png", "/Jewellery/Necklace/Products/njp1_2.png", "/Jewellery/Necklace/Products/njp1_3.png", "/Jewellery/Necklace/Products/njp1_4.png"],
+      images: ["/Jewellery/Necklace/Products/njp1.webp", "/Jewellery/Necklace/Products/njp1_1.webp", "/Jewellery/Necklace/Products/njp1_2.webp", "/Jewellery/Necklace/Products/njp1_3.webp", "/Jewellery/Necklace/Products/njp1_4.webp"],
       tag: "Best Seller", 
       color: "Rose Gold", 
       rating: "4.9", 
@@ -85,7 +85,7 @@ const NecklaceJewellery = () => {
       sub: "Necklace • Women's Choker", 
       price: 6999, 
       oldPrice: 9999, 
-      images: ["/Jewellery/Necklace/Products/njp2.png", "/Jewellery/Necklace/Products/njp2_1.png", "/Jewellery/Necklace/Products/njp2_2.png", "/Jewellery/Necklace/Products/njp2_3.png", "/Jewellery/Necklace/Products/njp2_4.png"],
+      images: ["/Jewellery/Necklace/Products/njp2.webp", "/Jewellery/Necklace/Products/njp2_1.webp", "/Jewellery/Necklace/Products/njp2_2.webp", "/Jewellery/Necklace/Products/njp2_3.webp", "/Jewellery/Necklace/Products/njp2_4.webp"],
       tag: "Luxury", 
       color: "Gold + Emerald", 
       rating: "4.9", 
@@ -99,7 +99,7 @@ const NecklaceJewellery = () => {
       sub: "Necklace • Women's Chain", 
       price: 5999, 
       oldPrice: 7899, 
-      images: ["/Jewellery/Necklace/Products/njp3.png", "/Jewellery/Necklace/Products/njp3_1.png", "/Jewellery/Necklace/Products/njp3_2.png", "/Jewellery/Necklace/Products/njp3_3.png", "/Jewellery/Necklace/Products/njp3_4.png"],
+      images: ["/Jewellery/Necklace/Products/njp3.webp", "/Jewellery/Necklace/Products/njp3_1.webp", "/Jewellery/Necklace/Products/njp3_2.webp", "/Jewellery/Necklace/Products/njp3_3.webp", "/Jewellery/Necklace/Products/njp3_4.webp"],
       tag: "Premium", 
       color: "Silver", 
       rating: "4.8", 
@@ -113,7 +113,7 @@ const NecklaceJewellery = () => {
       sub: "Necklace • Women's Choker", 
       price: 4999, 
       oldPrice: 8999, 
-      images: ["/Jewellery/Necklace/Products/njp4.png", "/Jewellery/Necklace/Products/njp4_1.png", "/Jewellery/Necklace/Products/njp4_2.png", "/Jewellery/Necklace/Products/njp4_3.png", "/Jewellery/Necklace/Products/njp4_4.png"],
+      images: ["/Jewellery/Necklace/Products/njp4.webp", "/Jewellery/Necklace/Products/njp4_1.webp", "/Jewellery/Necklace/Products/njp4_2.webp", "/Jewellery/Necklace/Products/njp4_3.webp", "/Jewellery/Necklace/Products/njp4_4.webp"],
       tag: "Trending", 
       color: "White Diamond", 
       rating: "4.9", 
@@ -331,7 +331,7 @@ const NecklaceJewellery = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Jewellery/Necklace/njbanner.png"
+                  src="/Jewellery/Necklace/njbanner.webp"
                   alt="Necklace Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

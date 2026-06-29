@@ -40,11 +40,11 @@ const HandbagBagsAccessories = () => {
       features: ["Premium Leather", "Spacious Interior", "Top Handles", "Zipper Closure", "Durable"],
       color: "Brown",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap1.png",
-        "/Accessories/Bags/Handbag/Products/hbap1_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap1_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap1_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap1_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap1_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap1_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap1_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const HandbagBagsAccessories = () => {
       features: ["Faux Leather", "Adjustable Strap", "Multiple Pockets", "Lightweight", "Zipper Closure"],
       color: "Black",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap2.png",
-        "/Accessories/Bags/Handbag/Products/hbap2_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap2_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap2_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap2_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap2_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap2_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap2_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const HandbagBagsAccessories = () => {
       features: ["Durable Canvas", "Roomy Interior", "Top Handles", "Shoulder Strap", "Multiple Pockets"],
       color: "Beige",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap3.png",
-        "/Accessories/Bags/Handbag/Products/hbap3_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap3_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap3_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap3_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap3_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap3_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap3_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const HandbagBagsAccessories = () => {
       features: ["Genuine Leather", "Structured Design", "Top Handle", "Adjustable Strap", "Multiple Compartments"],
       color: "Tan",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap4.png",
-        "/Accessories/Bags/Handbag/Products/hbap4_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap4_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap4_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap4_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap4.webp",
+        "/Accessories/Bags/Handbag/Products/hbap4_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap4_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap4_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const HandbagBagsAccessories = () => {
       features: ["Faux Leather", "Compact Design", "Wrist Strap", "Zipper Closure", "Party Essential"],
       color: "Gold",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap5.png",
-        "/Accessories/Bags/Handbag/Products/hbap5_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap5_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap5_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap5_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap5.webp",
+        "/Accessories/Bags/Handbag/Products/hbap5_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap5_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap5_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const HandbagBagsAccessories = () => {
       features: ["Soft Canvas", "Shoulder Strap", "Spacious Interior", "Front Pocket", "Casual Style"],
       color: "Navy",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap6.png",
-        "/Accessories/Bags/Handbag/Products/hbap6_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap6_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap6_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap6_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap6.webp",
+        "/Accessories/Bags/Handbag/Products/hbap6_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap6_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap6_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap6_4.webp"
       ]
     },
     {
@@ -166,11 +166,11 @@ const HandbagBagsAccessories = () => {
       features: ["Premium Leather", "Drawstring Closure", "Adjustable Strap", "Spacious Interior", "Modern Design"],
       color: "Black",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap7.png",
-        "/Accessories/Bags/Handbag/Products/hbap7_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap7_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap7_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap7_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap7.webp",
+        "/Accessories/Bags/Handbag/Products/hbap7_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap7_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap7_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap7_4.webp"
       ]
     },
     {
@@ -187,11 +187,11 @@ const HandbagBagsAccessories = () => {
       features: ["Faux Leather", "Sling Style", "Adjustable Strap", "Compact Design", "Front Zipper"],
       color: "Pink",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap8.png",
-        "/Accessories/Bags/Handbag/Products/hbap8_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap8_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap8_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap8_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap8.webp",
+        "/Accessories/Bags/Handbag/Products/hbap8_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap8_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap8_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap8_4.webp"
       ]
     },
     {
@@ -208,11 +208,11 @@ const HandbagBagsAccessories = () => {
       features: ["Durable Canvas", "Spacious Interior", "Top Handles", "Machine Washable", "Everyday Use"],
       color: "White",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap9.png",
-        "/Accessories/Bags/Handbag/Products/hbap9_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap9_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap9_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap9_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap9.webp",
+        "/Accessories/Bags/Handbag/Products/hbap9_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap9_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap9_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap9_4.webp"
       ]
     },
     {
@@ -229,11 +229,11 @@ const HandbagBagsAccessories = () => {
       features: ["Premium Leather", "Slouchy Design", "Shoulder Strap", "Spacious Interior", "Zipper Closure"],
       color: "Brown",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap10.png",
-        "/Accessories/Bags/Handbag/Products/hbap10_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap10_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap10_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap10_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap10.webp",
+        "/Accessories/Bags/Handbag/Products/hbap10_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap10_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap10_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap10_4.webp"
       ]
     },
     {
@@ -250,11 +250,11 @@ const HandbagBagsAccessories = () => {
       features: ["Faux Leather", "Backpack Style", "Multiple Compartments", "Adjustable Straps", "Laptop Compatible"],
       color: "Black",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap11.png",
-        "/Accessories/Bags/Handbag/Products/hbap11_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap11_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap11_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap11_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap11.webp",
+        "/Accessories/Bags/Handbag/Products/hbap11_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap11_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap11_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap11_4.webp"
       ]
     },
     {
@@ -271,11 +271,11 @@ const HandbagBagsAccessories = () => {
       features: ["Heavy Duty Canvas", "Roomy Interior", "Top Handles", "Shoulder Strap", "Multiple Pockets"],
       color: "Olive",
       images: [
-        "/Accessories/Bags/Handbag/Products/hbap12.png",
-        "/Accessories/Bags/Handbag/Products/hbap12_1.png",
-        "/Accessories/Bags/Handbag/Products/hbap12_2.png",
-        "/Accessories/Bags/Handbag/Products/hbap12_3.png",
-        "/Accessories/Bags/Handbag/Products/hbap12_4.png"
+        "/Accessories/Bags/Handbag/Products/hbap12.webp",
+        "/Accessories/Bags/Handbag/Products/hbap12_1.webp",
+        "/Accessories/Bags/Handbag/Products/hbap12_2.webp",
+        "/Accessories/Bags/Handbag/Products/hbap12_3.webp",
+        "/Accessories/Bags/Handbag/Products/hbap12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const HandbagBagsAccessories = () => {
             src="/Accessories/Bags/Handbag"
             alt="Handbags Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Accessories/Bags/Handbag/hbabanner.png"; }}
+            onError={(e) => { e.target.src = "/Accessories/Bags/Handbag/hbabanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

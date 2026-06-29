@@ -39,11 +39,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Pure Gold Finish", "Traditional Temple Design", "Intricate Craftsmanship", "Hypoallergenic", "Festival Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp1_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp1_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp1_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp1_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp1_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp1_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp1_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp1_4.webp"
       ]
     },
     {
@@ -60,11 +60,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Pure Silver Finish", "Chandbali Design", "Elegant Style", "Hypoallergenic", "Party Wear"],
       color: "Silver",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp2_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp2_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp2_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp2_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp2_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp2_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp2_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp2_4.webp"
       ]
     },
     {
@@ -81,11 +81,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Diamond Studded", "Brilliant Cut", "Luxurious Design", "Hypoallergenic", "Grand Celebration"],
       color: "Diamond/Gold",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp3_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp3_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp3_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp3_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp3_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp3_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp3_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp3_4.webp"
       ]
     },
     {
@@ -102,11 +102,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Gold Finish", "Kundan Work", "Intricate Detailing", "Hypoallergenic", "Traditional Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp4.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp4_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp4_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp4_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp4_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp4.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp4_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp4_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp4_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp4_4.webp"
       ]
     },
     {
@@ -123,11 +123,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Silver Finish", "Temple Motifs", "Traditional Design", "Hypoallergenic", "Everyday Wear"],
       color: "Silver",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp5.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp5_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp5_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp5_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp5_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp5.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp5_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp5_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp5_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp5_4.webp"
       ]
     },
     {
@@ -144,11 +144,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Diamond Drop", "Brilliant Cut", "Elegant Design", "Hypoallergenic", "Grand Occasion"],
       color: "Diamond/Silver",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp6.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp6_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp6_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp6_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp6_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp6.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp6_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp6_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp6_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp6_4.webp"
       ]
     },
     {
@@ -165,11 +165,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Gold Finish", "Genuine Pearl", "Elegant Design", "Hypoallergenic", "Special Occasion"],
       color: "Gold/White",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp7.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp7_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp7_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp7_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp7_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp7.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp7_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp7_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp7_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp7_4.webp"
       ]
     },
     {
@@ -186,11 +186,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Silver Finish", "Meenakari Work", "Colorful Enamel", "Hypoallergenic", "Festive Wear"],
       color: "Silver/Colorful",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp8.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp8_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp8_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp8_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp8_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp8.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp8_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp8_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp8_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp8_4.webp"
       ]
     },
     {
@@ -207,11 +207,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Diamond & Gold", "Brilliant Cut", "Luxurious Design", "Hypoallergenic", "Grand Celebration"],
       color: "Diamond/Gold",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp9.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp9_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp9_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp9_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp9_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp9.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp9_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp9_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp9_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp9_4.webp"
       ]
     },
     {
@@ -228,11 +228,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Gold Finish", "Filigree Work", "Intricate Craftsmanship", "Hypoallergenic", "Traditional Wear"],
       color: "Gold",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp10.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp10_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp10_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp10_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp10_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp10.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp10_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp10_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp10_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp10_4.webp"
       ]
     },
     {
@@ -249,11 +249,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Silver Finish", "Oxidized Look", "Vintage Design", "Hypoallergenic", "Bohemian Style"],
       color: "Silver",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp11.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp11_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp11_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp11_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp11_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp11.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp11_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp11_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp11_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp11_4.webp"
       ]
     },
     {
@@ -270,11 +270,11 @@ const JhumkaEarringsJewellery = () => {
       features: ["Diamond Mini", "Brilliant Cut", "Delicate Design", "Hypoallergenic", "Everyday Wear"],
       color: "Diamond/Silver",
       images: [
-        "/Jewellery/Earrings/Jhumka/Products/jejp12.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp12_1.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp12_2.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp12_3.png",
-        "/Jewellery/Earrings/Jhumka/Products/jejp12_4.png"
+        "/Jewellery/Earrings/Jhumka/Products/jejp12.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp12_1.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp12_2.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp12_3.webp",
+        "/Jewellery/Earrings/Jhumka/Products/jejp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const JhumkaEarringsJewellery = () => {
             src="/Jewellery/Earrings/Jhumka"
             alt="Jhumka Earrings Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Jewellery/Earrings/Jhumka/jejbanner.png"; }}
+            onError={(e) => { e.target.src = "/Jewellery/Earrings/Jhumka/jejbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

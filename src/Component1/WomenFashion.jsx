@@ -26,7 +26,7 @@ const WomenFashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Women/wfbanner1.png",
+      image: "/Fashion/Women/wfbanner1.webp",
       titlePart1: "Embrace Elegance",
       titlePart2: "Premium Sarees",
       subtitle: "WOMEN • SAREES • TRADITIONAL",
@@ -35,7 +35,7 @@ const WomenFashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/Women/wfbanner2.png",
+      image: "/Fashion/Women/wfbanner2.webp",
       titlePart1: "Effortless Style",
       titlePart2: "Trendy Dresses",
       subtitle: "WOMEN • DRESSES • CONTEMPORARY",
@@ -50,14 +50,14 @@ const WomenFashion = () => {
       id: 1,
       title: "Sarees",
       tag: "TRADITIONAL",
-      image: "/Fashion/Women/saree.png",
+      image: "/Fashion/Women/saree.webp",
       link: "/fashion/women/saree"
     },
     {
       id: 2,
       title: "Dresses",
       tag: "CONTEMPORARY",
-      image: "/Fashion/Women/dress.png",
+      image: "/Fashion/Women/dress.webp",
       link: "/fashion/women/dresses"
     }
   ];
@@ -71,7 +71,7 @@ const WomenFashion = () => {
       sub: "Sarees • Traditional", 
       price: 3499, 
       oldPrice: 6999, 
-      images: ["/Fashion/Women/Products/wfp1.png", "/Fashion/Women/Products/wfp1_1.png", "/Fashion/Women/Products/wfp1_2.png", "/Fashion/Women/Products/wfp1_3.png", "/Fashion/Women/Products/wfp1_4.png"],
+      images: ["/Fashion/Women/Products/wfp1.webp", "/Fashion/Women/Products/wfp1_1.webp", "/Fashion/Women/Products/wfp1_2.webp", "/Fashion/Women/Products/wfp1_3.webp", "/Fashion/Women/Products/wfp1_4.webp"],
       tag: "Best Seller", 
       color: "Maroon & Gold", 
       rating: "4.9", 
@@ -85,7 +85,7 @@ const WomenFashion = () => {
       sub: "Dresses • Long", 
       price: 2499, 
       oldPrice: 4999, 
-      images: ["/Fashion/Women/Products/wfp2.png", "/Fashion/Women/Products/wfp2_1.png", "/Fashion/Women/Products/wfp2_2.png", "/Fashion/Women/Products/wfp2_3.png", "/Fashion/Women/Products/wfp2_4.png"],
+      images: ["/Fashion/Women/Products/wfp2.webp", "/Fashion/Women/Products/wfp2_1.webp", "/Fashion/Women/Products/wfp2_2.webp", "/Fashion/Women/Products/wfp2_3.webp", "/Fashion/Women/Products/wfp2_4.webp"],
       tag: "Trending", 
       color: "Pastel Floral", 
       rating: "4.7", 
@@ -99,7 +99,7 @@ const WomenFashion = () => {
       sub: "Sarees • Party Wear", 
       price: 4999, 
       oldPrice: 9999, 
-      images: ["/Fashion/Women/Products/wfp3.png", "/Fashion/Women/Products/wfp3_1.png", "/Fashion/Women/Products/wfp3_2.png", "/Fashion/Women/Products/wfp3_3.png", "/Fashion/Women/Products/wfp3_4.png"],
+      images: ["/Fashion/Women/Products/wfp3.webp", "/Fashion/Women/Products/wfp3_1.webp", "/Fashion/Women/Products/wfp3_2.webp", "/Fashion/Women/Products/wfp3_3.webp", "/Fashion/Women/Products/wfp3_4.webp"],
       tag: "Luxury", 
       color: "Teal & Gold", 
       rating: "4.8", 
@@ -113,7 +113,7 @@ const WomenFashion = () => {
       sub: "Dresses • Short", 
       price: 1899, 
       oldPrice: 3799, 
-      images: ["/Fashion/Women/Products/wfp4.png", "/Fashion/Women/Products/wfp4_1.png", "/Fashion/Women/Products/wfp4_2.png", "/Fashion/Women/Products/wfp4_3.png", "/Fashion/Women/Products/wfp4_4.png"],
+      images: ["/Fashion/Women/Products/wfp4.webp", "/Fashion/Women/Products/wfp4_1.webp", "/Fashion/Women/Products/wfp4_2.webp", "/Fashion/Women/Products/wfp4_3.webp", "/Fashion/Women/Products/wfp4_4.webp"],
       tag: "New Arrival", 
       color: "Navy Blue", 
       rating: "4.6", 
@@ -331,7 +331,7 @@ const WomenFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Women/wfbanner.png"
+                  src="/Fashion/Women/wfbanner.webp"
                   alt="Women's Fashion Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

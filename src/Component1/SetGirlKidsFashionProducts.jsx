@@ -41,11 +41,11 @@ const SetGirlKidsFashion = () => {
     features: ["100% Velvet", "Peplum top + Skirt", "Flared skirt", "Party wear", "Dry clean only"],
     color: "Burgundy",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp1_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp1_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp1_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp1_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp1_4.webp"
     ]
   },
   {
@@ -62,11 +62,11 @@ const SetGirlKidsFashion = () => {
     features: ["100% Pure Silk", "Crop top + Skirt", "Zari embroidery", "Flowing skirt", "Dry clean only"],
     color: "Gold",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp2_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp2_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp2_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp2_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp2_4.webp"
     ]
   },
   {
@@ -83,11 +83,11 @@ const SetGirlKidsFashion = () => {
     features: ["Tulle + Satin", "Crop top + Layered skirt", "Voluminous tulle", "Party wear", "Spot clean"],
     color: "Blush Pink",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp3_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp3_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp3_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp3_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp3_4.webp"
     ]
   },
   {
@@ -104,11 +104,11 @@ const SetGirlKidsFashion = () => {
     features: ["100% Pure Cotton", "Off-shoulder top + Skirt", "Ruffle detailing", "Tiered skirt", "Machine washable"],
     color: "Mint Green",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp4.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp4_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp4_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp4_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp4_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp4_4.webp"
     ]
   },
   {
@@ -125,11 +125,11 @@ const SetGirlKidsFashion = () => {
     features: ["100% Velvet", "Cape top + Skirt", "A-line skirt", "Dramatic style", "Dry clean only"],
     color: "Royal Blue",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp5.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp5_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp5_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp5_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp5_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp5_4.webp"
     ]
   },
   {
@@ -146,11 +146,11 @@ const SetGirlKidsFashion = () => {
     features: ["100% Pure Linen", "Wrap top + Shorts", "Lightweight", "Summer essential", "Machine washable"],
     color: "Terracotta",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp6.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp6_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp6_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp6_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp6_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp6_4.webp"
     ]
   },
   {
@@ -167,11 +167,11 @@ const SetGirlKidsFashion = () => {
     features: ["Velvet + Sequin", "Embellished top + Skirt", "Flared skirt", "Party wear", "Dry clean only"],
     color: "Ruby Red",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp7.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp7_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp7_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp7_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp7_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp7_4.webp"
     ]
   },
   {
@@ -188,11 +188,11 @@ const SetGirlKidsFashion = () => {
     features: ["100% Pure Linen", "Puff sleeve top + Shorts", "High-waist shorts", "Breathable", "Machine washable"],
     color: "Coral",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp8.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp8_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp8_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp8_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp8_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp8_4.webp"
     ]
   },
   {
@@ -209,11 +209,11 @@ const SetGirlKidsFashion = () => {
     features: ["Velvet + Lace", "Lace top + Layered skirt", "Festive wear", "Elegant design", "Dry clean only"],
     color: "Champagne",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp9.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp9_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp9_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp9_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp9_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp9_4.webp"
     ]
   },
   {
@@ -230,11 +230,11 @@ const SetGirlKidsFashion = () => {
     features: ["Satin + Tulle", "Satin top + Tulle skirt", "Multi-layered skirt", "Party wear", "Spot clean"],
     color: "Lavender",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp10.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp10_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp10_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp10_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp10_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp10_4.webp"
     ]
   },
   {
@@ -251,11 +251,11 @@ const SetGirlKidsFashion = () => {
     features: ["100% Pure Cotton", "Embroidered top + Skirt", "Flared skirt", "Hand embroidery", "Machine washable"],
     color: "Ivory",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp11.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp11_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp11_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp11_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp11_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp11_4.webp"
     ]
   },
   {
@@ -272,11 +272,11 @@ const SetGirlKidsFashion = () => {
     features: ["100% Velvet", "Bow detail top + Skirt", "Flared skirt", "Party wear", "Dry clean only"],
     color: "Plum",
     images: [
-      "/Fashion/Kids/Girl/Set/Products/sgkfp12.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp12_1.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp12_2.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp12_3.jpg",
-      "/Fashion/Kids/Girl/Set/Products/sgkfp12_4.jpg"
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12_1.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12_2.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12_3.webp",
+      "/Fashion/Kids/Girl/Set/Products/sgkfp12_4.webp"
     ]
   }
 ];
@@ -400,7 +400,7 @@ const SetGirlKidsFashion = () => {
             src="/Fashion/Kids/Girl/Set/"
             alt="Girls Sets Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Kids/Girl/Set/sgkfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Kids/Girl/Set/sgkfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

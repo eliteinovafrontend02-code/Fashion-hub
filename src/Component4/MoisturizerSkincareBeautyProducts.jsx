@@ -25,258 +25,259 @@ const MoisturizerSkincareBeauty = () => {
   }, []);
 
   const moisturizerProducts = [
-    {
-      id: 1,
-      name: "Hydrating Gel Moisturizer",
-      fabric: "Gel",
-      price: 499,
-      oldPrice: 799,
-      rating: 4.8,
-      reviews: 2345,
-      tag: "Bestseller",
-      sub: "Lightweight Gel",
-      description: "Hydrating gel moisturizer with a lightweight, refreshing texture. The oil-free formula absorbs instantly, providing intense hydration without any greasy feeling.",
-      features: ["Lightweight Gel", "Oil-free", "Non-greasy", "Fast Absorbing", "Hydrating"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp1_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp1_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp1_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp1_4.png"
-      ]
-    },
-    {
-      id: 2,
-      name: "Nourishing Cream Moisturizer",
-      fabric: "Cream",
-      price: 599,
-      oldPrice: 949,
-      rating: 4.7,
-      reviews: 1876,
-      tag: "Trending",
-      sub: "Rich Cream",
-      description: "Nourishing cream moisturizer with a rich, creamy texture. The deep hydration formula restores moisture barrier and leaves skin soft, smooth, and radiant.",
-      features: ["Rich Cream", "Deep Hydration", "Restores Moisture Barrier", "Soft & Smooth", "Radiant Glow"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp2_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp2_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp2_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp2_4.png"
-      ]
-    },
-    {
-      id: 3,
-      name: "Lightweight Lotion Moisturizer",
-      fabric: "Lotion",
-      price: 399,
-      oldPrice: 629,
-      rating: 4.6,
-      reviews: 1567,
-      tag: "Popular",
-      sub: "Lightweight Lotion",
-      description: "Lightweight lotion moisturizer for everyday hydration. The non-greasy formula provides all-day moisture and leaves your skin feeling fresh and nourished.",
-      features: ["Lightweight Lotion", "Non-greasy", "All-day Moisture", "Fresh Feel", "Nourishing"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp3_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp3_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp3_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp3_4.png"
-      ]
-    },
-    {
-      id: 4,
-      name: "SPF 25 Day Cream",
-      fabric: "Cream",
-      price: 649,
-      oldPrice: 999,
-      rating: 4.5,
-      reviews: 1234,
-      tag: "Classic",
-      sub: "Day Cream with SPF",
-      description: "SPF 25 day cream that combines hydration with sun protection. The rich formula keeps your skin moisturized while protecting it from harmful UV rays.",
-      features: ["SPF 25", "Day Cream", "Hydrating", "Sun Protection", "Anti-aging"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp4.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp4_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp4_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp4_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp4_4.png"
-      ]
-    },
-    {
-      id: 5,
-      name: "Aloe Vera Gel Moisturizer",
-      fabric: "Gel",
-      price: 349,
-      oldPrice: 549,
-      rating: 4.8,
-      reviews: 987,
-      tag: "Premium",
-      sub: "Soothing Gel",
-      description: "Aloe vera gel moisturizer with soothing and calming properties. The cooling formula hydrates and refreshes skin, making it perfect for sensitive or irritated skin.",
-      features: ["Aloe Vera", "Soothing", "Calming", "Cooling Effect", "Hydrating"],
-      color: "Green",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp5.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp5_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp5_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp5_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp5_4.png"
-      ]
-    },
-    {
-      id: 6,
-      name: "Hydrating Body Lotion",
-      fabric: "Lotion",
-      price: 299,
-      oldPrice: 479,
-      rating: 4.4,
-      reviews: 876,
-      tag: "Essential",
-      sub: "Body Lotion",
-      description: "Hydrating body lotion for all-over moisture. The lightweight formula absorbs quickly and keeps your skin soft, smooth, and hydrated all day long.",
-      features: ["Body Lotion", "All-over Moisture", "Lightweight", "Quick Absorbing", "Soft Skin"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp6.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp6_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp6_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp6_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp6_4.png"
-      ]
-    },
-    {
-      id: 7,
-      name: "Night Repair Cream",
-      fabric: "Cream",
-      price: 699,
-      oldPrice: 1099,
-      rating: 4.7,
-      reviews: 1123,
-      tag: "Bestseller",
-      sub: "Night Cream",
-      description: "Night repair cream that works while you sleep. The rich, rejuvenating formula helps restore and repair skin, reducing fine lines and improving texture.",
-      features: ["Night Cream", "Repair Formula", "Anti-aging", "Restores Skin", "Improves Texture"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp7.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp7_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp7_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp7_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp7_4.png"
-      ]
-    },
-    {
-      id: 8,
-      name: "Vitamin C Gel Moisturizer",
-      fabric: "Gel",
-      price: 549,
-      oldPrice: 849,
-      rating: 4.6,
-      reviews: 654,
-      tag: "New",
-      sub: "Brightening Gel",
-      description: "Vitamin C gel moisturizer with brightening properties. The antioxidant-rich formula hydrates skin while reducing dark spots and improving radiance.",
-      features: ["Vitamin C", "Brightening", "Antioxidant-rich", "Hydrating", "Radiance Boost"],
-      color: "Orange",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp8.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp8_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp8_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp8_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp8_4.png"
-      ]
-    },
-    {
-      id: 9,
-      name: "Shea Butter Lotion",
-      fabric: "Lotion",
-      price: 449,
-      oldPrice: 699,
-      rating: 4.5,
-      reviews: 789,
-      tag: "Premium",
-      sub: "Nourishing Lotion",
-      description: "Shea butter lotion with intense nourishing properties. The rich, creamy formula deeply moisturizes and softens dry, rough skin for a healthy glow.",
-      features: ["Shea Butter", "Nourishing", "Deep Moisture", "Softens Skin", "Healthy Glow"],
-      color: "Yellow",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp9.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp9_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp9_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp9_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp9_4.png"
-      ]
-    },
-    {
-      id: 10,
-      name: "Matte Finish Gel Cream",
-      fabric: "Gel",
-      price: 499,
-      oldPrice: 779,
-      rating: 4.4,
-      reviews: 1345,
-      tag: "Essential",
-      sub: "Matte Gel",
-      description: "Matte finish gel cream that controls shine while hydrating. The oil-free formula provides moisture without making your skin look greasy or shiny.",
-      features: ["Matte Finish", "Oil-free", "Controls Shine", "Hydrating", "Non-greasy"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp10.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp10_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp10_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp10_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp10_4.png"
-      ]
-    },
-    {
-      id: 11,
-      name: "Ceramide Cream Moisturizer",
-      fabric: "Cream",
-      price: 749,
-      oldPrice: 1199,
-      rating: 4.8,
-      reviews: 567,
-      tag: "Premium",
-      sub: "Ceramide Cream",
-      description: "Ceramide cream moisturizer that strengthens the skin barrier. The rich formula locks in moisture and protects skin from environmental damage.",
-      features: ["Ceramide", "Strengthens Skin Barrier", "Locks Moisture", "Protects Skin", "Rich Formula"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp11.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp11_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp11_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp11_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp11_4.png"
-      ]
-    },
-    {
-      id: 12,
-      name: "Facial Moisturizing Lotion",
-      fabric: "Lotion",
-      price: 349,
-      oldPrice: 549,
-      rating: 4.3,
-      reviews: 2345,
-      tag: "Sale",
-      sub: "Facial Lotion",
-      description: "Facial moisturizing lotion for daily hydration. The lightweight, non-comedogenic formula provides essential moisture without clogging pores.",
-      features: ["Facial Lotion", "Daily Hydration", "Lightweight", "Non-comedogenic", "Essential Moisture"],
-      color: "White",
-      images: [
-        "/Beauty/Skincare/Moisturizer/Products/msbp12.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp12_1.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp12_2.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp12_3.png",
-        "/Beauty/Skincare/Moisturizer/Products/msbp12_4.png"
-      ]
-    }
+     {
+    id: 1,
+    name: "Hydrating Gel Moisturizer",
+    fabric: "Gel",
+    price: 499,
+    oldPrice: 799,
+    rating: 4.8,
+    reviews: 2345,
+    tag: "Bestseller",
+    sub: "Lightweight Gel",
+    description: "Hydrating gel moisturizer with a lightweight, refreshing texture. The oil-free formula absorbs instantly, providing intense hydration without any greasy feeling.",
+    features: ["Lightweight Gel", "Oil-free", "Non-greasy", "Fast Absorbing", "Hydrating"],
+    color: "Blue",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp1_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp1_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp1_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp1_4.webp"
+    ]
+  },
+  {
+    id: 2,
+    name: "Nourishing Cream Moisturizer",
+    fabric: "Cream",
+    price: 599,
+    oldPrice: 949,
+    rating: 4.7,
+    reviews: 1876,
+    tag: "Trending",
+    sub: "Rich Cream",
+    description: "Nourishing cream moisturizer with a rich, creamy texture. The deep hydration formula restores moisture barrier and leaves skin soft, smooth, and radiant.",
+    features: ["Rich Cream", "Deep Hydration", "Restores Moisture Barrier", "Soft & Smooth", "Radiant Glow"],
+    color: "Pink",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp2_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp2_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp2_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp2_4.webp"
+    ]
+  },
+  {
+    id: 3,
+    name: "Lightweight Lotion Moisturizer",
+    fabric: "Lotion",
+    price: 399,
+    oldPrice: 629,
+    rating: 4.6,
+    reviews: 1567,
+    tag: "Popular",
+    sub: "Lightweight Lotion",
+    description: "Lightweight lotion moisturizer for everyday hydration. The non-greasy formula provides all-day moisture and leaves your skin feeling fresh and nourished.",
+    features: ["Lightweight Lotion", "Non-greasy", "All-day Moisture", "Fresh Feel", "Nourishing"],
+    color: "Purple",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp3_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp3_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp3_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp3_4.webp"
+    ]
+  },
+  {
+    id: 4,
+    name: "SPF 25 Day Cream",
+    fabric: "Cream",
+    price: 649,
+    oldPrice: 999,
+    rating: 4.5,
+    reviews: 1234,
+    tag: "Classic",
+    sub: "Day Cream with SPF",
+    description: "SPF 25 day cream that combines hydration with sun protection. The rich formula keeps your skin moisturized while protecting it from harmful UV rays.",
+    features: ["SPF 25", "Day Cream", "Hydrating", "Sun Protection", "Anti-aging"],
+    color: "Gold",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp4.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp4_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp4_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp4_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp4_4.webp"
+    ]
+  },
+  {
+    id: 5,
+    name: "Aloe Vera Gel Moisturizer",
+    fabric: "Gel",
+    price: 349,
+    oldPrice: 549,
+    rating: 4.8,
+    reviews: 987,
+    tag: "Premium",
+    sub: "Soothing Gel",
+    description: "Aloe vera gel moisturizer with soothing and calming properties. The cooling formula hydrates and refreshes skin, making it perfect for sensitive or irritated skin.",
+    features: ["Aloe Vera", "Soothing", "Calming", "Cooling Effect", "Hydrating"],
+    color: "Green",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp5.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp5_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp5_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp5_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp5_4.webp"
+    ]
+  },
+  {
+    id: 6,
+    name: "Hydrating Body Lotion",
+    fabric: "Lotion",
+    price: 299,
+    oldPrice: 479,
+    rating: 4.4,
+    reviews: 876,
+    tag: "Essential",
+    sub: "Body Lotion",
+    description: "Hydrating body lotion for all-over moisture. The lightweight formula absorbs quickly and keeps your skin soft, smooth, and hydrated all day long.",
+    features: ["Body Lotion", "All-over Moisture", "Lightweight", "Quick Absorbing", "Soft Skin"],
+    color: "Teal",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp6.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp6_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp6_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp6_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp6_4.webp"
+    ]
+  },
+  {
+    id: 7,
+    name: "Night Repair Cream",
+    fabric: "Cream",
+    price: 699,
+    oldPrice: 1099,
+    rating: 4.7,
+    reviews: 1123,
+    tag: "Bestseller",
+    sub: "Night Cream",
+    description: "Night repair cream that works while you sleep. The rich, rejuvenating formula helps restore and repair skin, reducing fine lines and improving texture.",
+    features: ["Night Cream", "Repair Formula", "Anti-aging", "Restores Skin", "Improves Texture"],
+    color: "Navy",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp7.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp7_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp7_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp7_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp7_4.webp"
+    ]
+  },
+  {
+    id: 8,
+    name: "Vitamin C Gel Moisturizer",
+    fabric: "Gel",
+    price: 549,
+    oldPrice: 849,
+    rating: 4.6,
+    reviews: 654,
+    tag: "New",
+    sub: "Brightening Gel",
+    description: "Vitamin C gel moisturizer with brightening properties. The antioxidant-rich formula hydrates skin while reducing dark spots and improving radiance.",
+    features: ["Vitamin C", "Brightening", "Antioxidant-rich", "Hydrating", "Radiance Boost"],
+    color: "Orange",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp8.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp8_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp8_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp8_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp8_4.webp"
+    ]
+  },
+  {
+    id: 9,
+    name: "Shea Butter Lotion",
+    fabric: "Lotion",
+    price: 449,
+    oldPrice: 699,
+    rating: 4.5,
+    reviews: 789,
+    tag: "Premium",
+    sub: "Nourishing Lotion",
+    description: "Shea butter lotion with intense nourishing properties. The rich, creamy formula deeply moisturizes and softens dry, rough skin for a healthy glow.",
+    features: ["Shea Butter", "Nourishing", "Deep Moisture", "Softens Skin", "Healthy Glow"],
+    color: "Yellow",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp9.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp9_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp9_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp9_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp9_4.webp"
+    ]
+  },
+  {
+    id: 10,
+    name: "Matte Finish Gel Cream",
+    fabric: "Gel",
+    price: 499,
+    oldPrice: 779,
+    rating: 4.4,
+    reviews: 1345,
+    tag: "Essential",
+    sub: "Matte Gel",
+    description: "Matte finish gel cream that controls shine while hydrating. The oil-free formula provides moisture without making your skin look greasy or shiny.",
+    features: ["Matte Finish", "Oil-free", "Controls Shine", "Hydrating", "Non-greasy"],
+    color: "Charcoal",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp10.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp10_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp10_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp10_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp10_4.webp"
+    ]
+  },
+  {
+    id: 11,
+    name: "Ceramide Cream Moisturizer",
+    fabric: "Cream",
+    price: 749,
+    oldPrice: 1199,
+    rating: 4.8,
+    reviews: 567,
+    tag: "Premium",
+    sub: "Ceramide Cream",
+    description: "Ceramide cream moisturizer that strengthens the skin barrier. The rich formula locks in moisture and protects skin from environmental damage.",
+    features: ["Ceramide", "Strengthens Skin Barrier", "Locks Moisture", "Protects Skin", "Rich Formula"],
+    color: "Lavender",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp11.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp11_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp11_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp11_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp11_4.webp"
+    ]
+  },
+  {
+    id: 12,
+    name: "Facial Moisturizing Lotion",
+    fabric: "Lotion",
+    price: 349,
+    oldPrice: 549,
+    rating: 4.3,
+    reviews: 2345,
+    tag: "Sale",
+    sub: "Facial Lotion",
+    description: "Facial moisturizing lotion for daily hydration. The lightweight, non-comedogenic formula provides essential moisture without clogging pores.",
+    features: ["Facial Lotion", "Daily Hydration", "Lightweight", "Non-comedogenic", "Essential Moisture"],
+    color: "Rose",
+    images: [
+      "/Beauty/Skincare/Moisturizer/Products/msbp12.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp12_1.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp12_2.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp12_3.webp",
+      "/Beauty/Skincare/Moisturizer/Products/msbp12_4.webp"
+    ]
+  }
+
   ];
 
   const filters = ['all', 'Gel', 'Cream', 'Lotion'];
@@ -399,7 +400,7 @@ const MoisturizerSkincareBeauty = () => {
             src="/Beauty/Skincare/Moisturizer"
             alt="Moisturizer Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Beauty/Skincare/Moisturizer/msbbanner.png"; }}
+            onError={(e) => { e.target.src = "/Beauty/Skincare/Moisturizer/msbbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

@@ -20,97 +20,97 @@ const Products = () => {
   const products = [
     { 
       id: 1, name: "Casual Shirt", category: "Fashion", sub: "Men", price: 1899, oldPrice: 2999, 
-      images: ["/Products/product1.png", "/Products/product1_1.png", "/Products/product1_2.png", "/Products/product1_3.png", "/Products/product1_4.png"],
+      images: ["/Products/product1.webp", "/Products/product1_1.webp", "/Products/product1_2.webp", "/Products/product1_3.webp", "/Products/product1_4.webp"],
       tag: "Trending", color: "Indigo Blue", rating: "4.7", reviews: "2.1k",
       details: { "Material": "Raw Denim Cotton", "Fit": "Tailored Fit", "Sleeve": "Full", "Wash": "Deep Indigo Wash", "Quality": "Authentic" }
     },
     { 
       id: 2, name: "Classic Wrist Watch", category: "Accessories", sub: "Watches", price: 2499, oldPrice: 4599, 
-      images: ["/Products/product2.png", "/Products/product2_1.png", "/Products/product2_2.png", "/Products/product2_3.png", "/Products/product2_4.png"],
+      images: ["/Products/product2.webp", "/Products/product2_1.webp", "/Products/product2_2.webp", "/Products/product2_3.webp", "/Products/product2_4.webp"],
       tag: "Best Seller", color: "Chrome Silver", rating: "4.8", reviews: "850",
       details: { "Type": "Analog", "Strap": "Stainless Steel", "Movement": "Japanese Quartz", "Warranty": "2 Years", "Waterproof": "50M" }
     },
     { 
       id: 3, name: "Stylish Heels", category: "Footwear", sub: "Women", price: 3299, oldPrice: 4999, 
-      images: ["/Products/product3.png", "/Products/product3_1.png", "/Products/product3_2.png", "/Products/product3_3.png", "/Products/product3_4.png"],
+      images: ["/Products/product3.webp", "/Products/product3_1.webp", "/Products/product3_2.webp", "/Products/product3_3.webp", "/Products/product3_4.webp"],
       tag: "Hot", color: "Nude Beige", rating: "4.6", reviews: "920",
       details: { "Material": "Premium Suede", "Heel": "4 Inches", "Sole": "Anti-Slip Rubber", "Occasion": "Evening Wear", "Care": "Professional Clean" }
     },
     { 
       id: 4, name: "Matte Lipstick Kit", category: "Beauty", sub: "Makeup", price: 899, oldPrice: 1499, 
-      images: ["/Products/product4.png", "/Products/product4_1.png", "/Products/product4_2.png", "/Products/product4_3.png", "/Products/product4_4.png"],
+      images: ["/Products/product4.webp", "/Products/product4_1.webp", "/Products/product4_2.webp", "/Products/product4_3.webp", "/Products/product4_4.webp"],
       tag: "New", color: "Ruby Red", rating: "4.9", reviews: "3.5k",
       details: { "Finish": "Velvet Matte", "Stay": "24 Hours", "Feature": "Transfer Proof", "Items": "Pack of 3", "Type": "Liquid" }
     },
     { 
       id: 5, name: "Pro Running Shoes", category: "Footwear", sub: "Men", price: 5500, oldPrice: 8000, 
-      images: ["/Products/product5.png", "/Products/product5_1.png", "/Products/product5_2.png", "/Products/product5_3.png", "/Products/product5_4.png"],
+      images: ["/Products/product5.webp", "/Products/product5_1.webp", "/Products/product5_2.webp", "/Products/product5_3.webp", "/Products/product5_4.webp"],
       tag: "Premium", color: "Neon Blue", rating: "4.7", reviews: "400",
       details: { "Upper": "Engineered Mesh", "Sole": "Cushioned React", "Weight": "190g", "Type": "Pro Marathon", "Grip": "High Traction" }
     },
     { 
       id: 6, name: "Gold Choker Necklace", category: "Jewellery", sub: "Necklace", price: 7200, oldPrice: 9500, 
-      images: ["/Products/product6.png", "/Products/product6_1.png", "/Products/product6_2.png", "/Products/product6_3.png", "/Products/product6_4.png"],
+      images: ["/Products/product6.webp", "/Products/product6_1.webp", "/Products/product6_2.webp", "/Products/product6_3.webp", "/Products/product6_4.webp"],
       tag: "Traditional", color: "Antique Gold", rating: "4.8", reviews: "1.1k",
       details: { "Metal": "22K Gold Plated", "Stone": "Kundan", "Design": "Bridal Wear", "Includes": "Earrings Pair", "Adjustable": "Thread Back" }
     },
     { 
       id: 7, name: "Slim Fit Indigo Jean", category: "Fashion", sub: "Men", price: 3799, oldPrice: 5999, 
-      images: ["/Products/product7.png", "/Products/product7_1.png", "/Products/product7_2.png", "/Products/product7_3.png", "/Products/product7_4.png"],
+      images: ["/Products/product7.webp", "/Products/product7_1.webp", "/Products/product7_2.webp", "/Products/product7_3.webp", "/Products/product7_4.webp"],
       tag: "Performance", color: "Dark Indigo", rating: "4.5", reviews: "4.2k",
       details: { "Fabric": "Stretch Denim", "Fit": "Slim Fit", "Rise": "Mid", "Wash": "Vintage Wash", "Stretch": "4% Elastane" }
     },
     { 
       id: 8, name: "Kids Frock", category: "Fashion", sub: "Kids", price: 4499, oldPrice: 6800, 
-      images: ["/Products/product8.png", "/Products/product8_1.png", "/Products/product8_2.png", "/Products/product8_3.png", "/Products/product8_4.png"],
+      images: ["/Products/product8.webp", "/Products/product8_1.webp", "/Products/product8_2.webp", "/Products/product8_3.webp", "/Products/product8_4.webp"],
       tag: "Cute", color: "Blush Pink", rating: "4.7", reviews: "310",
       details: { "Fabric": "Soft Organza", "Lining": "Pure Cotton", "Occasion": "Party Wear", "Age": "5-12 Years", "Includes": "Sash Belt" }
     },
     { 
       id: 9, name: "Retro Square Sunglasses", category: "Accessories", sub: "Eyewear", price: 2199, oldPrice: 3500, 
-      images: ["/Products/product9.png", "/Products/product9_1.png", "/Products/product9_2.png", "/Products/product9_3.png", "/Products/product9_4.png"],
+      images: ["/Products/product9.webp", "/Products/product9_1.webp", "/Products/product9_2.webp", "/Products/product9_3.webp", "/Products/product9_4.webp"],
       tag: "Best Value", color: "Tortoise Shell", rating: "4.4", reviews: "5.5k",
       details: { "Lens": "Polarized UV400", "Frame": "Acetate", "Shape": "Square", "Gender": "Unisex", "Weight": "Lightweight" }
     },
     { 
       id: 10, name: "Hydrating Moisturizer", category: "Beauty", sub: "Skincare", price: 1599, oldPrice: 2200, 
-      images: ["/Products/product10.png", "/Products/product10_1.png", "/Products/product10_2.png", "/Products/product10_3.png", "/Products/product10_4.png"],
+      images: ["/Products/product10.webp", "/Products/product10_1.webp", "/Products/product10_2.webp", "/Products/product10_3.webp", "/Products/product10_4.webp"],
       tag: "New", color: "Clear White", rating: "4.6", reviews: "600",
       details: { "Skin Type": "Dry to Normal", "Main Ingredient": "Hyaluronic Acid", "Volume": "50ml", "Feature": "72H Hydration", "Chemicals": "Paraben Free" }
     },
     { 
       id: 11, name: "Party Wear Heels", category: "Footwear", sub: "Women", price: 1299, oldPrice: 2500, 
-      images: ["/Products/product11.png", "/Products/product11_1.png", "/Products/product11_2.png", "/Products/product11_3.png", "/Products/product11_4.png"],
+      images: ["/Products/product11.webp", "/Products/product11_1.webp", "/Products/product11_2.webp", "/Products/product11_3.webp", "/Products/product11_4.webp"],
       tag: "Essential", color: "Metallic Silver", rating: "4.3", reviews: "2.8k",
       details: { "Heel": "3 Inches", "Material": "Synthetic Leather", "Sole": "Soft Padded", "Occasion": "Festive", "Style": "Stiletto" }
     },
     { 
       id: 12, name: "Traditional Jhumka", category: "Jewellery", sub: "Earrings", price: 1499, oldPrice: 2250, 
-      images: ["/Products/product12.png", "/Products/product12_1.png", "/Products/product12_2.png", "/Products/product12_3.png", "/Products/product12_4.png"],
+      images: ["/Products/product12.webp", "/Products/product12_1.webp", "/Products/product12_2.webp", "/Products/product12_3.webp", "/Products/product12_4.webp"],
       tag: "Dermat Tested", color: "Vintage Gold", rating: "4.9", reviews: "6.5k",
       details: { "Material": "Brass with Gold Polish", "Stone": "Pearls & Beads", "Style": "Temple Design", "Weight": "Medium", "Lock": "Push Back" }
     },
     { 
       id: 13, name: "Casual Sling Bag", category: "Accessories", sub: "Bags", price: 2899, oldPrice: 4200, 
-      images: ["/Products/product13.png", "/Products/product13_1.png", "/Products/product13_2.png", "/Products/product13_3.png", "/Products/product13_4.png"],
+      images: ["/Products/product13.webp", "/Products/product13_1.webp", "/Products/product13_2.webp", "/Products/product13_3.webp", "/Products/product13_4.webp"],
       tag: "Elegant", color: "Tan Brown", rating: "4.7", reviews: "750",
       details: { "Material": "Vegan Leather", "Closure": "Magnet Flap", "Compartments": "2 Main + 1 Zip", "Strap": "Adjustable Gold Chain", "Size": "Small" }
     },
     { 
       id: 14, name: "Nourishing Hair Oil", category: "Beauty", sub: "Haircare", price: 1199, oldPrice: 1900, 
-      images: ["/Products/product14.png", "/Products/product14_1.png", "/Products/product14_2.png", "/Products/product14_3.png", "/Products/product14_4.png"],
+      images: ["/Products/product14.webp", "/Products/product14_1.webp", "/Products/product14_2.webp", "/Products/product14_3.webp", "/Products/product14_4.webp"],
       tag: "Ethnic", color: "Natural Amber", rating: "4.8", reviews: "520",
       details: { "Ingredients": "15 Organic Herbs", "Benefit": "Hair Growth", "Volume": "200ml", "Usage": "Weekly Twice", "Type": "Non-Sticky" }
     },
     { 
       id: 15, name: "Kids Velcro Sandals", category: "Footwear", sub: "Kids", price: 2999, oldPrice: 4500, 
-      images: ["/Products/product15.png", "/Products/product15_1.png", "/Products/product15_2.png", "/Products/product15_3.png", "/Products/product15_4.png"],
+      images: ["/Products/product15.webp", "/Products/product15_1.webp", "/Products/product15_2.webp", "/Products/product15_3.webp", "/Products/product15_4.webp"],
       tag: "Modern", color: "Red/Blue", rating: "4.4", reviews: "1.3k",
       details: { "Material": "EVA Lightweight", "Closure": "Velcro Strap", "Sole": "Anti-Slip", "Age": "2-6 Years", "Comfort": "Extra Soft Footbed" }
     },
     { 
       id: 16, name: "Modern Gold Bangles", category: "Jewellery", sub: "Bangles", price: 1899, oldPrice: 2800, 
-      images: ["/Products/product16.png", "/Products/product16_1.png", "/Products/product16_2.png", "/Products/product16_3.png", "/Products/product16_4.png"],
+      images: ["/Products/product16.webp", "/Products/product16_1.webp", "/Products/product16_2.webp", "/Products/product16_3.webp", "/Products/product16_4.webp"],
       tag: "Minimalist", color: "Yellow Gold", rating: "4.6", reviews: "280",
       details: { "Polish": "High Gloss", "Pattern": "Geometric", "Quantity": "Set of 2", "Metal": "Alloy with Micron Gold", "Style": "Everyday Wear" }
     }

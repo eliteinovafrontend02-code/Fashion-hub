@@ -26,7 +26,7 @@ const BanglesJewellery = () => {
   const banners = [
     {
       id: 1,
-      image: "/Jewellery/Bangles/bjbanner1.png",
+      image: "/Jewellery/Bangles/bjbanner1.webp",
       titlePart1: "Timeless Heritage",
       titlePart2: "Traditional Bangles",
       subtitle: "JEWELLERY • TRADITIONAL • ETHNIC",
@@ -35,7 +35,7 @@ const BanglesJewellery = () => {
     },
     {
       id: 2,
-      image: "/Jewellery/Bangles/bjbanner2.png",
+      image: "/Jewellery/Bangles/bjbanner2.webp",
       titlePart1: "Modern Chic",
       titlePart2: "Model Bangles",
       subtitle: "JEWELLERY • MODEL • CONTEMPORARY",
@@ -50,14 +50,14 @@ const BanglesJewellery = () => {
       id: 1,
       title: "Traditional Bangles",
       tag: "ETHNIC",
-      image: "/Jewellery/Bangles/traditional.png",
+      image: "/Jewellery/Bangles/traditional.webp",
       link: "/jewellery/bangles/traditional"
     },
     {
       id: 2,
       title: "Model Bangles",
       tag: "MODERN",
-      image: "/Jewellery/Bangles/model.png",
+      image: "/Jewellery/Bangles/model.webp",
       link: "/jewellery/bangles/model"
     }
   ];
@@ -72,7 +72,7 @@ const BanglesJewellery = () => {
       sub: "Bangles • Traditional", 
       price: 2999, 
       oldPrice: 5999, 
-      images: ["/Jewellery/Bangles/Products/bjp1.png", "/Jewellery/Bangles/Products/bjp1_1.png", "/Jewellery/Bangles/Products/bjp1_2.png", "/Jewellery/Bangles/Products/bjp1_3.png", "/Jewellery/Bangles/Products/bjp1_4.png"],
+      images: ["/Jewellery/Bangles/Products/bjp1.webp", "/Jewellery/Bangles/Products/bjp1_1.webp", "/Jewellery/Bangles/Products/bjp1_2.webp", "/Jewellery/Bangles/Products/bjp1_3.webp", "/Jewellery/Bangles/Products/bjp1_4.webp"],
       tag: "Best Seller", 
       color: "Silver", 
       rating: "4.9", 
@@ -88,7 +88,7 @@ const BanglesJewellery = () => {
       sub: "Bangles • Fashion", 
       price: 999, 
       oldPrice: 3199, 
-      images: ["/Jewellery/Bangles/Products/bjp2.png", "/Jewellery/Bangles/Products/bjp2_1.png", "/Jewellery/Bangles/Products/bjp2_2.png", "/Jewellery/Bangles/Products/bjp2_3.png", "/Jewellery/Bangles/Products/bjp2_4.png"],
+      images: ["/Jewellery/Bangles/Products/bjp2.webp", "/Jewellery/Bangles/Products/bjp2_1.webp", "/Jewellery/Bangles/Products/bjp2_2.webp", "/Jewellery/Bangles/Products/bjp2_3.webp", "/Jewellery/Bangles/Products/bjp2_4.webp"],
       tag: "Trending", 
       color: "Gold", 
       rating: "4.7", 
@@ -104,7 +104,7 @@ const BanglesJewellery = () => {
       sub: "Bangles • Traditional", 
       price: 1999, 
       oldPrice: 3999, 
-      images: ["/Jewellery/Bangles/Products/bjp3.png", "/Jewellery/Bangles/Products/bjp3_1.png", "/Jewellery/Bangles/Products/bjp3_2.png", "/Jewellery/Bangles/Products/bjp3_3.png", "/Jewellery/Bangles/Products/bjp3_4.png"],
+      images: ["/Jewellery/Bangles/Products/bjp3.webp", "/Jewellery/Bangles/Products/bjp3_1.webp", "/Jewellery/Bangles/Products/bjp3_2.webp", "/Jewellery/Bangles/Products/bjp3_3.webp", "/Jewellery/Bangles/Products/bjp3_4.webp"],
       tag: "Luxury", 
       color: "Antique Gold", 
       rating: "4.9", 
@@ -120,7 +120,7 @@ const BanglesJewellery = () => {
       sub: "Bangles • Fashion", 
       price: 1899, 
       oldPrice: 3799, 
-      images: ["/Jewellery/Bangles/Products/bjp4.png", "/Jewellery/Bangles/Products/bjp4_1.png", "/Jewellery/Bangles/Products/bjp4_2.png", "/Jewellery/Bangles/Products/bjp4_3.png", "/Jewellery/Bangles/Products/bjp4_4.png"],
+      images: ["/Jewellery/Bangles/Products/bjp4.webp", "/Jewellery/Bangles/Products/bjp4_1.webp", "/Jewellery/Bangles/Products/bjp4_2.webp", "/Jewellery/Bangles/Products/bjp4_3.webp", "/Jewellery/Bangles/Products/bjp4_4.webp"],
       tag: "Best Seller", 
       color: "Rose Gold", 
       rating: "4.8", 
@@ -339,7 +339,7 @@ const BanglesJewellery = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Jewellery/Bangles/bjbanner.png"
+                  src="/Jewellery/Bangles/bjbanner.webp"
                   alt="Bangles Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

@@ -41,11 +41,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Pure Cotton", "Princess cut", "Lace detailing", "Flared skirt", "Machine washable"],
       color: "Pink",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp1_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp1_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp1_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp1_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp1_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp1_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp1_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Pure Linen", "A-line silhouette", "Breathable fabric", "Summer essential", "Easy care"],
       color: "White",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp2_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp2_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp2_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp2_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp2_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp2_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp2_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Velvet", "Party wear", "Rich texture", "Zipper closure", "Dry clean only"],
       color: "Maroon",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp3_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp3_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp3_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp3_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp3_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp3_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp3_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Soft Cotton", "Floral print", "Flared skirt", "Machine washable", "Everyday wear"],
       color: "Yellow",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp4.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp4_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp4_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp4_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp4_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp4.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp4_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp4_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp4_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Pure Linen", "Embroidered detail", "A-line silhouette", "Lightweight", "Dry clean recommended"],
       color: "Beige",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp5.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp5_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp5_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp5_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp5_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp5.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp5_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp5_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp5_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Soft Cotton", "Ruffle detailing", "Flared skirt", "Machine washable", "Playful design"],
       color: "Peach",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp6.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp6_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp6_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp6_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp6_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp6.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp6_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp6_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp6_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Velvet", "Sequin embellishments", "Party wear", "Rich texture", "Dry clean only"],
       color: "Royal Blue",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp7.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp7_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp7_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp7_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp7_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp7.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp7_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp7_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp7_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Pure Linen", "Striped pattern", "Button front", "Breathable", "Machine washable"],
       color: "Blue Stripes",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp8.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp8_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp8_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp8_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp8_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp8.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp8_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp8_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp8_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Premium Cotton", "Lace detailing", "Princess silhouette", "Machine washable", "Special occasion"],
       color: "Ivory",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp9.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp9_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp9_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp9_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp9_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp9.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp9_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp9_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp9_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Velvet", "Tiered skirt", "Party wear", "Rich texture", "Dry clean only"],
       color: "Burgundy",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp10.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp10_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp10_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp10_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp10_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp10.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp10_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp10_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp10_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Pure Linen", "Pin-tuck detailing", "A-line silhouette", "Lightweight", "Dry clean recommended"],
       color: "Lavender",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp11.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp11_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp11_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp11_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp11_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp11.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp11_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp11_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp11_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const FrockGirlKidsFashion = () => {
       features: ["100% Soft Cotton", "Colorful prints", "Flared skirt", "Machine washable", "Party wear"],
       color: "Multicolor",
       images: [
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp12.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp12_1.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp12_2.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp12_3.jpg",
-        "/Fashion/Kids/Girl/Frock/Products/fgkfp12_4.jpg"
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp12.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp12_1.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp12_2.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp12_3.webp",
+        "/Fashion/Kids/Girl/Frock/Products/fgkfp12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const FrockGirlKidsFashion = () => {
             src="/Fashion/Kids/Girl/Frock"
             alt="Girls Frocks Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Kids/Girl/Frock/fgkfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Kids/Girl/Frock/fgkfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

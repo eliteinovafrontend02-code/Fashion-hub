@@ -40,11 +40,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Pure Silk", "Sequin embellishments", "Floor-length", "Zipper closure", "Dry clean only"],
       color: "Gold",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp1_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp1_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp1_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp1_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp1_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp1_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp1_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Velvet", "Cape detail", "Floor-length", "Button closure", "Dry clean only"],
       color: "Burgundy",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp2_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp2_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp2_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp2_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp2_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp2_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp2_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Georgette", "All-over sequins", "Floor-length", "Sleeveless", "Lined interior"],
       color: "Silver",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp3_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp3_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp3_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp3_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp3_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp3_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp3_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Silk", "Mermaid silhouette", "Floor-length", "Back zipper", "Luxurious drape"],
       color: "Ruby Red",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp4.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp4_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp4_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp4_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp4_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp4.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp4_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp4_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp4_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Velvet", "Embroidery & zari", "Floor-length", "Hidden zipper", "Dry clean only"],
       color: "Navy Blue",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp5.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp5_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp5_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp5_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp5_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp5.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp5_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp5_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp5_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Georgette", "Crystal embellishments", "Floor-length", "Sheer elegance", "Dry clean only"],
       color: "Blush Pink",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp6.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp6_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp6_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp6_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp6_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp6.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp6_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp6_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp6_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp6_4.webp"
       ]
     },
     {
@@ -166,11 +166,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Silk", "A-line silhouette", "Floor-length", "Back zipper", "Elegant design"],
       color: "Champagne",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp7.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp7_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp7_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp7_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp7_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp7.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp7_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp7_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp7_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp7_4.webp"
       ]
     },
     {
@@ -187,11 +187,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Velvet", "Column silhouette", "Floor-length", "Sleeveless", "Elegant drape"],
       color: "Black",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp8.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp8_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp8_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp8_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp8_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp8.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp8_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp8_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp8_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp8_4.webp"
       ]
     },
     {
@@ -208,11 +208,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Georgette", "Floral embroidery", "Floor-length", "Flowing design", "Lined interior"],
       color: "Lavender",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp9.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp9_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp9_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp9_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp9_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp9.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp9_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp9_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp9_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp9_4.webp"
       ]
     },
     {
@@ -229,11 +229,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Silk", "Off-shoulder style", "Floor-length", "Elastic neckline", "Elegant fit"],
       color: "Emerald Green",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp10.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp10_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp10_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp10_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp10_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp10.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp10_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp10_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp10_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp10_4.webp"
       ]
     },
     {
@@ -250,11 +250,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Velvet", "Stone & bead work", "Floor-length", "Rich texture", "Dry clean only"],
       color: "Purple",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp11.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp11_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp11_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp11_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp11_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp11.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp11_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp11_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp11_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp11_4.webp"
       ]
     },
     {
@@ -271,11 +271,11 @@ const LongDressesWomenFashion = () => {
       features: ["100% Georgette", "Cape detail", "Floor-length", "Sheer elegance", "Dry clean recommended"],
       color: "Ivory",
       images: [
-        "/Fashion/Women/Dresses/Long/Products/ldwfp12.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp12_1.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp12_2.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp12_3.png",
-        "/Fashion/Women/Dresses/Long/Products/ldwfp12_4.png"
+        "/Fashion/Women/Dresses/Long/Products/ldwfp12.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp12_1.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp12_2.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp12_3.webp",
+        "/Fashion/Women/Dresses/Long/Products/ldwfp12_4.webp"
       ]
     },
 
@@ -397,10 +397,10 @@ const LongDressesWomenFashion = () => {
         {/* Hero Section */}
         <section className="relative h-[30vh] md:h-[55vh] overflow-hidden">
           <img
-            src="/Fashion/Women/Dresses/Long/long-dresses-hero-banner.png"
+            src="/Fashion/Women/Dresses/Long/long-dresses-hero-banner.webp"
             alt="Long Dresses Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Women/Dresses/Long/ldwfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Women/Dresses/Long/ldwfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

@@ -26,7 +26,7 @@ const GirlKidsFashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Kids/Girl/gkfbanner1.png",
+      image: "/Fashion/Kids/Girl/gkfbanner1.webp",
       titlePart1: "Little Princess",
       titlePart2: "Girl's Frocks",
       subtitle: "KIDS • GIRL • FROCKS",
@@ -35,7 +35,7 @@ const GirlKidsFashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/Kids/Girl/gkfbanner2.png",
+      image: "/Fashion/Kids/Girl/gkfbanner2.webp",
       titlePart1: "Cute & Stylish",
       titlePart2: "Girl's Sets",
       subtitle: "KIDS • GIRL • SETS",
@@ -50,14 +50,14 @@ const GirlKidsFashion = () => {
       id: 1,
       title: "Frocks",
       tag: "CUTE",
-      image: "/Fashion/Kids/Girl/frock.png",
+      image: "/Fashion/Kids/Girl/frock.webp",
       link: "/fashion/kids/girl/frock"
     },
     {
       id: 2,
       title: "Sets",
       tag: "STYLISH",
-      image: "/Fashion/Kids/Girl/set.png",
+      image: "/Fashion/Kids/Girl/set.webp",
       link: "/fashion/kids/girl/set"
     }
   ];
@@ -71,7 +71,7 @@ const GirlKidsFashion = () => {
       sub: "Girl • Frocks", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Fashion/Kids/Girl/Products/gkfp1.png", "/Fashion/Kids/Girl/Products/gkfp1_1.png", "/Fashion/Kids/Girl/Products/gkfp1_2.png", "/Fashion/Kids/Girl/Products/gkfp1_3.png", "/Fashion/Kids/Girl/Products/gkfp1_4.png"],
+      images: ["/Fashion/Kids/Girl/Products/gkfp1.webp", "/Fashion/Kids/Girl/Products/gkfp1_1.webp", "/Fashion/Kids/Girl/Products/gkfp1_2.webp", "/Fashion/Kids/Girl/Products/gkfp1_3.webp", "/Fashion/Kids/Girl/Products/gkfp1_4.webp"],
       tag: "New Arrival", 
       color: "Peach", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const GirlKidsFashion = () => {
       sub: "Girl • Sets", 
       price: 1699, 
       oldPrice: 3399, 
-      images: ["/Fashion/Kids/Girl/Products/gkfp2.png", "/Fashion/Kids/Girl/Products/gkfp2_1.png", "/Fashion/Kids/Girl/Products/gkfp2_2.png", "/Fashion/Kids/Girl/Products/gkfp2_3.png", "/Fashion/Kids/Girl/Products/gkfp2_4.png"],
+      images: ["/Fashion/Kids/Girl/Products/gkfp2.webp", "/Fashion/Kids/Girl/Products/gkfp2_1.webp", "/Fashion/Kids/Girl/Products/gkfp2_2.webp", "/Fashion/Kids/Girl/Products/gkfp2_3.webp", "/Fashion/Kids/Girl/Products/gkfp2_4.webp"],
       tag: "Best Seller", 
       color: "Lavender", 
       rating: "4.7", 
@@ -99,7 +99,7 @@ const GirlKidsFashion = () => {
       sub: "Girl • Frocks", 
       price: 1099, 
       oldPrice: 2199, 
-      images: ["/Fashion/Kids/Girl/Products/gkfp3.png", "/Fashion/Kids/Girl/Products/gkfp3_1.png", "/Fashion/Kids/Girl/Products/gkfp3_2.png", "/Fashion/Kids/Girl/Products/gkfp3_3.png", "/Fashion/Kids/Girl/Products/gkfp3_4.png"],
+      images: ["/Fashion/Kids/Girl/Products/gkfp3.webp", "/Fashion/Kids/Girl/Products/gkfp3_1.webp", "/Fashion/Kids/Girl/Products/gkfp3_2.webp", "/Fashion/Kids/Girl/Products/gkfp3_3.webp", "/Fashion/Kids/Girl/Products/gkfp3_4.webp"],
       tag: "Trending", 
       color: "Mint Green", 
       rating: "4.6", 
@@ -113,7 +113,7 @@ const GirlKidsFashion = () => {
       sub: "Girl • Sets", 
       price: 2499, 
       oldPrice: 4999, 
-      images: ["/Fashion/Kids/Girl/Products/gkfp4.png", "/Fashion/Kids/Girl/Products/gkfp4_1.png", "/Fashion/Kids/Girl/Products/gkfp4_2.png", "/Fashion/Kids/Girl/Products/gkfp4_3.png", "/Fashion/Kids/Girl/Products/gkfp4_4.png"],
+      images: ["/Fashion/Kids/Girl/Products/gkfp4.webp", "/Fashion/Kids/Girl/Products/gkfp4_1.webp", "/Fashion/Kids/Girl/Products/gkfp4_2.webp", "/Fashion/Kids/Girl/Products/gkfp4_3.webp", "/Fashion/Kids/Girl/Products/gkfp4_4.webp"],
       tag: "Luxury", 
       color: "Burgundy", 
       rating: "4.9", 
@@ -331,7 +331,7 @@ const GirlKidsFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Kids/Girl/gkfbanner.png"
+                  src="/Fashion/Kids/Girl/gkfbanner.webp"
                   alt="Girl's Fashion Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

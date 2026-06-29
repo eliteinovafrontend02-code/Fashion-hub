@@ -26,7 +26,7 @@ const ShirtsMenFashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Men/Shirts/smfbanner1.png",
+      image: "/Fashion/Men/Shirts/smfbanner1.webp",
       titlePart1: "Everyday Comfort",
       titlePart2: "Casual Shirts",
       subtitle: "MEN • CASUAL • COMFORT",
@@ -35,7 +35,7 @@ const ShirtsMenFashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/Men/Shirts/smfbanner2.png",
+      image: "/Fashion/Men/Shirts/smfbanner2.webp",
       titlePart1: "Stand Out",
       titlePart2: "Printed Shirts",
       subtitle: "MEN • PRINTED • STYLE",
@@ -50,14 +50,14 @@ const ShirtsMenFashion = () => {
       id: 1,
       title: "Casual",
       tag: "COMFORT",
-      image: "/Fashion/Men/Shirts/casual.png",
+      image: "/Fashion/Men/Shirts/casual.webp",
       link: "/fashion/men/shirts/casual"
     },
     {
       id: 2,
       title: "Printed",
       tag: "STYLE",
-      image: "/Fashion/Men/Shirts/printed.png",
+      image: "/Fashion/Men/Shirts/printed.webp",
       link: "/fashion/men/shirts/printed"
     }
   ];
@@ -71,7 +71,7 @@ const ShirtsMenFashion = () => {
       sub: "Shirts • Casual", 
       price: 1999, 
       oldPrice: 3999, 
-      images: ["/Fashion/Men/Shirts/Products/smfp1.png", "/Fashion/Men/Shirts/Products/smfp1_1.png", "/Fashion/Men/Shirts/Products/smfp1_2.png", "/Fashion/Men/Shirts/Products/smfp1_3.png", "/Fashion/Men/Shirts/Products/smfp1_4.png"],
+      images: ["/Fashion/Men/Shirts/Products/smfp1.webp", "/Fashion/Men/Shirts/Products/smfp1_1.webp", "/Fashion/Men/Shirts/Products/smfp1_2.webp", "/Fashion/Men/Shirts/Products/smfp1_3.webp", "/Fashion/Men/Shirts/Products/smfp1_4.webp"],
       tag: "Winter Edit", 
       color: "Charcoal", 
       rating: "4.9", 
@@ -85,7 +85,7 @@ const ShirtsMenFashion = () => {
       sub: "Shirts • Printed", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Fashion/Men/Shirts/Products/smfp2.png", "/Fashion/Men/Shirts/Products/smfp2_1.png", "/Fashion/Men/Shirts/Products/smfp2_2.png", "/Fashion/Men/Shirts/Products/smfp2_3.png", "/Fashion/Men/Shirts/Products/smfp2_4.png"],
+      images: ["/Fashion/Men/Shirts/Products/smfp2.webp", "/Fashion/Men/Shirts/Products/smfp2_1.webp", "/Fashion/Men/Shirts/Products/smfp2_2.webp", "/Fashion/Men/Shirts/Products/smfp2_3.webp", "/Fashion/Men/Shirts/Products/smfp2_4.webp"],
       tag: "Trending", 
       color: "Rose Floral", 
       rating: "4.7", 
@@ -99,7 +99,7 @@ const ShirtsMenFashion = () => {
       sub: "Shirts • Casual", 
       price: 1699, 
       oldPrice: 3299, 
-      images: ["/Fashion/Men/Shirts/Products/smfp3.png", "/Fashion/Men/Shirts/Products/smfp3_1.png", "/Fashion/Men/Shirts/Products/smfp3_2.png", "/Fashion/Men/Shirts/Products/smfp3_3.png", "/Fashion/Men/Shirts/Products/smfp3_4.png"],
+      images: ["/Fashion/Men/Shirts/Products/smfp3.webp", "/Fashion/Men/Shirts/Products/smfp3_1.webp", "/Fashion/Men/Shirts/Products/smfp3_2.webp", "/Fashion/Men/Shirts/Products/smfp3_3.webp", "/Fashion/Men/Shirts/Products/smfp3_4.webp"],
       tag: "Trending", 
       color: "Light Blue Denim", 
       rating: "4.7", 
@@ -113,7 +113,7 @@ const ShirtsMenFashion = () => {
       sub: "Shirts • Printed", 
       price: 1699, 
       oldPrice: 3399,  
-      images: ["/Fashion/Men/Shirts/Products/smfp4.png", "/Fashion/Men/Shirts/Products/smfp4_1.png", "/Fashion/Men/Shirts/Products/smfp4_2.png", "/Fashion/Men/Shirts/Products/smfp4_3.png", "/Fashion/Men/Shirts/Products/smfp4_4.png"],
+      images: ["/Fashion/Men/Shirts/Products/smfp4.webp", "/Fashion/Men/Shirts/Products/smfp4_1.webp", "/Fashion/Men/Shirts/Products/smfp4_2.webp", "/Fashion/Men/Shirts/Products/smfp4_3.webp", "/Fashion/Men/Shirts/Products/smfp4_4.webp"],
       tag: "Bold Style", 
       color: "Leopard Print", 
       rating: "4.5", 
@@ -331,7 +331,7 @@ const ShirtsMenFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Men/Shirts/smfbanner.png"
+                  src="/Fashion/Men/Shirts/smfbanner.webp"
                   alt="Men's Shirts Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

@@ -27,7 +27,7 @@ const DressesWomenFashion = () => {
 
      {
       id: 1,
-      image: "/Fashion/Women/Dresses/dwfbanner1.png",
+      image: "/Fashion/Women/Dresses/dwfbanner1.webp",
       titlePart1: "Elegant Flowing",
       titlePart2: "Long Dresses",
       subtitle: "WOMEN • LONG • GRACEFUL",
@@ -37,7 +37,7 @@ const DressesWomenFashion = () => {
 
     {
       id: 2,
-      image: "/Fashion/Women/Dresses/dwfbanner2.png",
+      image: "/Fashion/Women/Dresses/dwfbanner2.webp",
       titlePart1: "Chic & Confident",
       titlePart2: "Short Dresses",
       subtitle: "WOMEN • SHORT • TRENDY",
@@ -54,7 +54,7 @@ const DressesWomenFashion = () => {
       id: 1,
       title: "Long Dresses",
       tag: "GRACEFUL",
-      image: "/Fashion/Women/Dresses/long.png",
+      image: "/Fashion/Women/Dresses/long.webp",
       link: "/fashion/women/dresses/long"
     },
     
@@ -62,7 +62,7 @@ const DressesWomenFashion = () => {
       id: 2,
       title: "Short Dresses",
       tag: "TRENDY",
-      image: "/Fashion/Women/Dresses/short.png",
+      image: "/Fashion/Women/Dresses/short.webp",
       link: "/fashion/women/dresses/short"
     },
    
@@ -77,7 +77,7 @@ const DressesWomenFashion = () => {
       sub: "Dresses • Short", 
       price: 1899, 
       oldPrice: 3799, 
-      images: ["/Fashion/Women/Dresses/Products/dwfp1.png", "/Fashion/Women/Dresses/Products/dwfp1_1.png", "/Fashion/Women/Dresses/Products/dwfp1_2.png", "/Fashion/Women/Dresses/Products/dwfp1_3.png", "/Fashion/Women/Dresses/Products/dwfp1_4.png"],
+      images: ["/Fashion/Women/Dresses/Products/dwfp1.webp", "/Fashion/Women/Dresses/Products/dwfp1_1.webp", "/Fashion/Women/Dresses/Products/dwfp1_2.webp", "/Fashion/Women/Dresses/Products/dwfp1_3.webp", "/Fashion/Women/Dresses/Products/dwfp1_4.webp"],
       tag: "Trending", 
       color: "Coral Red", 
       rating: "4.6", 
@@ -91,7 +91,7 @@ const DressesWomenFashion = () => {
       sub: "Dresses • Long", 
       price: 3299, 
       oldPrice: 6599, 
-      images: ["/Fashion/Women/Dresses/Products/dwfp2.png", "/Fashion/Women/Dresses/Products/dwfp2_1.png", "/Fashion/Women/Dresses/Products/dwfp2_2.png", "/Fashion/Women/Dresses/Products/dwfp2_3.png", "/Fashion/Women/Dresses/Products/dwfp2_4.png"],
+      images: ["/Fashion/Women/Dresses/Products/dwfp2.webp", "/Fashion/Women/Dresses/Products/dwfp2_1.webp", "/Fashion/Women/Dresses/Products/dwfp2_2.webp", "/Fashion/Women/Dresses/Products/dwfp2_3.webp", "/Fashion/Women/Dresses/Products/dwfp2_4.webp"],
       tag: "Luxury", 
       color: "Emerald Green", 
       rating: "4.9", 
@@ -105,7 +105,7 @@ const DressesWomenFashion = () => {
       sub: "Dresses • Short", 
       price: 1699, 
       oldPrice: 3399, 
-      images: ["/Fashion/Women/Dresses/Products/dwfp3.png", "/Fashion/Women/Dresses/Products/dwfp3_1.png", "/Fashion/Women/Dresses/Products/dwfp3_2.png", "/Fashion/Women/Dresses/Products/dwfp3_3.png", "/Fashion/Women/Dresses/Products/dwfp3_4.png"],
+      images: ["/Fashion/Women/Dresses/Products/dwfp3.webp", "/Fashion/Women/Dresses/Products/dwfp3_1.webp", "/Fashion/Women/Dresses/Products/dwfp3_2.webp", "/Fashion/Women/Dresses/Products/dwfp3_3.webp", "/Fashion/Women/Dresses/Products/dwfp3_4.webp"],
       tag: "Essential", 
       color: "Mustard Yellow", 
       rating: "4.5", 
@@ -119,7 +119,7 @@ const DressesWomenFashion = () => {
       sub: "Dresses • Long", 
       price: 2799, 
       oldPrice: 5599, 
-      images: ["/Fashion/Women/Dresses/Products/dwfp4.png", "/Fashion/Women/Dresses/Products/dwfp4_1.png", "/Fashion/Women/Dresses/Products/dwfp4_2.png", "/Fashion/Women/Dresses/Products/dwfp4_3.png", "/Fashion/Women/Dresses/Products/dwfp4_4.png"],
+      images: ["/Fashion/Women/Dresses/Products/dwfp4.webp", "/Fashion/Women/Dresses/Products/dwfp4_1.webp", "/Fashion/Women/Dresses/Products/dwfp4_2.webp", "/Fashion/Women/Dresses/Products/dwfp4_3.webp", "/Fashion/Women/Dresses/Products/dwfp4_4.webp"],
       tag: "Trending", 
       color: "Dusty Rose", 
       rating: "4.7", 
@@ -336,7 +336,7 @@ const DressesWomenFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Women/Dresses/dwfbanner.png"
+                  src="/Fashion/Women/Dresses/dwfbanner.webp"
                   alt="Women's Dresses Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

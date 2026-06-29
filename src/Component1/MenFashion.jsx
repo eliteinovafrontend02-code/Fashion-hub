@@ -26,7 +26,7 @@ const MenFashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Men/mfbanner1.png",
+      image: "/Fashion/Men/mfbanner1.webp",
       titlePart1: "Elevate Your",
       titlePart2: "Shirt Game",
       subtitle: "MEN • SHIRTS • PREMIUM",
@@ -35,7 +35,7 @@ const MenFashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/Men/mfbanner2.png",
+      image: "/Fashion/Men/mfbanner2.webp",
       titlePart1: "Perfect Fit",
       titlePart2: "Premium Pants",
       subtitle: "MEN • PANTS • COMFORT",
@@ -50,14 +50,14 @@ const MenFashion = () => {
         id: 1,
         title: "Shirts",
         tag: "ESSENTIALS",
-        image: "/Fashion/Men/shirt.png",
+        image: "/Fashion/Men/shirt.webp",
         link: "/fashion/men/shirts"
       },
       {
         id: 2,
         title: "Pants",
         tag: "PREMIUM",
-        image: "/Fashion/Men/pant.png",
+        image: "/Fashion/Men/pant.webp",
         link: "/Fashion/men/pants"
       }
     ];
@@ -71,7 +71,7 @@ const MenFashion = () => {
       sub: "Shirts • Casual", 
       price: 1299, 
       oldPrice: 2499, 
-      images: ["/Fashion/Men/Products/mfp1.png", "/Fashion/Men/Products/mfp1_1.png", "/Fashion/Men/Products/mfp1_2.png", "/Fashion/Men/Products/mfp1_3.png", "/Fashion/Men/Products/mfp1_4.png"],
+      images: ["/Fashion/Men/Products/mfp1.webp", "/Fashion/Men/Products/mfp1_1.webp", "/Fashion/Men/Products/mfp1_2.webp", "/Fashion/Men/Products/mfp1_3.webp", "/Fashion/Men/Products/mfp1_4.webp"],
       tag: "Best Seller", 
       color: "White", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const MenFashion = () => {
       sub: "Pants • Jeans", 
       price: 1799, 
       oldPrice: 3499, 
-      images: ["/Fashion/Men/Products/mfp2.png", "/Fashion/Men/Products/mfp2_1.png", "/Fashion/Men/Products/mfp2_2.png", "/Fashion/Men/Products/mfp2_3.png", "/Fashion/Men/Products/mfp2_4.png"],
+      images: ["/Fashion/Men/Products/mfp2.webp", "/Fashion/Men/Products/mfp2_1.webp", "/Fashion/Men/Products/mfp2_2.webp", "/Fashion/Men/Products/mfp2_3.webp", "/Fashion/Men/Products/mfp2_4.webp"],
       tag: "Essential", 
       color: "Blue", 
       rating: "4.6", 
@@ -99,7 +99,7 @@ const MenFashion = () => {
       sub: "Shirts • Printed", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Fashion/Men/Products/mfp3.png", "/Fashion/Men/Products/mfp3_1.png", "/Fashion/Men/Products/mfp3_2.png", "/Fashion/Men/Products/mfp3_3.png", "/Fashion/Men/Products/mfp3_4.png"],
+      images: ["/Fashion/Men/Products/mfp3.webp", "/Fashion/Men/Products/mfp3_1.webp", "/Fashion/Men/Products/mfp3_2.webp", "/Fashion/Men/Products/mfp3_3.webp", "/Fashion/Men/Products/mfp3_4.webp"],
       tag: "Trending", 
       color: "Blue Floral", 
       rating: "4.7", 
@@ -113,7 +113,7 @@ const MenFashion = () => {
       sub: "Pants • Formal", 
       price: 1999, 
       oldPrice: 3999, 
-      images: ["/Fashion/Men/Products/mfp4.png", "/Fashion/Men/Products/mfp4_1.png", "/Fashion/Men/Products/mfp4_2.png", "/Fashion/Men/Products/mfp4_3.png", "/Fashion/Men/Products/mfp4_4.png"],
+      images: ["/Fashion/Men/Products/mfp4.webp", "/Fashion/Men/Products/mfp4_1.webp", "/Fashion/Men/Products/mfp4_2.webp", "/Fashion/Men/Products/mfp4_3.webp", "/Fashion/Men/Products/mfp4_4.webp"],
       tag: "New Arrival", 
       color: "Black", 
       rating: "4.9", 
@@ -331,7 +331,7 @@ const MenFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Men/mfbanner.png"
+                  src="/Fashion/Men/mfbanner.webp"
                   alt="Men's Fashion Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

@@ -41,11 +41,11 @@ const CasualShirtsMenFashion = () => {
       features: ["100% Premium Cotton", "Regular Fit", "Button-down collar", "Machine washable", "Available in 5 sizes"],
       color: "White",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp1_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp1_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp1_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp1_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const CasualShirtsMenFashion = () => {
       features: ["Lightweight Chambray Cotton", "Slim Fit", "Spread collar", "Easy care fabric", "Available in 5 sizes"],
       color: "Navy Blue",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp2_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp2_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp2_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp2_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const CasualShirtsMenFashion = () => {
       features: ["100% Pure Linen", "Relaxed Fit", "Classic collar", "Natural breathability", "Available in 5 sizes"],
       color: "Light Grey",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp3_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp3_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp3_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp3_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const CasualShirtsMenFashion = () => {
       features: ["98% Cotton 2% Elastane", "Regular Fit", "Point collar", "Stretch comfort", "Available in 5 sizes"],
       color: "Black",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp4_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp4.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp4_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp4_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp4_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const CasualShirtsMenFashion = () => {
       features: ["100% Brushed Flannel", "Regular Fit", "Classic collar", "Extra soft brushed finish", "Available in 5 sizes"],
       color: "Red",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp5_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp5.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp5_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp5_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp5_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const CasualShirtsMenFashion = () => {
       features: ["100% Cotton Twill", "Regular Fit", "Button-down collar", "Wrinkle resistant", "Available in 5 sizes"],
       color: "Beige",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp6_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp6.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp6_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp6_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp6_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const CasualShirtsMenFashion = () => {
       features: ["60% Wool 40% Cotton", "Tailored Fit", "Spread collar", "Natural warmth", "Available in 5 sizes"],
       color: "Dark Green",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp7_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp7.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp7_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp7_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp7_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const CasualShirtsMenFashion = () => {
       features: ["100% Linen", "Regular Fit", "Classic collar", "Stripe pattern", "Available in 5 sizes"],
       color: "Blue",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp8_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp8.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp8_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp8_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp8_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const CasualShirtsMenFashion = () => {
       features: ["100% Cotton Denim", "Regular Fit", "Point collar", "Washed finish", "Available in 5 sizes"],
       color: "Grey",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp9_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp9.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp9_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp9_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp9_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const CasualShirtsMenFashion = () => {
       features: ["100% Brushed Flannel", "Regular Fit", "Classic collar", "Bold check pattern", "Available in 5 sizes"],
       color: "Black & White",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp10_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp10.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp10_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp10_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp10_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const CasualShirtsMenFashion = () => {
       features: ["100% Cotton Poplin", "Slim Fit", "Classic collar", "Crisp & lightweight", "Available in 5 sizes"],
       color: "pink",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp11_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp11.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp11_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp11_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp11_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const CasualShirtsMenFashion = () => {
       features: ["70% Wool 30% Cotton", "Regular Fit", "Spread collar", "Premium soft wool", "Available in 5 sizes"],
       color: "Brown",
       images: [
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12_1.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12_2.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12_3.png",
-        "/Fashion/Men/Shirts/Casual/Products/csmfp12_4.png"
+        "/Fashion/Men/Shirts/Casual/Products/csmfp12.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp12_1.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp12_2.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp12_3.webp",
+        "/Fashion/Men/Shirts/Casual/Products/csmfp12_4.webp"
       ]
     }
   ];
@@ -400,7 +400,7 @@ const CasualShirtsMenFashion = () => {
             src="/Fashion/Men/Shirts/casual"
             alt="Casual Shirts Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Men/Shirts/Casual/csmfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Men/Shirts/Casual/csmfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

@@ -26,7 +26,7 @@ const SandalsMenFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Men/Sandals/smfbanner1.png",
+      image: "/Footwear/Men/Sandals/smfbanner1.webp",
       titlePart1: "Ready for Action",
       titlePart2: "Sports Sandals",
       subtitle: "MEN • SPORTS • ADVENTURE",
@@ -35,7 +35,7 @@ const SandalsMenFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Men/Sandals/smfbanner2.png",
+      image: "/Footwear/Men/Sandals/smfbanner2.webp",
       titlePart1: "Everyday Ease",
       titlePart2: "Flat Sandals",
       subtitle: "MEN • FLAT • COMFORT",
@@ -50,14 +50,14 @@ const SandalsMenFootwear = () => {
       id: 1,
       title: "Sports",
       tag: "ADVENTURE",
-      image: "/Footwear/Men/Sandals/sports.png",
+      image: "/Footwear/Men/Sandals/sports.webp",
       link: "/footwear/men/sandals/sports"
     },
     {
       id: 2,
       title: "Flat",
       tag: "COMFORT",
-      image: "/Footwear/Men/Sandals/flat.png",
+      image: "/Footwear/Men/Sandals/flat.webp",
       link: "/footwear/men/sandals/flat"
     }
   ];
@@ -72,7 +72,7 @@ const SandalsMenFootwear = () => {
       sub: "Sandals • Sports", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Footwear/Men/Sandals/Products/smfp1.png", "/Footwear/Men/Sandals/Products/smfp1_1.png", "/Footwear/Men/Sandals/Products/smfp1_2.png", "/Footwear/Men/Sandals/Products/smfp1_3.png", "/Footwear/Men/Sandals/Products/smfp1_4.png"],
+      images: ["/Footwear/Men/Sandals/Products/smfp1.webp", "/Footwear/Men/Sandals/Products/smfp1_1.webp", "/Footwear/Men/Sandals/Products/smfp1_2.webp", "/Footwear/Men/Sandals/Products/smfp1_3.webp", "/Footwear/Men/Sandals/Products/smfp1_4.webp"],
       tag: "Best Seller", 
       color: "Black & Blue", 
       rating: "4.8", 
@@ -88,7 +88,7 @@ const SandalsMenFootwear = () => {
       sub: "Sandals • Flat", 
       price: 799, 
       oldPrice: 1599, 
-      images: ["/Footwear/Men/Sandals/Products/smfp2.png", "/Footwear/Men/Sandals/Products/smfp2_1.png", "/Footwear/Men/Sandals/Products/smfp2_2.png", "/Footwear/Men/Sandals/Products/smfp2_3.png", "/Footwear/Men/Sandals/Products/smfp2_4.png"],
+      images: ["/Footwear/Men/Sandals/Products/smfp2.webp", "/Footwear/Men/Sandals/Products/smfp2_1.webp", "/Footwear/Men/Sandals/Products/smfp2_2.webp", "/Footwear/Men/Sandals/Products/smfp2_3.webp", "/Footwear/Men/Sandals/Products/smfp2_4.webp"],
       tag: "Trending", 
       color: "Brown", 
       rating: "4.6", 
@@ -104,7 +104,7 @@ const SandalsMenFootwear = () => {
       sub: "Sandals • Sports", 
       price: 1799, 
       oldPrice: 3599, 
-      images: ["/Footwear/Men/Sandals/Products/smfp3.png", "/Footwear/Men/Sandals/Products/smfp3_1.png", "/Footwear/Men/Sandals/Products/smfp3_2.png", "/Footwear/Men/Sandals/Products/smfp3_3.png", "/Footwear/Men/Sandals/Products/smfp3_4.png"],
+      images: ["/Footwear/Men/Sandals/Products/smfp3.webp", "/Footwear/Men/Sandals/Products/smfp3_1.webp", "/Footwear/Men/Sandals/Products/smfp3_2.webp", "/Footwear/Men/Sandals/Products/smfp3_3.webp", "/Footwear/Men/Sandals/Products/smfp3_4.webp"],
       tag: "Luxury", 
       color: "Grey & Orange", 
       rating: "4.9", 
@@ -120,7 +120,7 @@ const SandalsMenFootwear = () => {
       sub: "Sandals • Flat", 
       price: 699, 
       oldPrice: 1399, 
-      images: ["/Footwear/Men/Sandals/Products/smfp4.png", "/Footwear/Men/Sandals/Products/smfp4_1.png", "/Footwear/Men/Sandals/Products/smfp4_2.png", "/Footwear/Men/Sandals/Products/smfp4_3.png", "/Footwear/Men/Sandals/Products/smfp4_4.png"],
+      images: ["/Footwear/Men/Sandals/Products/smfp4.webp", "/Footwear/Men/Sandals/Products/smfp4_1.webp", "/Footwear/Men/Sandals/Products/smfp4_2.webp", "/Footwear/Men/Sandals/Products/smfp4_3.webp", "/Footwear/Men/Sandals/Products/smfp4_4.webp"],
       tag: "Best Seller", 
       color: "Black", 
       rating: "4.7", 
@@ -322,7 +322,7 @@ const SandalsMenFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Men/Sandals/smfbanner.png"
+                  src="/Footwear/Men/Sandals/smfbanner.webp"
                   alt="Men's Sandals Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

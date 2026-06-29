@@ -26,7 +26,7 @@ const BoyKidsFashion = () => {
   const banners = [
     {
       id: 1,
-      image: "/Fashion/Kids/Boy/bkfbanner1.png",
+      image: "/Fashion/Kids/Boy/bkfbanner1.webp",
       titlePart1: "Little Gentleman",
       titlePart2: "Boy's Shirts",
       subtitle: "KIDS • BOY • SHIRTS",
@@ -35,7 +35,7 @@ const BoyKidsFashion = () => {
     },
     {
       id: 2,
-      image: "/Fashion/Kids/Boy/bkfbanner2.png",
+      image: "/Fashion/Kids/Boy/bkfbanner2.webp",
       titlePart1: "Perfect Pair",
       titlePart2: "Boy's Sets",
       subtitle: "KIDS • BOY • SETS",
@@ -50,14 +50,14 @@ const BoyKidsFashion = () => {
       id: 1,
       title: "Shirts",
       tag: "STYLISH",
-      image: "/Fashion/Kids/Boy/shirt.png",
+      image: "/Fashion/Kids/Boy/shirt.webp",
       link: "/fashion/kids/boy/shirt"
     },
     {
       id: 2,
       title: "Sets",
       tag: "COMFORT",
-      image: "/Fashion/Kids/Boy/set.png",
+      image: "/Fashion/Kids/Boy/set.webp",
       link: "/fashion/kids/boy/set"
     }
   ];
@@ -71,7 +71,7 @@ const BoyKidsFashion = () => {
     sub: "Boys • Set", 
     price: 1299, 
     oldPrice: 2499, 
-    images: ["/Fashion/Kids/Boy/Products/bkfp1.png", "/Fashion/Kids/Boy/Products/bkfp1_1.png", "/Fashion/Kids/Boy/Products/bkfp1_2.png", "/Fashion/Kids/Boy/Products/bkfp1_3.png", "/Fashion/Kids/Boy/Products/bkfp1_4.png"],
+    images: ["/Fashion/Kids/Boy/Products/bkfp1.webp", "/Fashion/Kids/Boy/Products/bkfp1_1.webp", "/Fashion/Kids/Boy/Products/bkfp1_2.webp", "/Fashion/Kids/Boy/Products/bkfp1_3.webp", "/Fashion/Kids/Boy/Products/bkfp1_4.webp"],
     tag: "Trending", 
     color: "Navy Blue", 
     rating: "4.7", 
@@ -86,7 +86,7 @@ const BoyKidsFashion = () => {
     sub: "Boys • Shirt", 
     price: 699, 
     oldPrice: 1499, 
-    images: ["/Fashion/Kids/Boy/Products/bkfp2.png", "/Fashion/Kids/Boy/Products/bkfp2_1.png", "/Fashion/Kids/Boy/Products/bkfp2_2.png", "/Fashion/Kids/Boy/Products/bkfp2_3.png", "/Fashion/Kids/Boy/Products/bkfp2_4.png"],
+    images: ["/Fashion/Kids/Boy/Products/bkfp2.webp", "/Fashion/Kids/Boy/Products/bkfp2_1.webp", "/Fashion/Kids/Boy/Products/bkfp2_2.webp", "/Fashion/Kids/Boy/Products/bkfp2_3.webp", "/Fashion/Kids/Boy/Products/bkfp2_4.webp"],
     tag: "Essential", 
     color: "White", 
     rating: "4.7", 
@@ -101,7 +101,7 @@ const BoyKidsFashion = () => {
     sub: "Boys • Set", 
     price: 899, 
     oldPrice: 1799, 
-    images: ["/Fashion/Kids/Boy/Products/bkfp3.png", "/Fashion/Kids/Boy/Products/bkfp3_1.png", "/Fashion/Kids/Boy/Products/bkfp3_2.png", "/Fashion/Kids/Boy/Products/bkfp3_3.png", "/Fashion/Kids/Boy/Products/bkfp3_4.png"],
+    images: ["/Fashion/Kids/Boy/Products/bkfp3.webp", "/Fashion/Kids/Boy/Products/bkfp3_1.webp", "/Fashion/Kids/Boy/Products/bkfp3_2.webp", "/Fashion/Kids/Boy/Products/bkfp3_3.webp", "/Fashion/Kids/Boy/Products/bkfp3_4.webp"],
     tag: "Summer Edit", 
     color: "Yellow", 
     rating: "4.5", 
@@ -116,7 +116,7 @@ const BoyKidsFashion = () => {
     sub: "Boys • Shirt", 
     price: 799, 
     oldPrice: 1699, 
-    images: ["/Fashion/Kids/Boy/Products/bkfp4.png", "/Fashion/Kids/Boy/Products/bkfp4_1.png", "/Fashion/Kids/Boy/Products/bkfp4_2.png", "/Fashion/Kids/Boy/Products/bkfp4_3.png", "/Fashion/Kids/Boy/Products/bkfp4_4.png"],
+    images: ["/Fashion/Kids/Boy/Products/bkfp4.webp", "/Fashion/Kids/Boy/Products/bkfp4_1.webp", "/Fashion/Kids/Boy/Products/bkfp4_2.webp", "/Fashion/Kids/Boy/Products/bkfp4_3.webp", "/Fashion/Kids/Boy/Products/bkfp4_4.webp"],
     tag: "Best Seller", 
     color: "Light Pink", 
     rating: "4.8", 
@@ -334,7 +334,7 @@ const BoyKidsFashion = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Fashion/Kids/Boy/bkfbanner.png"
+                  src="/Fashion/Kids/Boy/bkfbanner.webp"
                   alt="Boy's Fashion Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

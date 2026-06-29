@@ -40,11 +40,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Pure Silk", "Gold Zari work", "6.3 meters length", "Handwoven", "Dry clean only"],
       color: "Gold",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp1_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp1_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp1_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp1_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp1_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp1_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp1_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp1_4.webp"
       ]
     },
     {
@@ -61,11 +61,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Pure Silk", "Gold border & pallu", "6.5 meters length", "Handwoven", "Preserve with care"],
       color: "Red",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp2_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp2_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp2_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp2_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp2_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp2_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp2_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp2_4.webp"
       ]
     },
     {
@@ -82,11 +82,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Velvet", "Zari embroidery", "6.4 meters length", "Rich texture", "Dry clean only"],
       color: "Burgundy",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp3_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp3_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp3_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp3_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp3_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp3_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp3_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp3_4.webp"
       ]
     },
     {
@@ -103,11 +103,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Georgette", "Sequin embellishments", "6.3 meters length", "Fluid drape", "Dry clean recommended"],
       color: "Royal Blue",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp4.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp4_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp4_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp4_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp4_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp4.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp4_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp4_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp4_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp4_4.webp"
       ]
     },
     {
@@ -124,11 +124,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Tissue Silk", "Metallic finish", "6.4 meters length", "Luxurious feel", "Dry clean only"],
       color: "Champagne",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp5.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp5_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp5_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp5_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp5_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp5.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp5_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp5_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp5_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp5_4.webp"
       ]
     },
     {
@@ -145,11 +145,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Velvet", "Embroidery & zari", "6.3 meters length", "Rich texture", "Dry clean only"],
       color: "Navy Blue",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp6.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp6_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp6_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp6_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp6_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp6.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp6_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp6_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp6_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp6_4.webp"
       ]
     },
     {
@@ -166,11 +166,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Georgette", "Crystal embellishments", "6.2 meters length", "Sheer elegance", "Dry clean only"],
       color: "Blush Pink",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp7.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp7_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp7_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp7_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp7_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp7.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp7_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp7_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp7_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp7_4.webp"
       ]
     },
     {
@@ -187,11 +187,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Pure Silk", "Zari & thread work", "6.5 meters length", "Bridal collection", "Dry clean only"],
       color: "Ivory",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp8.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp8_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp8_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp8_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp8_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp8.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp8_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp8_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp8_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp8_4.webp"
       ]
     },
     {
@@ -208,11 +208,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Velvet", "Cape detail", "6.4 meters length", "Regal design", "Dry clean only"],
       color: "Emerald Green",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp9.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp9_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp9_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp9_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp9_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp9.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp9_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp9_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp9_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp9_4.webp"
       ]
     },
     {
@@ -229,11 +229,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Georgette", "All-over sequins", "6.3 meters length", "Shimmering finish", "Dry clean recommended"],
       color: "Rose Gold",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp10.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp10_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp10_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp10_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp10_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp10.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp10_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp10_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp10_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp10_4.webp"
       ]
     },
     {
@@ -250,11 +250,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Silk", "Zari border", "6.3 meters length", "Handwoven", "Dry clean recommended"],
       color: "Teal",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp11.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp11_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp11_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp11_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp11_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp11.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp11_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp11_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp11_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp11_4.webp"
       ]
     },
     {
@@ -271,11 +271,11 @@ const PartySareeWomenFashion = () => {
       features: ["100% Velvet", "Stone & bead work", "6.4 meters length", "Rich texture", "Dry clean only"],
       color: "Purple",
       images: [
-        "/Fashion/Women/Saree/Party/Products/pswfp12.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp12_1.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp12_2.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp12_3.png",
-        "/Fashion/Women/Saree/Party/Products/pswfp12_4.png"
+        "/Fashion/Women/Saree/Party/Products/pswfp12.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp12_1.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp12_2.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp12_3.webp",
+        "/Fashion/Women/Saree/Party/Products/pswfp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const PartySareeWomenFashion = () => {
             src="/Fashion/Women/Saree/Party"
             alt="Party Sarees Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Fashion/Women/Saree/Party/pswfbanner.png"; }}
+            onError={(e) => { e.target.src = "/Fashion/Women/Saree/Party/pswfbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

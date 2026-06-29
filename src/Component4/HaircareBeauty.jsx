@@ -26,7 +26,7 @@ const HaircareBeauty = () => {
   const banners = [
     {
       id: 1,
-      image: "/Beauty/Haircare/hbbanner1.png",
+      image: "/Beauty/Haircare/hbbanner1.webp",
       titlePart1: "Clean & Nourished",
       titlePart2: "Shampoo",
       subtitle: "BEAUTY • SHAMPOO • CLEANSE",
@@ -35,7 +35,7 @@ const HaircareBeauty = () => {
     },
     {
       id: 2,
-      image: "/Beauty/Haircare/hbbanner2.png",
+      image: "/Beauty/Haircare/hbbanner2.webp",
       titlePart1: "Deep Repair",
       titlePart2: "Hair Oil",
       subtitle: "BEAUTY • OIL • NOURISH",
@@ -50,14 +50,14 @@ const HaircareBeauty = () => {
       id: 1,
       title: "Shampoo",
       tag: "CLEANSE",
-      image: "/Beauty/Haircare/shampoo.png",
+      image: "/Beauty/Haircare/shampoo.webp",
       link: "/beauty/haircare/shampoo"
     },
     {
       id: 2,
       title: "Hair Oil",
       tag: "NOURISH",
-      image: "/Beauty/Haircare/oil.png",
+      image: "/Beauty/Haircare/oil.webp",
       link: "/beauty/haircare/oil"
     }
   ];
@@ -71,7 +71,7 @@ const HaircareBeauty = () => {
       sub: "Haircare • Shampoo", 
       price: 599, 
       oldPrice: 1199, 
-      images: ["/Beauty/Haircare/Products/hbp1.png", "/Beauty/Haircare/Products/hbp1_1.png", "/Beauty/Haircare/Products/hbp1_2.png", "/Beauty/Haircare/Products/hbp1_3.png", "/Beauty/Haircare/Products/hbp1_4.png"],
+      images: ["/Beauty/Haircare/Products/hbp1.webp", "/Beauty/Haircare/Products/hbp1_1.webp", "/Beauty/Haircare/Products/hbp1_2.webp", "/Beauty/Haircare/Products/hbp1_3.webp", "/Beauty/Haircare/Products/hbp1_4.webp"],
       tag: "Best Seller", 
       color: "White", 
       rating: "4.8", 
@@ -85,7 +85,7 @@ const HaircareBeauty = () => {
       sub: "Haircare • Oil", 
       price: 449, 
       oldPrice: 899, 
-      images: ["/Beauty/Haircare/Products/hbp2.png", "/Beauty/Haircare/Products/hbp2_1.png", "/Beauty/Haircare/Products/hbp2_2.png", "/Beauty/Haircare/Products/hbp2_3.png", "/Beauty/Haircare/Products/hbp2_4.png"],
+      images: ["/Beauty/Haircare/Products/hbp2.webp", "/Beauty/Haircare/Products/hbp2_1.webp", "/Beauty/Haircare/Products/hbp2_2.webp", "/Beauty/Haircare/Products/hbp2_3.webp", "/Beauty/Haircare/Products/hbp2_4.webp"],
       tag: "Trending", 
       color: "Gold", 
       rating: "4.7", 
@@ -99,7 +99,7 @@ const HaircareBeauty = () => {
       sub: "Haircare • Shampoo", 
       price: 499, 
       oldPrice: 999, 
-      images: ["/Beauty/Haircare/Products/hbp3.png", "/Beauty/Haircare/Products/hbp3_1.png", "/Beauty/Haircare/Products/hbp3_2.png", "/Beauty/Haircare/Products/hbp3_3.png", "/Beauty/Haircare/Products/hbp3_4.png"],
+      images: ["/Beauty/Haircare/Products/hbp3.webp", "/Beauty/Haircare/Products/hbp3_1.webp", "/Beauty/Haircare/Products/hbp3_2.webp", "/Beauty/Haircare/Products/hbp3_3.webp", "/Beauty/Haircare/Products/hbp3_4.webp"],
       tag: "Best Seller", 
       color: "Purple", 
       rating: "4.6", 
@@ -113,7 +113,7 @@ const HaircareBeauty = () => {
       sub: "Haircare • Oil", 
       price: 799, 
       oldPrice: 1599, 
-      images: ["/Beauty/Haircare/Products/hbp4.png", "/Beauty/Haircare/Products/hbp4_1.png", "/Beauty/Haircare/Products/hbp4_2.png", "/Beauty/Haircare/Products/hbp4_3.png", "/Beauty/Haircare/Products/hbp4_4.png"],
+      images: ["/Beauty/Haircare/Products/hbp4.webp", "/Beauty/Haircare/Products/hbp4_1.webp", "/Beauty/Haircare/Products/hbp4_2.webp", "/Beauty/Haircare/Products/hbp4_3.webp", "/Beauty/Haircare/Products/hbp4_4.webp"],
       tag: "Luxury", 
       color: "Brown", 
       rating: "4.9", 
@@ -331,7 +331,7 @@ const HaircareBeauty = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Beauty/Haircare/hbbanner.png"
+                  src="/Beauty/Haircare/hbbanner.webp"
                   alt="Haircare Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

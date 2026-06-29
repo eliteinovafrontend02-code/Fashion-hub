@@ -39,11 +39,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Sulfate-Free", "Gentle Formula", "Color-Safe", "Daily Use", "Natural Oils"],
       color: "White",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp1_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp1_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp1_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp1_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp1_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp1_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp1_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp1_4.webp"
       ]
     },
     {
@@ -60,11 +60,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Repair Formula", "Keratin Enriched", "Reduces Breakage", "Restores Strength", "Nourishing"],
       color: "Gold",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp2_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp2_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp2_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp2_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp2_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp2_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp2_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp2_4.webp"
       ]
     },
     {
@@ -81,11 +81,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Volume Boost", "Lightweight Formula", "Adds Body", "Thicker Look", "Root Lift"],
       color: "Pink",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp3_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp3_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp3_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp3_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp3_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp3_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp3_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp3_4.webp"
       ]
     },
     {
@@ -102,11 +102,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Sulfate-Free", "Curl Enhancing", "Frizz Control", "Moisturizing", "Defined Curls"],
       color: "Purple",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp4.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp4_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp4_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp4_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp4_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp4.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp4_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp4_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp4_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp4_4.webp"
       ]
     },
     {
@@ -123,11 +123,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Keratin Enriched", "Protein-Rich", "Strengthens Hair", "Rebuilds Structure", "Shinier Hair"],
       color: "Gold",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp5.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp5_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp5_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp5_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp5_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp5.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp5_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp5_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp5_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp5_4.webp"
       ]
     },
     {
@@ -144,11 +144,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Root Lift", "Lightweight", "Adds Volume", "Bouncy Hair", "Natural Lift"],
       color: "Blue",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp6.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp6_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp6_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp6_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp6_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp6.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp6_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp6_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp6_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp6_4.webp"
       ]
     },
     {
@@ -165,11 +165,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Sulfate-Free", "Deep Moisture", "Hydrating", "Soft Hair", "Manageable"],
       color: "White",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp7.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp7_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp7_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp7_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp7_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp7.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp7_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp7_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp7_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp7_4.webp"
       ]
     },
     {
@@ -186,11 +186,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Protect Formula", "Antioxidants", "Prevents Breakage", "Healthy Hair", "Damage Protection"],
       color: "Green",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp8.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp8_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp8_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp8_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp8_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp8.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp8_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp8_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp8_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp8_4.webp"
       ]
     },
     {
@@ -207,11 +207,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Thickening Formula", "Adds Body", "Volumizing", "Fuller Hair", "Texture"],
       color: "Pink",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp9.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp9_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp9_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp9_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp9_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp9.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp9_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp9_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp9_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp9_4.webp"
       ]
     },
     {
@@ -228,11 +228,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Sulfate-Free", "Clarifying", "Removes Buildup", "Gentle Cleanse", "Moisture Balance"],
       color: "Clear",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp10.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp10_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp10_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp10_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp10_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp10.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp10_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp10_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp10_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp10_4.webp"
       ]
     },
     {
@@ -249,11 +249,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Argan Oil", "Intense Hydration", "Repairs Split Ends", "Nourishing", "Restores Hair"],
       color: "Amber",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp11.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp11_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp11_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp11_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp11_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp11.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp11_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp11_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp11_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp11_4.webp"
       ]
     },
     {
@@ -270,11 +270,11 @@ const ShampooHaircareBeauty = () => {
       features: ["Fine Hair Care", "Lightweight", "Adds Volume", "No Weigh Down", "Body Boost"],
       color: "Purple",
       images: [
-        "/Beauty/Haircare/Shampoo/Products/shbp12.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp12_1.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp12_2.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp12_3.png",
-        "/Beauty/Haircare/Shampoo/Products/shbp12_4.png"
+        "/Beauty/Haircare/Shampoo/Products/shbp12.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp12_1.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp12_2.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp12_3.webp",
+        "/Beauty/Haircare/Shampoo/Products/shbp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const ShampooHaircareBeauty = () => {
             src="/Beauty/Haircare/Shampoo"
             alt="Shampoo Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Beauty/Haircare/Shampoo/shbbanner.png"; }}
+            onError={(e) => { e.target.src = "/Beauty/Haircare/Shampoo/shbbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

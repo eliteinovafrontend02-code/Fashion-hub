@@ -28,84 +28,84 @@ useEffect(() => {
     // Makeup - Lips
     { 
       id: 501, name: 'Matte Liquid Lipstick', category: "Beauty", sub: "Makeup • Lips", price: 899, oldPrice: 1499, 
-      images: ["/Beauty/Products/bp1.png", "/Beauty/Products/bp1_1.png", "/Beauty/Products/bp1_2.png","/Beauty/Products/bp1_3.png","/Beauty/Products/bp1_4.png"],
+      images: ["/Beauty/Products/bp1.webp", "/Beauty/Products/bp1_1.webp", "/Beauty/Products/bp1_2.webp","/Beauty/Products/bp1_3.webp","/Beauty/Products/bp1_4.webp"],
       tag: "Trending", color: "Red Velvet", rating: "4.7", reviews: "2.5k",
       details: { "Formula": "Matte Finish", "Longevity": "12 Hours", "Cruelty Free": "Yes", "Vegan": "Yes", "Ingredients": "Vitamin E Enriched" }
     },
     // Skincare - Moisturizer
     { 
       id: 502, name: 'Hydrating Face Moisturizer', category: "Beauty", sub: "Skincare • Moisturizer", price: 1299, oldPrice: 2299, 
-      images: ["/Beauty/Products/bp2.png", "/Beauty/Products/bp2_1.png", "/Beauty/Products/bp2_2.png","/Beauty/Products/bp2_3.png","/Beauty/Products/bp2_4.png"],
+      images: ["/Beauty/Products/bp2.webp", "/Beauty/Products/bp2_1.webp", "/Beauty/Products/bp2_2.webp","/Beauty/Products/bp2_3.webp","/Beauty/Products/bp2_4.webp"],
       tag: "Best Seller", color: "White", rating: "4.9", reviews: "3.8k",
       details: { "Skin Type": "All Skin Types", "Hydration": "24 Hours", "SPF": "None", "Cruelty Free": "Yes", "Key Ingredient": "Hyaluronic Acid" }
     },
     // Haircare - Oil
     { 
       id: 503, name: 'Nourishing Hair Oil', category: "Beauty", sub: "Haircare • Oil", price: 699, oldPrice: 1199, 
-      images: ["/Beauty/Products/bp3.png", "/Beauty/Products/bp3_1.png", "/Beauty/Products/bp3_2.png","/Beauty/Products/bp3_3.png","/Beauty/Products/bp3_4.png"],
+      images: ["/Beauty/Products/bp3.webp", "/Beauty/Products/bp3_1.webp", "/Beauty/Products/bp3_2.webp","/Beauty/Products/bp3_3.webp","/Beauty/Products/bp3_4.webp"],
       tag: "Essential", color: "Golden Amber", rating: "4.6", reviews: "1.9k",
       details: { "Hair Type": "All Hair Types", "Ingredients": "Natural Oils Blend", "Benefits": "Strengthens & Nourishes", "Application": "Scalp & Hair", "Cruelty Free": "Yes" }
     },
     // Skincare - Sunscreen
     { 
       id: 504, name: 'SPF 50 Sunscreen', category: "Beauty", sub: "Skincare • Sunscreen", price: 799, oldPrice: 1299, 
-      images: ["/Beauty/Products/bp4.png", "/Beauty/Products/bp4_1.png", "/Beauty/Products/bp4_2.png","/Beauty/Products/bp4_3.png","/Beauty/Products/bp4_4.png"],
+      images: ["/Beauty/Products/bp4.webp", "/Beauty/Products/bp4_1.webp", "/Beauty/Products/bp4_2.webp","/Beauty/Products/bp4_3.webp","/Beauty/Products/bp4_4.webp"],
       tag: "New Arrival", color: "White", rating: "4.8", reviews: "1.2k",
       details: { "SPF": "50 PA++++", "Water Resistant": "80 Minutes", "Skin Type": "All Skin Types", "Finish": "Non-Greasy", "Cruelty Free": "Yes" }
     },
     // Makeup - Foundation
     { 
       id: 505, name: 'Full Coverage Foundation', category: "Beauty", sub: "Makeup • Face", price: 1499, oldPrice: 2499, 
-      images: ["/Beauty/Products/bp5.png", "/Beauty/Products/bp5_1.png", "/Beauty/Products/bp5_2.png","/Beauty/Products/bp5_3.png","/Beauty/Products/bp5_4.png"],
+      images: ["/Beauty/Products/bp5.webp", "/Beauty/Products/bp5_1.webp", "/Beauty/Products/bp5_2.webp","/Beauty/Products/bp5_3.webp","/Beauty/Products/bp5_4.webp"],
       tag: "Premium", color: "Ivory Beige", rating: "4.7", reviews: "1.5k",
       details: { "Coverage": "Full", "Finish": "Natural Matte", "Skin Type": "Oily/Combination", "Longevity": "16 Hours", "Cruelty Free": "Yes" }
     },
     // Skincare - Face Wash
     { 
       id: 506, name: 'Gentle Face Wash', category: "Beauty", sub: "Skincare • Face Wash", price: 499, oldPrice: 899, 
-      images: ["/Beauty/Products/bp6.png", "/Beauty/Products/bp6_1.png", "/Beauty/Products/bp6_2.png","/Beauty/Products/bp6_3.png","/Beauty/Products/bp6_4.png"],
+      images: ["/Beauty/Products/bp6.webp", "/Beauty/Products/bp6_1.webp", "/Beauty/Products/bp6_2.webp","/Beauty/Products/bp6_3.webp","/Beauty/Products/bp6_4.webp"],
       tag: "Essential", color: "Clear", rating: "4.5", reviews: "4.2k",
       details: { "Skin Type": "All Skin Types", "Ingredients": "Aloe Vera & Cucumber", "Benefits": "Hydrates & Cleanses", "pH Balanced": "Yes", "Cruelty Free": "Yes" }
     },
     // Haircare - Shampoo
     { 
       id: 507, name: 'Sulfate-Free Shampoo', category: "Beauty", sub: "Haircare • Shampoo", price: 899, oldPrice: 1499, 
-      images: ["/Beauty/Products/bp7.png", "/Beauty/Products/bp7_1.png", "/Beauty/Products/bp7_2.png","/Beauty/Products/bp7_3.png","/Beauty/Products/bp7_4.png"],
+      images: ["/Beauty/Products/bp7.webp", "/Beauty/Products/bp7_1.webp", "/Beauty/Products/bp7_2.webp","/Beauty/Products/bp7_3.webp","/Beauty/Products/bp7_4.webp"],
       tag: "Trending", color: "Transparent", rating: "4.7", reviews: "2.1k",
       details: { "Hair Type": "All Hair Types", "Benefits": "Gentle Cleansing", "Sulfate Free": "Yes", "Paraben Free": "Yes", "Cruelty Free": "Yes" }
     },
     // Makeup - Lipstick
     { 
       id: 508, name: 'Creamy Matte Lipstick', category: "Beauty", sub: "Makeup • Lips", price: 699, oldPrice: 1199, 
-      images: ["/Beauty/Products/bp8.png", "/Beauty/Products/bp8_1.png", "/Beauty/Products/bp8_2.png","/Beauty/Products/bp8_3.png","/Beauty/Products/bp8_4.png"],
+      images: ["/Beauty/Products/bp8.webp", "/Beauty/Products/bp8_1.webp", "/Beauty/Products/bp8_2.webp","/Beauty/Products/bp8_3.webp","/Beauty/Products/bp8_4.webp"],
       tag: "Best Seller", color: "Rose Pink", rating: "4.8", reviews: "3.1k",
       details: { "Formula": "Creamy Matte", "Longevity": "8 Hours", "Cruelty Free": "Yes", "Vegan": "Yes", "Texture": "Smooth & Lightweight" }
     },
     // Skincare - Serum
     { 
       id: 509, name: 'Vitamin C Serum', category: "Beauty", sub: "Skincare • Serum", price: 1899, oldPrice: 2999, 
-      images: ["/Beauty/Products/bp9.png", "/Beauty/Products/bp9_1.png", "/Beauty/Products/bp9_2.png","/Beauty/Products/bp9_3.png","/Beauty/Products/bp9_4.png"],
+      images: ["/Beauty/Products/bp9.webp", "/Beauty/Products/bp9_1.webp", "/Beauty/Products/bp9_2.webp","/Beauty/Products/bp9_3.webp","/Beauty/Products/bp9_4.webp"],
       tag: "Premium", color: "Orange Tint", rating: "4.9", reviews: "980",
       details: { "Concentration": "15% Vitamin C", "Benefits": "Brightening & Anti-Aging", "Skin Type": "All Skin Types", "Usage": "Day/Night", "Cruelty Free": "Yes" }
     },
     // Haircare - Hair Mask
     { 
       id: 510, name: 'Deep Conditioning Hair Mask', category: "Beauty", sub: "Haircare • Mask", price: 1099, oldPrice: 1799, 
-      images: ["/Beauty/Products/bp10.png", "/Beauty/Products/bp10_1.png", "/Beauty/Products/bp10_2.png","/Beauty/Products/bp10_3.png","/Beauty/Products/bp10_4.png"],
+      images: ["/Beauty/Products/bp10.webp", "/Beauty/Products/bp10_1.webp", "/Beauty/Products/bp10_2.webp","/Beauty/Products/bp10_3.webp","/Beauty/Products/bp10_4.webp"],
       tag: "Essential", color: "White Cream", rating: "4.7", reviews: "1.4k",
       details: { "Hair Type": "Dry/Damaged Hair", "Benefits": "Deep Repair", "Ingredients": "Shea Butter & Argan Oil", "Application": "Weekly Use", "Cruelty Free": "Yes" }
     },
     // Makeup - Eyeliner
     { 
       id: 511, name: 'Waterproof Eyeliner', category: "Beauty", sub: "Makeup • Eyes", price: 499, oldPrice: 899, 
-      images: ["/Beauty/Products/bp11.png", "/Beauty/Products/bp11_1.png", "/Beauty/Products/bp11_2.png","/Beauty/Products/bp11_3.png","/Beauty/Products/bp11_4.png"],
+      images: ["/Beauty/Products/bp11.webp", "/Beauty/Products/bp11_1.webp", "/Beauty/Products/bp11_2.webp","/Beauty/Products/bp11_3.webp","/Beauty/Products/bp11_4.webp"],
       tag: "Trending", color: "Black", rating: "4.6", reviews: "2.7k",
       details: { "Formula": "Liquid", "Waterproof": "Yes", "Smudge Proof": "Yes", "Longevity": "24 Hours", "Cruelty Free": "Yes" }
     },
     // Skincare - Night Cream
     { 
       id: 512, name: 'Repairing Night Cream', category: "Beauty", sub: "Skincare • Night", price: 1599, oldPrice: 2599, 
-      images: ["/Beauty/Products/bp12.png", "/Beauty/Products/bp12_1.png", "/Beauty/Products/bp12_2.png","/Beauty/Products/bp12_3.png","/Beauty/Products/bp12_4.png"],
+      images: ["/Beauty/Products/bp12.webp", "/Beauty/Products/bp12_1.webp", "/Beauty/Products/bp12_2.webp","/Beauty/Products/bp12_3.webp","/Beauty/Products/bp12_4.webp"],
       tag: "Premium", color: "White", rating: "4.8", reviews: "850",
       details: { "Skin Type": "All Skin Types", "Benefits": "Overnight Repair", "Key Ingredient": "Retinol & Peptides", "Anti-Aging": "Yes", "Cruelty Free": "Yes" }
     }

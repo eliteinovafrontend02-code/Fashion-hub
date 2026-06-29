@@ -25,7 +25,7 @@ const Footwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/fbanner1.png",
+      image: "/Footwear/fbanner1.webp",
       titlePart1: "Step Into",
       titlePart2: "Comfort",
       subtitle: "PREMIUM FOOTWEAR COLLECTION",
@@ -34,7 +34,7 @@ const Footwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/fbanner2.png",
+      image: "/Footwear/fbanner2.webp",
       titlePart1: "Elevate Your",
       titlePart2: "Style",
       subtitle: "LUXURY WOMEN'S FOOTWEAR",
@@ -43,7 +43,7 @@ const Footwear = () => {
     },
     {
       id: 3,
-      image: "/Footwear/fbanner3.png",
+      image: "/Footwear/fbanner3.webp",
       titlePart1: "Little Feet",
       titlePart2: "Big Dreams",
       subtitle: "KIDS FOOTWEAR COLLECTION",
@@ -57,21 +57,21 @@ const Footwear = () => {
       id: 1,
       title: "Men",
       tag: "CLASSICS",
-      image: "/Footwear/fmen.png",
+      image: "/Footwear/fmen.webp",
       link: "/footwear/men"
     },
     {
       id: 2,
       title: "Women",
       tag: "ELEGANCE",
-      image: "/Footwear/fwomen.png",
+      image: "/Footwear/fwomen.webp",
       link: "/footwear/women"
     },
     {
       id: 3,
       title: "Kids",
       tag: "COMFORT",
-      image: "/Footwear/fkids.png",
+      image: "/Footwear/fkids.webp",
       link: "/footwear/kids"
     }
   ];
@@ -86,7 +86,7 @@ const Footwear = () => {
       sub: "Men • Shoes • Casual", 
       price: 2499, 
       oldPrice: 3999, 
-      images: ["/Footwear/Products/fp1.png", "/Footwear/Products/fp1_1.png", "/Footwear/Products/fp1_2.png","/Footwear/Products/fp1_3.png","/Footwear/Products/fp1_4.png"],
+      images: ["/Footwear/Products/fp1.webp", "/Footwear/Products/fp1_1.webp", "/Footwear/Products/fp1_2.webp","/Footwear/Products/fp1_3.webp","/Footwear/Products/fp1_4.webp"],
       tag: "Trending", 
       color: "White/Grey", 
       rating: "4.7", 
@@ -103,7 +103,7 @@ const Footwear = () => {
       sub: "Women • Heels • Party", 
       price: 3499, 
       oldPrice: 5499, 
-      images: ["/Footwear/Products/fp2.png", "/Footwear/Products/fp2_1.png", "/Footwear/Products/fp2_2.png","/Footwear/Products/fp2_3.png","/Footwear/Products/fp2_4.png"],
+      images: ["/Footwear/Products/fp2.webp", "/Footwear/Products/fp2_1.webp", "/Footwear/Products/fp2_2.webp","/Footwear/Products/fp2_3.webp","/Footwear/Products/fp2_4.webp"],
       tag: "Trending", 
       color: "Red", 
       rating: "4.8", 
@@ -120,7 +120,7 @@ const Footwear = () => {
       sub: "Kids • Boy • Shoes • School", 
       price: 1499, 
       oldPrice: 2299, 
-      images: ["/Footwear/Products/fp3.png", "/Footwear/Products/fp3_1.png", "/Footwear/Products/fp3_2.png","/Footwear/Products/fp3_3.png","/Footwear/Products/fp3_4.png"],
+      images: ["/Footwear/Products/fp3.webp", "/Footwear/Products/fp3_1.webp", "/Footwear/Products/fp3_2.webp","/Footwear/Products/fp3_3.webp","/Footwear/Products/fp3_4.webp"],
       tag: "Best Seller", 
       color: "Black", 
       rating: "4.7", 
@@ -137,7 +137,7 @@ const Footwear = () => {
       sub: "Kids • Girl • Sandals • Soft", 
       price: 899, 
       oldPrice: 1399, 
-      images: ["/Footwear/Products/fp4.png", "/Footwear/Products/fp4_1.png", "/Footwear/Products/fp4_2.png","/Footwear/Products/fp4_3.png","/Footwear/Products/fp4_4.png"],
+      images: ["/Footwear/Products/fp4.webp", "/Footwear/Products/fp4_1.webp", "/Footwear/Products/fp4_2.webp","/Footwear/Products/fp4_3.webp","/Footwear/Products/fp4_4.webp"],
       tag: "Trending", 
       color: "Purple", 
       rating: "4.7", 
@@ -332,7 +332,7 @@ const Footwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[20px]">
                 <img
-                  src="/Footwear/fbanner.png"
+                  src="/Footwear/fbanner.webp"
                   alt="Luxury Footwear Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

@@ -39,11 +39,11 @@ const FaceMakeupBeauty = () => {
       features: ["Lightweight Formula", "Buildable Coverage", "Hydrating", "Glow Finish", "SPF 15"],
       color: "Ivory",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp1.png",
-        "/Beauty/Makeup/Face/Products/fmbp1_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp1_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp1_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp1_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp1_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp1_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp1_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp1_4.webp"
       ]
     },
     {
@@ -60,11 +60,11 @@ const FaceMakeupBeauty = () => {
       features: ["Full Coverage", "Crease-resistant", "Creamy Formula", "Long-lasting", "Hydrating"],
       color: "Beige",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp2.png",
-        "/Beauty/Makeup/Face/Products/fmbp2_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp2_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp2_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp2_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp2_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp2_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp2_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp2_4.webp"
       ]
     },
     {
@@ -81,11 +81,11 @@ const FaceMakeupBeauty = () => {
       features: ["Oil Control", "Matte Finish", "Finely Milled", "Long-lasting", "Portable"],
       color: "Translucent",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp3.png",
-        "/Beauty/Makeup/Face/Products/fmbp3_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp3_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp3_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp3_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp3_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp3_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp3_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp3_4.webp"
       ]
     },
     {
@@ -102,11 +102,11 @@ const FaceMakeupBeauty = () => {
       features: ["Dewy Finish", "Hydrating Formula", "Medium Coverage", "Radiant Glow", "SPF 20"],
       color: "Sand",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp4.png",
-        "/Beauty/Makeup/Face/Products/fmbp4_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp4_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp4_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp4_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp4.webp",
+        "/Beauty/Makeup/Face/Products/fmbp4_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp4_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp4_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp4_4.webp"
       ]
     },
     {
@@ -123,11 +123,11 @@ const FaceMakeupBeauty = () => {
       features: ["Brightening", "Lightweight", "Reduces Dark Circles", "Anti-aging", "Long-lasting"],
       color: "Porcelain",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp5.png",
-        "/Beauty/Makeup/Face/Products/fmbp5_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp5_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp5_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp5_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp5.webp",
+        "/Beauty/Makeup/Face/Products/fmbp5_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp5_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp5_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp5_4.webp"
       ]
     },
     {
@@ -144,11 +144,11 @@ const FaceMakeupBeauty = () => {
       features: ["Pressed Powder", "Matte Finish", "Lightweight", "Touch-up Friendly", "Portable"],
       color: "Natural",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp6.png",
-        "/Beauty/Makeup/Face/Products/fmbp6_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp6_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp6_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp6_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp6.webp",
+        "/Beauty/Makeup/Face/Products/fmbp6_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp6_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp6_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp6_4.webp"
       ]
     },
     {
@@ -165,11 +165,11 @@ const FaceMakeupBeauty = () => {
       features: ["Matte Finish", "Creamy Formula", "Full Coverage", "Portable Stick", "Long-lasting"],
       color: "Warm Beige",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp7.png",
-        "/Beauty/Makeup/Face/Products/fmbp7_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp7_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp7_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp7_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp7.webp",
+        "/Beauty/Makeup/Face/Products/fmbp7_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp7_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp7_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp7_4.webp"
       ]
     },
     {
@@ -186,11 +186,11 @@ const FaceMakeupBeauty = () => {
       features: ["Color Correcting", "Creamy Formula", "Neutralizes Discoloration", "Long-lasting", "Buildable Coverage"],
       color: "Green",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp8.png",
-        "/Beauty/Makeup/Face/Products/fmbp8_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp8_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp8_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp8_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp8.webp",
+        "/Beauty/Makeup/Face/Products/fmbp8_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp8_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp8_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp8_4.webp"
       ]
     },
     {
@@ -207,11 +207,11 @@ const FaceMakeupBeauty = () => {
       features: ["Mineral Formula", "Natural Finish", "Buildable Coverage", "Skin-friendly", "Long-lasting"],
       color: "Honey",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp9.png",
-        "/Beauty/Makeup/Face/Products/fmbp9_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp9_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp9_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp9_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp9.webp",
+        "/Beauty/Makeup/Face/Products/fmbp9_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp9_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp9_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp9_4.webp"
       ]
     },
     {
@@ -228,11 +228,11 @@ const FaceMakeupBeauty = () => {
       features: ["Water-based", "Hydrating", "Sheer to Medium Coverage", "Lightweight", "Natural Finish"],
       color: "Caramel",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp10.png",
-        "/Beauty/Makeup/Face/Products/fmbp10_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp10_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp10_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp10_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp10.webp",
+        "/Beauty/Makeup/Face/Products/fmbp10_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp10_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp10_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp10_4.webp"
       ]
     },
     {
@@ -249,11 +249,11 @@ const FaceMakeupBeauty = () => {
       features: ["Eye Area Formula", "Reduces Dark Circles", "Creamy Texture", "Hydrating", "Long-lasting"],
       color: "Fair",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp11.png",
-        "/Beauty/Makeup/Face/Products/fmbp11_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp11_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp11_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp11_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp11.webp",
+        "/Beauty/Makeup/Face/Products/fmbp11_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp11_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp11_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp11_4.webp"
       ]
     },
     {
@@ -270,11 +270,11 @@ const FaceMakeupBeauty = () => {
       features: ["Setting Powder", "Finely Milled", "Oil Control", "Airbrushed Finish", "Long-lasting"],
       color: "Translucent",
       images: [
-        "/Beauty/Makeup/Face/Products/fmbp12.png",
-        "/Beauty/Makeup/Face/Products/fmbp12_1.png",
-        "/Beauty/Makeup/Face/Products/fmbp12_2.png",
-        "/Beauty/Makeup/Face/Products/fmbp12_3.png",
-        "/Beauty/Makeup/Face/Products/fmbp12_4.png"
+        "/Beauty/Makeup/Face/Products/fmbp12.webp",
+        "/Beauty/Makeup/Face/Products/fmbp12_1.webp",
+        "/Beauty/Makeup/Face/Products/fmbp12_2.webp",
+        "/Beauty/Makeup/Face/Products/fmbp12_3.webp",
+        "/Beauty/Makeup/Face/Products/fmbp12_4.webp"
       ]
     }
   ];
@@ -399,7 +399,7 @@ const FaceMakeupBeauty = () => {
             src="/Beauty/Makeup/Face"
             alt="Face Makeup Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Beauty/Makeup/Face/fmbbanner.png"; }}
+            onError={(e) => { e.target.src = "/Beauty/Makeup/Face/fmbbanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

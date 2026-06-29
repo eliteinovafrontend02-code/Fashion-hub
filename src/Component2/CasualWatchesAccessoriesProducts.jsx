@@ -41,11 +41,11 @@ const CasualWatchesAccessories = () => {
       features: ["Premium Leather Strap", "Analog Display", "Water Resistant", "Mineral Glass", "Battery Included"],
       color: "Brown",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap1.png",
-        "/Accessories/Watches/Casual/Products/cwap1_1.png",
-        "/Accessories/Watches/Casual/Products/cwap1_2.png",
-        "/Accessories/Watches/Casual/Products/cwap1_3.png",
-        "/Accessories/Watches/Casual/Products/cwap1_4.png"
+        "/Accessories/Watches/Casual/Products/cwap1.webp",
+        "/Accessories/Watches/Casual/Products/cwap1_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap1_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap1_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap1_4.webp"
       ]
     },
     {
@@ -62,11 +62,11 @@ const CasualWatchesAccessories = () => {
       features: ["Stainless Steel Bracelet", "Chronograph Movement", "Date Display", "Water Resistant", "Scratch Resistant"],
       color: "Silver",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap2.png",
-        "/Accessories/Watches/Casual/Products/cwap2_1.png",
-        "/Accessories/Watches/Casual/Products/cwap2_2.png",
-        "/Accessories/Watches/Casual/Products/cwap2_3.png",
-        "/Accessories/Watches/Casual/Products/cwap2_4.png"
+        "/Accessories/Watches/Casual/Products/cwap2.webp",
+        "/Accessories/Watches/Casual/Products/cwap2_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap2_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap2_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap2_4.webp"
       ]
     },
     {
@@ -83,11 +83,11 @@ const CasualWatchesAccessories = () => {
       features: ["Durable Silicone Strap", "Digital Display", "Stopwatch Function", "Water Resistant", "Shock Resistant"],
       color: "Black",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap3.png",
-        "/Accessories/Watches/Casual/Products/cwap3_1.png",
-        "/Accessories/Watches/Casual/Products/cwap3_2.png",
-        "/Accessories/Watches/Casual/Products/cwap3_3.png",
-        "/Accessories/Watches/Casual/Products/cwap3_4.png"
+        "/Accessories/Watches/Casual/Products/cwap3.webp",
+        "/Accessories/Watches/Casual/Products/cwap3_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap3_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap3_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap3_4.webp"
       ]
     },
     {
@@ -104,11 +104,11 @@ const CasualWatchesAccessories = () => {
       features: ["Genuine Leather Strap", "Minimalist Design", "Analog Display", "Water Resistant", "Battery Included"],
       color: "Tan",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap4.png",
-        "/Accessories/Watches/Casual/Products/cwap4_1.png",
-        "/Accessories/Watches/Casual/Products/cwap4_2.png",
-        "/Accessories/Watches/Casual/Products/cwap4_3.png",
-        "/Accessories/Watches/Casual/Products/cwap4_4.png"
+        "/Accessories/Watches/Casual/Products/cwap4.webp",
+        "/Accessories/Watches/Casual/Products/cwap4_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap4_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap4_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap4_4.webp"
       ]
     },
     {
@@ -125,11 +125,11 @@ const CasualWatchesAccessories = () => {
       features: ["Stainless Steel Mesh", "Analog Display", "Date Window", "Water Resistant", "Adjustable Clasp"],
       color: "Gold",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap5.png",
-        "/Accessories/Watches/Casual/Products/cwap5_1.png",
-        "/Accessories/Watches/Casual/Products/cwap5_2.png",
-        "/Accessories/Watches/Casual/Products/cwap5_3.png",
-        "/Accessories/Watches/Casual/Products/cwap5_4.png"
+        "/Accessories/Watches/Casual/Products/cwap5.webp",
+        "/Accessories/Watches/Casual/Products/cwap5_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap5_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap5_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap5_4.webp"
       ]
     },
     {
@@ -146,11 +146,11 @@ const CasualWatchesAccessories = () => {
       features: ["Soft Silicone Strap", "Fitness Tracking", "Heart Rate Monitor", "Water Resistant", "Rechargeable"],
       color: "Blue",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap6.png",
-        "/Accessories/Watches/Casual/Products/cwap6_1.png",
-        "/Accessories/Watches/Casual/Products/cwap6_2.png",
-        "/Accessories/Watches/Casual/Products/cwap6_3.png",
-        "/Accessories/Watches/Casual/Products/cwap6_4.png"
+        "/Accessories/Watches/Casual/Products/cwap6.webp",
+        "/Accessories/Watches/Casual/Products/cwap6_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap6_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap6_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap6_4.webp"
       ]
     },
     {
@@ -167,11 +167,11 @@ const CasualWatchesAccessories = () => {
       features: ["Vintage Leather Strap", "Retro Design", "Analog Display", "Water Resistant", "Battery Included"],
       color: "Black",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap7.png",
-        "/Accessories/Watches/Casual/Products/cwap7_1.png",
-        "/Accessories/Watches/Casual/Products/cwap7_2.png",
-        "/Accessories/Watches/Casual/Products/cwap7_3.png",
-        "/Accessories/Watches/Casual/Products/cwap7_4.png"
+        "/Accessories/Watches/Casual/Products/cwap7.webp",
+        "/Accessories/Watches/Casual/Products/cwap7_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap7_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap7_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap7_4.webp"
       ]
     },
     {
@@ -188,11 +188,11 @@ const CasualWatchesAccessories = () => {
       features: ["Stainless Steel Bracelet", "Diver Design", "Luminous Dial", "200M Water Resistant", "Screw-down Crown"],
       color: "Silver",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap8.png",
-        "/Accessories/Watches/Casual/Products/cwap8_1.png",
-        "/Accessories/Watches/Casual/Products/cwap8_2.png",
-        "/Accessories/Watches/Casual/Products/cwap8_3.png",
-        "/Accessories/Watches/Casual/Products/cwap8_4.png"
+        "/Accessories/Watches/Casual/Products/cwap8.webp",
+        "/Accessories/Watches/Casual/Products/cwap8_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap8_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap8_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap8_4.webp"
       ]
     },
     {
@@ -209,11 +209,11 @@ const CasualWatchesAccessories = () => {
       features: ["Rugged Silicone Strap", "Compass Function", "Altimeter", "Water Resistant", "Shock Resistant"],
       color: "Green",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap9.png",
-        "/Accessories/Watches/Casual/Products/cwap9_1.png",
-        "/Accessories/Watches/Casual/Products/cwap9_2.png",
-        "/Accessories/Watches/Casual/Products/cwap9_3.png",
-        "/Accessories/Watches/Casual/Products/cwap9_4.png"
+        "/Accessories/Watches/Casual/Products/cwap9.webp",
+        "/Accessories/Watches/Casual/Products/cwap9_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap9_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap9_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap9_4.webp"
       ]
     },
     {
@@ -230,11 +230,11 @@ const CasualWatchesAccessories = () => {
       features: ["Premium Leather Strap", "Elegant Design", "Analog Display", "Water Resistant", "Battery Included"],
       color: "Brown",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap10.png",
-        "/Accessories/Watches/Casual/Products/cwap10_1.png",
-        "/Accessories/Watches/Casual/Products/cwap10_2.png",
-        "/Accessories/Watches/Casual/Products/cwap10_3.png",
-        "/Accessories/Watches/Casual/Products/cwap10_4.png"
+        "/Accessories/Watches/Casual/Products/cwap10.webp",
+        "/Accessories/Watches/Casual/Products/cwap10_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap10_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap10_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap10_4.webp"
       ]
     },
     {
@@ -251,11 +251,11 @@ const CasualWatchesAccessories = () => {
       features: ["Stainless Steel Bracelet", "Skeleton Dial", "Automatic Movement", "Water Resistant", "Sapphire Glass"],
       color: "Silver",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap11.png",
-        "/Accessories/Watches/Casual/Products/cwap11_1.png",
-        "/Accessories/Watches/Casual/Products/cwap11_2.png",
-        "/Accessories/Watches/Casual/Products/cwap11_3.png",
-        "/Accessories/Watches/Casual/Products/cwap11_4.png"
+        "/Accessories/Watches/Casual/Products/cwap11.webp",
+        "/Accessories/Watches/Casual/Products/cwap11_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap11_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap11_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap11_4.webp"
       ]
     },
     {
@@ -272,11 +272,11 @@ const CasualWatchesAccessories = () => {
       features: ["Soft Silicone Strap", "Smart Features", "Touch Display", "Water Resistant", "Rechargeable Battery"],
       color: "White",
       images: [
-        "/Accessories/Watches/Casual/Products/cwap12.png",
-        "/Accessories/Watches/Casual/Products/cwap12_1.png",
-        "/Accessories/Watches/Casual/Products/cwap12_2.png",
-        "/Accessories/Watches/Casual/Products/cwap12_3.png",
-        "/Accessories/Watches/Casual/Products/cwap12_4.png"
+        "/Accessories/Watches/Casual/Products/cwap12.webp",
+        "/Accessories/Watches/Casual/Products/cwap12_1.webp",
+        "/Accessories/Watches/Casual/Products/cwap12_2.webp",
+        "/Accessories/Watches/Casual/Products/cwap12_3.webp",
+        "/Accessories/Watches/Casual/Products/cwap12_4.webp"
       ]
     }
   ];
@@ -401,7 +401,7 @@ const CasualWatchesAccessories = () => {
             src="/Accessories/Watches/Casual"
             alt="Casual Watches Collection"
             className="w-full h-full object-cover object-center"
-            onError={(e) => { e.target.src = "/Accessories/Watches/Casual/cwabanner.png"; }}
+            onError={(e) => { e.target.src = "/Accessories/Watches/Casual/cwabanner.webp"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex items-end justify-center pb-8 md:pb-20">
             <div className="text-center text-white px-4">

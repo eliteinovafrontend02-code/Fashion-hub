@@ -26,7 +26,7 @@ const WomenFootwear = () => {
   const banners = [
     {
       id: 1,
-      image: "/Footwear/Women/wfbanner1.png",
+      image: "/Footwear/Women/wfbanner1.webp",
       titlePart1: "Step Into",
       titlePart2: "Elegant Heels",
       subtitle: "WOMEN • HEELS • ELEGANCE",
@@ -35,7 +35,7 @@ const WomenFootwear = () => {
     },
     {
       id: 2,
-      image: "/Footwear/Women/wfbanner2.png",
+      image: "/Footwear/Women/wfbanner2.webp",
       titlePart1: "Walk Easy",
       titlePart2: "Trendy Flats",
       subtitle: "WOMEN • FLATS • COMFORT",
@@ -50,14 +50,14 @@ const WomenFootwear = () => {
       id: 1,
       title: "Heels",
       tag: "ELEGANCE",
-      image: "/Footwear/Women/heels.png",
+      image: "/Footwear/Women/heels.webp",
       link: "/footwear/women/heels"
     },
     {
       id: 2,
       title: "Flats",
       tag: "COMFORT",
-      image: "/Footwear/Women/flats.png",
+      image: "/Footwear/Women/flats.webp",
       link: "/footwear/women/flats"
     }
   ];
@@ -71,7 +71,7 @@ const WomenFootwear = () => {
       sub: "Heels • Party", 
       price: 3499, 
       oldPrice: 6999, 
-      images: ["/Footwear/Women/Products/wfp1.png", "/Footwear/Women/Products/wfp1_1.png", "/Footwear/Women/Products/wfp1_2.png", "/Footwear/Women/Products/wfp1_3.png", "/Footwear/Women/Products/wfp1_4.png"],
+      images: ["/Footwear/Women/Products/wfp1.webp", "/Footwear/Women/Products/wfp1_1.webp", "/Footwear/Women/Products/wfp1_2.webp", "/Footwear/Women/Products/wfp1_3.webp", "/Footwear/Women/Products/wfp1_4.webp"],
       tag: "Best Seller", 
       color: "Black", 
       rating: "4.9", 
@@ -85,7 +85,7 @@ const WomenFootwear = () => {
       sub: "Flats • Ballerina", 
       price: 1999, 
       oldPrice: 3999, 
-      images: ["/Footwear/Women/Products/wfp2.png", "/Footwear/Women/Products/wfp2_1.png", "/Footwear/Women/Products/wfp2_2.png", "/Footwear/Women/Products/wfp2_3.png", "/Footwear/Women/Products/wfp2_4.png"],
+      images: ["/Footwear/Women/Products/wfp2.webp", "/Footwear/Women/Products/wfp2_1.webp", "/Footwear/Women/Products/wfp2_2.webp", "/Footwear/Women/Products/wfp2_3.webp", "/Footwear/Women/Products/wfp2_4.webp"],
       tag: "Essential", 
       color: "Nude Pink", 
       rating: "4.7", 
@@ -99,7 +99,7 @@ const WomenFootwear = () => {
       sub: "Heels • Casual", 
       price: 2799, 
       oldPrice: 5599, 
-      images: ["/Footwear/Women/Products/wfp3.png", "/Footwear/Women/Products/wfp3_1.png", "/Footwear/Women/Products/wfp3_2.png", "/Footwear/Women/Products/wfp3_3.png", "/Footwear/Women/Products/wfp3_4.png"],
+      images: ["/Footwear/Women/Products/wfp3.webp", "/Footwear/Women/Products/wfp3_1.webp", "/Footwear/Women/Products/wfp3_2.webp", "/Footwear/Women/Products/wfp3_3.webp", "/Footwear/Women/Products/wfp3_4.webp"],
       tag: "Trending", 
       color: "Tan", 
       rating: "4.8", 
@@ -113,7 +113,7 @@ const WomenFootwear = () => {
       sub: "Flats • Ethnic", 
       price: 1499, 
       oldPrice: 2999, 
-      images: ["/Footwear/Women/Products/wfp4.png", "/Footwear/Women/Products/wfp4_1.png", "/Footwear/Women/Products/wfp4_2.png", "/Footwear/Women/Products/wfp4_3.png", "/Footwear/Women/Products/wfp4_4.png"],
+      images: ["/Footwear/Women/Products/wfp4.webp", "/Footwear/Women/Products/wfp4_1.webp", "/Footwear/Women/Products/wfp4_2.webp", "/Footwear/Women/Products/wfp4_3.webp", "/Footwear/Women/Products/wfp4_4.webp"],
       tag: "Festival Edit", 
       color: "Gold/Red", 
       rating: "4.6", 
@@ -315,7 +315,7 @@ const WomenFootwear = () => {
 
               <div className="w-full h-full overflow-hidden rounded-[15px] sm:rounded-[20px]">
                 <img
-                  src="/Footwear/Women/wfbanner.png"
+                  src="/Footwear/Women/wfbanner.webp"
                   alt="Women's Footwear Collection"
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />
