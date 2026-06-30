@@ -248,7 +248,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile search */}
-       {/* Mobile search */}
+      
 <div className="px-3 py-2 bg-white border-b border-orange-100 flex-shrink-0">
   <div className="relative">
     <input
@@ -490,6 +490,87 @@ const Navbar = () => {
           </button>
         </div>
 
+        {/* 🔥 SEARCH BAR WITH BACK BUTTON - BELOW MOBILE LOGO ROW */}
+<div className="md:hidden px-3 pb-2 bg-white">
+  <div className="flex items-center gap-2">
+    {/* Back Button */}
+    <button
+      onClick={() => navigate(-1)}
+      className="flex-shrink-0 p-2 bg-orange-100 rounded-lg hover:bg-orange-200 transition"
+      aria-label="Go back"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+
+    {/* Search Input */}
+    <div className="relative flex-1">
+      <input
+        type="text"
+        placeholder="Search products..."
+        value={searchQuery}
+        onChange={e => { 
+          setSearchQuery(e.target.value); 
+          if (e.target.value) performSearch(e.target.value); 
+          else setShowResults(false) 
+        }}
+        className="w-full border-2 border-orange-300 rounded-lg px-3 py-2 pr-8 focus:outline-none focus:ring-2 focus:ring-orange-400 text-sm"
+        autoComplete="off"
+      />
+      <span className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 text-sm">🔍</span>
+    </div>
+  </div>
+
+  {/* Search Results */}
+  {showResults && searchQuery && (
+    <div className="mt-2 bg-white rounded-lg border border-orange-200 shadow-lg max-h-64 overflow-y-auto">
+      <div className="p-2 border-b border-orange-100 flex justify-between items-center">
+        <span className="text-xs font-bold text-gray-600">Results ({searchResults.length})</span>
+        <button onClick={() => setShowResults(false)} className="text-gray-400 text-xs">✕</button>
+      </div>
+      {searchResults.length > 0 ? (
+        <div>
+          {searchResults.map((product, index) => (
+            <div
+              key={index}
+              onClick={() => { 
+                navigate(product.path); 
+                setShowResults(false); 
+                setSearchQuery(''); 
+              }}
+              className="p-3 hover:bg-orange-50 cursor-pointer border-b border-orange-50 last:border-b-0 transition"
+            >
+              <p className="font-semibold text-gray-800 text-sm">
+                {highlightMatch(product.name, searchQuery)}
+              </p>
+              <div className="flex gap-2 mt-0.5">
+                <p className="text-xs text-gray-400">{product.category}</p>
+                <p className="text-xs text-gray-400">• {product.subcategory}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="text-center py-4">
+          <p className="text-gray-500 text-sm">No results for "{searchQuery}"</p>
+          <div className="mt-2 flex flex-wrap gap-1 justify-center px-2">
+            {['Shirt', 'Watch', 'Shoes', 'Saree', 'Dress', 'Bag'].map(s => (
+              <button 
+                key={s} 
+                onClick={() => { setSearchQuery(s); performSearch(s) }}
+                className="text-xs bg-orange-100 hover:bg-orange-200 px-2 py-1 rounded transition"
+              >
+                {s}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  )}
+</div>
+
         {/* ── DESKTOP LOGO ROW ── */}
         <div className="desktop-logo-row flex-col md:flex-row items-center gap-2 justify-center mt-2">
           <img src="/logo.webp" className="logo-img w-24 h-24 object-contain" alt="logo" />
@@ -503,66 +584,78 @@ const Navbar = () => {
         </div>
 
         {/* ── DESKTOP NAV ROW ── */}
-        <div className="desktop-nav-row mt-2 px-3 py-2 bg-orange-100 flex items-center justify-between w-full shadow-sm ">
+<div className="desktop-nav-row mt-2 px-3 py-2 bg-orange-100 flex items-center justify-between w-full shadow-sm ">
 
-          {/* LEFT: search + categories */}
-          <div className="flex items-center nav-gap gap-4 flex-shrink-0">
+  {/* LEFT: search + categories */}
+  <div className="flex items-center nav-gap gap-4 flex-shrink-0">
 
-            {/* SEARCH */}
-            <div className="relative flex-shrink-0" ref={searchRef}>
-              <form onSubmit={e => { e.preventDefault(); performSearch(searchQuery) }}>
-                <input
-                  type="text"
-                  placeholder="Search products..."
-                  value={searchQuery}
-                  onChange={e => { setSearchQuery(e.target.value); if (!e.target.value) setShowResults(false) }}
-                  className="search-box w-48 md:w-64 lg:w-80 border-2 border-gray-500 rounded-lg px-3 py-1.5 pr-8 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition text-sm"
-                  autoComplete="off"
-                />
-                <button type="submit" className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-orange-500 transition">
-                  {isSearching ? '⏳' : '🔍'}
-                </button>
-              </form>
+    {/* SEARCH WITH BACK BUTTON */}
+    <div className="relative flex-shrink-0 flex items-center gap-2" ref={searchRef}>
+      {/* Back Button */}
+      <button
+        onClick={() => navigate(-1)}
+        className="hidden md:flex items-center gap-1 px-3 py-1.5 bg-white border-2 border-gray-500 rounded-lg hover:bg-orange-50 hover:border-orange-400 transition text-sm text-gray-700"
+        aria-label="Go back"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+        </svg>
+        Back
+      </button>
 
-              {/* Search results dropdown */}
-              {showResults && searchQuery && (
-                <div className="absolute top-full left-0 mt-1 w-80 bg-white shadow-2xl rounded-lg border z-50 h-auto">
-                  <div className="sticky top-0 bg-white p-3 border-b flex justify-between items-center">
-                    <h3 className="font-bold text-gray-700 text-sm">Search Results ({searchResults.length})</h3>
-                    <button onClick={() => setShowResults(false)} className="text-gray-400 hover:text-gray-600 transition text-sm">✕</button>
+      <form onSubmit={e => { e.preventDefault(); performSearch(searchQuery) }}>
+        <input
+          type="text"
+          placeholder="Search products..."
+          value={searchQuery}
+          onChange={e => { setSearchQuery(e.target.value); if (!e.target.value) setShowResults(false) }}
+          className="search-box w-48 md:w-64 lg:w-80 border-2 border-gray-500 rounded-lg px-3 py-1.5 pr-8 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition text-sm"
+          autoComplete="off"
+        />
+        <button type="submit" className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-orange-500 transition">
+          {isSearching ? '⏳' : '🔍'}
+        </button>
+      </form>
+
+      {/* Search results dropdown */}
+      {showResults && searchQuery && (
+        <div className="absolute top-full left-0 mt-1 w-80 bg-white shadow-2xl rounded-lg border z-50 h-auto">
+          <div className="sticky top-0 bg-white p-3 border-b flex justify-between items-center">
+            <h3 className="font-bold text-gray-700 text-sm">Search Results ({searchResults.length})</h3>
+            <button onClick={() => setShowResults(false)} className="text-gray-400 hover:text-gray-600 transition text-sm">✕</button>
+          </div>
+          {searchResults.length > 0 ? (
+            <div>
+              {searchResults.map((product, index) => (
+                <div
+                  key={index}
+                  onClick={() => { navigate(product.path); setShowResults(false); setSearchQuery('') }}
+                  className="p-3 hover:bg-orange-50 cursor-pointer border-b last:border-b-0 transition group"
+                >
+                  <p className="font-semibold text-gray-800 group-hover:text-orange-600 text-sm">
+                    {highlightMatch(product.name, searchQuery)}
+                  </p>
+                  <div className="flex gap-2 mt-1">
+                    <p className="text-xs text-gray-500">Category: {product.category}</p>
+                    <p className="text-xs text-gray-500">• {product.subcategory}</p>
                   </div>
-                  {searchResults.length > 0 ? (
-                    <div>
-                      {searchResults.map((product, index) => (
-                        <div
-                          key={index}
-                          onClick={() => { navigate(product.path); setShowResults(false); setSearchQuery('') }}
-                          className="p-3 hover:bg-orange-50 cursor-pointer border-b last:border-b-0 transition group"
-                        >
-                          <p className="font-semibold text-gray-800 group-hover:text-orange-600 text-sm">
-                            {highlightMatch(product.name, searchQuery)}
-                          </p>
-                          <div className="flex gap-2 mt-1">
-                            <p className="text-xs text-gray-500">Category: {product.category}</p>
-                            <p className="text-xs text-gray-500">• {product.subcategory}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="text-center py-6">
-                      <p className="text-gray-500 text-sm">No products found for "{searchQuery}"</p>
-                      <div className="mt-3 flex flex-wrap gap-2 justify-center">
-                        {['Shirt', 'Watch', 'Shoes', 'Saree', 'Dress', 'Bag'].map(s => (
-                          <button key={s} onClick={() => setSearchQuery(s)}
-                            className="text-xs bg-gray-100 hover:bg-orange-100 px-2 py-1 rounded transition">{s}</button>
-                        ))}
-                      </div>
-                    </div>
-                  )}
                 </div>
-              )}
+              ))}
             </div>
+          ) : (
+            <div className="text-center py-6">
+              <p className="text-gray-500 text-sm">No products found for "{searchQuery}"</p>
+              <div className="mt-3 flex flex-wrap gap-2 justify-center">
+                {['Shirt', 'Watch', 'Shoes', 'Saree', 'Dress', 'Bag'].map(s => (
+                  <button key={s} onClick={() => setSearchQuery(s)}
+                    className="text-xs bg-gray-100 hover:bg-orange-100 px-2 py-1 rounded transition">{s}</button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
 
             {/* CATEGORIES */}
             <div className="flex nav-gap gap-3 md:gap-4 lg:gap-8 items-center">

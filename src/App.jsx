@@ -105,6 +105,7 @@ import SandalsGirlKidsFootwearProducts from './Component3/SandalsGirlKidsFootwea
 import About from './About'
 import Contact from './Contact'
 import Services from './Services'
+import ScrollToTop from './ScrollToTop'
 import FaceMakeUpBeautyProducts from './Component4/FaceMakeUpBeautyProducts'
 import LipsMakeupBeautyProducts from './Component4/LipsMakeupBeautyProducts'
 import SunscreenSkincareBeautyProducts from './Component4/SunscreenSkincareBeautyProducts'
@@ -122,7 +123,9 @@ const App = () => {
   return (
     <div>
        <CartProvider>
+         
       <BrowserRouter>
+      <ScrollToTop /> 
       <Routes>
 
         <Route path='/' element={<Home/>}/>
