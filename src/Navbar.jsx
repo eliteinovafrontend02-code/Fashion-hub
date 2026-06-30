@@ -447,7 +447,7 @@ const Navbar = () => {
                   href="https://wa.me/7397260093" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-green-400 hover:text-green-300 font-medium"
+                  className="text-orange-400 hover:text-orange-300 font-medium"
                 >
                   📞 Phone / WhatsApp: 7397260093
                 </a>

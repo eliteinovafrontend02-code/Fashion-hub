@@ -106,19 +106,19 @@ const Contact = () => {
                   { 
                     icon: "📍", 
                     title: "Visit Us", 
-                    detail: "vadapalani, Chennai - 600040",
+                    detail: "No.78,1st Street,Kumaran Colony,vadapalani, Chennai - 600026",
                     sub: "Mon-Sat: 10:00 AM - 8:00 PM"
                   },
                   { 
                     icon: "📞", 
                     title: "Call Us", 
-                    detail: "+91 98765 43210",
+                    detail: "+91 7397260093",
                     sub: "Available 24/7 for support"
                   },
                   { 
                     icon: "✉️", 
                     title: "Email Us", 
-                    detail: "care@fashionhub.com",
+                    detail: "care@eliteinovafashionhub.com",
                     sub: "Response within 2 hours"
                   },
                   { 

@@ -597,7 +597,7 @@ const Home = () => {
           <div>
             <h5 className="font-bold text-gray-900">Live Chat Support</h5>
             <p className="text-gray-500 text-sm mt-1">
-              Available 24/7 on WhatsApp: +91 98765 43210
+              Available 24/7 on WhatsApp: +91 7397260093
             </p>
           </div>
         </div>
@@ -610,7 +610,7 @@ const Home = () => {
           <div>
             <h5 className="font-bold text-gray-900">Email Inquiries</h5>
             <p className="text-gray-500 text-sm mt-1">
-              Response within 2 hours: care@fashionhub.com
+              Response within 2 hours: care@eliteinovafashionhub.com
             </p>
           </div>
         </div>
@@ -623,7 +623,7 @@ const Home = () => {
           <div>
             <h5 className="font-bold text-gray-900">Experience Center</h5>
             <p className="text-gray-500 text-sm mt-1">
-              Visit us at: vadapalani, Chennai - 600040
+              Visit us at: No.78,1st Street,Kumaran Colony,Vadapalani,Chennai-26.
             </p>
           </div>
         </div>
