@@ -454,8 +454,7 @@ const Navbar = () => {
                 <span>🔥 Flat 50% OFF</span>
                 <span>🚚 Free Delivery above ₹199</span>
                 <span>💥 New Arrivals Daily</span>
-                {/* <span>🎁 Buy 2 Get 1 Free</span> */}
-                {/* <span>✨ Trending Styles</span> */}
+      
               </div>
             ))}
           </div>
