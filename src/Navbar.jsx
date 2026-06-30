@@ -106,14 +106,10 @@ const Navbar = () => {
     { name: 'Casual Heels', path: '/footwear/women/heels/casual', category: 'Heels', subcategory: 'Footwear Women' },
     { name: 'Ballerina Flats', path: '/footwear/women/flats/ballerina', category: 'Flats', subcategory: 'Footwear Women' },
     { name: 'Ethnic Flats', path: '/footwear/women/flats/ethnic', category: 'Flats', subcategory: 'Footwear Women' },
-    { name: 'School Shoes Boy', path: '/footwear/kids/boy/shoes/school', category: 'Shoes', subcategory: 'Footwear Kids' },
-    { name: 'Casual Shoes Boy', path: '/footwear/kids/boy/shoes/casual', category: 'Shoes', subcategory: 'Footwear Kids' },
-    { name: 'Velcro Sandals Boy', path: '/footwear/kids/boy/sandals/velcro', category: 'Sandals', subcategory: 'Footwear Kids' },
-    { name: 'Soft Sandals Boy', path: '/footwear/kids/boy/sandals/soft', category: 'Sandals', subcategory: 'Footwear Kids' },
-    { name: 'School Shoes Girl', path: '/footwear/kids/girl/shoes/school', category: 'Shoes', subcategory: 'Footwear Kids' },
-    { name: 'Casual Shoes Girl', path: '/footwear/kids/girl/shoes/casual', category: 'Shoes', subcategory: 'Footwear Kids' },
-    { name: 'Velcro Sandals Girl', path: '/footwear/kids/girl/sandals/velcro', category: 'Sandals', subcategory: 'Footwear Kids' },
-    { name: 'Soft Sandals Girl', path: '/footwear/kids/girl/sandals/soft', category: 'Sandals', subcategory: 'Footwear Kids' },
+    { name: 'Shoes Boy', path: '/footwear/kids/boy/shoes', category: 'Shoes', subcategory: 'Footwear Kids' },
+    { name: 'Sandals Boy', path: '/footwear/kids/boy/sandals', category: 'Sandals', subcategory: 'Footwear Kids' },
+    { name: 'Shoes Girl', path: '/footwear/kids/girl/shoes', category: 'Shoes', subcategory: 'Footwear Kids' },
+    { name: 'Sandals Girl', path: '/footwear/kids/girl/sandals', category: 'Sandals', subcategory: 'Footwear Kids' },
     { name: 'Face Makeup', path: '/beauty/makeup/face', category: 'Makeup', subcategory: 'Beauty' },
     { name: 'Lipstick', path: '/beauty/makeup/lips', category: 'Makeup', subcategory: 'Beauty' },
     { name: 'Sunscreen', path: '/beauty/skincare/sunscreen', category: 'Skincare', subcategory: 'Beauty' },
@@ -239,7 +235,7 @@ const Navbar = () => {
         <div className="bg-orange-200 border-b border-orange-300 px-4 py-3 flex items-center justify-between flex-shrink-0">
           <div className="flex items-center gap-2">
             <img src="/logo.webp" alt="logo" className="w-9 h-9 object-contain" />
-            <span style={{ fontFamily: 'Cookie, cursive' }} className="text-2xl text-orange-600">fashion hub</span>
+            <span style={{ fontFamily: 'Cookie, cursive' }} className="text-2xl text-orange-600"> Eliteinova fashion hub</span>
           </div>
           <button
             onClick={closeSidebar}
@@ -274,7 +270,13 @@ const Navbar = () => {
                     {searchResults.map((product, index) => (
                       <div
                         key={index}
-                        onClick={() => { navigate(product.path); setShowResults(false); setSearchQuery(''); closeSidebar() }}
+                       onMouseDown={(e) => { 
+                          e.preventDefault(); 
+                          setShowResults(false); 
+                          setSearchQuery(''); 
+                          closeSidebar();
+                          navigate(product.path); 
+                        }}
                         className="p-3 hover:bg-orange-50 cursor-pointer border-b border-orange-50 last:border-b-0 transition"
                       >
                         <p className="font-semibold text-gray-800 text-sm">
@@ -441,11 +443,19 @@ const Navbar = () => {
           <div className="marquee-track whitespace-nowrap text-white text-sm">
             {[...Array(3)].map((_, i) => (
               <div key={i} className="flex gap-10 px-6">
+                <a 
+                  href="https://wa.me/7397260093" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-green-400 hover:text-green-300 font-medium"
+                >
+                  📞 Phone / WhatsApp: 7397260093
+                </a>
                 <span>🔥 Flat 50% OFF</span>
                 <span>🚚 Free Delivery above ₹199</span>
                 <span>💥 New Arrivals Daily</span>
-                <span>🎁 Buy 2 Get 1 Free</span>
-                <span>✨ Trending Styles</span>
+                {/* <span>🎁 Buy 2 Get 1 Free</span> */}
+                {/* <span>✨ Trending Styles</span> */}
               </div>
             ))}
           </div>
@@ -466,15 +476,29 @@ const Navbar = () => {
 
           {/* Logo center */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
-            <img src="/logo.webp" className="w-10 h-10 object-contain" alt="logo" />
+            <img src="/logo.webp" className="w-14 h-14 object-contain flex-shrink-0" alt="logo" />
             <div className="flex flex-col">
               <h1 style={{ fontFamily: 'Cookie, cursive' }}
-                className="text-2xl font-bold tracking-wide bg-gradient-to-r from-red-500 via-yellow-400 to-red-400 bg-clip-text text-transparent capitalize leading-tight">
-                fashion hub
+                className="text-xl font-bold tracking-wide bg-gradient-to-r from-red-500 via-yellow-400 to-red-400 bg-clip-text text-transparent capitalize leading-tight">
+                Eliteinova fashion hub
               </h1>
-              <p className="capitalize text-xs text-gray-500">trendy styles daily</p>
+              <p className="capitalize text-xs text-gray-500">trendy styles daily </p>
+
+                {/* NEW: Mobile Phone Number Link */}
+  <a 
+    href="https://wa.me/7397260093" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="font-bold text-orange-400 rounded px-1 text-[9px] mt-1"
+        >
+          Phone / WhatsApp: 7397260093
+        </a>
+              
+              
             </div>
           </div>
+
+          
 
           {/* Cart */}
           <button
@@ -534,11 +558,13 @@ const Navbar = () => {
           {searchResults.map((product, index) => (
             <div
               key={index}
-              onClick={() => { 
-                navigate(product.path); 
+              onMouseDown={(e) => { 
+                e.preventDefault(); 
                 setShowResults(false); 
                 setSearchQuery(''); 
-              }}
+                closeSidebar();
+                navigate(product.path); 
+               }}
               className="p-3 hover:bg-orange-50 cursor-pointer border-b border-orange-50 last:border-b-0 transition"
             >
               <p className="font-semibold text-gray-800 text-sm">
@@ -577,9 +603,10 @@ const Navbar = () => {
           <div className="flex flex-col">
             <h1 style={{ fontFamily: 'Cookie, cursive' }}
               className="logo-title text-3xl md:text-5xl font-bold tracking-wide bg-gradient-to-r from-red-500 via-yellow-400 to-red-400 bg-clip-text text-transparent capitalize">
-              fashion hub
+              Eliteinova fashion hub
             </h1>
             <p className="logo-sub capitalize text-sm md:text-lg text-gray-500">trendy styles daily</p>
+            
           </div>
         </div>
 
@@ -914,6 +941,15 @@ const Navbar = () => {
 
           {/* RIGHT: About, Contact, Cart */}
           <div className="flex right-nav-gap gap-3 md:gap-4 lg:gap-8 items-center flex-shrink-0 ml-2">
+
+           <a 
+    href="https://wa.me/7397260093" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="right-nav-text cursor-pointer hover:text-orange-500 text-[9px]  lg:text-sm  transition duration-200 whitespace-nowrap text-gray-700"
+  >
+    📞 WhatsApp: 7397260093
+  </a>
             <span onClick={() => navigate('/about')}
               className="right-nav-text cursor-pointer hover:text-orange-500 text-sm lg:text-base transition duration-200 whitespace-nowrap">
               About us

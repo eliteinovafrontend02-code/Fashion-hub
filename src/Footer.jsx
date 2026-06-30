@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-4">
             <div className="space-y-3">
               <h2 className="text-3xl font-extrabold tracking-tighter italic">
-                FASHION<span className="text-orange-500">HUB</span>
+                 <span className="text-orange-500">ELITEINOVA</span> FASHION<span className="text-orange-500">HUB</span>
               </h2>
               <p className="text-gray-400 leading-relaxed text-sm">
                 Redefining your style with premium garment collections. From everyday essentials to luxury couture, we bring the best trends to your doorstep.
@@ -45,18 +45,18 @@ const Footer = () => {
 
             <div>
               <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-orange-400 text-sm">Contact</h4>
-              <ul className="space-y-5 text-gray-400">
+              <ul className="space-y-3 text-gray-400">
                 <li className="flex items-start gap-4">
                   <span className="text-xl">📍</span>
-                  <span className="text-sm leading-relaxed font-medium">123 Style Avenue, Vadapalani, <br /> Chennai - 600026</span>
+                  <span className="text-sm leading-relaxed font-medium">No.78,1st Street,kumaran Colony,Vadapalani, <br /> Chennai - 600026</span>
                 </li>
                 <li className="flex items-center gap-4">
                   <span className="text-xl">📞</span>
-                  <span className="text-sm font-medium">+91 98765 43210</span>
+                  <span className="text-sm font-medium">+91 7397260093</span>
                 </li>
                 <li className="flex items-center gap-4">
                   <span className="text-xl">✉️</span>
-                  <span className="text-sm font-medium">support@fashionhub.com</span>
+                  <span className="text-sm font-medium">support@eliteinovafashionhub.com</span>
                 </li>
               </ul>
             </div>
@@ -64,9 +64,12 @@ const Footer = () => {
 
           <div className="pt-4 pb-3 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-gray-500 text-[10px] tracking-[0.2em] uppercase font-bold">
-              © 2026 FASHION HUB. DESIGNED FOR ELEGANCE. 
+              © 2026 ELITEINOVA FASHION HUB. DESIGNED FOR ELEGANCE. 
               <span className="text-amber-600/80 text-[10px] tracking-[0.2em] font-semibold uppercase">
-                Digital Partner By Eliteinova
+                Digital Partner By 
+                <span className="text-amber-600/80 text-[13px] tracking-[0.2em] ml-1 font-semibold capitalize">
+                   Eliteinova Tech Pvt Ltd
+                </span>
               </span>
             </div>
             <div className="flex items-center gap-6 grayscale opacity-40 hover:opacity-100 hover:grayscale-0 transition-all duration-500">
