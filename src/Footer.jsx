@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <>
          
-      <footer className="bg-gray-950 text-white pt-24 pb-12 px-6 md:px-16 border-t border-gray-800 font-sans">
+      <footer className="bg-gray-950 text-white pt-10 pb-4 px-6 md:px-16 border-t border-gray-800 font-sans">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
-            <div className="space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-4">
+            <div className="space-y-3">
               <h2 className="text-3xl font-extrabold tracking-tighter italic">
                 FASHION<span className="text-orange-500">HUB</span>
               </h2>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <li><Link to="/fashion/men" className="hover:text-white transition-colors duration-200">Men's Signature Line</Link></li>
                 <li><Link to="/fashion/women" className="hover:text-white transition-colors duration-200">Women's Haute Couture</Link></li>
                 <li><Link to="/fashion/kids" className="hover:text-white transition-colors duration-200">Kids Festive Wear</Link></li>
-                <li><Link to="/products" className="hover:text-white transition-colors duration-200">The Gallery (New Arrivals)</Link></li>
+                {/* <li><Link to="/products" className="hover:text-white transition-colors duration-200">The Gallery (New Arrivals)</Link></li> */}
               </ul>
             </div>
 
@@ -62,9 +62,12 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="pt-12 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-8">
+          <div className="pt-4 pb-3 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-gray-500 text-[10px] tracking-[0.2em] uppercase font-bold">
-              © 2026 FASHION HUB. DESIGNED FOR ELEGANCE.
+              © 2026 FASHION HUB. DESIGNED FOR ELEGANCE. 
+              <span className="text-amber-600/80 text-[10px] tracking-[0.2em] font-semibold uppercase">
+                Digital Partner By Eliteinova
+              </span>
             </div>
             <div className="flex items-center gap-6 grayscale opacity-40 hover:opacity-100 hover:grayscale-0 transition-all duration-500">
               <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-3" />

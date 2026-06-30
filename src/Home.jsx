@@ -386,10 +386,10 @@ const Home = () => {
 
               {bestSellers.map((product) => (
 
-                <div key={product.id} className="group cursor-pointer">
+                <div  className="group cursor-pointer">
 
                   {/* ✅ UPDATED LINK: Pointing to /products with ID query */}
-                  <Link to={`/products?id=${product.id}`} className="block">
+                  {/* <Link to={`/products?id=${product.id}`} className="block"> */}
 
                     <div className="relative overflow-hidden bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
 
@@ -405,18 +405,18 @@ const Home = () => {
                         {product.tag}
                       </span>
 
-                      <div className="absolute inset-0 bg-black/70 flex flex-col justify-end p-5 opacity-0 group-hover:opacity-100 transition duration-500">
+                      {/* <div className="absolute inset-0 bg-black/70 flex flex-col justify-end p-5 opacity-0 group-hover:opacity-100 transition duration-500">
                         <button
                           onClick={(e) => e.preventDefault()}
                           className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 text-xs uppercase tracking-[0.3em] font-bold rounded transition"
                         >
                           Add to Bag
                         </button>
-                      </div>
+                      </div> */}
 
                     </div>
 
-                  </Link>
+                  {/* </Link> */}
 
                   <div className="mt-6 text-center px-2">
                     <p className="text-[11px] text-orange-700 uppercase tracking-[0.2em] font-bold mb-2">
@@ -445,13 +445,13 @@ const Home = () => {
             </div>
 
           {/* 🔥 VIEW ALL - Three Color Linear Gradient Version */}
-<div className="mt-20 text-center">
+{/* <div className="mt-20 text-center">
   <Link to="/products">
     <button className="bg-gradient-to-r from-orange-500 via-pink-400 to-orange-600 text-white px-12 py-4 rounded-full text-sm uppercase tracking-[0.3em] font-extrabold shadow-xl hover:shadow-pink-500/40 transition-all duration-500 transform hover:scale-105 active:scale-95 border-none">
       View All Products
     </button>
   </Link>
-</div>
+</div> */}
 
           </div>
         </section>
